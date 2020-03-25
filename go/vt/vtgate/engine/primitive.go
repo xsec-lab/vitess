@@ -20,16 +20,16 @@ import (
 	"sync"
 	"time"
 
-	"github.com/xsec-lab/go/vt/sqlparser"
+	"github.com/xsec-lab/vitess/go/vt/sqlparser"
 
 	"golang.org/x/net/context"
 
-	"github.com/xsec-lab/go/sqltypes"
-	"github.com/xsec-lab/go/vt/key"
-	"github.com/xsec-lab/go/vt/srvtopo"
+	"github.com/xsec-lab/vitess/go/sqltypes"
+	"github.com/xsec-lab/vitess/go/vt/key"
+	"github.com/xsec-lab/vitess/go/vt/srvtopo"
 
-	querypb "github.com/xsec-lab/go/vt/proto/query"
-	vtgatepb "github.com/xsec-lab/go/vt/proto/vtgate"
+	querypb "github.com/xsec-lab/vitess/go/vt/proto/query"
+	vtgatepb "github.com/xsec-lab/vitess/go/vt/proto/vtgate"
 )
 
 const (

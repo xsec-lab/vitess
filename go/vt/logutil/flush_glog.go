@@ -17,7 +17,7 @@ limitations under the License.
 package logutil
 
 import (
-	"github.com/xsec-lab/go/vt/log"
+	"github.com/xsec-lab/vitess/go/vt/log"
 )
 
 func init() {

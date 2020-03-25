@@ -20,10 +20,10 @@ package vtworkerclient
 import (
 	"flag"
 
-	"github.com/xsec-lab/go/vt/log"
-	"github.com/xsec-lab/go/vt/logutil"
-	"github.com/xsec-lab/go/vt/proto/vtrpc"
-	"github.com/xsec-lab/go/vt/vterrors"
+	"github.com/xsec-lab/vitess/go/vt/log"
+	"github.com/xsec-lab/vitess/go/vt/logutil"
+	"github.com/xsec-lab/vitess/go/vt/proto/vtrpc"
+	"github.com/xsec-lab/vitess/go/vt/vterrors"
 	"golang.org/x/net/context"
 )
 

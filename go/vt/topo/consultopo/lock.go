@@ -20,12 +20,12 @@ import (
 	"path"
 
 	"github.com/hashicorp/consul/api"
-	"github.com/xsec-lab/go/vt/proto/vtrpc"
-	"github.com/xsec-lab/go/vt/vterrors"
+	"github.com/xsec-lab/vitess/go/vt/proto/vtrpc"
+	"github.com/xsec-lab/vitess/go/vt/vterrors"
 	"golang.org/x/net/context"
 
-	"github.com/xsec-lab/go/vt/log"
-	"github.com/xsec-lab/go/vt/topo"
+	"github.com/xsec-lab/vitess/go/vt/log"
+	"github.com/xsec-lab/vitess/go/vt/topo"
 )
 
 // consulLockDescriptor implements topo.LockDescriptor.

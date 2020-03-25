@@ -23,14 +23,14 @@ import (
 	"sync"
 	"time"
 
-	"github.com/xsec-lab/go/mysql"
-	"github.com/xsec-lab/go/sqltypes"
-	"github.com/xsec-lab/go/vt/binlog/binlogplayer"
-	"github.com/xsec-lab/go/vt/log"
-	"github.com/xsec-lab/go/vt/mysqlctl"
-	binlogdatapb "github.com/xsec-lab/go/vt/proto/binlogdata"
-	querypb "github.com/xsec-lab/go/vt/proto/query"
-	"github.com/xsec-lab/go/vt/topo"
+	"github.com/xsec-lab/vitess/go/mysql"
+	"github.com/xsec-lab/vitess/go/sqltypes"
+	"github.com/xsec-lab/vitess/go/vt/binlog/binlogplayer"
+	"github.com/xsec-lab/vitess/go/vt/log"
+	"github.com/xsec-lab/vitess/go/vt/mysqlctl"
+	binlogdatapb "github.com/xsec-lab/vitess/go/vt/proto/binlogdata"
+	querypb "github.com/xsec-lab/vitess/go/vt/proto/query"
+	"github.com/xsec-lab/vitess/go/vt/topo"
 	"golang.org/x/net/context"
 )
 

@@ -30,15 +30,15 @@ import (
 	"time"
 
 	"github.com/olekukonko/tablewriter"
-	"github.com/xsec-lab/go/vt/concurrency"
-	"github.com/xsec-lab/go/vt/log"
-	"github.com/xsec-lab/go/vt/logutil"
-	"github.com/xsec-lab/go/vt/sqlparser"
-	"github.com/xsec-lab/go/vt/vitessdriver"
-	"github.com/xsec-lab/go/vt/vterrors"
-	"github.com/xsec-lab/go/vt/vtgate/vtgateconn"
+	"github.com/xsec-lab/vitess/go/vt/concurrency"
+	"github.com/xsec-lab/vitess/go/vt/log"
+	"github.com/xsec-lab/vitess/go/vt/logutil"
+	"github.com/xsec-lab/vitess/go/vt/sqlparser"
+	"github.com/xsec-lab/vitess/go/vt/vitessdriver"
+	"github.com/xsec-lab/vitess/go/vt/vterrors"
+	"github.com/xsec-lab/vitess/go/vt/vtgate/vtgateconn"
 
-	vtrpcpb "github.com/xsec-lab/go/vt/proto/vtrpc"
+	vtrpcpb "github.com/xsec-lab/vitess/go/vt/proto/vtrpc"
 )
 
 var (

@@ -26,17 +26,17 @@ import (
 
 	"github.com/golang/protobuf/proto"
 	"github.com/stretchr/testify/require"
-	"github.com/xsec-lab/go/sqltypes"
-	"github.com/xsec-lab/go/vt/discovery"
-	"github.com/xsec-lab/go/vt/key"
-	"github.com/xsec-lab/go/vt/srvtopo"
-	"github.com/xsec-lab/go/vt/vterrors"
-	"github.com/xsec-lab/go/vt/vtgate/gateway"
+	"github.com/xsec-lab/vitess/go/sqltypes"
+	"github.com/xsec-lab/vitess/go/vt/discovery"
+	"github.com/xsec-lab/vitess/go/vt/key"
+	"github.com/xsec-lab/vitess/go/vt/srvtopo"
+	"github.com/xsec-lab/vitess/go/vt/vterrors"
+	"github.com/xsec-lab/vitess/go/vt/vtgate/gateway"
 
-	querypb "github.com/xsec-lab/go/vt/proto/query"
-	topodatapb "github.com/xsec-lab/go/vt/proto/topodata"
-	vtgatepb "github.com/xsec-lab/go/vt/proto/vtgate"
-	vtrpcpb "github.com/xsec-lab/go/vt/proto/vtrpc"
+	querypb "github.com/xsec-lab/vitess/go/vt/proto/query"
+	topodatapb "github.com/xsec-lab/vitess/go/vt/proto/topodata"
+	vtgatepb "github.com/xsec-lab/vitess/go/vt/proto/vtgate"
+	vtrpcpb "github.com/xsec-lab/vitess/go/vt/proto/vtrpc"
 )
 
 // This file uses the sandbox_test framework.

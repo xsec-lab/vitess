@@ -33,18 +33,18 @@ import (
 	"github.com/stretchr/testify/require"
 	"golang.org/x/net/context"
 
-	"github.com/xsec-lab/go/sqltypes"
-	"github.com/xsec-lab/go/tb"
-	"github.com/xsec-lab/go/vt/callerid"
-	"github.com/xsec-lab/go/vt/vterrors"
-	"github.com/xsec-lab/go/vt/vtgate/vtgateconn"
-	"github.com/xsec-lab/go/vt/vtgate/vtgateservice"
+	"github.com/xsec-lab/vitess/go/sqltypes"
+	"github.com/xsec-lab/vitess/go/tb"
+	"github.com/xsec-lab/vitess/go/vt/callerid"
+	"github.com/xsec-lab/vitess/go/vt/vterrors"
+	"github.com/xsec-lab/vitess/go/vt/vtgate/vtgateconn"
+	"github.com/xsec-lab/vitess/go/vt/vtgate/vtgateservice"
 
-	binlogdatapb "github.com/xsec-lab/go/vt/proto/binlogdata"
-	querypb "github.com/xsec-lab/go/vt/proto/query"
-	topodatapb "github.com/xsec-lab/go/vt/proto/topodata"
-	vtgatepb "github.com/xsec-lab/go/vt/proto/vtgate"
-	vtrpcpb "github.com/xsec-lab/go/vt/proto/vtrpc"
+	binlogdatapb "github.com/xsec-lab/vitess/go/vt/proto/binlogdata"
+	querypb "github.com/xsec-lab/vitess/go/vt/proto/query"
+	topodatapb "github.com/xsec-lab/vitess/go/vt/proto/topodata"
+	vtgatepb "github.com/xsec-lab/vitess/go/vt/proto/vtgate"
+	vtrpcpb "github.com/xsec-lab/vitess/go/vt/proto/vtrpc"
 )
 
 // fakeVTGateService has the server side of this fake

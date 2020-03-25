@@ -28,8 +28,8 @@ import (
 	"time"
 	"unicode"
 
-	"github.com/xsec-lab/go/stats"
-	"github.com/xsec-lab/go/vt/servenv"
+	"github.com/xsec-lab/vitess/go/stats"
+	"github.com/xsec-lab/vitess/go/vt/servenv"
 )
 
 var (

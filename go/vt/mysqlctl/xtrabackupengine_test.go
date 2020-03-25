@@ -22,7 +22,7 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/xsec-lab/go/vt/logutil"
+	"github.com/xsec-lab/vitess/go/vt/logutil"
 )
 
 func TestFindReplicationPosition(t *testing.T) {

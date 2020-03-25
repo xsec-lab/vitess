@@ -23,11 +23,11 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/require"
-	"github.com/xsec-lab/go/mysql"
-	"github.com/xsec-lab/go/sqltypes"
-	_ "github.com/xsec-lab/go/vt/vtgate/grpcvtgateconn"
+	"github.com/xsec-lab/vitess/go/mysql"
+	"github.com/xsec-lab/vitess/go/sqltypes"
+	_ "github.com/xsec-lab/vitess/go/vt/vtgate/grpcvtgateconn"
 
-	"github.com/xsec-lab/go/test/endtoend/cluster"
+	"github.com/xsec-lab/vitess/go/test/endtoend/cluster"
 )
 
 var (

@@ -22,8 +22,8 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	"github.com/xsec-lab/go/sqltypes"
-	binlogdatapb "github.com/xsec-lab/go/vt/proto/binlogdata"
+	"github.com/xsec-lab/vitess/go/sqltypes"
+	binlogdatapb "github.com/xsec-lab/vitess/go/vt/proto/binlogdata"
 )
 
 type TestReplicatorPlan struct {

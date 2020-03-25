@@ -22,7 +22,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/xsec-lab/go/vt/vttablet/tabletserver/vstreamer/testenv"
+	"github.com/xsec-lab/vitess/go/vt/vttablet/tabletserver/vstreamer/testenv"
 )
 
 var (

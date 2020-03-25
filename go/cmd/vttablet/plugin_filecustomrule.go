@@ -19,5 +19,5 @@ package main
 // Imports and register the file custom rule source
 
 import (
-	_ "github.com/xsec-lab/go/vt/vttablet/customrule/filecustomrule"
+	_ "github.com/xsec-lab/vitess/go/vt/vttablet/customrule/filecustomrule"
 )

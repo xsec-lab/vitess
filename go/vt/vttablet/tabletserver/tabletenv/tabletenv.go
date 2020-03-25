@@ -23,13 +23,13 @@ import (
 
 	"golang.org/x/net/context"
 
-	"github.com/xsec-lab/go/stats"
-	"github.com/xsec-lab/go/tb"
-	"github.com/xsec-lab/go/vt/callerid"
-	"github.com/xsec-lab/go/vt/log"
-	"github.com/xsec-lab/go/vt/sqlparser"
+	"github.com/xsec-lab/vitess/go/stats"
+	"github.com/xsec-lab/vitess/go/tb"
+	"github.com/xsec-lab/vitess/go/vt/callerid"
+	"github.com/xsec-lab/vitess/go/vt/log"
+	"github.com/xsec-lab/vitess/go/vt/sqlparser"
 
-	vtrpcpb "github.com/xsec-lab/go/vt/proto/vtrpc"
+	vtrpcpb "github.com/xsec-lab/vitess/go/vt/proto/vtrpc"
 )
 
 var (

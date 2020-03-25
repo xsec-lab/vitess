@@ -32,11 +32,11 @@ import (
 	"time"
 
 	"github.com/klauspost/pgzip"
-	"github.com/xsec-lab/go/mysql"
-	"github.com/xsec-lab/go/vt/logutil"
-	"github.com/xsec-lab/go/vt/mysqlctl/backupstorage"
-	"github.com/xsec-lab/go/vt/proto/vtrpc"
-	"github.com/xsec-lab/go/vt/vterrors"
+	"github.com/xsec-lab/vitess/go/mysql"
+	"github.com/xsec-lab/vitess/go/vt/logutil"
+	"github.com/xsec-lab/vitess/go/vt/mysqlctl/backupstorage"
+	"github.com/xsec-lab/vitess/go/vt/proto/vtrpc"
+	"github.com/xsec-lab/vitess/go/vt/vterrors"
 )
 
 // XtrabackupEngine encapsulates the logic of the xtrabackup engine

@@ -24,14 +24,14 @@ import (
 
 	"time"
 
-	"github.com/xsec-lab/go/vt/dbconfigs"
-	"github.com/xsec-lab/go/vt/topo"
-	"github.com/xsec-lab/go/vt/vttablet/queryservice"
-	"github.com/xsec-lab/go/vt/vttablet/tabletserver/rules"
-	"github.com/xsec-lab/go/vt/vttablet/tabletserver/schema"
+	"github.com/xsec-lab/vitess/go/vt/dbconfigs"
+	"github.com/xsec-lab/vitess/go/vt/topo"
+	"github.com/xsec-lab/vitess/go/vt/vttablet/queryservice"
+	"github.com/xsec-lab/vitess/go/vt/vttablet/tabletserver/rules"
+	"github.com/xsec-lab/vitess/go/vt/vttablet/tabletserver/schema"
 
-	querypb "github.com/xsec-lab/go/vt/proto/query"
-	topodatapb "github.com/xsec-lab/go/vt/proto/topodata"
+	querypb "github.com/xsec-lab/vitess/go/vt/proto/query"
+	topodatapb "github.com/xsec-lab/vitess/go/vt/proto/topodata"
 )
 
 // BroadcastData is used by the mock Controller to send data

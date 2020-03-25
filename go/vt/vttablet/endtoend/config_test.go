@@ -23,13 +23,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/xsec-lab/go/sqltypes"
-	querypb "github.com/xsec-lab/go/vt/proto/query"
-	topodatapb "github.com/xsec-lab/go/vt/proto/topodata"
-	vtrpcpb "github.com/xsec-lab/go/vt/proto/vtrpc"
-	"github.com/xsec-lab/go/vt/vterrors"
-	"github.com/xsec-lab/go/vt/vttablet/endtoend/framework"
-	"github.com/xsec-lab/go/vt/vttablet/tabletserver/tabletenv"
+	"github.com/xsec-lab/vitess/go/sqltypes"
+	querypb "github.com/xsec-lab/vitess/go/vt/proto/query"
+	topodatapb "github.com/xsec-lab/vitess/go/vt/proto/topodata"
+	vtrpcpb "github.com/xsec-lab/vitess/go/vt/proto/vtrpc"
+	"github.com/xsec-lab/vitess/go/vt/vterrors"
+	"github.com/xsec-lab/vitess/go/vt/vttablet/endtoend/framework"
+	"github.com/xsec-lab/vitess/go/vt/vttablet/tabletserver/tabletenv"
 )
 
 // compareIntDiff returns an error if end[tag] != start[tag]+diff.

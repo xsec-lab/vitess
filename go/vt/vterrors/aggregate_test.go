@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"testing"
 
-	vtrpcpb "github.com/xsec-lab/go/vt/proto/vtrpc"
+	vtrpcpb "github.com/xsec-lab/vitess/go/vt/proto/vtrpc"
 )
 
 var errGeneric = "generic error"

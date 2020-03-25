@@ -17,9 +17,9 @@ limitations under the License.
 package planbuilder
 
 import (
-	"github.com/xsec-lab/go/vt/sqlparser"
-	"github.com/xsec-lab/go/vt/vtgate/engine"
-	"github.com/xsec-lab/go/vt/vtgate/vindexes"
+	"github.com/xsec-lab/vitess/go/vt/sqlparser"
+	"github.com/xsec-lab/vitess/go/vt/vtgate/engine"
+	"github.com/xsec-lab/vitess/go/vt/vtgate/vindexes"
 )
 
 // routeOption contains all the information for one route option.

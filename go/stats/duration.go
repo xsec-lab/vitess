@@ -20,7 +20,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/xsec-lab/go/sync2"
+	"github.com/xsec-lab/vitess/go/sync2"
 )
 
 // CounterDuration exports a time.Duration as counter.

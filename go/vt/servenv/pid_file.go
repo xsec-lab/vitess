@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/xsec-lab/go/vt/log"
+	"github.com/xsec-lab/vitess/go/vt/log"
 )
 
 var pidFile = flag.String("pid_file", "", "If set, the process will write its pid to the named file, and delete it on graceful shutdown.")

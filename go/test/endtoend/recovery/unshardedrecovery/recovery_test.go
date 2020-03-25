@@ -19,7 +19,7 @@ package unshardedrecovery
 import (
 	"testing"
 
-	_ "github.com/xsec-lab/go/vt/vtgate/grpcvtgateconn"
+	_ "github.com/xsec-lab/vitess/go/vt/vtgate/grpcvtgateconn"
 )
 
 func TestMain(m *testing.M) {

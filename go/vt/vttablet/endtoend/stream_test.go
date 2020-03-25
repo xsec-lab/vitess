@@ -24,10 +24,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/xsec-lab/go/sqltypes"
-	vtrpcpb "github.com/xsec-lab/go/vt/proto/vtrpc"
-	"github.com/xsec-lab/go/vt/vterrors"
-	"github.com/xsec-lab/go/vt/vttablet/endtoend/framework"
+	"github.com/xsec-lab/vitess/go/sqltypes"
+	vtrpcpb "github.com/xsec-lab/vitess/go/vt/proto/vtrpc"
+	"github.com/xsec-lab/vitess/go/vt/vterrors"
+	"github.com/xsec-lab/vitess/go/vt/vttablet/endtoend/framework"
 )
 
 func TestStreamUnion(t *testing.T) {

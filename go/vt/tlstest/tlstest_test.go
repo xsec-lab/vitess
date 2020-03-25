@@ -30,7 +30,7 @@ import (
 	"time"
 
 	"github.com/stretchr/testify/assert"
-	"github.com/xsec-lab/go/vt/vttls"
+	"github.com/xsec-lab/vitess/go/vt/vttls"
 )
 
 // TestClientServer generates:

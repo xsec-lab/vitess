@@ -17,7 +17,7 @@ limitations under the License.
 package planbuilder
 
 import (
-	"github.com/xsec-lab/go/vt/sqlparser"
+	"github.com/xsec-lab/vitess/go/vt/sqlparser"
 )
 
 // GenerateFullQuery generates the full query from the ast.

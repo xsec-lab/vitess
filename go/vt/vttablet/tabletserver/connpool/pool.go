@@ -22,17 +22,17 @@ import (
 
 	"golang.org/x/net/context"
 
-	"github.com/xsec-lab/go/pools"
-	"github.com/xsec-lab/go/stats"
-	"github.com/xsec-lab/go/trace"
-	"github.com/xsec-lab/go/vt/callerid"
-	"github.com/xsec-lab/go/vt/dbconfigs"
-	"github.com/xsec-lab/go/vt/dbconnpool"
-	"github.com/xsec-lab/go/vt/log"
-	"github.com/xsec-lab/go/vt/vterrors"
-	"github.com/xsec-lab/go/vt/vttablet/tabletserver/tabletenv"
+	"github.com/xsec-lab/vitess/go/pools"
+	"github.com/xsec-lab/vitess/go/stats"
+	"github.com/xsec-lab/vitess/go/trace"
+	"github.com/xsec-lab/vitess/go/vt/callerid"
+	"github.com/xsec-lab/vitess/go/vt/dbconfigs"
+	"github.com/xsec-lab/vitess/go/vt/dbconnpool"
+	"github.com/xsec-lab/vitess/go/vt/log"
+	"github.com/xsec-lab/vitess/go/vt/vterrors"
+	"github.com/xsec-lab/vitess/go/vt/vttablet/tabletserver/tabletenv"
 
-	vtrpcpb "github.com/xsec-lab/go/vt/proto/vtrpc"
+	vtrpcpb "github.com/xsec-lab/vitess/go/vt/proto/vtrpc"
 )
 
 // ErrConnPoolClosed is returned when the connection pool is closed.

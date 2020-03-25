@@ -19,5 +19,5 @@ package main
 // Imports and register the 'consul' topo.Server.
 
 import (
-	_ "github.com/xsec-lab/go/vt/topo/consultopo"
+	_ "github.com/xsec-lab/vitess/go/vt/topo/consultopo"
 )

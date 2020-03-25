@@ -20,7 +20,7 @@ import (
 	"sort"
 	"time"
 
-	"github.com/xsec-lab/go/vt/discovery"
+	"github.com/xsec-lab/vitess/go/vt/discovery"
 )
 
 // replicationLagCache caches for each replica a bounded list of historic

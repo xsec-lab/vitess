@@ -26,16 +26,16 @@ import (
 
 	"google.golang.org/grpc"
 
-	"github.com/xsec-lab/go/vt/discovery"
-	"github.com/xsec-lab/go/vt/srvtopo"
-	"github.com/xsec-lab/go/vt/vtgate/gateway"
-	"github.com/xsec-lab/go/vt/vttablet/grpcqueryservice"
-	"github.com/xsec-lab/go/vt/vttablet/tabletconntest"
+	"github.com/xsec-lab/vitess/go/vt/discovery"
+	"github.com/xsec-lab/vitess/go/vt/srvtopo"
+	"github.com/xsec-lab/vitess/go/vt/vtgate/gateway"
+	"github.com/xsec-lab/vitess/go/vt/vttablet/grpcqueryservice"
+	"github.com/xsec-lab/vitess/go/vt/vttablet/tabletconntest"
 
 	// We will use gRPC to connect, register the dialer
-	_ "github.com/xsec-lab/go/vt/vttablet/grpctabletconn"
+	_ "github.com/xsec-lab/vitess/go/vt/vttablet/grpctabletconn"
 
-	topodatapb "github.com/xsec-lab/go/vt/proto/topodata"
+	topodatapb "github.com/xsec-lab/vitess/go/vt/proto/topodata"
 )
 
 // TestGRPCDiscovery tests the discovery gateway with a gRPC

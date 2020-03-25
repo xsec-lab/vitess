@@ -27,8 +27,8 @@ import (
 
 	"golang.org/x/net/context"
 
-	"github.com/xsec-lab/go/streamlog"
-	"github.com/xsec-lab/go/vt/vttablet/tabletserver/tabletenv"
+	"github.com/xsec-lab/vitess/go/streamlog"
+	"github.com/xsec-lab/vitess/go/vt/vttablet/tabletserver/tabletenv"
 )
 
 // fakeWriter is a mock of the real syslog writer, to enable capturing and playing back of log messages in unit testing.

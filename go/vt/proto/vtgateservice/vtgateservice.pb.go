@@ -9,8 +9,8 @@ import (
 	math "math"
 
 	proto "github.com/golang/protobuf/proto"
-	query "github.com/xsec-lab/go/vt/proto/query"
-	vtgate "github.com/xsec-lab/go/vt/proto/vtgate"
+	query "github.com/xsec-lab/vitess/go/vt/proto/query"
+	vtgate "github.com/xsec-lab/vitess/go/vt/proto/vtgate"
 	grpc "google.golang.org/grpc"
 	codes "google.golang.org/grpc/codes"
 	status "google.golang.org/grpc/status"

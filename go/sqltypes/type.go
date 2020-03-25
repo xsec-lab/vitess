@@ -19,7 +19,7 @@ package sqltypes
 import (
 	"fmt"
 
-	querypb "github.com/xsec-lab/go/vt/proto/query"
+	querypb "github.com/xsec-lab/vitess/go/vt/proto/query"
 )
 
 // This file provides wrappers and support

@@ -20,12 +20,12 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/xsec-lab/go/vt/key"
-	"github.com/xsec-lab/go/vt/sqlparser"
-	"github.com/xsec-lab/go/vt/vtgate/engine"
-	"github.com/xsec-lab/go/vt/vtgate/vindexes"
+	"github.com/xsec-lab/vitess/go/vt/key"
+	"github.com/xsec-lab/vitess/go/vt/sqlparser"
+	"github.com/xsec-lab/vitess/go/vt/vtgate/engine"
+	"github.com/xsec-lab/vitess/go/vt/vtgate/vindexes"
 
-	topodatapb "github.com/xsec-lab/go/vt/proto/topodata"
+	topodatapb "github.com/xsec-lab/vitess/go/vt/proto/topodata"
 )
 
 //-------------------------------------------------------------------------

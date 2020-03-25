@@ -25,7 +25,7 @@ import (
 	"unsafe"
 
 	"github.com/stretchr/testify/require"
-	"github.com/xsec-lab/go/sqltypes"
+	"github.com/xsec-lab/vitess/go/sqltypes"
 )
 
 func TestAppend(t *testing.T) {

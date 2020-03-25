@@ -19,12 +19,12 @@ package discovery
 import (
 	"sync"
 
-	"github.com/xsec-lab/go/vt/log"
-	querypb "github.com/xsec-lab/go/vt/proto/query"
-	topodatapb "github.com/xsec-lab/go/vt/proto/topodata"
-	"github.com/xsec-lab/go/vt/srvtopo"
-	"github.com/xsec-lab/go/vt/topo"
-	"github.com/xsec-lab/go/vt/topo/topoproto"
+	"github.com/xsec-lab/vitess/go/vt/log"
+	querypb "github.com/xsec-lab/vitess/go/vt/proto/query"
+	topodatapb "github.com/xsec-lab/vitess/go/vt/proto/topodata"
+	"github.com/xsec-lab/vitess/go/vt/srvtopo"
+	"github.com/xsec-lab/vitess/go/vt/topo"
+	"github.com/xsec-lab/vitess/go/vt/topo/topoproto"
 	"golang.org/x/net/context"
 )
 

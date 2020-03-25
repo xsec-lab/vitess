@@ -26,7 +26,7 @@ import (
 	"time"
 
 	// we use gRPC everywhere, so import the vtgate client.
-	_ "github.com/xsec-lab/go/vt/vtgate/grpcvtgateconn"
+	_ "github.com/xsec-lab/vitess/go/vt/vtgate/grpcvtgateconn"
 )
 
 // Environment is the interface that customizes the global settings for

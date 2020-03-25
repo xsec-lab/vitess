@@ -18,7 +18,7 @@ package automation
 
 import (
 	"github.com/golang/protobuf/proto"
-	automationpb "github.com/xsec-lab/go/vt/proto/automation"
+	automationpb "github.com/xsec-lab/vitess/go/vt/proto/automation"
 )
 
 // ClusterOperationInstance is a runtime type which enhances the protobuf message "ClusterOperation" with runtime specific data.

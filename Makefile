@@ -343,10 +343,10 @@ client_go_gen:
 	# There is no way to get client-gen to automatically put files in the right place and still have the right import path so we generate and move them
 
 	# Generate client, informers, and listers
-	client-gen -o ./ --input 'topo/v1beta1' --clientset-name versioned --input-base 'github.com/xsec-lab/go/vt/topo/k8stopo/apis/' -i vitess.io/vitess --output-package github.com/xsec-lab/go/vt/topo/k8stopo/client/clientset --go-header-file $(GEN_BASE_DIR)/boilerplate.go.txt
-	lister-gen -o ./ --input-dirs  github.com/xsec-lab/go/vt/topo/k8stopo/apis/topo/v1beta1 --output-package github.com/xsec-lab/go/vt/topo/k8stopo/client/listers --go-header-file $(GEN_BASE_DIR)/boilerplate.go.txt
-	informer-gen -o ./ --input-dirs  github.com/xsec-lab/go/vt/topo/k8stopo/apis/topo/v1beta1 --versioned-clientset-package github.com/xsec-lab/go/vt/topo/k8stopo/client/clientset/versioned --listers-package github.com/xsec-lab/go/vt/topo/k8stopo/client/listers --output-package github.com/xsec-lab/go/vt/topo/k8stopo/client/informers --go-header-file $(GEN_BASE_DIR)/boilerplate.go.txt
+	client-gen -o ./ --input 'topo/v1beta1' --clientset-name versioned --input-base 'github.com/xsec-lab/vitess/go/vt/topo/k8stopo/apis/' -i vitess.io/vitess --output-package github.com/xsec-lab/vitess/go/vt/topo/k8stopo/client/clientset --go-header-file $(GEN_BASE_DIR)/boilerplate.go.txt
+	lister-gen -o ./ --input-dirs  github.com/xsec-lab/vitess/go/vt/topo/k8stopo/apis/topo/v1beta1 --output-package github.com/xsec-lab/vitess/go/vt/topo/k8stopo/client/listers --go-header-file $(GEN_BASE_DIR)/boilerplate.go.txt
+	informer-gen -o ./ --input-dirs  github.com/xsec-lab/vitess/go/vt/topo/k8stopo/apis/topo/v1beta1 --versioned-clientset-package github.com/xsec-lab/vitess/go/vt/topo/k8stopo/client/clientset/versioned --listers-package github.com/xsec-lab/vitess/go/vt/topo/k8stopo/client/listers --output-package github.com/xsec-lab/vitess/go/vt/topo/k8stopo/client/informers --go-header-file $(GEN_BASE_DIR)/boilerplate.go.txt
 
 	# Move and cleanup
-	mv github.com/xsec-lab/go/vt/topo/k8stopo/client go/vt/topo/k8stopo/
-	rmdir -p github.com/xsec-lab/go/vt/topo/k8stopo/
+	mv github.com/xsec-lab/vitess/go/vt/topo/k8stopo/client go/vt/topo/k8stopo/
+	rmdir -p github.com/xsec-lab/vitess/go/vt/topo/k8stopo/

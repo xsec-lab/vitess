@@ -17,7 +17,7 @@ limitations under the License.
 package wrangler
 
 import (
-	"github.com/xsec-lab/go/vt/topotools"
+	"github.com/xsec-lab/vitess/go/vt/topotools"
 	"golang.org/x/net/context"
 )
 

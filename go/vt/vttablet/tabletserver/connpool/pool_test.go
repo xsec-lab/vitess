@@ -22,8 +22,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/xsec-lab/go/mysql/fakesqldb"
-	"github.com/xsec-lab/go/vt/callerid"
+	"github.com/xsec-lab/vitess/go/mysql/fakesqldb"
+	"github.com/xsec-lab/vitess/go/vt/callerid"
 
 	"golang.org/x/net/context"
 )

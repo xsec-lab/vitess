@@ -40,14 +40,14 @@ import (
 	"github.com/golang/protobuf/proto"
 	"golang.org/x/net/context"
 
-	"github.com/xsec-lab/go/vt/hook"
-	"github.com/xsec-lab/go/vt/log"
-	"github.com/xsec-lab/go/vt/topo"
-	"github.com/xsec-lab/go/vt/topo/topoproto"
+	"github.com/xsec-lab/vitess/go/vt/hook"
+	"github.com/xsec-lab/vitess/go/vt/log"
+	"github.com/xsec-lab/vitess/go/vt/topo"
+	"github.com/xsec-lab/vitess/go/vt/topo/topoproto"
 
-	querypb "github.com/xsec-lab/go/vt/proto/query"
-	topodatapb "github.com/xsec-lab/go/vt/proto/topodata"
-	"github.com/xsec-lab/go/vt/proto/vttime"
+	querypb "github.com/xsec-lab/vitess/go/vt/proto/query"
+	topodatapb "github.com/xsec-lab/vitess/go/vt/proto/topodata"
+	"github.com/xsec-lab/vitess/go/vt/proto/vttime"
 )
 
 // ConfigureTabletHook configures the right parameters for a hook

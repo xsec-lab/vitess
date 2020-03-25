@@ -20,10 +20,10 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/xsec-lab/go/sqltypes"
-	"github.com/xsec-lab/go/vt/dbconfigs"
-	binlogdatapb "github.com/xsec-lab/go/vt/proto/binlogdata"
-	"github.com/xsec-lab/go/vt/sqlparser"
+	"github.com/xsec-lab/vitess/go/sqltypes"
+	"github.com/xsec-lab/vitess/go/vt/dbconfigs"
+	binlogdatapb "github.com/xsec-lab/vitess/go/vt/proto/binlogdata"
+	"github.com/xsec-lab/vitess/go/vt/sqlparser"
 )
 
 // resultStreamer streams the results of the requested query

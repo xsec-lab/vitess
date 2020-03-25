@@ -19,7 +19,7 @@ package v3
 import (
 	"testing"
 
-	sharding "github.com/xsec-lab/go/test/endtoend/sharding/resharding"
+	sharding "github.com/xsec-lab/vitess/go/test/endtoend/sharding/resharding"
 )
 
 // TestV3ReSharding - main tests resharding using a INT column

@@ -60,7 +60,7 @@
 		},
 		"backup": {
 			"File": "unused.go",
-			"Args": ["github.com/xsec-lab/go/test/endtoend/backup/vtctlbackup"],
+			"Args": ["github.com/xsec-lab/vitess/go/test/endtoend/backup/vtctlbackup"],
 			"Command": [],
 			"Manual": false,
 			"Shard": 11,
@@ -69,7 +69,7 @@
 		},
 		"backup_mysqlctld": { 
 			"File": "unused.go",
-			"Args": ["github.com/xsec-lab/go/test/endtoend/backup/mysqlctld"],
+			"Args": ["github.com/xsec-lab/vitess/go/test/endtoend/backup/mysqlctld"],
 			"Command": [],
 			"Manual": false,
 			"Shard": 21,
@@ -78,7 +78,7 @@
 		},
 		"backup_only": {
 			"File": "unused.go",
-			"Args": ["github.com/xsec-lab/go/test/endtoend/backup/vtbackup"],
+			"Args": ["github.com/xsec-lab/vitess/go/test/endtoend/backup/vtbackup"],
 			"Command": [],
 			"Manual": false,
 			"Shard": 19,
@@ -87,7 +87,7 @@
 		},
 		"backup_transform": {
 			"File": "unused.go",
-			"Args": ["github.com/xsec-lab/go/test/endtoend/backup/transform"],
+			"Args": ["github.com/xsec-lab/vitess/go/test/endtoend/backup/transform"],
 			"Command": [],
 			"Manual": false,
 			"Shard": 19,
@@ -96,7 +96,7 @@
 		},
 		"backup_transform_mysqlctld": {
 			"File": "unused.go",
-			"Args": ["github.com/xsec-lab/go/test/endtoend/backup/transform/mysqlctld"],
+			"Args": ["github.com/xsec-lab/vitess/go/test/endtoend/backup/transform/mysqlctld"],
 			"Command": [],
 			"Manual": false,
 			"Shard": 21, 
@@ -105,7 +105,7 @@
 		},
 		"backup_xtrabackup": {
 			"File": "unused.go",
-			"Args": ["github.com/xsec-lab/go/test/endtoend/backup/xtrabackup"],
+			"Args": ["github.com/xsec-lab/vitess/go/test/endtoend/backup/xtrabackup"],
 			"Command": [],
 			"Manual": false,
 			"Shard": 20,
@@ -114,7 +114,7 @@
 		},
 		"backup_xtrabackup_xbstream": {
 			"File": "unused.go",
-			"Args": ["github.com/xsec-lab/go/test/endtoend/backup/xtrabackupstream"],
+			"Args": ["github.com/xsec-lab/vitess/go/test/endtoend/backup/xtrabackupstream"],
 			"Command": [],
 			"Manual": false,
 			"Shard": 20,
@@ -123,7 +123,7 @@
 		},
 		"cellalias": {
 			"File": "unused.go",
-			"Args": ["github.com/xsec-lab/go/test/endtoend/cellalias"],
+			"Args": ["github.com/xsec-lab/vitess/go/test/endtoend/cellalias"],
 			"Command": [],
 			"Manual": false,
 			"Shard": 12,
@@ -132,7 +132,7 @@
 		},
 		"prepare_statement": {
 			"File": "unused.go",
-			"Args": ["github.com/xsec-lab/go/test/endtoend/preparestmt"],
+			"Args": ["github.com/xsec-lab/vitess/go/test/endtoend/preparestmt"],
 			"Command": [],
 			"Manual": false,
 			"Shard": 12,
@@ -141,7 +141,7 @@
 		},
 		"mysql_server": {
 			"File": "unused.go",
-			"Args": ["github.com/xsec-lab/go/test/endtoend/mysqlserver"],
+			"Args": ["github.com/xsec-lab/vitess/go/test/endtoend/mysqlserver"],
 			"Command": [],
 			"Manual": false,
 			"Shard": 12,
@@ -150,7 +150,7 @@
 		},
 		"messaging": {
 			"File": "messaging_test.go",
-			"Args": ["github.com/xsec-lab/go/test/endtoend/messaging"],
+			"Args": ["github.com/xsec-lab/vitess/go/test/endtoend/messaging"],
 			"Command": [],
 			"Manual": false,
 			"Shard": 12,
@@ -159,7 +159,7 @@
 		},
 		"clustertest": {
 			"File": "unused.go",
-			"Args": ["github.com/xsec-lab/go/test/endtoend/clustertest"],
+			"Args": ["github.com/xsec-lab/vitess/go/test/endtoend/clustertest"],
 			"Command": [],
 			"Manual": false,
 			"Shard": 11,
@@ -168,7 +168,7 @@
 		},
 		"encrypted_replication": {
 			"File": "unused.go",
-			"Args": ["github.com/xsec-lab/go/test/endtoend/encryption/encryptedreplication"],
+			"Args": ["github.com/xsec-lab/vitess/go/test/endtoend/encryption/encryptedreplication"],
 			"Command": [],
 			"Manual": false,
 			"Shard": 12,
@@ -177,7 +177,7 @@
 		},
 		"encrypted_transport": {
 			"File": "unused.go",
-			"Args": ["github.com/xsec-lab/go/test/endtoend/encryption/encryptedtransport"],
+			"Args": ["github.com/xsec-lab/vitess/go/test/endtoend/encryption/encryptedtransport"],
 			"Command": [],
 			"Manual": false,
 			"Shard": 12,
@@ -186,7 +186,7 @@
 		},
 		"initial_sharding": {
 			"File": "unused.go",
-			"Args": ["github.com/xsec-lab/go/test/endtoend/sharding/initialsharding/v3"],
+			"Args": ["github.com/xsec-lab/vitess/go/test/endtoend/sharding/initialsharding/v3"],
 			"Command": [],
 			"Manual": false,
 			"Shard": 13,
@@ -195,7 +195,7 @@
 		},
 		"initial_sharding_bytes": {
 			"File": "unused.go",
-			"Args": ["github.com/xsec-lab/go/test/endtoend/sharding/initialsharding/bytes"],
+			"Args": ["github.com/xsec-lab/vitess/go/test/endtoend/sharding/initialsharding/bytes"],
 			"Command": [],
 			"Manual": false,
 			"Shard": 13,
@@ -204,7 +204,7 @@
 		},
 		"initial_sharding_multi": {
 			"File": "unused.go",
-			"Args": ["github.com/xsec-lab/go/test/endtoend/sharding/initialsharding/multi"],
+			"Args": ["github.com/xsec-lab/vitess/go/test/endtoend/sharding/initialsharding/multi"],
 			"Command": [],
 			"Manual": false,
 			"Shard": 14,
@@ -213,7 +213,7 @@
 		},
 		"keyspace": {
 			"File": "unused.go",
-			"Args": ["github.com/xsec-lab/go/test/endtoend/keyspace"],
+			"Args": ["github.com/xsec-lab/vitess/go/test/endtoend/keyspace"],
 			"Command": [],
 			"Manual": false,
 			"Shard": 12,
@@ -224,7 +224,7 @@
 		},
 		"merge_sharding": {
 			"File": "unused.go",
-			"Args": ["github.com/xsec-lab/go/test/endtoend/sharding/mergesharding/int"],
+			"Args": ["github.com/xsec-lab/vitess/go/test/endtoend/sharding/mergesharding/int"],
 			"Command": [],
 			"Manual": false,
 			"Shard": 22,
@@ -235,7 +235,7 @@
 		},
 		"merge_sharding_bytes": {
 			"File": "unused.go",
-			"Args": ["github.com/xsec-lab/go/test/endtoend/sharding/mergesharding/string"],
+			"Args": ["github.com/xsec-lab/vitess/go/test/endtoend/sharding/mergesharding/string"],
 			"Command": [],
 			"Manual": false,
 			"Shard": 22,
@@ -246,7 +246,7 @@
 		},
 		"mysqlctl": {
 			"File": "unused.go",
-			"Args": ["github.com/xsec-lab/go/test/endtoend/mysqlctl"],
+			"Args": ["github.com/xsec-lab/vitess/go/test/endtoend/mysqlctl"],
 			"Command": [],
 			"Manual": false,
 			"Shard": 12,
@@ -257,7 +257,7 @@
 		},
 		"mysqlctld": {
 			"File": "unused.go",
-			"Args": ["github.com/xsec-lab/go/test/endtoend/mysqlctld"],
+			"Args": ["github.com/xsec-lab/vitess/go/test/endtoend/mysqlctld"],
 			"Command": [],
 			"Manual": false,
 			"Shard": 12,
@@ -268,7 +268,7 @@
 		},
 		"recovery": {
 			"File": "unused.go",
-			"Args": ["github.com/xsec-lab/go/test/endtoend/recovery/unshardedrecovery"],
+			"Args": ["github.com/xsec-lab/vitess/go/test/endtoend/recovery/unshardedrecovery"],
 			"Command": [],
 			"Manual": false,
 			"Shard": 11,
@@ -277,7 +277,7 @@
 		},
 		"reparent": {
 			"File": "unused.go",
-			"Args": ["github.com/xsec-lab/go/test/endtoend/reparent"],
+			"Args": ["github.com/xsec-lab/vitess/go/test/endtoend/reparent"],
 			"Command": [],
 			"Manual": false,
 			"Shard": 14,
@@ -286,7 +286,7 @@
 		},
 		"resharding": {
 			"File": "unused.go",
-			"Args": ["github.com/xsec-lab/go/test/endtoend/sharding/resharding/v3"],
+			"Args": ["github.com/xsec-lab/vitess/go/test/endtoend/sharding/resharding/v3"],
 			"Command": [],
 			"Manual": false,
 			"Shard": 15,
@@ -297,7 +297,7 @@
 		},
 		"resharding_bytes": {
 			"File": "unused.go",
-			"Args": ["github.com/xsec-lab/go/test/endtoend/sharding/resharding/string"],
+			"Args": ["github.com/xsec-lab/vitess/go/test/endtoend/sharding/resharding/string"],
 			"Command": [],
 			"Manual": false,
 			"Shard": 15,
@@ -308,7 +308,7 @@
 		},
 		"sharded": {
 			"File": "unused.go",
-			"Args": ["github.com/xsec-lab/go/test/endtoend/sharded"],
+			"Args": ["github.com/xsec-lab/vitess/go/test/endtoend/sharded"],
 			"Command": [],
 			"Manual": false,
 			"Shard": 11,
@@ -317,7 +317,7 @@
 		},
 		"sharded_recovery": {
 			"File": "unused.go",
-			"Args": ["github.com/xsec-lab/go/test/endtoend/recovery/shardedrecovery"],
+			"Args": ["github.com/xsec-lab/vitess/go/test/endtoend/recovery/shardedrecovery"],
 			"Command": [],
 			"Manual": false,
 			"Shard": 16,
@@ -326,7 +326,7 @@
 		},
 		"tabletmanager": {
 			"File": "unused.go",
-			"Args": ["github.com/xsec-lab/go/test/endtoend/tabletmanager"],
+			"Args": ["github.com/xsec-lab/vitess/go/test/endtoend/tabletmanager"],
 			"Command": [],
 			"Manual": false,
 			"Shard": 18,
@@ -338,7 +338,7 @@
 		"tabletmanager_consul": {
 			"File": "unused.go",
 			"Args": [
-				"github.com/xsec-lab/go/test/endtoend/tabletmanager","--topo-flavor=consul"
+				"github.com/xsec-lab/vitess/go/test/endtoend/tabletmanager","--topo-flavor=consul"
 			],
 			"Command": [],
 			"Manual": false,
@@ -351,7 +351,7 @@
 		"tabletmanager_zk2": {
 			"File": "unused.go",
 			"Args": [
-				"github.com/xsec-lab/go/test/endtoend/tabletmanager","--topo-flavor=zk2"
+				"github.com/xsec-lab/vitess/go/test/endtoend/tabletmanager","--topo-flavor=zk2"
 			],
 			"Command": [],
 			"Manual": false,
@@ -363,7 +363,7 @@
 		},
 		"vertical_split": {
 			"File": "unused.go",
-			"Args": ["github.com/xsec-lab/go/test/endtoend/sharding/verticalsplit"],
+			"Args": ["github.com/xsec-lab/vitess/go/test/endtoend/sharding/verticalsplit"],
 			"Command": [],
 			"Manual": false,
 			"Shard": 16,
@@ -374,7 +374,7 @@
 		},
 		"vtgate": {
 			"File": "unused.go",
-			"Args": ["github.com/xsec-lab/go/test/endtoend/vtgate"],
+			"Args": ["github.com/xsec-lab/vitess/go/test/endtoend/vtgate"],
 			"Command": [],
 			"Manual": false,
 			"Shard": 17,
@@ -383,7 +383,7 @@
 		},
 		"vtgate_buffer": {
 			"File": "unused.go",
-			"Args": ["github.com/xsec-lab/go/test/endtoend/vtgate/buffer"],
+			"Args": ["github.com/xsec-lab/vitess/go/test/endtoend/vtgate/buffer"],
 			"Command": [],
 			"Manual": false,
 			"Shard": 17,
@@ -392,7 +392,7 @@
 		},
 		"vtgate_schema": {
 			"File": "unused.go",
-			"Args": ["github.com/xsec-lab/go/test/endtoend/vtgate/schema"],
+			"Args": ["github.com/xsec-lab/vitess/go/test/endtoend/vtgate/schema"],
 			"Command": [],
 			"Manual": false,
 			"Shard": 17,
@@ -401,7 +401,7 @@
 		},
 		"vtgate_sequence": {
 			"File": "unused.go",
-			"Args": ["github.com/xsec-lab/go/test/endtoend/vtgate/sequence"],
+			"Args": ["github.com/xsec-lab/vitess/go/test/endtoend/vtgate/sequence"],
 			"Command": [],
 			"Manual": false,
 			"Shard": 17,
@@ -410,7 +410,7 @@
 		},
 		"vtgate_transaction": {
 			"File": "unused.go",
-			"Args": ["github.com/xsec-lab/go/test/endtoend/vtgate/transaction"],
+			"Args": ["github.com/xsec-lab/vitess/go/test/endtoend/vtgate/transaction"],
 			"Command": [],
 			"Manual": false,
 			"Shard": 17,
@@ -419,7 +419,7 @@
 		},
 		"vtgate_vschema": {
 			"File": "unused.go",
-			"Args": ["github.com/xsec-lab/go/test/endtoend/vtgate/vschema"],
+			"Args": ["github.com/xsec-lab/vitess/go/test/endtoend/vtgate/vschema"],
 			"Command": [],
 			"Manual": false,
 			"Shard": 17,
@@ -428,7 +428,7 @@
 		},
 		"web_test": {
 			"File": "unused.go",
-			"Args": ["github.com/xsec-lab/go/test/endtoend/vtctldweb"],
+			"Args": ["github.com/xsec-lab/vitess/go/test/endtoend/vtctldweb"],
 			"Command": [],
 			"Manual": false,
 			"Shard": 10,
@@ -437,7 +437,7 @@
 		},
 		"vttest_sample": {
 			"File": "unused.go",
-			"Args": ["github.com/xsec-lab/go/test/endtoend/vtcombo"],
+			"Args": ["github.com/xsec-lab/vitess/go/test/endtoend/vtcombo"],
 			"Command": [],
 			"Manual": false,
 			"Shard": 25,
@@ -446,7 +446,7 @@
 		},
 		"xb_recovery": {
 			"File": "recovery_test.go",
-			"Args": ["github.com/xsec-lab/go/test/endtoend/recovery/xtrabackup"],
+			"Args": ["github.com/xsec-lab/vitess/go/test/endtoend/recovery/xtrabackup"],
 			"Command": [],
 			"Manual": false,
 			"Shard": 17,
@@ -455,7 +455,7 @@
 		},
 		"worker": {
 			"File": "worker_test.go",
-			"Args": ["github.com/xsec-lab/go/test/endtoend/worker"],
+			"Args": ["github.com/xsec-lab/vitess/go/test/endtoend/worker"],
 			"Command": [],
 			"Manual": false,
 			"Shard": 23,

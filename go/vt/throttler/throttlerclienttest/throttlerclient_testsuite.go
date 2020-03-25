@@ -33,10 +33,10 @@ import (
 	"github.com/golang/protobuf/proto"
 	"golang.org/x/net/context"
 
-	"github.com/xsec-lab/go/vt/throttler"
-	"github.com/xsec-lab/go/vt/throttler/throttlerclient"
+	"github.com/xsec-lab/vitess/go/vt/throttler"
+	"github.com/xsec-lab/vitess/go/vt/throttler/throttlerclient"
 
-	throttlerdatapb "github.com/xsec-lab/go/vt/proto/throttlerdata"
+	throttlerdatapb "github.com/xsec-lab/vitess/go/vt/proto/throttlerdata"
 )
 
 // TestSuite runs the test suite on the given throttlerclient and throttlerserver.

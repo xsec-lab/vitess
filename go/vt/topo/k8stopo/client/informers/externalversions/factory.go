@@ -23,9 +23,9 @@ import (
 	sync "sync"
 	time "time"
 
-	versioned "github.com/xsec-lab/go/vt/topo/k8stopo/client/clientset/versioned"
-	internalinterfaces "github.com/xsec-lab/go/vt/topo/k8stopo/client/informers/externalversions/internalinterfaces"
-	topo "github.com/xsec-lab/go/vt/topo/k8stopo/client/informers/externalversions/topo"
+	versioned "github.com/xsec-lab/vitess/go/vt/topo/k8stopo/client/clientset/versioned"
+	internalinterfaces "github.com/xsec-lab/vitess/go/vt/topo/k8stopo/client/informers/externalversions/internalinterfaces"
+	topo "github.com/xsec-lab/vitess/go/vt/topo/k8stopo/client/informers/externalversions/topo"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	schema "k8s.io/apimachinery/pkg/runtime/schema"

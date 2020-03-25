@@ -31,9 +31,9 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/tebeka/selenium"
 	"github.com/tebeka/selenium/chrome"
-	"github.com/xsec-lab/go/test/endtoend/cluster"
-	vttestpb "github.com/xsec-lab/go/vt/proto/vttest"
-	"github.com/xsec-lab/go/vt/vttest"
+	"github.com/xsec-lab/vitess/go/test/endtoend/cluster"
+	vttestpb "github.com/xsec-lab/vitess/go/vt/proto/vttest"
+	"github.com/xsec-lab/vitess/go/vt/vttest"
 )
 
 var (

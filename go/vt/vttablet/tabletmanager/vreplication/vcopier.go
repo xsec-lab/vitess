@@ -27,14 +27,14 @@ import (
 	"github.com/golang/protobuf/proto"
 	"golang.org/x/net/context"
 
-	"github.com/xsec-lab/go/mysql"
-	"github.com/xsec-lab/go/sqltypes"
-	"github.com/xsec-lab/go/vt/binlog/binlogplayer"
-	"github.com/xsec-lab/go/vt/log"
-	"github.com/xsec-lab/go/vt/sqlparser"
+	"github.com/xsec-lab/vitess/go/mysql"
+	"github.com/xsec-lab/vitess/go/sqltypes"
+	"github.com/xsec-lab/vitess/go/vt/binlog/binlogplayer"
+	"github.com/xsec-lab/vitess/go/vt/log"
+	"github.com/xsec-lab/vitess/go/vt/sqlparser"
 
-	binlogdatapb "github.com/xsec-lab/go/vt/proto/binlogdata"
-	querypb "github.com/xsec-lab/go/vt/proto/query"
+	binlogdatapb "github.com/xsec-lab/vitess/go/vt/proto/binlogdata"
+	querypb "github.com/xsec-lab/vitess/go/vt/proto/query"
 )
 
 type vcopier struct {

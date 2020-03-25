@@ -31,10 +31,10 @@ if [ -z "$_build_git_branch" ]; then
 fi
 
 echo "\
-  -X 'github.com/xsec-lab/go/vt/servenv.buildHost=$(hostname)' \
-  -X 'github.com/xsec-lab/go/vt/servenv.buildUser=$(whoami)' \
-  -X 'github.com/xsec-lab/go/vt/servenv.buildGitRev=${_build_git_rev}' \
-  -X 'github.com/xsec-lab/go/vt/servenv.buildGitBranch=${_build_git_branch}' \
-  -X 'github.com/xsec-lab/go/vt/servenv.buildTime=$(LC_ALL=C date)' \
-  -X 'github.com/xsec-lab/go/vt/servenv.jenkinsBuildNumberStr=${BUILD_NUMBER}' \
+  -X 'github.com/xsec-lab/vitess/go/vt/servenv.buildHost=$(hostname)' \
+  -X 'github.com/xsec-lab/vitess/go/vt/servenv.buildUser=$(whoami)' \
+  -X 'github.com/xsec-lab/vitess/go/vt/servenv.buildGitRev=${_build_git_rev}' \
+  -X 'github.com/xsec-lab/vitess/go/vt/servenv.buildGitBranch=${_build_git_branch}' \
+  -X 'github.com/xsec-lab/vitess/go/vt/servenv.buildTime=$(LC_ALL=C date)' \
+  -X 'github.com/xsec-lab/vitess/go/vt/servenv.jenkinsBuildNumberStr=${BUILD_NUMBER}' \
 "

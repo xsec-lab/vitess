@@ -20,11 +20,11 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/xsec-lab/go/vt/sqlparser"
-	"github.com/xsec-lab/go/vt/vterrors"
+	"github.com/xsec-lab/vitess/go/vt/sqlparser"
+	"github.com/xsec-lab/vitess/go/vt/vterrors"
 
-	vschemapb "github.com/xsec-lab/go/vt/proto/vschema"
-	vtrpcpb "github.com/xsec-lab/go/vt/proto/vtrpc"
+	vschemapb "github.com/xsec-lab/vitess/go/vt/proto/vschema"
+	vtrpcpb "github.com/xsec-lab/vitess/go/vt/proto/vtrpc"
 )
 
 // ApplyVSchemaDDL applies the given DDL statement to the vschema

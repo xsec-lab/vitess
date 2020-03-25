@@ -27,14 +27,14 @@ import (
 
 	"github.com/golang/protobuf/proto"
 	"github.com/tchap/go-patricia/patricia"
-	"github.com/xsec-lab/go/json2"
-	"github.com/xsec-lab/go/vt/health"
-	"github.com/xsec-lab/go/vt/log"
-	"github.com/xsec-lab/go/vt/servenv"
-	"github.com/xsec-lab/go/vt/tableacl/acl"
-	"github.com/xsec-lab/go/vt/vttablet/tabletserver/tabletenv"
+	"github.com/xsec-lab/vitess/go/json2"
+	"github.com/xsec-lab/vitess/go/vt/health"
+	"github.com/xsec-lab/vitess/go/vt/log"
+	"github.com/xsec-lab/vitess/go/vt/servenv"
+	"github.com/xsec-lab/vitess/go/vt/tableacl/acl"
+	"github.com/xsec-lab/vitess/go/vt/vttablet/tabletserver/tabletenv"
 
-	tableaclpb "github.com/xsec-lab/go/vt/proto/tableacl"
+	tableaclpb "github.com/xsec-lab/vitess/go/vt/proto/tableacl"
 )
 
 // ACLResult embeds an acl.ACL and also tell which table group it belongs to.

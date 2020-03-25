@@ -20,12 +20,12 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/xsec-lab/go/stats"
-	"github.com/xsec-lab/go/vt/callerid"
-	"github.com/xsec-lab/go/vt/log"
+	"github.com/xsec-lab/vitess/go/stats"
+	"github.com/xsec-lab/vitess/go/vt/callerid"
+	"github.com/xsec-lab/vitess/go/vt/log"
 
-	querypb "github.com/xsec-lab/go/vt/proto/query"
-	vtrpcpb "github.com/xsec-lab/go/vt/proto/vtrpc"
+	querypb "github.com/xsec-lab/vitess/go/vt/proto/query"
+	vtrpcpb "github.com/xsec-lab/vitess/go/vt/proto/vtrpc"
 )
 
 const unknown string = "unknown"

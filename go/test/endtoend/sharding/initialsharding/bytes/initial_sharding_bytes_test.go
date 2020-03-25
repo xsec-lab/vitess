@@ -22,9 +22,9 @@ package bytes
 import (
 	"testing"
 
-	"github.com/xsec-lab/go/test/endtoend/cluster"
-	sharding "github.com/xsec-lab/go/test/endtoend/sharding/initialsharding"
-	querypb "github.com/xsec-lab/go/vt/proto/query"
+	"github.com/xsec-lab/vitess/go/test/endtoend/cluster"
+	sharding "github.com/xsec-lab/vitess/go/test/endtoend/sharding/initialsharding"
+	querypb "github.com/xsec-lab/vitess/go/vt/proto/query"
 )
 
 func TestInitialShardingBytes(t *testing.T) {

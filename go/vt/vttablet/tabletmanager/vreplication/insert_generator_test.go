@@ -20,8 +20,8 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	"github.com/xsec-lab/go/vt/binlog/binlogplayer"
-	binlogdatapb "github.com/xsec-lab/go/vt/proto/binlogdata"
+	"github.com/xsec-lab/vitess/go/vt/binlog/binlogplayer"
+	binlogdatapb "github.com/xsec-lab/vitess/go/vt/proto/binlogdata"
 )
 
 func TestInsertGenerator(t *testing.T) {

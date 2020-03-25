@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/xsec-lab/go/vt/logutil"
+	"github.com/xsec-lab/vitess/go/vt/logutil"
 )
 
 func init() {

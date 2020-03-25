@@ -23,9 +23,9 @@ import (
 	"strconv"
 	"text/template"
 
-	"github.com/xsec-lab/go/acl"
-	"github.com/xsec-lab/go/vt/log"
-	"github.com/xsec-lab/go/vt/logz"
+	"github.com/xsec-lab/vitess/go/acl"
+	"github.com/xsec-lab/vitess/go/vt/log"
+	"github.com/xsec-lab/vitess/go/vt/logz"
 )
 
 var (

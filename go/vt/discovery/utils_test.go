@@ -20,8 +20,8 @@ import (
 	"errors"
 	"testing"
 
-	querypb "github.com/xsec-lab/go/vt/proto/query"
-	topodatapb "github.com/xsec-lab/go/vt/proto/topodata"
+	querypb "github.com/xsec-lab/vitess/go/vt/proto/query"
+	topodatapb "github.com/xsec-lab/vitess/go/vt/proto/topodata"
 )
 
 func TestRemoveUnhealthyTablets(t *testing.T) {

@@ -20,8 +20,8 @@ package main
 // with the Prometheus client library
 
 import (
-	"github.com/xsec-lab/go/stats/prometheusbackend"
-	"github.com/xsec-lab/go/vt/servenv"
+	"github.com/xsec-lab/vitess/go/stats/prometheusbackend"
+	"github.com/xsec-lab/vitess/go/vt/servenv"
 )
 
 func init() {

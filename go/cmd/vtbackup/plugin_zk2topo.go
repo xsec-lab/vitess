@@ -17,5 +17,5 @@ limitations under the License.
 package main
 
 import (
-	_ "github.com/xsec-lab/go/vt/topo/zk2topo"
+	_ "github.com/xsec-lab/vitess/go/vt/topo/zk2topo"
 )

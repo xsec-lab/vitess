@@ -19,8 +19,8 @@ package tabletserver
 import (
 	"time"
 
-	"github.com/xsec-lab/go/vt/servenv"
-	"github.com/xsec-lab/go/vt/vttablet/tabletserver/tabletenv"
+	"github.com/xsec-lab/vitess/go/vt/servenv"
+	"github.com/xsec-lab/vitess/go/vt/vttablet/tabletserver/tabletenv"
 )
 
 // This file contains the status web page export for tabletserver

@@ -20,7 +20,7 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/xsec-lab/go/sync2"
+	"github.com/xsec-lab/vitess/go/sync2"
 )
 
 // Histogram tracks counts and totals while

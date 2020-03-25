@@ -20,9 +20,9 @@ import (
 	"fmt"
 	"strconv"
 
-	binlogdatapb "github.com/xsec-lab/go/vt/proto/binlogdata"
-	"github.com/xsec-lab/go/vt/proto/vtrpc"
-	"github.com/xsec-lab/go/vt/vterrors"
+	binlogdatapb "github.com/xsec-lab/vitess/go/vt/proto/binlogdata"
+	"github.com/xsec-lab/vitess/go/vt/proto/vtrpc"
+	"github.com/xsec-lab/vitess/go/vt/vterrors"
 )
 
 // This file contains utility methods for Conn objects. Only useful on the client

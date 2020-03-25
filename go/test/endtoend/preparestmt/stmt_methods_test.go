@@ -25,7 +25,7 @@ import (
 	"github.com/icrowley/fake"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"github.com/xsec-lab/go/test/endtoend/cluster"
+	"github.com/xsec-lab/vitess/go/test/endtoend/cluster"
 )
 
 // TestSelect simple select the data without any condition.

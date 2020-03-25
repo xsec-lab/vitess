@@ -21,20 +21,20 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/xsec-lab/go/json2"
-	"github.com/xsec-lab/go/vt/grpcclient"
-	"github.com/xsec-lab/go/vt/key"
-	"github.com/xsec-lab/go/vt/topo"
-	"github.com/xsec-lab/go/vt/topo/memorytopo"
-	"github.com/xsec-lab/go/vt/vterrors"
-	"github.com/xsec-lab/go/vt/vttablet/queryservice"
-	"github.com/xsec-lab/go/vt/vttablet/sandboxconn"
-	"github.com/xsec-lab/go/vt/vttablet/tabletconn"
+	"github.com/xsec-lab/vitess/go/json2"
+	"github.com/xsec-lab/vitess/go/vt/grpcclient"
+	"github.com/xsec-lab/vitess/go/vt/key"
+	"github.com/xsec-lab/vitess/go/vt/topo"
+	"github.com/xsec-lab/vitess/go/vt/topo/memorytopo"
+	"github.com/xsec-lab/vitess/go/vt/vterrors"
+	"github.com/xsec-lab/vitess/go/vt/vttablet/queryservice"
+	"github.com/xsec-lab/vitess/go/vt/vttablet/sandboxconn"
+	"github.com/xsec-lab/vitess/go/vt/vttablet/tabletconn"
 	"golang.org/x/net/context"
 
-	topodatapb "github.com/xsec-lab/go/vt/proto/topodata"
-	vschemapb "github.com/xsec-lab/go/vt/proto/vschema"
-	vtrpcpb "github.com/xsec-lab/go/vt/proto/vtrpc"
+	topodatapb "github.com/xsec-lab/vitess/go/vt/proto/topodata"
+	vschemapb "github.com/xsec-lab/vitess/go/vt/proto/vschema"
+	vtrpcpb "github.com/xsec-lab/vitess/go/vt/proto/vtrpc"
 )
 
 // sandbox_test.go provides a sandbox for unit testing VTGate.

@@ -17,7 +17,7 @@ limitations under the License.
 package events
 
 import (
-	topodatapb "github.com/xsec-lab/go/vt/proto/topodata"
+	topodatapb "github.com/xsec-lab/vitess/go/vt/proto/topodata"
 )
 
 // KeyspaceChange is an event that describes changes to a keyspace.

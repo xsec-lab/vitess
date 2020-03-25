@@ -20,10 +20,10 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/xsec-lab/go/mysql"
-	"github.com/xsec-lab/go/sqltypes"
-	querypb "github.com/xsec-lab/go/vt/proto/query"
-	"github.com/xsec-lab/go/vt/vtgate/vindexes"
+	"github.com/xsec-lab/vitess/go/mysql"
+	"github.com/xsec-lab/vitess/go/sqltypes"
+	querypb "github.com/xsec-lab/vitess/go/vt/proto/query"
+	"github.com/xsec-lab/vitess/go/vt/vtgate/vindexes"
 )
 
 var defaultSelectResult = sqltypes.MakeTestResult(

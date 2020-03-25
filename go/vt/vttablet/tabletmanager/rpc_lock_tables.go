@@ -23,9 +23,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/xsec-lab/go/sqlescape"
-	"github.com/xsec-lab/go/vt/dbconnpool"
-	"github.com/xsec-lab/go/vt/log"
+	"github.com/xsec-lab/vitess/go/sqlescape"
+	"github.com/xsec-lab/vitess/go/vt/dbconnpool"
+	"github.com/xsec-lab/vitess/go/vt/log"
 
 	"golang.org/x/net/context"
 )

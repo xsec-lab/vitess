@@ -25,16 +25,16 @@ import (
 
 	"google.golang.org/grpc"
 
-	"github.com/xsec-lab/go/vt/logutil"
-	"github.com/xsec-lab/go/vt/servenv"
-	"github.com/xsec-lab/go/vt/topo"
-	"github.com/xsec-lab/go/vt/vtctl"
-	"github.com/xsec-lab/go/vt/vttablet/tmclient"
-	"github.com/xsec-lab/go/vt/wrangler"
+	"github.com/xsec-lab/vitess/go/vt/logutil"
+	"github.com/xsec-lab/vitess/go/vt/servenv"
+	"github.com/xsec-lab/vitess/go/vt/topo"
+	"github.com/xsec-lab/vitess/go/vt/vtctl"
+	"github.com/xsec-lab/vitess/go/vt/vttablet/tmclient"
+	"github.com/xsec-lab/vitess/go/vt/wrangler"
 
-	logutilpb "github.com/xsec-lab/go/vt/proto/logutil"
-	vtctldatapb "github.com/xsec-lab/go/vt/proto/vtctldata"
-	vtctlservicepb "github.com/xsec-lab/go/vt/proto/vtctlservice"
+	logutilpb "github.com/xsec-lab/vitess/go/vt/proto/logutil"
+	vtctldatapb "github.com/xsec-lab/vitess/go/vt/proto/vtctldata"
+	vtctlservicepb "github.com/xsec-lab/vitess/go/vt/proto/vtctlservice"
 )
 
 // VtctlServer is our RPC server

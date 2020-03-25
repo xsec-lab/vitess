@@ -20,7 +20,7 @@ import (
 	"flag"
 	"testing"
 
-	"github.com/xsec-lab/go/vt/topo/topoproto"
+	"github.com/xsec-lab/vitess/go/vt/topo/topoproto"
 )
 
 func init() {

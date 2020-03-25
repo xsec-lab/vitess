@@ -19,5 +19,5 @@ package main
 // Imports and register the file-based query logger
 
 import (
-	_ "github.com/xsec-lab/go/vt/vttablet/filelogger"
+	_ "github.com/xsec-lab/vitess/go/vt/vttablet/filelogger"
 )

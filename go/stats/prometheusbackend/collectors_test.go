@@ -19,7 +19,7 @@ package prometheusbackend
 import (
 	"testing"
 
-	"github.com/xsec-lab/go/stats"
+	"github.com/xsec-lab/vitess/go/stats"
 )
 
 func getStats() map[string]int64 {

@@ -23,10 +23,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/xsec-lab/go/vt/vttest"
+	"github.com/xsec-lab/vitess/go/vt/vttest"
 
-	vschemapb "github.com/xsec-lab/go/vt/proto/vschema"
-	vttestpb "github.com/xsec-lab/go/vt/proto/vttest"
+	vschemapb "github.com/xsec-lab/vitess/go/vt/proto/vschema"
+	vttestpb "github.com/xsec-lab/vitess/go/vt/proto/vttest"
 )
 
 func TestVtclient(t *testing.T) {

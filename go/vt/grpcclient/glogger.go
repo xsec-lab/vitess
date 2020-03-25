@@ -19,7 +19,7 @@ package grpcclient
 import (
 	"fmt"
 
-	"github.com/xsec-lab/go/vt/log"
+	"github.com/xsec-lab/vitess/go/vt/log"
 	"google.golang.org/grpc/grpclog"
 )
 

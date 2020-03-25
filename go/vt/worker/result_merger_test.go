@@ -23,10 +23,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/xsec-lab/go/sqltypes"
+	"github.com/xsec-lab/vitess/go/sqltypes"
 	"golang.org/x/net/context"
 
-	querypb "github.com/xsec-lab/go/vt/proto/query"
+	querypb "github.com/xsec-lab/vitess/go/vt/proto/query"
 )
 
 // singlePk presents a table with a primary key that is a single integer column.

@@ -21,14 +21,14 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/xsec-lab/go/vt/concurrency"
-	"github.com/xsec-lab/go/vt/log"
-	"github.com/xsec-lab/go/vt/mysqlctl/tmutils"
-	"github.com/xsec-lab/go/vt/topo/topoproto"
+	"github.com/xsec-lab/vitess/go/vt/concurrency"
+	"github.com/xsec-lab/vitess/go/vt/log"
+	"github.com/xsec-lab/vitess/go/vt/mysqlctl/tmutils"
+	"github.com/xsec-lab/vitess/go/vt/topo/topoproto"
 	"golang.org/x/net/context"
 
-	tabletmanagerdatapb "github.com/xsec-lab/go/vt/proto/tabletmanagerdata"
-	topodatapb "github.com/xsec-lab/go/vt/proto/topodata"
+	tabletmanagerdatapb "github.com/xsec-lab/vitess/go/vt/proto/tabletmanagerdata"
+	topodatapb "github.com/xsec-lab/vitess/go/vt/proto/topodata"
 )
 
 // GetPermissions returns the permissions set on a remote tablet

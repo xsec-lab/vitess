@@ -21,9 +21,9 @@ import (
 	"fmt"
 	"math/rand"
 
-	"github.com/xsec-lab/go/mysql/fakesqldb"
-	"github.com/xsec-lab/go/vt/dbconfigs"
-	"github.com/xsec-lab/go/vt/vttablet/tabletserver/tabletenv"
+	"github.com/xsec-lab/vitess/go/mysql/fakesqldb"
+	"github.com/xsec-lab/vitess/go/vt/dbconfigs"
+	"github.com/xsec-lab/vitess/go/vt/vttablet/tabletserver/tabletenv"
 )
 
 var errRejected = errors.New("rejected")

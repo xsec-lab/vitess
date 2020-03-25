@@ -28,7 +28,7 @@ import (
 
 	"flag"
 
-	"github.com/xsec-lab/go/vt/env"
+	"github.com/xsec-lab/vitess/go/vt/env"
 )
 
 // This files handles the creation of Mycnf objects for the default 'vt'

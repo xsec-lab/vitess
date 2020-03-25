@@ -20,10 +20,10 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/xsec-lab/go/mysql"
-	"github.com/xsec-lab/go/vt/dbconfigs"
-	"github.com/xsec-lab/go/vt/log"
-	"github.com/xsec-lab/go/vt/sqlparser"
+	"github.com/xsec-lab/vitess/go/mysql"
+	"github.com/xsec-lab/vitess/go/vt/dbconfigs"
+	"github.com/xsec-lab/vitess/go/vt/log"
+	"github.com/xsec-lab/vitess/go/vt/sqlparser"
 )
 
 // snapshotConn is wrapper on mysql.Conn capable of

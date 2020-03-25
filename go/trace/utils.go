@@ -19,7 +19,7 @@ package trace
 import (
 	"io"
 
-	"github.com/xsec-lab/go/vt/log"
+	"github.com/xsec-lab/vitess/go/vt/log"
 )
 
 // LogErrorsWhenClosing will close the provided Closer, and log any errors it generates

@@ -23,12 +23,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/xsec-lab/go/mysql/fakesqldb"
-	"github.com/xsec-lab/go/sqltypes"
+	"github.com/xsec-lab/vitess/go/mysql/fakesqldb"
+	"github.com/xsec-lab/vitess/go/sqltypes"
 
-	"github.com/xsec-lab/go/vt/vttablet/tabletserver/tabletenv"
+	"github.com/xsec-lab/vitess/go/vt/vttablet/tabletserver/tabletenv"
 
-	querypb "github.com/xsec-lab/go/vt/proto/query"
+	querypb "github.com/xsec-lab/vitess/go/vt/proto/query"
 	"golang.org/x/net/context"
 )
 

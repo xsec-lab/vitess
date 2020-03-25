@@ -17,13 +17,13 @@ limitations under the License.
 package planbuilder
 
 import (
-	"github.com/xsec-lab/go/sqltypes"
-	topodatapb "github.com/xsec-lab/go/vt/proto/topodata"
-	vtrpcpb "github.com/xsec-lab/go/vt/proto/vtrpc"
-	"github.com/xsec-lab/go/vt/sqlparser"
-	"github.com/xsec-lab/go/vt/vterrors"
-	"github.com/xsec-lab/go/vt/vtgate/engine"
-	"github.com/xsec-lab/go/vt/vtgate/vindexes"
+	"github.com/xsec-lab/vitess/go/sqltypes"
+	topodatapb "github.com/xsec-lab/vitess/go/vt/proto/topodata"
+	vtrpcpb "github.com/xsec-lab/vitess/go/vt/proto/vtrpc"
+	"github.com/xsec-lab/vitess/go/vt/sqlparser"
+	"github.com/xsec-lab/vitess/go/vt/vterrors"
+	"github.com/xsec-lab/vitess/go/vt/vtgate/engine"
+	"github.com/xsec-lab/vitess/go/vt/vtgate/vindexes"
 )
 
 // getDMLRouting returns the vindex and values for the DML,

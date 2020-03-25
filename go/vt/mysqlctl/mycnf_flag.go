@@ -19,7 +19,7 @@ package mysqlctl
 import (
 	"flag"
 
-	"github.com/xsec-lab/go/vt/log"
+	"github.com/xsec-lab/vitess/go/vt/log"
 )
 
 // This file handles using command line flags to create a Mycnf object.

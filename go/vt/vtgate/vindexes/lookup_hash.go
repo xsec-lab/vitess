@@ -20,10 +20,10 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/xsec-lab/go/sqltypes"
-	"github.com/xsec-lab/go/vt/key"
-	topodatapb "github.com/xsec-lab/go/vt/proto/topodata"
-	vtgatepb "github.com/xsec-lab/go/vt/proto/vtgate"
+	"github.com/xsec-lab/vitess/go/sqltypes"
+	"github.com/xsec-lab/vitess/go/vt/key"
+	topodatapb "github.com/xsec-lab/vitess/go/vt/proto/topodata"
+	vtgatepb "github.com/xsec-lab/vitess/go/vt/proto/vtgate"
 )
 
 var (

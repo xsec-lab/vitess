@@ -27,10 +27,10 @@ import (
 
 	"golang.org/x/net/context"
 
-	"github.com/xsec-lab/go/streamlog"
-	"github.com/xsec-lab/go/vt/vterrors"
+	"github.com/xsec-lab/vitess/go/streamlog"
+	"github.com/xsec-lab/vitess/go/vt/vterrors"
 
-	vtrpcpb "github.com/xsec-lab/go/vt/proto/vtrpc"
+	vtrpcpb "github.com/xsec-lab/vitess/go/vt/proto/vtrpc"
 )
 
 func resetVariables() {

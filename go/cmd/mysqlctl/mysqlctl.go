@@ -25,15 +25,15 @@ import (
 
 	"golang.org/x/net/context"
 
-	"github.com/xsec-lab/go/cmd"
-	"github.com/xsec-lab/go/exit"
-	"github.com/xsec-lab/go/flagutil"
-	"github.com/xsec-lab/go/mysql"
-	"github.com/xsec-lab/go/netutil"
-	"github.com/xsec-lab/go/vt/dbconfigs"
-	"github.com/xsec-lab/go/vt/log"
-	"github.com/xsec-lab/go/vt/logutil"
-	"github.com/xsec-lab/go/vt/mysqlctl"
+	"github.com/xsec-lab/vitess/go/cmd"
+	"github.com/xsec-lab/vitess/go/exit"
+	"github.com/xsec-lab/vitess/go/flagutil"
+	"github.com/xsec-lab/vitess/go/mysql"
+	"github.com/xsec-lab/vitess/go/netutil"
+	"github.com/xsec-lab/vitess/go/vt/dbconfigs"
+	"github.com/xsec-lab/vitess/go/vt/log"
+	"github.com/xsec-lab/vitess/go/vt/logutil"
+	"github.com/xsec-lab/vitess/go/vt/mysqlctl"
 )
 
 var (

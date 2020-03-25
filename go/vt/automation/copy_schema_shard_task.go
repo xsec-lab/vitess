@@ -17,7 +17,7 @@ limitations under the License.
 package automation
 
 import (
-	automationpb "github.com/xsec-lab/go/vt/proto/automation"
+	automationpb "github.com/xsec-lab/vitess/go/vt/proto/automation"
 	"golang.org/x/net/context"
 )
 

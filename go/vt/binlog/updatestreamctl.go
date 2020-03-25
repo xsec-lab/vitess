@@ -22,17 +22,17 @@ import (
 
 	"golang.org/x/net/context"
 
-	"github.com/xsec-lab/go/mysql"
-	"github.com/xsec-lab/go/stats"
-	"github.com/xsec-lab/go/sync2"
-	"github.com/xsec-lab/go/tb"
-	"github.com/xsec-lab/go/vt/dbconfigs"
-	"github.com/xsec-lab/go/vt/log"
-	"github.com/xsec-lab/go/vt/topo"
-	"github.com/xsec-lab/go/vt/vttablet/tabletserver/schema"
+	"github.com/xsec-lab/vitess/go/mysql"
+	"github.com/xsec-lab/vitess/go/stats"
+	"github.com/xsec-lab/vitess/go/sync2"
+	"github.com/xsec-lab/vitess/go/tb"
+	"github.com/xsec-lab/vitess/go/vt/dbconfigs"
+	"github.com/xsec-lab/vitess/go/vt/log"
+	"github.com/xsec-lab/vitess/go/vt/topo"
+	"github.com/xsec-lab/vitess/go/vt/vttablet/tabletserver/schema"
 
-	binlogdatapb "github.com/xsec-lab/go/vt/proto/binlogdata"
-	topodatapb "github.com/xsec-lab/go/vt/proto/topodata"
+	binlogdatapb "github.com/xsec-lab/vitess/go/vt/proto/binlogdata"
+	topodatapb "github.com/xsec-lab/vitess/go/vt/proto/topodata"
 )
 
 /* API and config for UpdateStream Service */

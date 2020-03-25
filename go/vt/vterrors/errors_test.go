@@ -24,7 +24,7 @@ import (
 	"strings"
 	"testing"
 
-	vtrpcpb "github.com/xsec-lab/go/vt/proto/vtrpc"
+	vtrpcpb "github.com/xsec-lab/vitess/go/vt/proto/vtrpc"
 	"golang.org/x/net/context"
 )
 

@@ -27,13 +27,13 @@ import (
 	"strings"
 	"time"
 
-	"github.com/xsec-lab/go/jsonutil"
-	"github.com/xsec-lab/go/sync2"
-	"github.com/xsec-lab/go/vt/log"
-	"github.com/xsec-lab/go/vt/sqlparser"
-	"github.com/xsec-lab/go/vt/vtgate/engine"
+	"github.com/xsec-lab/vitess/go/jsonutil"
+	"github.com/xsec-lab/vitess/go/sync2"
+	"github.com/xsec-lab/vitess/go/vt/log"
+	"github.com/xsec-lab/vitess/go/vt/sqlparser"
+	"github.com/xsec-lab/vitess/go/vt/vtgate/engine"
 
-	querypb "github.com/xsec-lab/go/vt/proto/query"
+	querypb "github.com/xsec-lab/vitess/go/vt/proto/query"
 )
 
 var (

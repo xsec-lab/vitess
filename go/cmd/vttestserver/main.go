@@ -27,9 +27,9 @@ import (
 	"strings"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/xsec-lab/go/vt/log"
-	vttestpb "github.com/xsec-lab/go/vt/proto/vttest"
-	"github.com/xsec-lab/go/vt/vttest"
+	"github.com/xsec-lab/vitess/go/vt/log"
+	vttestpb "github.com/xsec-lab/vitess/go/vt/proto/vttest"
+	"github.com/xsec-lab/vitess/go/vt/vttest"
 )
 
 type topoFlags struct {

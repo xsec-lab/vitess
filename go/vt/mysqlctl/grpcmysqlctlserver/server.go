@@ -23,10 +23,10 @@ package grpcmysqlctlserver
 import (
 	"google.golang.org/grpc"
 
-	"github.com/xsec-lab/go/vt/mysqlctl"
+	"github.com/xsec-lab/vitess/go/vt/mysqlctl"
 	"golang.org/x/net/context"
 
-	mysqlctlpb "github.com/xsec-lab/go/vt/proto/mysqlctl"
+	mysqlctlpb "github.com/xsec-lab/vitess/go/vt/proto/mysqlctl"
 )
 
 // server is our gRPC server.

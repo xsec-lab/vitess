@@ -19,9 +19,9 @@ package xtrabackup
 import (
 	"testing"
 
-	"github.com/xsec-lab/go/test/endtoend/recovery"
-	"github.com/xsec-lab/go/test/endtoend/recovery/unshardedrecovery"
-	_ "github.com/xsec-lab/go/vt/vtgate/grpcvtgateconn"
+	"github.com/xsec-lab/vitess/go/test/endtoend/recovery"
+	"github.com/xsec-lab/vitess/go/test/endtoend/recovery/unshardedrecovery"
+	_ "github.com/xsec-lab/vitess/go/vt/vtgate/grpcvtgateconn"
 )
 
 func TestMain(m *testing.M) {

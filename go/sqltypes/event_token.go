@@ -17,7 +17,7 @@ limitations under the License.
 package sqltypes
 
 import (
-	querypb "github.com/xsec-lab/go/vt/proto/query"
+	querypb "github.com/xsec-lab/vitess/go/vt/proto/query"
 )
 
 // EventTokenMinimum returns an event token that is guaranteed to

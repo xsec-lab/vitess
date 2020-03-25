@@ -22,10 +22,10 @@ import (
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"github.com/xsec-lab/go/sqltypes"
-	binlogdatapb "github.com/xsec-lab/go/vt/proto/binlogdata"
-	tabletmanagerdatapb "github.com/xsec-lab/go/vt/proto/tabletmanagerdata"
-	"github.com/xsec-lab/go/vt/vtgate/engine"
+	"github.com/xsec-lab/vitess/go/sqltypes"
+	binlogdatapb "github.com/xsec-lab/vitess/go/vt/proto/binlogdata"
+	tabletmanagerdatapb "github.com/xsec-lab/vitess/go/vt/proto/tabletmanagerdata"
+	"github.com/xsec-lab/vitess/go/vt/vtgate/engine"
 	"golang.org/x/net/context"
 )
 

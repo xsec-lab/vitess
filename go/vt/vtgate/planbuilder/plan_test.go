@@ -29,14 +29,14 @@ import (
 	"github.com/google/go-cmp/cmp"
 	"github.com/stretchr/testify/require"
 
-	"github.com/xsec-lab/go/sqltypes"
-	"github.com/xsec-lab/go/vt/key"
-	"github.com/xsec-lab/go/vt/sqlparser"
-	"github.com/xsec-lab/go/vt/topo/topoproto"
-	"github.com/xsec-lab/go/vt/vtgate/engine"
-	"github.com/xsec-lab/go/vt/vtgate/vindexes"
+	"github.com/xsec-lab/vitess/go/sqltypes"
+	"github.com/xsec-lab/vitess/go/vt/key"
+	"github.com/xsec-lab/vitess/go/vt/sqlparser"
+	"github.com/xsec-lab/vitess/go/vt/topo/topoproto"
+	"github.com/xsec-lab/vitess/go/vt/vtgate/engine"
+	"github.com/xsec-lab/vitess/go/vt/vtgate/vindexes"
 
-	topodatapb "github.com/xsec-lab/go/vt/proto/topodata"
+	topodatapb "github.com/xsec-lab/vitess/go/vt/proto/topodata"
 )
 
 // hashIndex is a functional, unique Vindex.

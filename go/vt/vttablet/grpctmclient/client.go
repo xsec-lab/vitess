@@ -25,20 +25,20 @@ import (
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"
 
-	"github.com/xsec-lab/go/netutil"
-	"github.com/xsec-lab/go/vt/grpcclient"
-	"github.com/xsec-lab/go/vt/hook"
-	"github.com/xsec-lab/go/vt/logutil"
-	"github.com/xsec-lab/go/vt/mysqlctl/tmutils"
-	"github.com/xsec-lab/go/vt/topo/topoproto"
-	"github.com/xsec-lab/go/vt/vttablet/tmclient"
+	"github.com/xsec-lab/vitess/go/netutil"
+	"github.com/xsec-lab/vitess/go/vt/grpcclient"
+	"github.com/xsec-lab/vitess/go/vt/hook"
+	"github.com/xsec-lab/vitess/go/vt/logutil"
+	"github.com/xsec-lab/vitess/go/vt/mysqlctl/tmutils"
+	"github.com/xsec-lab/vitess/go/vt/topo/topoproto"
+	"github.com/xsec-lab/vitess/go/vt/vttablet/tmclient"
 
-	logutilpb "github.com/xsec-lab/go/vt/proto/logutil"
-	querypb "github.com/xsec-lab/go/vt/proto/query"
-	replicationdatapb "github.com/xsec-lab/go/vt/proto/replicationdata"
-	tabletmanagerdatapb "github.com/xsec-lab/go/vt/proto/tabletmanagerdata"
-	tabletmanagerservicepb "github.com/xsec-lab/go/vt/proto/tabletmanagerservice"
-	topodatapb "github.com/xsec-lab/go/vt/proto/topodata"
+	logutilpb "github.com/xsec-lab/vitess/go/vt/proto/logutil"
+	querypb "github.com/xsec-lab/vitess/go/vt/proto/query"
+	replicationdatapb "github.com/xsec-lab/vitess/go/vt/proto/replicationdata"
+	tabletmanagerdatapb "github.com/xsec-lab/vitess/go/vt/proto/tabletmanagerdata"
+	tabletmanagerservicepb "github.com/xsec-lab/vitess/go/vt/proto/tabletmanagerservice"
+	topodatapb "github.com/xsec-lab/vitess/go/vt/proto/topodata"
 )
 
 var (

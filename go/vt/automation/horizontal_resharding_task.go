@@ -19,8 +19,8 @@ package automation
 import (
 	"strings"
 
-	automationpb "github.com/xsec-lab/go/vt/proto/automation"
-	"github.com/xsec-lab/go/vt/topo/topoproto"
+	automationpb "github.com/xsec-lab/vitess/go/vt/proto/automation"
+	"github.com/xsec-lab/vitess/go/vt/topo/topoproto"
 )
 
 // HorizontalReshardingTask is a cluster operation which allows to increase the number of shards.

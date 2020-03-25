@@ -21,7 +21,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/xsec-lab/go/sync2"
+	"github.com/xsec-lab/vitess/go/sync2"
 	"golang.org/x/net/context"
 )
 

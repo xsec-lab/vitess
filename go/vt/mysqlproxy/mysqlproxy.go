@@ -23,12 +23,12 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/xsec-lab/go/sqltypes"
-	"github.com/xsec-lab/go/vt/log"
-	"github.com/xsec-lab/go/vt/sqlparser"
-	"github.com/xsec-lab/go/vt/vttablet/queryservice"
+	"github.com/xsec-lab/vitess/go/sqltypes"
+	"github.com/xsec-lab/vitess/go/vt/log"
+	"github.com/xsec-lab/vitess/go/vt/sqlparser"
+	"github.com/xsec-lab/vitess/go/vt/vttablet/queryservice"
 
-	querypb "github.com/xsec-lab/go/vt/proto/query"
+	querypb "github.com/xsec-lab/vitess/go/vt/proto/query"
 )
 
 // ProxySession holds session state for the proxy

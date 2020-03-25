@@ -21,5 +21,5 @@ package vitessdriver
 import (
 	// Import the gRPC vtgateconn client and make it part of the Vitess
 	// Go SQL driver. This way, users do not have to do this.
-	_ "github.com/xsec-lab/go/vt/vtgate/grpcvtgateconn"
+	_ "github.com/xsec-lab/vitess/go/vt/vtgate/grpcvtgateconn"
 )

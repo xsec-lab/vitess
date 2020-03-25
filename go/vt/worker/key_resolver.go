@@ -17,18 +17,18 @@ limitations under the License.
 package worker
 
 import (
-	"github.com/xsec-lab/go/vt/proto/vtrpc"
-	"github.com/xsec-lab/go/vt/vterrors"
+	"github.com/xsec-lab/vitess/go/vt/proto/vtrpc"
+	"github.com/xsec-lab/vitess/go/vt/vterrors"
 
-	"github.com/xsec-lab/go/sqltypes"
+	"github.com/xsec-lab/vitess/go/sqltypes"
 
-	"github.com/xsec-lab/go/vt/key"
-	"github.com/xsec-lab/go/vt/mysqlctl/tmutils"
-	"github.com/xsec-lab/go/vt/topo"
-	"github.com/xsec-lab/go/vt/vtgate/vindexes"
+	"github.com/xsec-lab/vitess/go/vt/key"
+	"github.com/xsec-lab/vitess/go/vt/mysqlctl/tmutils"
+	"github.com/xsec-lab/vitess/go/vt/topo"
+	"github.com/xsec-lab/vitess/go/vt/vtgate/vindexes"
 
-	tabletmanagerdatapb "github.com/xsec-lab/go/vt/proto/tabletmanagerdata"
-	topodatapb "github.com/xsec-lab/go/vt/proto/topodata"
+	tabletmanagerdatapb "github.com/xsec-lab/vitess/go/vt/proto/tabletmanagerdata"
+	topodatapb "github.com/xsec-lab/vitess/go/vt/proto/topodata"
 )
 
 // This file defines the interface and implementations of sharding key resolvers.

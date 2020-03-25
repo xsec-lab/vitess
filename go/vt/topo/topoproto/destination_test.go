@@ -21,9 +21,9 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/xsec-lab/go/vt/key"
+	"github.com/xsec-lab/vitess/go/vt/key"
 
-	topodatapb "github.com/xsec-lab/go/vt/proto/topodata"
+	topodatapb "github.com/xsec-lab/vitess/go/vt/proto/topodata"
 )
 
 func TestParseDestination(t *testing.T) {

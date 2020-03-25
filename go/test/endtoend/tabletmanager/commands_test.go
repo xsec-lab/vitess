@@ -27,8 +27,8 @@ import (
 	"github.com/stretchr/testify/require"
 
 	"github.com/stretchr/testify/assert"
-	"github.com/xsec-lab/go/mysql"
-	"github.com/xsec-lab/go/test/endtoend/cluster"
+	"github.com/xsec-lab/vitess/go/mysql"
+	"github.com/xsec-lab/vitess/go/test/endtoend/cluster"
 )
 
 // TabletCommands tests the basic tablet commands

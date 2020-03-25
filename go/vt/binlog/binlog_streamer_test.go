@@ -26,11 +26,11 @@ import (
 	"github.com/golang/protobuf/proto"
 	"golang.org/x/net/context"
 
-	"github.com/xsec-lab/go/mysql"
+	"github.com/xsec-lab/vitess/go/mysql"
 
-	"github.com/xsec-lab/go/vt/dbconfigs"
-	binlogdatapb "github.com/xsec-lab/go/vt/proto/binlogdata"
-	querypb "github.com/xsec-lab/go/vt/proto/query"
+	"github.com/xsec-lab/vitess/go/vt/dbconfigs"
+	binlogdatapb "github.com/xsec-lab/vitess/go/vt/proto/binlogdata"
+	querypb "github.com/xsec-lab/vitess/go/vt/proto/query"
 )
 
 // fullBinlogTransaction is a helper type for tests.

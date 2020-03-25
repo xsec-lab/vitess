@@ -19,11 +19,11 @@ package tabletconn
 import (
 	"io"
 
-	"github.com/xsec-lab/go/vt/vterrors"
+	"github.com/xsec-lab/vitess/go/vt/vterrors"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	vtrpcpb "github.com/xsec-lab/go/vt/proto/vtrpc"
+	vtrpcpb "github.com/xsec-lab/vitess/go/vt/proto/vtrpc"
 )
 
 // ErrorFromGRPC converts a GRPC error to vtError for

@@ -22,10 +22,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/xsec-lab/go/sqltypes"
-	"github.com/xsec-lab/go/vt/binlog/binlogplayer"
-	binlogdatapb "github.com/xsec-lab/go/vt/proto/binlogdata"
-	"github.com/xsec-lab/go/vt/vttablet/tabletserver/vstreamer"
+	"github.com/xsec-lab/vitess/go/sqltypes"
+	"github.com/xsec-lab/vitess/go/vt/binlog/binlogplayer"
+	binlogdatapb "github.com/xsec-lab/vitess/go/vt/proto/binlogdata"
+	"github.com/xsec-lab/vitess/go/vt/vttablet/tabletserver/vstreamer"
 	"golang.org/x/net/context"
 )
 

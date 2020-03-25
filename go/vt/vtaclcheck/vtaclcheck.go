@@ -22,9 +22,9 @@ package vtaclcheck
 import (
 	"fmt"
 
-	"github.com/xsec-lab/go/mysql"
-	"github.com/xsec-lab/go/vt/tableacl"
-	"github.com/xsec-lab/go/vt/tableacl/simpleacl"
+	"github.com/xsec-lab/vitess/go/mysql"
+	"github.com/xsec-lab/vitess/go/vt/tableacl"
+	"github.com/xsec-lab/vitess/go/vt/tableacl/simpleacl"
 )
 
 // Options to control the explain process

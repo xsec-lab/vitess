@@ -25,12 +25,12 @@ import (
 	"os"
 	"testing"
 
-	"github.com/xsec-lab/go/vt/servenv"
-	"github.com/xsec-lab/go/vt/vtctl/grpcvtctlserver"
-	"github.com/xsec-lab/go/vt/vtctl/vtctlclienttest"
+	"github.com/xsec-lab/vitess/go/vt/servenv"
+	"github.com/xsec-lab/vitess/go/vt/vtctl/grpcvtctlserver"
+	"github.com/xsec-lab/vitess/go/vt/vtctl/vtctlclienttest"
 	"google.golang.org/grpc"
 
-	vtctlservicepb "github.com/xsec-lab/go/vt/proto/vtctlservice"
+	vtctlservicepb "github.com/xsec-lab/vitess/go/vt/proto/vtctlservice"
 )
 
 // the test here creates a fake server implementation, a fake client

@@ -21,15 +21,15 @@ import (
 
 	"golang.org/x/net/context"
 
-	"github.com/xsec-lab/go/vt/topo"
-	"github.com/xsec-lab/go/vt/topo/memorytopo"
-	"github.com/xsec-lab/go/vt/workflow"
-	"github.com/xsec-lab/go/vt/workflow/resharding"
+	"github.com/xsec-lab/vitess/go/vt/topo"
+	"github.com/xsec-lab/vitess/go/vt/topo/memorytopo"
+	"github.com/xsec-lab/vitess/go/vt/workflow"
+	"github.com/xsec-lab/vitess/go/vt/workflow/resharding"
 
 	// import the gRPC client implementation for tablet manager
-	_ "github.com/xsec-lab/go/vt/vttablet/grpctmclient"
+	_ "github.com/xsec-lab/vitess/go/vt/vttablet/grpctmclient"
 
-	topodatapb "github.com/xsec-lab/go/vt/proto/topodata"
+	topodatapb "github.com/xsec-lab/vitess/go/vt/proto/topodata"
 )
 
 var (

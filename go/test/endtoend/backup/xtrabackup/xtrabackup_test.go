@@ -19,7 +19,7 @@ package vtctlbackup
 import (
 	"testing"
 
-	backup "github.com/xsec-lab/go/test/endtoend/backup/vtctlbackup"
+	backup "github.com/xsec-lab/vitess/go/test/endtoend/backup/vtctlbackup"
 )
 
 // TestXtraBackup - tests the backup using xtrabackup

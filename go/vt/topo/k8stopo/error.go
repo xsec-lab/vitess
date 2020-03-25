@@ -21,7 +21,7 @@ import (
 
 	"k8s.io/apimachinery/pkg/api/errors"
 
-	"github.com/xsec-lab/go/vt/topo"
+	"github.com/xsec-lab/vitess/go/vt/topo"
 )
 
 // convertError converts errors into a topo error. All errors

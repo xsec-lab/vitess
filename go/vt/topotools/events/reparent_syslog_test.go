@@ -20,10 +20,10 @@ import (
 	"log/syslog"
 	"testing"
 
-	base "github.com/xsec-lab/go/vt/events"
-	"github.com/xsec-lab/go/vt/topo"
+	base "github.com/xsec-lab/vitess/go/vt/events"
+	"github.com/xsec-lab/vitess/go/vt/topo"
 
-	topodatapb "github.com/xsec-lab/go/vt/proto/topodata"
+	topodatapb "github.com/xsec-lab/vitess/go/vt/proto/topodata"
 )
 
 func TestReparentSyslog(t *testing.T) {

@@ -22,11 +22,11 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/xsec-lab/go/vt/logutil"
-	"github.com/xsec-lab/go/vt/mysqlctl/backupstorage"
-	topodatapb "github.com/xsec-lab/go/vt/proto/topodata"
-	"github.com/xsec-lab/go/vt/topo/topoproto"
-	"github.com/xsec-lab/go/vt/wrangler"
+	"github.com/xsec-lab/vitess/go/vt/logutil"
+	"github.com/xsec-lab/vitess/go/vt/mysqlctl/backupstorage"
+	topodatapb "github.com/xsec-lab/vitess/go/vt/proto/topodata"
+	"github.com/xsec-lab/vitess/go/vt/topo/topoproto"
+	"github.com/xsec-lab/vitess/go/vt/wrangler"
 	"golang.org/x/net/context"
 )
 

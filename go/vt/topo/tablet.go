@@ -22,20 +22,20 @@ import (
 	"sync"
 	"time"
 
-	"github.com/xsec-lab/go/vt/proto/vtrpc"
-	"github.com/xsec-lab/go/vt/vterrors"
+	"github.com/xsec-lab/vitess/go/vt/proto/vtrpc"
+	"github.com/xsec-lab/vitess/go/vt/vterrors"
 	"golang.org/x/net/context"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/xsec-lab/go/event"
-	"github.com/xsec-lab/go/netutil"
-	"github.com/xsec-lab/go/trace"
-	"github.com/xsec-lab/go/vt/log"
-	"github.com/xsec-lab/go/vt/logutil"
+	"github.com/xsec-lab/vitess/go/event"
+	"github.com/xsec-lab/vitess/go/netutil"
+	"github.com/xsec-lab/vitess/go/trace"
+	"github.com/xsec-lab/vitess/go/vt/log"
+	"github.com/xsec-lab/vitess/go/vt/logutil"
 
-	topodatapb "github.com/xsec-lab/go/vt/proto/topodata"
-	"github.com/xsec-lab/go/vt/topo/events"
-	"github.com/xsec-lab/go/vt/topo/topoproto"
+	topodatapb "github.com/xsec-lab/vitess/go/vt/proto/topodata"
+	"github.com/xsec-lab/vitess/go/vt/topo/events"
+	"github.com/xsec-lab/vitess/go/vt/topo/topoproto"
 )
 
 // IsTrivialTypeChange returns if this db type be trivially reassigned

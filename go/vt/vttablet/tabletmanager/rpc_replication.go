@@ -22,20 +22,20 @@ import (
 	"strings"
 	"time"
 
-	"github.com/xsec-lab/go/vt/logutil"
-	"github.com/xsec-lab/go/vt/topo"
-	"github.com/xsec-lab/go/vt/vterrors"
+	"github.com/xsec-lab/vitess/go/vt/logutil"
+	"github.com/xsec-lab/vitess/go/vt/topo"
+	"github.com/xsec-lab/vitess/go/vt/vterrors"
 
 	"golang.org/x/net/context"
 
-	"github.com/xsec-lab/go/mysql"
-	"github.com/xsec-lab/go/vt/log"
-	"github.com/xsec-lab/go/vt/mysqlctl"
-	"github.com/xsec-lab/go/vt/topo/topoproto"
-	"github.com/xsec-lab/go/vt/topotools"
+	"github.com/xsec-lab/vitess/go/mysql"
+	"github.com/xsec-lab/vitess/go/vt/log"
+	"github.com/xsec-lab/vitess/go/vt/mysqlctl"
+	"github.com/xsec-lab/vitess/go/vt/topo/topoproto"
+	"github.com/xsec-lab/vitess/go/vt/topotools"
 
-	replicationdatapb "github.com/xsec-lab/go/vt/proto/replicationdata"
-	topodatapb "github.com/xsec-lab/go/vt/proto/topodata"
+	replicationdatapb "github.com/xsec-lab/vitess/go/vt/proto/replicationdata"
+	topodatapb "github.com/xsec-lab/vitess/go/vt/proto/topodata"
 )
 
 var (

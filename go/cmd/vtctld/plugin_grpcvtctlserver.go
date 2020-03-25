@@ -17,8 +17,8 @@ limitations under the License.
 package main
 
 import (
-	"github.com/xsec-lab/go/vt/servenv"
-	"github.com/xsec-lab/go/vt/vtctl/grpcvtctlserver"
+	"github.com/xsec-lab/vitess/go/vt/servenv"
+	"github.com/xsec-lab/vitess/go/vt/vtctl/grpcvtctlserver"
 )
 
 func init() {

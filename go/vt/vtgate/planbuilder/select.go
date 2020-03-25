@@ -20,8 +20,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/xsec-lab/go/vt/sqlparser"
-	"github.com/xsec-lab/go/vt/vtgate/engine"
+	"github.com/xsec-lab/vitess/go/vt/sqlparser"
+	"github.com/xsec-lab/vitess/go/vt/vtgate/engine"
 )
 
 // buildSelectPlan is the new function to build a Select plan.

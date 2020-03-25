@@ -24,18 +24,18 @@ import (
 	"net/http"
 	"sync"
 
-	"github.com/xsec-lab/go/acl"
-	"github.com/xsec-lab/go/sqltypes"
-	"github.com/xsec-lab/go/stats"
-	"github.com/xsec-lab/go/vt/dbconfigs"
-	"github.com/xsec-lab/go/vt/log"
-	"github.com/xsec-lab/go/vt/srvtopo"
-	"github.com/xsec-lab/go/vt/topo"
-	"github.com/xsec-lab/go/vt/vtgate/vindexes"
-	"github.com/xsec-lab/go/vt/vttablet/tabletserver/schema"
+	"github.com/xsec-lab/vitess/go/acl"
+	"github.com/xsec-lab/vitess/go/sqltypes"
+	"github.com/xsec-lab/vitess/go/stats"
+	"github.com/xsec-lab/vitess/go/vt/dbconfigs"
+	"github.com/xsec-lab/vitess/go/vt/log"
+	"github.com/xsec-lab/vitess/go/vt/srvtopo"
+	"github.com/xsec-lab/vitess/go/vt/topo"
+	"github.com/xsec-lab/vitess/go/vt/vtgate/vindexes"
+	"github.com/xsec-lab/vitess/go/vt/vttablet/tabletserver/schema"
 
-	binlogdatapb "github.com/xsec-lab/go/vt/proto/binlogdata"
-	vschemapb "github.com/xsec-lab/go/vt/proto/vschema"
+	binlogdatapb "github.com/xsec-lab/vitess/go/vt/proto/binlogdata"
+	vschemapb "github.com/xsec-lab/vitess/go/vt/proto/vschema"
 )
 
 var (

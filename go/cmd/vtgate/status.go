@@ -17,12 +17,12 @@ limitations under the License.
 package main
 
 import (
-	"github.com/xsec-lab/go/vt/discovery"
-	"github.com/xsec-lab/go/vt/servenv"
-	"github.com/xsec-lab/go/vt/srvtopo"
-	_ "github.com/xsec-lab/go/vt/status"
-	"github.com/xsec-lab/go/vt/vtgate"
-	"github.com/xsec-lab/go/vt/vtgate/gateway"
+	"github.com/xsec-lab/vitess/go/vt/discovery"
+	"github.com/xsec-lab/vitess/go/vt/servenv"
+	"github.com/xsec-lab/vitess/go/vt/srvtopo"
+	_ "github.com/xsec-lab/vitess/go/vt/status"
+	"github.com/xsec-lab/vitess/go/vt/vtgate"
+	"github.com/xsec-lab/vitess/go/vt/vtgate/gateway"
 )
 
 // For use by plugins which wish to avoid racing when registering status page parts.

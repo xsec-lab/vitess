@@ -20,8 +20,8 @@ import (
 	"strings"
 
 	"github.com/prometheus/client_golang/prometheus"
-	"github.com/xsec-lab/go/stats"
-	"github.com/xsec-lab/go/vt/log"
+	"github.com/xsec-lab/vitess/go/stats"
+	"github.com/xsec-lab/vitess/go/vt/log"
 )
 
 type metricFuncCollector struct {

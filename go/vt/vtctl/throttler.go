@@ -27,12 +27,12 @@ import (
 	"github.com/olekukonko/tablewriter"
 	"golang.org/x/net/context"
 
-	"github.com/xsec-lab/go/vt/logutil"
-	"github.com/xsec-lab/go/vt/throttler"
-	"github.com/xsec-lab/go/vt/throttler/throttlerclient"
-	"github.com/xsec-lab/go/vt/wrangler"
+	"github.com/xsec-lab/vitess/go/vt/logutil"
+	"github.com/xsec-lab/vitess/go/vt/throttler"
+	"github.com/xsec-lab/vitess/go/vt/throttler/throttlerclient"
+	"github.com/xsec-lab/vitess/go/vt/wrangler"
 
-	throttlerdatapb "github.com/xsec-lab/go/vt/proto/throttlerdata"
+	throttlerdatapb "github.com/xsec-lab/vitess/go/vt/proto/throttlerdata"
 )
 
 const (

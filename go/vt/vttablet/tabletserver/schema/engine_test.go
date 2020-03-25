@@ -28,16 +28,16 @@ import (
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"github.com/xsec-lab/go/mysql"
-	"github.com/xsec-lab/go/mysql/fakesqldb"
-	"github.com/xsec-lab/go/sqltypes"
-	"github.com/xsec-lab/go/vt/dbconfigs"
-	"github.com/xsec-lab/go/vt/sqlparser"
-	"github.com/xsec-lab/go/vt/vttablet/tabletserver/schema/schematest"
-	"github.com/xsec-lab/go/vt/vttablet/tabletserver/tabletenv"
+	"github.com/xsec-lab/vitess/go/mysql"
+	"github.com/xsec-lab/vitess/go/mysql/fakesqldb"
+	"github.com/xsec-lab/vitess/go/sqltypes"
+	"github.com/xsec-lab/vitess/go/vt/dbconfigs"
+	"github.com/xsec-lab/vitess/go/vt/sqlparser"
+	"github.com/xsec-lab/vitess/go/vt/vttablet/tabletserver/schema/schematest"
+	"github.com/xsec-lab/vitess/go/vt/vttablet/tabletserver/tabletenv"
 	"golang.org/x/net/context"
 
-	querypb "github.com/xsec-lab/go/vt/proto/query"
+	querypb "github.com/xsec-lab/vitess/go/vt/proto/query"
 )
 
 func TestOpenAndReload(t *testing.T) {

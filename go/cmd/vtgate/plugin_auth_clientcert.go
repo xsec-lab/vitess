@@ -19,8 +19,8 @@ package main
 // This plugin imports clientcert to register the client certificate implementation of AuthServer.
 
 import (
-	"github.com/xsec-lab/go/mysql"
-	"github.com/xsec-lab/go/vt/vtgate"
+	"github.com/xsec-lab/vitess/go/mysql"
+	"github.com/xsec-lab/vitess/go/vt/vtgate"
 )
 
 func init() {

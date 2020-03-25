@@ -20,9 +20,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/xsec-lab/go/sqltypes"
-	"github.com/xsec-lab/go/vt/sqlparser"
-	"github.com/xsec-lab/go/vt/vtgate/engine"
+	"github.com/xsec-lab/vitess/go/sqltypes"
+	"github.com/xsec-lab/vitess/go/vt/sqlparser"
+	"github.com/xsec-lab/vitess/go/vt/vtgate/engine"
 )
 
 var _ builder = (*route)(nil)

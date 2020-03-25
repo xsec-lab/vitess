@@ -22,17 +22,17 @@ import (
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"
 
-	"github.com/xsec-lab/go/vt/callinfo"
-	"github.com/xsec-lab/go/vt/hook"
-	"github.com/xsec-lab/go/vt/logutil"
-	"github.com/xsec-lab/go/vt/mysqlctl/tmutils"
-	"github.com/xsec-lab/go/vt/servenv"
-	"github.com/xsec-lab/go/vt/vterrors"
-	"github.com/xsec-lab/go/vt/vttablet/tabletmanager"
+	"github.com/xsec-lab/vitess/go/vt/callinfo"
+	"github.com/xsec-lab/vitess/go/vt/hook"
+	"github.com/xsec-lab/vitess/go/vt/logutil"
+	"github.com/xsec-lab/vitess/go/vt/mysqlctl/tmutils"
+	"github.com/xsec-lab/vitess/go/vt/servenv"
+	"github.com/xsec-lab/vitess/go/vt/vterrors"
+	"github.com/xsec-lab/vitess/go/vt/vttablet/tabletmanager"
 
-	logutilpb "github.com/xsec-lab/go/vt/proto/logutil"
-	tabletmanagerdatapb "github.com/xsec-lab/go/vt/proto/tabletmanagerdata"
-	tabletmanagerservicepb "github.com/xsec-lab/go/vt/proto/tabletmanagerservice"
+	logutilpb "github.com/xsec-lab/vitess/go/vt/proto/logutil"
+	tabletmanagerdatapb "github.com/xsec-lab/vitess/go/vt/proto/tabletmanagerdata"
+	tabletmanagerservicepb "github.com/xsec-lab/vitess/go/vt/proto/tabletmanagerservice"
 )
 
 // server is the gRPC implementation of the RPC server

@@ -26,9 +26,9 @@ import (
 
 	"golang.org/x/net/context"
 
-	"github.com/xsec-lab/go/sync2"
-	"github.com/xsec-lab/go/timer"
-	"github.com/xsec-lab/go/trace"
+	"github.com/xsec-lab/vitess/go/sync2"
+	"github.com/xsec-lab/vitess/go/timer"
+	"github.com/xsec-lab/vitess/go/trace"
 )
 
 var (

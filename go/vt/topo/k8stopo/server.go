@@ -40,11 +40,11 @@ import (
 	"k8s.io/client-go/tools/cache"
 	"k8s.io/client-go/tools/clientcmd"
 
-	"github.com/xsec-lab/go/vt/log"
-	"github.com/xsec-lab/go/vt/topo"
-	vtv1beta1 "github.com/xsec-lab/go/vt/topo/k8stopo/apis/topo/v1beta1"
-	vtkube "github.com/xsec-lab/go/vt/topo/k8stopo/client/clientset/versioned"
-	vttyped "github.com/xsec-lab/go/vt/topo/k8stopo/client/clientset/versioned/typed/topo/v1beta1"
+	"github.com/xsec-lab/vitess/go/vt/log"
+	"github.com/xsec-lab/vitess/go/vt/topo"
+	vtv1beta1 "github.com/xsec-lab/vitess/go/vt/topo/k8stopo/apis/topo/v1beta1"
+	vtkube "github.com/xsec-lab/vitess/go/vt/topo/k8stopo/client/clientset/versioned"
+	vttyped "github.com/xsec-lab/vitess/go/vt/topo/k8stopo/client/clientset/versioned/typed/topo/v1beta1"
 )
 
 var (

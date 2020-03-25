@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"testing"
 
-	binlogdatapb "github.com/xsec-lab/go/vt/proto/binlogdata"
+	binlogdatapb "github.com/xsec-lab/vitess/go/vt/proto/binlogdata"
 	"golang.org/x/net/context"
 )
 

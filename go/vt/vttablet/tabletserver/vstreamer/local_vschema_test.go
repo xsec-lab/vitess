@@ -23,8 +23,8 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	vschemapb "github.com/xsec-lab/go/vt/proto/vschema"
-	"github.com/xsec-lab/go/vt/vtgate/vindexes"
+	vschemapb "github.com/xsec-lab/vitess/go/vt/proto/vschema"
+	"github.com/xsec-lab/vitess/go/vt/vtgate/vindexes"
 )
 
 func TestFindColVindex(t *testing.T) {

@@ -21,11 +21,11 @@ import (
 	"fmt"
 	"io/ioutil"
 
-	"github.com/xsec-lab/go/exit"
-	"github.com/xsec-lab/go/vt/log"
-	"github.com/xsec-lab/go/vt/logutil"
-	"github.com/xsec-lab/go/vt/servenv"
-	"github.com/xsec-lab/go/vt/vtexplain"
+	"github.com/xsec-lab/vitess/go/exit"
+	"github.com/xsec-lab/vitess/go/vt/log"
+	"github.com/xsec-lab/vitess/go/vt/logutil"
+	"github.com/xsec-lab/vitess/go/vt/servenv"
+	"github.com/xsec-lab/vitess/go/vt/vtexplain"
 )
 
 var (

@@ -23,9 +23,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/xsec-lab/go/mysql"
-	"github.com/xsec-lab/go/vt/binlog/binlogplayer"
-	"github.com/xsec-lab/go/vt/proto/binlogdata"
+	"github.com/xsec-lab/vitess/go/mysql"
+	"github.com/xsec-lab/vitess/go/vt/binlog/binlogplayer"
+	"github.com/xsec-lab/vitess/go/vt/proto/binlogdata"
 )
 
 var wantOut = `

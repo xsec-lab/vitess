@@ -22,13 +22,13 @@ import (
 	"sync"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/xsec-lab/go/vt/key"
-	"github.com/xsec-lab/go/vt/log"
-	binlogdatapb "github.com/xsec-lab/go/vt/proto/binlogdata"
-	topodatapb "github.com/xsec-lab/go/vt/proto/topodata"
-	vtrpcpb "github.com/xsec-lab/go/vt/proto/vtrpc"
-	"github.com/xsec-lab/go/vt/srvtopo"
-	"github.com/xsec-lab/go/vt/vterrors"
+	"github.com/xsec-lab/vitess/go/vt/key"
+	"github.com/xsec-lab/vitess/go/vt/log"
+	binlogdatapb "github.com/xsec-lab/vitess/go/vt/proto/binlogdata"
+	topodatapb "github.com/xsec-lab/vitess/go/vt/proto/topodata"
+	vtrpcpb "github.com/xsec-lab/vitess/go/vt/proto/vtrpc"
+	"github.com/xsec-lab/vitess/go/vt/srvtopo"
+	"github.com/xsec-lab/vitess/go/vt/vterrors"
 	"golang.org/x/net/context"
 )
 

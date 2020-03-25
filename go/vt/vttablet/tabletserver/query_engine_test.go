@@ -25,19 +25,19 @@ import (
 	"testing"
 	"time"
 
-	"github.com/xsec-lab/go/streamlog"
+	"github.com/xsec-lab/vitess/go/streamlog"
 	"golang.org/x/net/context"
 
-	"github.com/xsec-lab/go/mysql/fakesqldb"
-	"github.com/xsec-lab/go/sqltypes"
-	"github.com/xsec-lab/go/vt/dbconfigs"
-	"github.com/xsec-lab/go/vt/tableacl"
-	"github.com/xsec-lab/go/vt/vttablet/tabletserver/planbuilder"
-	"github.com/xsec-lab/go/vt/vttablet/tabletserver/schema"
-	"github.com/xsec-lab/go/vt/vttablet/tabletserver/schema/schematest"
-	"github.com/xsec-lab/go/vt/vttablet/tabletserver/tabletenv"
+	"github.com/xsec-lab/vitess/go/mysql/fakesqldb"
+	"github.com/xsec-lab/vitess/go/sqltypes"
+	"github.com/xsec-lab/vitess/go/vt/dbconfigs"
+	"github.com/xsec-lab/vitess/go/vt/tableacl"
+	"github.com/xsec-lab/vitess/go/vt/vttablet/tabletserver/planbuilder"
+	"github.com/xsec-lab/vitess/go/vt/vttablet/tabletserver/schema"
+	"github.com/xsec-lab/vitess/go/vt/vttablet/tabletserver/schema/schematest"
+	"github.com/xsec-lab/vitess/go/vt/vttablet/tabletserver/tabletenv"
 
-	querypb "github.com/xsec-lab/go/vt/proto/query"
+	querypb "github.com/xsec-lab/vitess/go/vt/proto/query"
 )
 
 func TestStrictMode(t *testing.T) {

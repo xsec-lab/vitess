@@ -22,9 +22,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/xsec-lab/go/stats"
+	"github.com/xsec-lab/vitess/go/stats"
 
-	topodatapb "github.com/xsec-lab/go/vt/proto/topodata"
+	topodatapb "github.com/xsec-lab/vitess/go/vt/proto/topodata"
 )
 
 const (

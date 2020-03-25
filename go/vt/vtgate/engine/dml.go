@@ -17,9 +17,9 @@ limitations under the License.
 package engine
 
 import (
-	"github.com/xsec-lab/go/sqltypes"
-	"github.com/xsec-lab/go/vt/key"
-	"github.com/xsec-lab/go/vt/vtgate/vindexes"
+	"github.com/xsec-lab/vitess/go/sqltypes"
+	"github.com/xsec-lab/vitess/go/vt/key"
+	"github.com/xsec-lab/vitess/go/vt/vtgate/vindexes"
 )
 
 // DML contains the common elements between Update and Delete plans

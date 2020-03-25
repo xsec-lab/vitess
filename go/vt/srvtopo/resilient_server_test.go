@@ -26,13 +26,13 @@ import (
 	"time"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/xsec-lab/go/vt/status"
-	"github.com/xsec-lab/go/vt/topo"
-	"github.com/xsec-lab/go/vt/topo/memorytopo"
+	"github.com/xsec-lab/vitess/go/vt/status"
+	"github.com/xsec-lab/vitess/go/vt/topo"
+	"github.com/xsec-lab/vitess/go/vt/topo/memorytopo"
 	"golang.org/x/net/context"
 
-	topodatapb "github.com/xsec-lab/go/vt/proto/topodata"
-	vschemapb "github.com/xsec-lab/go/vt/proto/vschema"
+	topodatapb "github.com/xsec-lab/vitess/go/vt/proto/topodata"
+	vschemapb "github.com/xsec-lab/vitess/go/vt/proto/vschema"
 )
 
 // TestGetSrvKeyspace will test we properly return updated SrvKeyspace.

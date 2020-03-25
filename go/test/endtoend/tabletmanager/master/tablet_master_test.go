@@ -23,14 +23,14 @@ import (
 	"os"
 	"testing"
 
-	"github.com/xsec-lab/go/json2"
+	"github.com/xsec-lab/vitess/go/json2"
 
-	"github.com/xsec-lab/go/test/endtoend/cluster"
+	"github.com/xsec-lab/vitess/go/test/endtoend/cluster"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	querypb "github.com/xsec-lab/go/vt/proto/query"
-	topodatapb "github.com/xsec-lab/go/vt/proto/topodata"
+	querypb "github.com/xsec-lab/vitess/go/vt/proto/query"
+	topodatapb "github.com/xsec-lab/vitess/go/vt/proto/topodata"
 )
 
 var (

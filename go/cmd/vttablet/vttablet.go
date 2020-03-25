@@ -20,17 +20,17 @@ package main
 import (
 	"flag"
 
-	"github.com/xsec-lab/go/vt/dbconfigs"
-	"github.com/xsec-lab/go/vt/log"
-	"github.com/xsec-lab/go/vt/mysqlctl"
-	"github.com/xsec-lab/go/vt/servenv"
-	"github.com/xsec-lab/go/vt/tableacl"
-	"github.com/xsec-lab/go/vt/tableacl/simpleacl"
-	"github.com/xsec-lab/go/vt/topo"
-	"github.com/xsec-lab/go/vt/topo/topoproto"
-	"github.com/xsec-lab/go/vt/vttablet/tabletmanager"
-	"github.com/xsec-lab/go/vt/vttablet/tabletserver"
-	"github.com/xsec-lab/go/vt/vttablet/tabletserver/tabletenv"
+	"github.com/xsec-lab/vitess/go/vt/dbconfigs"
+	"github.com/xsec-lab/vitess/go/vt/log"
+	"github.com/xsec-lab/vitess/go/vt/mysqlctl"
+	"github.com/xsec-lab/vitess/go/vt/servenv"
+	"github.com/xsec-lab/vitess/go/vt/tableacl"
+	"github.com/xsec-lab/vitess/go/vt/tableacl/simpleacl"
+	"github.com/xsec-lab/vitess/go/vt/topo"
+	"github.com/xsec-lab/vitess/go/vt/topo/topoproto"
+	"github.com/xsec-lab/vitess/go/vt/vttablet/tabletmanager"
+	"github.com/xsec-lab/vitess/go/vt/vttablet/tabletserver"
+	"github.com/xsec-lab/vitess/go/vt/vttablet/tabletserver/tabletenv"
 	"golang.org/x/net/context"
 )
 

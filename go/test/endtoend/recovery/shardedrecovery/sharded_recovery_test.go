@@ -24,13 +24,13 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/xsec-lab/go/test/endtoend/recovery"
+	"github.com/xsec-lab/vitess/go/test/endtoend/recovery"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"github.com/xsec-lab/go/test/endtoend/cluster"
-	_ "github.com/xsec-lab/go/vt/vtgate/grpcvtgateconn"
-	"github.com/xsec-lab/go/vt/vtgate/vtgateconn"
+	"github.com/xsec-lab/vitess/go/test/endtoend/cluster"
+	_ "github.com/xsec-lab/vitess/go/vt/vtgate/grpcvtgateconn"
+	"github.com/xsec-lab/vitess/go/vt/vtgate/vtgateconn"
 )
 
 var (

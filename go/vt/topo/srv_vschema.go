@@ -21,11 +21,11 @@ import (
 	"sync"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/xsec-lab/go/vt/log"
-	"github.com/xsec-lab/go/vt/vterrors"
+	"github.com/xsec-lab/vitess/go/vt/log"
+	"github.com/xsec-lab/vitess/go/vt/vterrors"
 	"golang.org/x/net/context"
 
-	vschemapb "github.com/xsec-lab/go/vt/proto/vschema"
+	vschemapb "github.com/xsec-lab/vitess/go/vt/proto/vschema"
 )
 
 // This file contains the utility methods to manage SrvVSchema objects.

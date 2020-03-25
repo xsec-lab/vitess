@@ -29,10 +29,10 @@ import (
 
 	"golang.org/x/net/context"
 
-	"github.com/xsec-lab/go/pools"
-	"github.com/xsec-lab/go/stats"
-	"github.com/xsec-lab/go/vt/dbconfigs"
-	"github.com/xsec-lab/go/vt/log"
+	"github.com/xsec-lab/vitess/go/pools"
+	"github.com/xsec-lab/vitess/go/stats"
+	"github.com/xsec-lab/vitess/go/vt/dbconfigs"
+	"github.com/xsec-lab/vitess/go/vt/log"
 )
 
 var (

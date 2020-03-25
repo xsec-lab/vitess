@@ -31,7 +31,7 @@ all_except_endtoend_tests=$(echo "$packages_with_all_tests" | grep -v "endtoend"
 counter=0
 for pkg in $all_except_endtoend_tests
 do
-   go test -coverpkg=github.com/xsec-lab/go/... -coverprofile "/tmp/unit_$counter.out" $pkg -v -p=1 || :
+   go test -coverpkg=github.com/xsec-lab/vitess/go/... -coverprofile "/tmp/unit_$counter.out" $pkg -v -p=1 || :
    counter=$((counter+1))
 done
 
@@ -45,14 +45,14 @@ cp ./tools/coverage-go/vtgate_test.go ./go/cmd/vtgate/vtgate_test.go
 cp ./tools/coverage-go/vtworker_test.go ./go/cmd/vtworker/vtworker_test.go
 cp ./tools/coverage-go/vtworkerclient_test.go ./go/cmd/vtworkerclient/vtworkerclient_test.go
 
-go test -coverpkg=github.com/xsec-lab/go/...  -c github.com/xsec-lab/go/cmd/vtctl -o ./bin/vtctl
-go test -coverpkg=github.com/xsec-lab/go/...  -c github.com/xsec-lab/go/cmd/vtctld -o ./bin/vtctld
-go test -coverpkg=github.com/xsec-lab/go/...  -c github.com/xsec-lab/go/cmd/mysqlctl -o ./bin/mysqlctl
-go test -coverpkg=github.com/xsec-lab/go/...  -c github.com/xsec-lab/go/cmd/vtctlclient -o ./bin/vtctlclient
-go test -coverpkg=github.com/xsec-lab/go/...  -c github.com/xsec-lab/go/cmd/vttablet -o ./bin/vttablet
-go test -coverpkg=github.com/xsec-lab/go/...  -c github.com/xsec-lab/go/cmd/vtgate -o ./bin/vtgate
-go test -coverpkg=github.com/xsec-lab/go/...  -c github.com/xsec-lab/go/cmd/vtworker -o ./bin/vtworker
-go test -coverpkg=github.com/xsec-lab/go/...  -c github.com/xsec-lab/go/cmd/vtworkerclient -o ./bin/vtworkerclient
+go test -coverpkg=github.com/xsec-lab/vitess/go/...  -c github.com/xsec-lab/vitess/go/cmd/vtctl -o ./bin/vtctl
+go test -coverpkg=github.com/xsec-lab/vitess/go/...  -c github.com/xsec-lab/vitess/go/cmd/vtctld -o ./bin/vtctld
+go test -coverpkg=github.com/xsec-lab/vitess/go/...  -c github.com/xsec-lab/vitess/go/cmd/mysqlctl -o ./bin/mysqlctl
+go test -coverpkg=github.com/xsec-lab/vitess/go/...  -c github.com/xsec-lab/vitess/go/cmd/vtctlclient -o ./bin/vtctlclient
+go test -coverpkg=github.com/xsec-lab/vitess/go/...  -c github.com/xsec-lab/vitess/go/cmd/vttablet -o ./bin/vttablet
+go test -coverpkg=github.com/xsec-lab/vitess/go/...  -c github.com/xsec-lab/vitess/go/cmd/vtgate -o ./bin/vtgate
+go test -coverpkg=github.com/xsec-lab/vitess/go/...  -c github.com/xsec-lab/vitess/go/cmd/vtworker -o ./bin/vtworker
+go test -coverpkg=github.com/xsec-lab/vitess/go/...  -c github.com/xsec-lab/vitess/go/cmd/vtworkerclient -o ./bin/vtworkerclient
 
 ### Execute go/test/endtoend testcase ###
 echo "--------- executing endtoend testcases ---------"

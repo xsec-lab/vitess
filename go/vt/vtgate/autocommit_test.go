@@ -23,11 +23,11 @@ import (
 
 	"golang.org/x/net/context"
 
-	"github.com/xsec-lab/go/sqltypes"
+	"github.com/xsec-lab/vitess/go/sqltypes"
 
-	querypb "github.com/xsec-lab/go/vt/proto/query"
-	vtgatepb "github.com/xsec-lab/go/vt/proto/vtgate"
-	vtrpcpb "github.com/xsec-lab/go/vt/proto/vtrpc"
+	querypb "github.com/xsec-lab/vitess/go/vt/proto/query"
+	vtgatepb "github.com/xsec-lab/vitess/go/vt/proto/vtgate"
+	vtrpcpb "github.com/xsec-lab/vitess/go/vt/proto/vtrpc"
 )
 
 // This file contains tests for all the autocommit code paths

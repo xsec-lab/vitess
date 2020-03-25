@@ -21,7 +21,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/xsec-lab/go/sync2"
+	"github.com/xsec-lab/vitess/go/sync2"
 )
 
 // Out-of-band messages

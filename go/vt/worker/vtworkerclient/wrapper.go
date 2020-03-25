@@ -21,9 +21,9 @@ import (
 
 	"golang.org/x/net/context"
 
-	"github.com/xsec-lab/go/vt/vterrors"
+	"github.com/xsec-lab/vitess/go/vt/vterrors"
 
-	logutilpb "github.com/xsec-lab/go/vt/proto/logutil"
+	logutilpb "github.com/xsec-lab/vitess/go/vt/proto/logutil"
 )
 
 // RunCommandAndWait executes a single command on a given vtworker and blocks until the command did return or timed out.

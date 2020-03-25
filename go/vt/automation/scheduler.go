@@ -26,9 +26,9 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/xsec-lab/go/vt/log"
-	automationpb "github.com/xsec-lab/go/vt/proto/automation"
-	"github.com/xsec-lab/go/vt/vterrors"
+	"github.com/xsec-lab/vitess/go/vt/log"
+	automationpb "github.com/xsec-lab/vitess/go/vt/proto/automation"
+	"github.com/xsec-lab/vitess/go/vt/vterrors"
 	"golang.org/x/net/context"
 )
 

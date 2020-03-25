@@ -19,10 +19,10 @@ package fakes
 import (
 	"fmt"
 
-	"github.com/xsec-lab/go/vt/vttablet/queryservice"
+	"github.com/xsec-lab/vitess/go/vt/vttablet/queryservice"
 	"golang.org/x/net/context"
 
-	querypb "github.com/xsec-lab/go/vt/proto/query"
+	querypb "github.com/xsec-lab/vitess/go/vt/proto/query"
 )
 
 // ErrorQueryService is an object that returns an error for all methods.

@@ -29,10 +29,10 @@ import (
 
 	"golang.org/x/net/context"
 
-	"github.com/xsec-lab/go/vt/grpcclient"
-	"github.com/xsec-lab/go/vt/mysqlctl/mysqlctlclient"
+	"github.com/xsec-lab/vitess/go/vt/grpcclient"
+	"github.com/xsec-lab/vitess/go/vt/mysqlctl/mysqlctlclient"
 
-	mysqlctlpb "github.com/xsec-lab/go/vt/proto/mysqlctl"
+	mysqlctlpb "github.com/xsec-lab/vitess/go/vt/proto/mysqlctl"
 )
 
 type client struct {

@@ -21,7 +21,7 @@ package internalinterfaces
 import (
 	time "time"
 
-	versioned "github.com/xsec-lab/go/vt/topo/k8stopo/client/clientset/versioned"
+	versioned "github.com/xsec-lab/vitess/go/vt/topo/k8stopo/client/clientset/versioned"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	cache "k8s.io/client-go/tools/cache"

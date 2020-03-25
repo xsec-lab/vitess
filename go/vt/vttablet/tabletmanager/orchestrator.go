@@ -27,12 +27,12 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/xsec-lab/go/vt/vterrors"
+	"github.com/xsec-lab/vitess/go/vt/vterrors"
 
-	"github.com/xsec-lab/go/timer"
-	"github.com/xsec-lab/go/vt/log"
-	topodatapb "github.com/xsec-lab/go/vt/proto/topodata"
-	"github.com/xsec-lab/go/vt/topo/topoproto"
+	"github.com/xsec-lab/vitess/go/timer"
+	"github.com/xsec-lab/vitess/go/vt/log"
+	topodatapb "github.com/xsec-lab/vitess/go/vt/proto/topodata"
+	"github.com/xsec-lab/vitess/go/vt/topo/topoproto"
 )
 
 var (

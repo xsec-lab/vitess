@@ -32,8 +32,8 @@ import (
 	"google.golang.org/api/iterator"
 	"google.golang.org/api/option"
 
-	"github.com/xsec-lab/go/trace"
-	"github.com/xsec-lab/go/vt/mysqlctl/backupstorage"
+	"github.com/xsec-lab/vitess/go/trace"
+	"github.com/xsec-lab/vitess/go/vt/mysqlctl/backupstorage"
 )
 
 var (

@@ -19,9 +19,9 @@ package helpers
 import (
 	"testing"
 
-	"github.com/xsec-lab/go/vt/topo"
-	"github.com/xsec-lab/go/vt/topo/memorytopo"
-	"github.com/xsec-lab/go/vt/topo/test"
+	"github.com/xsec-lab/vitess/go/vt/topo"
+	"github.com/xsec-lab/vitess/go/vt/topo/memorytopo"
+	"github.com/xsec-lab/vitess/go/vt/topo/test"
 )
 
 func TestTeeTopo(t *testing.T) {

@@ -19,8 +19,8 @@ package main
 // This plugin imports ldapauthserver to register the LDAP implementation of AuthServer.
 
 import (
-	"github.com/xsec-lab/go/mysql/ldapauthserver"
-	"github.com/xsec-lab/go/vt/vtgate"
+	"github.com/xsec-lab/vitess/go/mysql/ldapauthserver"
+	"github.com/xsec-lab/vitess/go/vt/vtgate"
 )
 
 func init() {

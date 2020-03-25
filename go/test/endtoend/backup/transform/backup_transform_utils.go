@@ -29,9 +29,9 @@ import (
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"github.com/xsec-lab/go/test/endtoend/cluster"
-	"github.com/xsec-lab/go/test/endtoend/sharding/initialsharding"
-	"github.com/xsec-lab/go/vt/log"
+	"github.com/xsec-lab/vitess/go/test/endtoend/cluster"
+	"github.com/xsec-lab/vitess/go/test/endtoend/sharding/initialsharding"
+	"github.com/xsec-lab/vitess/go/vt/log"
 )
 
 // test main part of the testcase

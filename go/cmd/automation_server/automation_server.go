@@ -23,9 +23,9 @@ import (
 
 	"google.golang.org/grpc"
 
-	"github.com/xsec-lab/go/vt/automation"
-	automationservicepb "github.com/xsec-lab/go/vt/proto/automationservice"
-	"github.com/xsec-lab/go/vt/servenv"
+	"github.com/xsec-lab/vitess/go/vt/automation"
+	automationservicepb "github.com/xsec-lab/vitess/go/vt/proto/automationservice"
+	"github.com/xsec-lab/vitess/go/vt/servenv"
 )
 
 func init() {

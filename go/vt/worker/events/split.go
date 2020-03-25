@@ -17,7 +17,7 @@ limitations under the License.
 package events
 
 import (
-	base "github.com/xsec-lab/go/vt/events"
+	base "github.com/xsec-lab/vitess/go/vt/events"
 )
 
 // SplitClone is an event that describes a single step in a horizontal

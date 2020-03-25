@@ -26,10 +26,10 @@ import (
 
 	"golang.org/x/net/context"
 
-	"github.com/xsec-lab/go/sqltypes"
-	"github.com/xsec-lab/go/vt/binlog/binlogplayer"
+	"github.com/xsec-lab/vitess/go/sqltypes"
+	"github.com/xsec-lab/vitess/go/vt/binlog/binlogplayer"
 
-	binlogdatapb "github.com/xsec-lab/go/vt/proto/binlogdata"
+	binlogdatapb "github.com/xsec-lab/vitess/go/vt/proto/binlogdata"
 )
 
 func TestPlayerStatementModeWithFilter(t *testing.T) {

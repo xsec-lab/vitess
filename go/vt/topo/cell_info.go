@@ -21,10 +21,10 @@ import (
 	"path"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/xsec-lab/go/vt/vterrors"
+	"github.com/xsec-lab/vitess/go/vt/vterrors"
 	"golang.org/x/net/context"
 
-	topodatapb "github.com/xsec-lab/go/vt/proto/topodata"
+	topodatapb "github.com/xsec-lab/vitess/go/vt/proto/topodata"
 )
 
 // This file provides the utility methods to save / retrieve CellInfo

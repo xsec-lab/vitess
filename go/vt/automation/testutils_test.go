@@ -20,8 +20,8 @@ import (
 	"errors"
 	"testing"
 
-	automationpb "github.com/xsec-lab/go/vt/proto/automation"
-	"github.com/xsec-lab/go/vt/vtctl/fakevtctlclient"
+	automationpb "github.com/xsec-lab/vitess/go/vt/proto/automation"
+	"github.com/xsec-lab/vitess/go/vt/vtctl/fakevtctlclient"
 )
 
 func testingTaskCreator(taskName string) Task {

@@ -8,8 +8,8 @@ import (
 	math "math"
 
 	proto "github.com/golang/protobuf/proto"
-	topodata "github.com/xsec-lab/go/vt/proto/topodata"
-	vtrpc "github.com/xsec-lab/go/vt/proto/vtrpc"
+	topodata "github.com/xsec-lab/vitess/go/vt/proto/topodata"
+	vtrpc "github.com/xsec-lab/vitess/go/vt/proto/vtrpc"
 )
 
 // Reference imports to suppress errors if they are not otherwise used.

@@ -25,10 +25,10 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/xsec-lab/go/exit"
-	"github.com/xsec-lab/go/vt/log"
+	"github.com/xsec-lab/vitess/go/exit"
+	"github.com/xsec-lab/vitess/go/vt/log"
 
-	"github.com/xsec-lab/go/vt/sqlparser/visitorgen"
+	"github.com/xsec-lab/vitess/go/vt/sqlparser/visitorgen"
 )
 
 var (

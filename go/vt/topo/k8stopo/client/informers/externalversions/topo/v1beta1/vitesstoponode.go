@@ -21,10 +21,10 @@ package v1beta1
 import (
 	time "time"
 
-	topov1beta1 "github.com/xsec-lab/go/vt/topo/k8stopo/apis/topo/v1beta1"
-	versioned "github.com/xsec-lab/go/vt/topo/k8stopo/client/clientset/versioned"
-	internalinterfaces "github.com/xsec-lab/go/vt/topo/k8stopo/client/informers/externalversions/internalinterfaces"
-	v1beta1 "github.com/xsec-lab/go/vt/topo/k8stopo/client/listers/topo/v1beta1"
+	topov1beta1 "github.com/xsec-lab/vitess/go/vt/topo/k8stopo/apis/topo/v1beta1"
+	versioned "github.com/xsec-lab/vitess/go/vt/topo/k8stopo/client/clientset/versioned"
+	internalinterfaces "github.com/xsec-lab/vitess/go/vt/topo/k8stopo/client/informers/externalversions/internalinterfaces"
+	v1beta1 "github.com/xsec-lab/vitess/go/vt/topo/k8stopo/client/listers/topo/v1beta1"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	watch "k8s.io/apimachinery/pkg/watch"

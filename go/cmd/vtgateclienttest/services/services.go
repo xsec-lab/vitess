@@ -18,7 +18,7 @@ limitations under the License.
 package services
 
 import (
-	"github.com/xsec-lab/go/vt/vtgate/vtgateservice"
+	"github.com/xsec-lab/vitess/go/vt/vtgate/vtgateservice"
 )
 
 // CreateServices creates the implementation chain of all the test cases

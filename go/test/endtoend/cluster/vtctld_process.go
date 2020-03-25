@@ -26,7 +26,7 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/xsec-lab/go/vt/log"
+	"github.com/xsec-lab/vitess/go/vt/log"
 )
 
 // VtctldProcess is a generic handle for a running vtctld .

@@ -25,15 +25,15 @@ import (
 
 	grpc_middleware "github.com/grpc-ecosystem/go-grpc-middleware"
 	grpc_prometheus "github.com/grpc-ecosystem/go-grpc-prometheus"
-	"github.com/xsec-lab/go/trace"
+	"github.com/xsec-lab/vitess/go/trace"
 
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"
 	"google.golang.org/grpc/keepalive"
 
-	"github.com/xsec-lab/go/vt/grpccommon"
-	"github.com/xsec-lab/go/vt/log"
-	"github.com/xsec-lab/go/vt/vttls"
+	"github.com/xsec-lab/vitess/go/vt/grpccommon"
+	"github.com/xsec-lab/vitess/go/vt/log"
+	"github.com/xsec-lab/vitess/go/vt/vttls"
 	"golang.org/x/net/context"
 )
 

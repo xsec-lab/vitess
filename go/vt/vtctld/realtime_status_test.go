@@ -24,17 +24,17 @@ import (
 	"golang.org/x/net/context"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/xsec-lab/go/vt/discovery"
-	"github.com/xsec-lab/go/vt/logutil"
-	"github.com/xsec-lab/go/vt/topo/memorytopo"
-	"github.com/xsec-lab/go/vt/vttablet/grpcqueryservice"
-	"github.com/xsec-lab/go/vt/vttablet/queryservice/fakes"
-	"github.com/xsec-lab/go/vt/vttablet/tmclient"
-	"github.com/xsec-lab/go/vt/wrangler"
-	"github.com/xsec-lab/go/vt/wrangler/testlib"
+	"github.com/xsec-lab/vitess/go/vt/discovery"
+	"github.com/xsec-lab/vitess/go/vt/logutil"
+	"github.com/xsec-lab/vitess/go/vt/topo/memorytopo"
+	"github.com/xsec-lab/vitess/go/vt/vttablet/grpcqueryservice"
+	"github.com/xsec-lab/vitess/go/vt/vttablet/queryservice/fakes"
+	"github.com/xsec-lab/vitess/go/vt/vttablet/tmclient"
+	"github.com/xsec-lab/vitess/go/vt/wrangler"
+	"github.com/xsec-lab/vitess/go/vt/wrangler/testlib"
 
-	querypb "github.com/xsec-lab/go/vt/proto/query"
-	topodatapb "github.com/xsec-lab/go/vt/proto/topodata"
+	querypb "github.com/xsec-lab/vitess/go/vt/proto/query"
+	topodatapb "github.com/xsec-lab/vitess/go/vt/proto/topodata"
 )
 
 // TestRealtimeStatsWithQueryService uses fakeTablets and the fakeQueryService to

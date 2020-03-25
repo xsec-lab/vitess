@@ -22,11 +22,11 @@ import (
 
 	"golang.org/x/net/context"
 
-	"github.com/xsec-lab/go/sqltypes"
+	"github.com/xsec-lab/vitess/go/sqltypes"
 
-	querypb "github.com/xsec-lab/go/vt/proto/query"
-	vtrpcpb "github.com/xsec-lab/go/vt/proto/vtrpc"
-	"github.com/xsec-lab/go/vt/vterrors"
+	querypb "github.com/xsec-lab/vitess/go/vt/proto/query"
+	vtrpcpb "github.com/xsec-lab/vitess/go/vt/proto/vtrpc"
+	"github.com/xsec-lab/vitess/go/vt/vterrors"
 )
 
 // StreamExecutor is a subset of Primitive that MergeSort

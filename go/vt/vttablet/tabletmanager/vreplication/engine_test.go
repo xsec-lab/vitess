@@ -23,10 +23,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/xsec-lab/go/mysql"
-	"github.com/xsec-lab/go/sqltypes"
-	"github.com/xsec-lab/go/vt/binlog/binlogplayer"
-	"github.com/xsec-lab/go/vt/mysqlctl/fakemysqldaemon"
+	"github.com/xsec-lab/vitess/go/mysql"
+	"github.com/xsec-lab/vitess/go/sqltypes"
+	"github.com/xsec-lab/vitess/go/vt/binlog/binlogplayer"
+	"github.com/xsec-lab/vitess/go/vt/mysqlctl/fakemysqldaemon"
 	"golang.org/x/net/context"
 )
 

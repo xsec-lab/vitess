@@ -27,11 +27,11 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/xsec-lab/go/mysql"
-	"github.com/xsec-lab/go/sqltypes"
-	"github.com/xsec-lab/go/test/endtoend/cluster"
-	tabletpb "github.com/xsec-lab/go/vt/proto/topodata"
-	tmc "github.com/xsec-lab/go/vt/vttablet/grpctmclient"
+	"github.com/xsec-lab/vitess/go/mysql"
+	"github.com/xsec-lab/vitess/go/sqltypes"
+	"github.com/xsec-lab/vitess/go/test/endtoend/cluster"
+	tabletpb "github.com/xsec-lab/vitess/go/vt/proto/topodata"
+	tmc "github.com/xsec-lab/vitess/go/vt/vttablet/grpctmclient"
 )
 
 var (

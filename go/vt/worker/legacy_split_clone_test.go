@@ -28,21 +28,21 @@ import (
 
 	"golang.org/x/net/context"
 
-	"github.com/xsec-lab/go/mysql"
-	"github.com/xsec-lab/go/mysql/fakesqldb"
-	"github.com/xsec-lab/go/sqltypes"
-	"github.com/xsec-lab/go/vt/mysqlctl/tmutils"
-	"github.com/xsec-lab/go/vt/topo"
-	"github.com/xsec-lab/go/vt/topo/memorytopo"
-	"github.com/xsec-lab/go/vt/vttablet/grpcqueryservice"
-	"github.com/xsec-lab/go/vt/vttablet/queryservice/fakes"
-	"github.com/xsec-lab/go/vt/vttablet/tmclient"
-	"github.com/xsec-lab/go/vt/wrangler/testlib"
+	"github.com/xsec-lab/vitess/go/mysql"
+	"github.com/xsec-lab/vitess/go/mysql/fakesqldb"
+	"github.com/xsec-lab/vitess/go/sqltypes"
+	"github.com/xsec-lab/vitess/go/vt/mysqlctl/tmutils"
+	"github.com/xsec-lab/vitess/go/vt/topo"
+	"github.com/xsec-lab/vitess/go/vt/topo/memorytopo"
+	"github.com/xsec-lab/vitess/go/vt/vttablet/grpcqueryservice"
+	"github.com/xsec-lab/vitess/go/vt/vttablet/queryservice/fakes"
+	"github.com/xsec-lab/vitess/go/vt/vttablet/tmclient"
+	"github.com/xsec-lab/vitess/go/vt/wrangler/testlib"
 
-	querypb "github.com/xsec-lab/go/vt/proto/query"
-	tabletmanagerdatapb "github.com/xsec-lab/go/vt/proto/tabletmanagerdata"
-	topodatapb "github.com/xsec-lab/go/vt/proto/topodata"
-	vschemapb "github.com/xsec-lab/go/vt/proto/vschema"
+	querypb "github.com/xsec-lab/vitess/go/vt/proto/query"
+	tabletmanagerdatapb "github.com/xsec-lab/vitess/go/vt/proto/tabletmanagerdata"
+	topodatapb "github.com/xsec-lab/vitess/go/vt/proto/topodata"
+	vschemapb "github.com/xsec-lab/vitess/go/vt/proto/vschema"
 )
 
 const (

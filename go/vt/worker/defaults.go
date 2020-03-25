@@ -16,7 +16,7 @@ limitations under the License.
 
 package worker
 
-import "github.com/xsec-lab/go/vt/throttler"
+import "github.com/xsec-lab/vitess/go/vt/throttler"
 
 const (
 	defaultOnline  = true

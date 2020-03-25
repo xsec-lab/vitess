@@ -19,5 +19,5 @@ package main
 // Imports and register the 'etcd2' topo.Server.
 
 import (
-	_ "github.com/xsec-lab/go/vt/topo/etcd2topo"
+	_ "github.com/xsec-lab/vitess/go/vt/topo/etcd2topo"
 )

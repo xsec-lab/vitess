@@ -20,9 +20,9 @@ import (
 	"errors"
 	"time"
 
-	"github.com/xsec-lab/go/streamlog"
-	"github.com/xsec-lab/go/vt/vttablet/tabletserver"
-	"github.com/xsec-lab/go/vt/vttablet/tabletserver/tabletenv"
+	"github.com/xsec-lab/vitess/go/streamlog"
+	"github.com/xsec-lab/vitess/go/vt/vttablet/tabletserver"
+	"github.com/xsec-lab/vitess/go/vt/vttablet/tabletserver/tabletenv"
 )
 
 // TxCatcher allows you to capture and fetch transactions that are being

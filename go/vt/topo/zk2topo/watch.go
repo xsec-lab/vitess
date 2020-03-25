@@ -21,10 +21,10 @@ import (
 	"path"
 	"sync"
 
-	"github.com/xsec-lab/go/vt/vterrors"
+	"github.com/xsec-lab/vitess/go/vt/vterrors"
 	"golang.org/x/net/context"
 
-	"github.com/xsec-lab/go/vt/topo"
+	"github.com/xsec-lab/vitess/go/vt/topo"
 )
 
 // Watch is part of the topo.Conn interface.

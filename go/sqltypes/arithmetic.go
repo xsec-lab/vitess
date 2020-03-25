@@ -22,9 +22,9 @@ import (
 
 	"strconv"
 
-	querypb "github.com/xsec-lab/go/vt/proto/query"
-	vtrpcpb "github.com/xsec-lab/go/vt/proto/vtrpc"
-	"github.com/xsec-lab/go/vt/vterrors"
+	querypb "github.com/xsec-lab/vitess/go/vt/proto/query"
+	vtrpcpb "github.com/xsec-lab/vitess/go/vt/proto/vtrpc"
+	"github.com/xsec-lab/vitess/go/vt/vterrors"
 )
 
 // numeric represents a numeric value extracted from

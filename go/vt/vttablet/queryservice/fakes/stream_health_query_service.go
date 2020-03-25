@@ -21,10 +21,10 @@ import (
 
 	"github.com/golang/protobuf/proto"
 
-	"github.com/xsec-lab/go/sqltypes"
-	querypb "github.com/xsec-lab/go/vt/proto/query"
-	topodatapb "github.com/xsec-lab/go/vt/proto/topodata"
-	"github.com/xsec-lab/go/vt/vttablet/queryservice"
+	"github.com/xsec-lab/vitess/go/sqltypes"
+	querypb "github.com/xsec-lab/vitess/go/vt/proto/query"
+	topodatapb "github.com/xsec-lab/vitess/go/vt/proto/topodata"
+	"github.com/xsec-lab/vitess/go/vt/vttablet/queryservice"
 )
 
 const (

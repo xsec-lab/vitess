@@ -19,7 +19,7 @@ package events
 import (
 	"testing"
 
-	"github.com/xsec-lab/go/event"
+	"github.com/xsec-lab/vitess/go/event"
 )
 
 type testEvent struct {

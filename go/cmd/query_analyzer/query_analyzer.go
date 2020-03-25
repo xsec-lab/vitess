@@ -25,9 +25,9 @@ import (
 	"os"
 	"sort"
 
-	"github.com/xsec-lab/go/exit"
-	"github.com/xsec-lab/go/vt/log"
-	"github.com/xsec-lab/go/vt/sqlparser"
+	"github.com/xsec-lab/vitess/go/exit"
+	"github.com/xsec-lab/vitess/go/vt/log"
+	"github.com/xsec-lab/vitess/go/vt/sqlparser"
 )
 
 var (

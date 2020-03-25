@@ -22,10 +22,10 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/xsec-lab/go/vt/vterrors"
+	"github.com/xsec-lab/vitess/go/vt/vterrors"
 
-	"github.com/xsec-lab/go/sqltypes"
-	querypb "github.com/xsec-lab/go/vt/proto/query"
+	"github.com/xsec-lab/vitess/go/sqltypes"
+	querypb "github.com/xsec-lab/vitess/go/vt/proto/query"
 )
 
 // Testable restricts the types that can be added to

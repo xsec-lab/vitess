@@ -24,9 +24,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/xsec-lab/go/mysql"
-	"github.com/xsec-lab/go/sqltypes"
-	"github.com/xsec-lab/go/test/endtoend/cluster"
+	"github.com/xsec-lab/vitess/go/mysql"
+	"github.com/xsec-lab/vitess/go/sqltypes"
+	"github.com/xsec-lab/vitess/go/test/endtoend/cluster"
 )
 
 func TestConsistentLookup(t *testing.T) {

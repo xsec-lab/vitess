@@ -16,5 +16,5 @@ limitations under the License.
 package main
 
 import (
-	_ "github.com/xsec-lab/go/vt/mysqlctl/s3backupstorage"
+	_ "github.com/xsec-lab/vitess/go/vt/mysqlctl/s3backupstorage"
 )

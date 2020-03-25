@@ -24,13 +24,13 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/xsec-lab/go/json2"
-	"github.com/xsec-lab/go/sqltypes"
-	"github.com/xsec-lab/go/vt/sqlparser"
+	"github.com/xsec-lab/vitess/go/json2"
+	"github.com/xsec-lab/vitess/go/sqltypes"
+	"github.com/xsec-lab/vitess/go/vt/sqlparser"
 
-	querypb "github.com/xsec-lab/go/vt/proto/query"
-	topodatapb "github.com/xsec-lab/go/vt/proto/topodata"
-	vschemapb "github.com/xsec-lab/go/vt/proto/vschema"
+	querypb "github.com/xsec-lab/vitess/go/vt/proto/query"
+	topodatapb "github.com/xsec-lab/vitess/go/vt/proto/topodata"
+	vschemapb "github.com/xsec-lab/vitess/go/vt/proto/vschema"
 )
 
 // TabletTypeSuffix maps the tablet type to its suffix string.

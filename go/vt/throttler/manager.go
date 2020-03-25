@@ -21,9 +21,9 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/xsec-lab/go/vt/log"
+	"github.com/xsec-lab/vitess/go/vt/log"
 
-	throttlerdatapb "github.com/xsec-lab/go/vt/proto/throttlerdata"
+	throttlerdatapb "github.com/xsec-lab/vitess/go/vt/proto/throttlerdata"
 )
 
 // GlobalManager is the per-process manager which manages all active throttlers.

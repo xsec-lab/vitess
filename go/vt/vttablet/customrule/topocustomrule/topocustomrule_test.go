@@ -21,9 +21,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/xsec-lab/go/vt/topo/memorytopo"
-	"github.com/xsec-lab/go/vt/vttablet/tabletserver/rules"
-	"github.com/xsec-lab/go/vt/vttablet/tabletservermock"
+	"github.com/xsec-lab/vitess/go/vt/topo/memorytopo"
+	"github.com/xsec-lab/vitess/go/vt/vttablet/tabletserver/rules"
+	"github.com/xsec-lab/vitess/go/vt/vttablet/tabletservermock"
 )
 
 var customRule1 = `

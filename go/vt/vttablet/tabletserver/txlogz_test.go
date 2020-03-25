@@ -23,10 +23,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/xsec-lab/go/streamlog"
-	"github.com/xsec-lab/go/sync2"
-	"github.com/xsec-lab/go/vt/callerid"
-	"github.com/xsec-lab/go/vt/vttablet/tabletserver/tabletenv"
+	"github.com/xsec-lab/vitess/go/streamlog"
+	"github.com/xsec-lab/vitess/go/sync2"
+	"github.com/xsec-lab/vitess/go/vt/callerid"
+	"github.com/xsec-lab/vitess/go/vt/vttablet/tabletserver/tabletenv"
 )
 
 func testNotRedacted(t *testing.T, r *httptest.ResponseRecorder) {

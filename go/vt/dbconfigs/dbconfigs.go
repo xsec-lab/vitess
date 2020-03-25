@@ -26,9 +26,9 @@ import (
 	"flag"
 	"fmt"
 
-	"github.com/xsec-lab/go/mysql"
-	"github.com/xsec-lab/go/sync2"
-	"github.com/xsec-lab/go/vt/log"
+	"github.com/xsec-lab/vitess/go/mysql"
+	"github.com/xsec-lab/vitess/go/sync2"
+	"github.com/xsec-lab/vitess/go/vt/log"
 )
 
 var (

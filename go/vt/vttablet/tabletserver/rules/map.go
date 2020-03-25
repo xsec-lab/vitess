@@ -21,8 +21,8 @@ import (
 	"errors"
 	"sync"
 
-	"github.com/xsec-lab/go/vt/log"
-	"github.com/xsec-lab/go/vt/vttablet/tabletserver/planbuilder"
+	"github.com/xsec-lab/vitess/go/vt/log"
+	"github.com/xsec-lab/vitess/go/vt/vttablet/tabletserver/planbuilder"
 )
 
 // Map is the maintainer of Rules from multiple sources

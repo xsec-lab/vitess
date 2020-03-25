@@ -21,9 +21,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/xsec-lab/go/sqltypes"
-	querypb "github.com/xsec-lab/go/vt/proto/query"
-	"github.com/xsec-lab/go/vt/vttablet/endtoend/framework"
+	"github.com/xsec-lab/vitess/go/sqltypes"
+	querypb "github.com/xsec-lab/vitess/go/vt/proto/query"
+	"github.com/xsec-lab/vitess/go/vt/vttablet/endtoend/framework"
 )
 
 var point12 = "\x00\x00\x00\x00\x01\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\xf0?\x00\x00\x00\x00\x00\x00\x00@"

@@ -24,8 +24,8 @@ import (
 	"github.com/gorilla/websocket"
 	"golang.org/x/net/context"
 
-	"github.com/xsec-lab/go/acl"
-	"github.com/xsec-lab/go/vt/log"
+	"github.com/xsec-lab/vitess/go/acl"
+	"github.com/xsec-lab/vitess/go/vt/log"
 )
 
 var upgrader = websocket.Upgrader{} // use default options

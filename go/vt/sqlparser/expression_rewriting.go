@@ -17,10 +17,10 @@ limitations under the License.
 package sqlparser
 
 import (
-	"github.com/xsec-lab/go/vt/log"
-	querypb "github.com/xsec-lab/go/vt/proto/query"
-	"github.com/xsec-lab/go/vt/proto/vtrpc"
-	"github.com/xsec-lab/go/vt/vterrors"
+	"github.com/xsec-lab/vitess/go/vt/log"
+	querypb "github.com/xsec-lab/vitess/go/vt/proto/query"
+	"github.com/xsec-lab/vitess/go/vt/proto/vtrpc"
+	"github.com/xsec-lab/vitess/go/vt/vterrors"
 )
 
 // PrepareAST will normalize the query

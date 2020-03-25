@@ -19,5 +19,5 @@ package main
 // Imports and register the gRPC binlog player
 
 import (
-	_ "github.com/xsec-lab/go/vt/binlog/grpcbinlogplayer"
+	_ "github.com/xsec-lab/vitess/go/vt/binlog/grpcbinlogplayer"
 )

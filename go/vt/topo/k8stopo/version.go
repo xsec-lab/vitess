@@ -17,7 +17,7 @@ limitations under the License.
 package k8stopo
 
 import (
-	"github.com/xsec-lab/go/vt/topo"
+	"github.com/xsec-lab/vitess/go/vt/topo"
 )
 
 // KubernetesVersion is Kubernetes's idea of a version.

@@ -23,19 +23,19 @@ import (
 
 	"golang.org/x/net/context"
 
-	"github.com/xsec-lab/go/sqltypes"
-	"github.com/xsec-lab/go/vt/dbconfigs"
-	"github.com/xsec-lab/go/vt/grpcclient"
-	"github.com/xsec-lab/go/vt/vttablet/queryservice"
-	"github.com/xsec-lab/go/vt/vttablet/tabletconn"
-	"github.com/xsec-lab/go/vt/vttablet/tabletserver/connpool"
-	"github.com/xsec-lab/go/vt/vttablet/tabletserver/schema"
-	"github.com/xsec-lab/go/vt/vttablet/tabletserver/tabletenv"
-	"github.com/xsec-lab/go/vt/vttablet/tabletserver/vstreamer"
+	"github.com/xsec-lab/vitess/go/sqltypes"
+	"github.com/xsec-lab/vitess/go/vt/dbconfigs"
+	"github.com/xsec-lab/vitess/go/vt/grpcclient"
+	"github.com/xsec-lab/vitess/go/vt/vttablet/queryservice"
+	"github.com/xsec-lab/vitess/go/vt/vttablet/tabletconn"
+	"github.com/xsec-lab/vitess/go/vt/vttablet/tabletserver/connpool"
+	"github.com/xsec-lab/vitess/go/vt/vttablet/tabletserver/schema"
+	"github.com/xsec-lab/vitess/go/vt/vttablet/tabletserver/tabletenv"
+	"github.com/xsec-lab/vitess/go/vt/vttablet/tabletserver/vstreamer"
 
-	binlogdatapb "github.com/xsec-lab/go/vt/proto/binlogdata"
-	querypb "github.com/xsec-lab/go/vt/proto/query"
-	topodatapb "github.com/xsec-lab/go/vt/proto/topodata"
+	binlogdatapb "github.com/xsec-lab/vitess/go/vt/proto/binlogdata"
+	querypb "github.com/xsec-lab/vitess/go/vt/proto/query"
+	topodatapb "github.com/xsec-lab/vitess/go/vt/proto/topodata"
 )
 
 var (

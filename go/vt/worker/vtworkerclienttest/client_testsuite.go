@@ -34,18 +34,18 @@ import (
 
 	"golang.org/x/net/context"
 
-	"github.com/xsec-lab/go/vt/logutil"
-	"github.com/xsec-lab/go/vt/topo/memorytopo"
-	"github.com/xsec-lab/go/vt/vterrors"
-	"github.com/xsec-lab/go/vt/vttablet/tmclient"
-	"github.com/xsec-lab/go/vt/worker"
-	"github.com/xsec-lab/go/vt/worker/vtworkerclient"
+	"github.com/xsec-lab/vitess/go/vt/logutil"
+	"github.com/xsec-lab/vitess/go/vt/topo/memorytopo"
+	"github.com/xsec-lab/vitess/go/vt/vterrors"
+	"github.com/xsec-lab/vitess/go/vt/vttablet/tmclient"
+	"github.com/xsec-lab/vitess/go/vt/worker"
+	"github.com/xsec-lab/vitess/go/vt/worker/vtworkerclient"
 
 	// Import the gRPC client implementation for tablet manager because the real
 	// vtworker implementation requires it.
-	_ "github.com/xsec-lab/go/vt/vttablet/grpctmclient"
+	_ "github.com/xsec-lab/vitess/go/vt/vttablet/grpctmclient"
 
-	vtrpcpb "github.com/xsec-lab/go/vt/proto/vtrpc"
+	vtrpcpb "github.com/xsec-lab/vitess/go/vt/proto/vtrpc"
 )
 
 func init() {

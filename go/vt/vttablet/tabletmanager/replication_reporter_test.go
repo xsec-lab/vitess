@@ -21,8 +21,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/xsec-lab/go/vt/health"
-	"github.com/xsec-lab/go/vt/mysqlctl/fakemysqldaemon"
+	"github.com/xsec-lab/vitess/go/vt/health"
+	"github.com/xsec-lab/vitess/go/vt/mysqlctl/fakemysqldaemon"
 )
 
 func TestBasicMySQLReplicationLag(t *testing.T) {

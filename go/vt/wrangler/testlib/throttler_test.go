@@ -24,12 +24,12 @@ import (
 
 	"google.golang.org/grpc"
 
-	"github.com/xsec-lab/go/vt/throttler"
-	"github.com/xsec-lab/go/vt/throttler/grpcthrottlerserver"
-	"github.com/xsec-lab/go/vt/topo/memorytopo"
+	"github.com/xsec-lab/vitess/go/vt/throttler"
+	"github.com/xsec-lab/vitess/go/vt/throttler/grpcthrottlerserver"
+	"github.com/xsec-lab/vitess/go/vt/topo/memorytopo"
 
 	// The test uses the gRPC throttler client and server implementations.
-	_ "github.com/xsec-lab/go/vt/throttler/grpcthrottlerclient"
+	_ "github.com/xsec-lab/vitess/go/vt/throttler/grpcthrottlerclient"
 )
 
 // TestVtctlThrottlerCommands tests all vtctl commands from the

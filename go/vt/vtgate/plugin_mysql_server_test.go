@@ -23,13 +23,13 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	"github.com/xsec-lab/go/trace"
+	"github.com/xsec-lab/vitess/go/trace"
 
 	"golang.org/x/net/context"
 
-	"github.com/xsec-lab/go/mysql"
-	"github.com/xsec-lab/go/sqltypes"
-	querypb "github.com/xsec-lab/go/vt/proto/query"
+	"github.com/xsec-lab/vitess/go/mysql"
+	"github.com/xsec-lab/vitess/go/sqltypes"
+	querypb "github.com/xsec-lab/vitess/go/vt/proto/query"
 )
 
 type testHandler struct {

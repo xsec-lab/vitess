@@ -19,8 +19,8 @@ package tabletconn
 import (
 	"testing"
 
-	vtrpcpb "github.com/xsec-lab/go/vt/proto/vtrpc"
-	"github.com/xsec-lab/go/vt/vterrors"
+	vtrpcpb "github.com/xsec-lab/vitess/go/vt/proto/vtrpc"
+	"github.com/xsec-lab/vitess/go/vt/vterrors"
 )
 
 func TestTabletErrorFromRPCError(t *testing.T) {

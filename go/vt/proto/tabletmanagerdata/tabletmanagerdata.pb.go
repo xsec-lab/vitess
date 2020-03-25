@@ -8,10 +8,10 @@ import (
 	math "math"
 
 	proto "github.com/golang/protobuf/proto"
-	logutil "github.com/xsec-lab/go/vt/proto/logutil"
-	query "github.com/xsec-lab/go/vt/proto/query"
-	replicationdata "github.com/xsec-lab/go/vt/proto/replicationdata"
-	topodata "github.com/xsec-lab/go/vt/proto/topodata"
+	logutil "github.com/xsec-lab/vitess/go/vt/proto/logutil"
+	query "github.com/xsec-lab/vitess/go/vt/proto/query"
+	replicationdata "github.com/xsec-lab/vitess/go/vt/proto/replicationdata"
+	topodata "github.com/xsec-lab/vitess/go/vt/proto/topodata"
 )
 
 // Reference imports to suppress errors if they are not otherwise used.

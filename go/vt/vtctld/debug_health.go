@@ -23,8 +23,8 @@ import (
 
 	"golang.org/x/net/context"
 
-	"github.com/xsec-lab/go/acl"
-	"github.com/xsec-lab/go/vt/topo"
+	"github.com/xsec-lab/vitess/go/acl"
+	"github.com/xsec-lab/vitess/go/vt/topo"
 )
 
 // RegisterDebugHealthHandler register a debug health http endpoint for a vtcld server

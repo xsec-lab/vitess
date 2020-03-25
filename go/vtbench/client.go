@@ -21,18 +21,18 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/xsec-lab/go/mysql"
-	"github.com/xsec-lab/go/sqltypes"
-	"github.com/xsec-lab/go/vt/grpcclient"
-	"github.com/xsec-lab/go/vt/key"
-	"github.com/xsec-lab/go/vt/topo/topoproto"
-	"github.com/xsec-lab/go/vt/vtgate/vtgateconn"
-	"github.com/xsec-lab/go/vt/vttablet/queryservice"
-	"github.com/xsec-lab/go/vt/vttablet/tabletconn"
+	"github.com/xsec-lab/vitess/go/mysql"
+	"github.com/xsec-lab/vitess/go/sqltypes"
+	"github.com/xsec-lab/vitess/go/vt/grpcclient"
+	"github.com/xsec-lab/vitess/go/vt/key"
+	"github.com/xsec-lab/vitess/go/vt/topo/topoproto"
+	"github.com/xsec-lab/vitess/go/vt/vtgate/vtgateconn"
+	"github.com/xsec-lab/vitess/go/vt/vttablet/queryservice"
+	"github.com/xsec-lab/vitess/go/vt/vttablet/tabletconn"
 	"google.golang.org/grpc"
 
-	querypb "github.com/xsec-lab/go/vt/proto/query"
-	topodatapb "github.com/xsec-lab/go/vt/proto/topodata"
+	querypb "github.com/xsec-lab/vitess/go/vt/proto/query"
+	topodatapb "github.com/xsec-lab/vitess/go/vt/proto/topodata"
 )
 
 type clientConn interface {

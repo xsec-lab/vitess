@@ -23,8 +23,8 @@ import (
 
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
-	"github.com/xsec-lab/go/stats"
-	"github.com/xsec-lab/go/vt/log"
+	"github.com/xsec-lab/vitess/go/stats"
+	"github.com/xsec-lab/vitess/go/vt/log"
 )
 
 // PromBackend implements PullBackend using Prometheus as the backing metrics storage.

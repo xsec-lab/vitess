@@ -19,9 +19,9 @@ limitations under the License.
 package fake
 
 import (
-	clientset "github.com/xsec-lab/go/vt/topo/k8stopo/client/clientset/versioned"
-	topov1beta1 "github.com/xsec-lab/go/vt/topo/k8stopo/client/clientset/versioned/typed/topo/v1beta1"
-	faketopov1beta1 "github.com/xsec-lab/go/vt/topo/k8stopo/client/clientset/versioned/typed/topo/v1beta1/fake"
+	clientset "github.com/xsec-lab/vitess/go/vt/topo/k8stopo/client/clientset/versioned"
+	topov1beta1 "github.com/xsec-lab/vitess/go/vt/topo/k8stopo/client/clientset/versioned/typed/topo/v1beta1"
+	faketopov1beta1 "github.com/xsec-lab/vitess/go/vt/topo/k8stopo/client/clientset/versioned/typed/topo/v1beta1/fake"
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/watch"
 	"k8s.io/client-go/discovery"

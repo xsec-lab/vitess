@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/xsec-lab/go/test/endtoend/cluster"
+	"github.com/xsec-lab/vitess/go/test/endtoend/cluster"
 )
 
 func TestEtcdServer(t *testing.T) {

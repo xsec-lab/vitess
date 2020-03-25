@@ -30,10 +30,10 @@ import (
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	querypb "github.com/xsec-lab/go/vt/proto/query"
-	vttestpb "github.com/xsec-lab/go/vt/proto/vttest"
-	"github.com/xsec-lab/go/vt/vtgate/vtgateconn"
-	"github.com/xsec-lab/go/vt/vttest"
+	querypb "github.com/xsec-lab/vitess/go/vt/proto/query"
+	vttestpb "github.com/xsec-lab/vitess/go/vt/proto/vttest"
+	"github.com/xsec-lab/vitess/go/vt/vtgate/vtgateconn"
+	"github.com/xsec-lab/vitess/go/vt/vttest"
 )
 
 var (

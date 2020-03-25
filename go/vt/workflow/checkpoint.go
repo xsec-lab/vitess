@@ -22,9 +22,9 @@ import (
 	"golang.org/x/net/context"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/xsec-lab/go/vt/topo"
+	"github.com/xsec-lab/vitess/go/vt/topo"
 
-	workflowpb "github.com/xsec-lab/go/vt/proto/workflow"
+	workflowpb "github.com/xsec-lab/vitess/go/vt/proto/workflow"
 )
 
 // CheckpointWriter saves the checkpoint data into topology server.

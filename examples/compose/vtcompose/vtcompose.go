@@ -31,7 +31,7 @@ import (
 	jsonpatch "github.com/evanphx/json-patch"
 	yamlpatch "github.com/krishicks/yaml-patch"
 
-	"github.com/xsec-lab/go/vt/log"
+	"github.com/xsec-lab/vitess/go/vt/log"
 )
 
 var (
