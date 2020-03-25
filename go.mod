@@ -1,4 +1,4 @@
-module vitess.io/vitess
+module github.com/xsec-lab/vitess
 
 go 1.13
 
