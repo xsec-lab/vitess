@@ -23,17 +23,17 @@ import (
 	"time"
 
 	"github.com/golang/protobuf/proto"
+	"github.com/xsec-lab/go/vt/logutil"
+	querypb "github.com/xsec-lab/go/vt/proto/query"
+	topodatapb "github.com/xsec-lab/go/vt/proto/topodata"
+	"github.com/xsec-lab/go/vt/topo/memorytopo"
+	"github.com/xsec-lab/go/vt/vttablet/grpcqueryservice"
+	"github.com/xsec-lab/go/vt/vttablet/queryservice"
+	"github.com/xsec-lab/go/vt/vttablet/queryservice/fakes"
+	"github.com/xsec-lab/go/vt/vttablet/tmclient"
+	"github.com/xsec-lab/go/vt/wrangler"
+	"github.com/xsec-lab/go/vt/wrangler/testlib"
 	"golang.org/x/net/context"
-	"vitess.io/vitess/go/vt/logutil"
-	querypb "vitess.io/vitess/go/vt/proto/query"
-	topodatapb "vitess.io/vitess/go/vt/proto/topodata"
-	"vitess.io/vitess/go/vt/topo/memorytopo"
-	"vitess.io/vitess/go/vt/vttablet/grpcqueryservice"
-	"vitess.io/vitess/go/vt/vttablet/queryservice"
-	"vitess.io/vitess/go/vt/vttablet/queryservice/fakes"
-	"vitess.io/vitess/go/vt/vttablet/tmclient"
-	"vitess.io/vitess/go/vt/wrangler"
-	"vitess.io/vitess/go/vt/wrangler/testlib"
 )
 
 // streamHealthTabletServer is a local QueryService implementation to support the tests

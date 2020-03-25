@@ -22,8 +22,8 @@ import (
 
 	"golang.org/x/net/context"
 
-	"vitess.io/vitess/go/vt/log"
-	"vitess.io/vitess/go/vt/sqlparser"
+	"github.com/xsec-lab/go/vt/log"
+	"github.com/xsec-lab/go/vt/sqlparser"
 )
 
 // PlainController implements Controller interface.

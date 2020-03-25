@@ -9,10 +9,10 @@ import (
 	math "math"
 
 	proto "github.com/golang/protobuf/proto"
+	automation "github.com/xsec-lab/go/vt/proto/automation"
 	grpc "google.golang.org/grpc"
 	codes "google.golang.org/grpc/codes"
 	status "google.golang.org/grpc/status"
-	automation "vitess.io/vitess/go/vt/proto/automation"
 )
 
 // Reference imports to suppress errors if they are not otherwise used.

@@ -26,20 +26,20 @@ import (
 	"sync"
 	"time"
 
-	"vitess.io/vitess/go/event"
-	"vitess.io/vitess/go/mysql"
-	"vitess.io/vitess/go/sqlescape"
-	"vitess.io/vitess/go/vt/concurrency"
-	"vitess.io/vitess/go/vt/log"
-	"vitess.io/vitess/go/vt/topo"
-	"vitess.io/vitess/go/vt/topo/topoproto"
-	"vitess.io/vitess/go/vt/topotools"
-	"vitess.io/vitess/go/vt/topotools/events"
-	"vitess.io/vitess/go/vt/vterrors"
+	"github.com/xsec-lab/go/event"
+	"github.com/xsec-lab/go/mysql"
+	"github.com/xsec-lab/go/sqlescape"
+	"github.com/xsec-lab/go/vt/concurrency"
+	"github.com/xsec-lab/go/vt/log"
+	"github.com/xsec-lab/go/vt/topo"
+	"github.com/xsec-lab/go/vt/topo/topoproto"
+	"github.com/xsec-lab/go/vt/topotools"
+	"github.com/xsec-lab/go/vt/topotools/events"
+	"github.com/xsec-lab/go/vt/vterrors"
 
-	replicationdatapb "vitess.io/vitess/go/vt/proto/replicationdata"
-	topodatapb "vitess.io/vitess/go/vt/proto/topodata"
-	vtrpcpb "vitess.io/vitess/go/vt/proto/vtrpc"
+	replicationdatapb "github.com/xsec-lab/go/vt/proto/replicationdata"
+	topodatapb "github.com/xsec-lab/go/vt/proto/topodata"
+	vtrpcpb "github.com/xsec-lab/go/vt/proto/vtrpc"
 )
 
 const (

@@ -21,15 +21,15 @@ import (
 	"reflect"
 	"testing"
 
-	"vitess.io/vitess/go/json2"
-	"vitess.io/vitess/go/mysql"
-	"vitess.io/vitess/go/sqltypes"
-	"vitess.io/vitess/go/vt/sqlparser"
-	"vitess.io/vitess/go/vt/vtgate/vindexes"
+	"github.com/xsec-lab/go/json2"
+	"github.com/xsec-lab/go/mysql"
+	"github.com/xsec-lab/go/sqltypes"
+	"github.com/xsec-lab/go/vt/sqlparser"
+	"github.com/xsec-lab/go/vt/vtgate/vindexes"
 
-	binlogdatapb "vitess.io/vitess/go/vt/proto/binlogdata"
-	querypb "vitess.io/vitess/go/vt/proto/query"
-	vschemapb "vitess.io/vitess/go/vt/proto/vschema"
+	binlogdatapb "github.com/xsec-lab/go/vt/proto/binlogdata"
+	querypb "github.com/xsec-lab/go/vt/proto/query"
+	vschemapb "github.com/xsec-lab/go/vt/proto/vschema"
 )
 
 var testLocalVSchema *localVSchema

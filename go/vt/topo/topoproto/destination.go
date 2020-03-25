@@ -20,11 +20,11 @@ import (
 	"encoding/hex"
 	"strings"
 
-	"vitess.io/vitess/go/vt/key"
-	"vitess.io/vitess/go/vt/vterrors"
+	"github.com/xsec-lab/go/vt/key"
+	"github.com/xsec-lab/go/vt/vterrors"
 
-	topodatapb "vitess.io/vitess/go/vt/proto/topodata"
-	vtrpcpb "vitess.io/vitess/go/vt/proto/vtrpc"
+	topodatapb "github.com/xsec-lab/go/vt/proto/topodata"
+	vtrpcpb "github.com/xsec-lab/go/vt/proto/vtrpc"
 )
 
 // ParseDestination parses the string representation of a Destination

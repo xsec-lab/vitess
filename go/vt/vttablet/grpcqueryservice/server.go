@@ -19,16 +19,16 @@ package grpcqueryservice
 import (
 	"google.golang.org/grpc"
 
+	"github.com/xsec-lab/go/sqltypes"
+	"github.com/xsec-lab/go/vt/callerid"
+	"github.com/xsec-lab/go/vt/callinfo"
+	"github.com/xsec-lab/go/vt/vterrors"
+	"github.com/xsec-lab/go/vt/vttablet/queryservice"
 	"golang.org/x/net/context"
-	"vitess.io/vitess/go/sqltypes"
-	"vitess.io/vitess/go/vt/callerid"
-	"vitess.io/vitess/go/vt/callinfo"
-	"vitess.io/vitess/go/vt/vterrors"
-	"vitess.io/vitess/go/vt/vttablet/queryservice"
 
-	binlogdatapb "vitess.io/vitess/go/vt/proto/binlogdata"
-	querypb "vitess.io/vitess/go/vt/proto/query"
-	queryservicepb "vitess.io/vitess/go/vt/proto/queryservice"
+	binlogdatapb "github.com/xsec-lab/go/vt/proto/binlogdata"
+	querypb "github.com/xsec-lab/go/vt/proto/query"
+	queryservicepb "github.com/xsec-lab/go/vt/proto/queryservice"
 )
 
 // query is the gRPC query service implementation.

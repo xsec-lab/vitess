@@ -21,7 +21,7 @@ import (
 
 	"golang.org/x/net/context"
 
-	"vitess.io/vitess/go/vt/topo"
+	"github.com/xsec-lab/go/vt/topo"
 )
 
 // convertError converts a context error into a topo error.

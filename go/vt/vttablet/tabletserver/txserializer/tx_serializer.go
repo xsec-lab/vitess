@@ -26,14 +26,14 @@ import (
 
 	"golang.org/x/net/context"
 
-	"vitess.io/vitess/go/acl"
-	"vitess.io/vitess/go/stats"
-	"vitess.io/vitess/go/streamlog"
-	"vitess.io/vitess/go/sync2"
-	"vitess.io/vitess/go/vt/logutil"
-	"vitess.io/vitess/go/vt/vterrors"
+	"github.com/xsec-lab/go/acl"
+	"github.com/xsec-lab/go/stats"
+	"github.com/xsec-lab/go/streamlog"
+	"github.com/xsec-lab/go/sync2"
+	"github.com/xsec-lab/go/vt/logutil"
+	"github.com/xsec-lab/go/vt/vterrors"
 
-	vtrpcpb "vitess.io/vitess/go/vt/proto/vtrpc"
+	vtrpcpb "github.com/xsec-lab/go/vt/proto/vtrpc"
 )
 
 var (

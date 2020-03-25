@@ -23,8 +23,8 @@ import (
 	"strings"
 	"testing"
 
-	"vitess.io/vitess/go/vt/dbconfigs"
-	"vitess.io/vitess/go/vt/servenv"
+	"github.com/xsec-lab/go/vt/dbconfigs"
+	"github.com/xsec-lab/go/vt/servenv"
 )
 
 var MycnfPath = "/tmp/my.cnf"

@@ -23,22 +23,22 @@ import (
 	"sync"
 	"time"
 
+	"github.com/xsec-lab/go/vt/proto/vtrpc"
+	"github.com/xsec-lab/go/vt/vttablet/queryservice"
+	"github.com/xsec-lab/go/vt/vttablet/tabletconn"
 	"golang.org/x/net/context"
-	"vitess.io/vitess/go/vt/proto/vtrpc"
-	"vitess.io/vitess/go/vt/vttablet/queryservice"
-	"vitess.io/vitess/go/vt/vttablet/tabletconn"
 
-	"vitess.io/vitess/go/vt/concurrency"
-	"vitess.io/vitess/go/vt/mysqlctl/tmutils"
-	"vitess.io/vitess/go/vt/topo"
-	"vitess.io/vitess/go/vt/wrangler"
+	"github.com/xsec-lab/go/vt/concurrency"
+	"github.com/xsec-lab/go/vt/mysqlctl/tmutils"
+	"github.com/xsec-lab/go/vt/topo"
+	"github.com/xsec-lab/go/vt/wrangler"
 
-	"vitess.io/vitess/go/sqltypes"
-	"vitess.io/vitess/go/vt/binlog/binlogplayer"
-	tabletmanagerdatapb "vitess.io/vitess/go/vt/proto/tabletmanagerdata"
-	topodatapb "vitess.io/vitess/go/vt/proto/topodata"
-	"vitess.io/vitess/go/vt/vterrors"
-	"vitess.io/vitess/go/vt/vtgate/vindexes"
+	"github.com/xsec-lab/go/sqltypes"
+	"github.com/xsec-lab/go/vt/binlog/binlogplayer"
+	tabletmanagerdatapb "github.com/xsec-lab/go/vt/proto/tabletmanagerdata"
+	topodatapb "github.com/xsec-lab/go/vt/proto/topodata"
+	"github.com/xsec-lab/go/vt/vterrors"
+	"github.com/xsec-lab/go/vt/vtgate/vindexes"
 )
 
 // Scanners encapsulates a source and a destination. We create one of these per parallel runner.

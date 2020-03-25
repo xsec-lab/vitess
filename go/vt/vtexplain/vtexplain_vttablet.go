@@ -25,22 +25,22 @@ import (
 
 	"golang.org/x/net/context"
 
-	"vitess.io/vitess/go/mysql"
-	"vitess.io/vitess/go/mysql/fakesqldb"
-	"vitess.io/vitess/go/sqltypes"
-	"vitess.io/vitess/go/sync2"
-	"vitess.io/vitess/go/vt/dbconfigs"
-	"vitess.io/vitess/go/vt/log"
-	"vitess.io/vitess/go/vt/mysqlctl"
-	"vitess.io/vitess/go/vt/sqlparser"
-	"vitess.io/vitess/go/vt/topo/memorytopo"
+	"github.com/xsec-lab/go/mysql"
+	"github.com/xsec-lab/go/mysql/fakesqldb"
+	"github.com/xsec-lab/go/sqltypes"
+	"github.com/xsec-lab/go/sync2"
+	"github.com/xsec-lab/go/vt/dbconfigs"
+	"github.com/xsec-lab/go/vt/log"
+	"github.com/xsec-lab/go/vt/mysqlctl"
+	"github.com/xsec-lab/go/vt/sqlparser"
+	"github.com/xsec-lab/go/vt/topo/memorytopo"
 
-	"vitess.io/vitess/go/vt/vttablet/queryservice"
-	"vitess.io/vitess/go/vt/vttablet/tabletserver"
-	"vitess.io/vitess/go/vt/vttablet/tabletserver/tabletenv"
+	"github.com/xsec-lab/go/vt/vttablet/queryservice"
+	"github.com/xsec-lab/go/vt/vttablet/tabletserver"
+	"github.com/xsec-lab/go/vt/vttablet/tabletserver/tabletenv"
 
-	querypb "vitess.io/vitess/go/vt/proto/query"
-	topodatapb "vitess.io/vitess/go/vt/proto/topodata"
+	querypb "github.com/xsec-lab/go/vt/proto/query"
+	topodatapb "github.com/xsec-lab/go/vt/proto/topodata"
 )
 
 var (

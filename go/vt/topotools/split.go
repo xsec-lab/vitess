@@ -21,10 +21,10 @@ import (
 	"fmt"
 	"sort"
 
+	"github.com/xsec-lab/go/vt/key"
+	topodatapb "github.com/xsec-lab/go/vt/proto/topodata"
+	"github.com/xsec-lab/go/vt/topo"
 	"golang.org/x/net/context"
-	"vitess.io/vitess/go/vt/key"
-	topodatapb "vitess.io/vitess/go/vt/proto/topodata"
-	"vitess.io/vitess/go/vt/topo"
 )
 
 // ValidateForReshard returns an error if sourceShards cannot reshard into

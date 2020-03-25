@@ -27,18 +27,18 @@ import (
 	"testing"
 	"time"
 
-	"vitess.io/vitess/go/json2"
-	"vitess.io/vitess/go/vt/vtgate/vtgateconn"
+	"github.com/xsec-lab/go/json2"
+	"github.com/xsec-lab/go/vt/vtgate/vtgateconn"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"vitess.io/vitess/go/mysql"
-	"vitess.io/vitess/go/sqltypes"
-	"vitess.io/vitess/go/test/endtoend/cluster"
-	"vitess.io/vitess/go/test/endtoend/sharding"
-	"vitess.io/vitess/go/vt/log"
-	"vitess.io/vitess/go/vt/proto/topodata"
-	_ "vitess.io/vitess/go/vt/vtgate/grpcvtgateconn"
+	"github.com/xsec-lab/go/mysql"
+	"github.com/xsec-lab/go/sqltypes"
+	"github.com/xsec-lab/go/test/endtoend/cluster"
+	"github.com/xsec-lab/go/test/endtoend/sharding"
+	"github.com/xsec-lab/go/vt/log"
+	"github.com/xsec-lab/go/vt/proto/topodata"
+	_ "github.com/xsec-lab/go/vt/vtgate/grpcvtgateconn"
 )
 
 var (

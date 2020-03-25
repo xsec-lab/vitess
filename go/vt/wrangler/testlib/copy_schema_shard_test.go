@@ -21,18 +21,18 @@ import (
 
 	"golang.org/x/net/context"
 
-	"vitess.io/vitess/go/mysql/fakesqldb"
-	"vitess.io/vitess/go/sqltypes"
-	"vitess.io/vitess/go/vt/logutil"
-	"vitess.io/vitess/go/vt/mysqlctl/tmutils"
-	"vitess.io/vitess/go/vt/topo/memorytopo"
-	"vitess.io/vitess/go/vt/topo/topoproto"
-	"vitess.io/vitess/go/vt/vttablet/tmclient"
-	"vitess.io/vitess/go/vt/wrangler"
+	"github.com/xsec-lab/go/mysql/fakesqldb"
+	"github.com/xsec-lab/go/sqltypes"
+	"github.com/xsec-lab/go/vt/logutil"
+	"github.com/xsec-lab/go/vt/mysqlctl/tmutils"
+	"github.com/xsec-lab/go/vt/topo/memorytopo"
+	"github.com/xsec-lab/go/vt/topo/topoproto"
+	"github.com/xsec-lab/go/vt/vttablet/tmclient"
+	"github.com/xsec-lab/go/vt/wrangler"
 
-	querypb "vitess.io/vitess/go/vt/proto/query"
-	tabletmanagerdatapb "vitess.io/vitess/go/vt/proto/tabletmanagerdata"
-	topodatapb "vitess.io/vitess/go/vt/proto/topodata"
+	querypb "github.com/xsec-lab/go/vt/proto/query"
+	tabletmanagerdatapb "github.com/xsec-lab/go/vt/proto/tabletmanagerdata"
+	topodatapb "github.com/xsec-lab/go/vt/proto/topodata"
 )
 
 func TestCopySchemaShard_UseTabletAsSource(t *testing.T) {

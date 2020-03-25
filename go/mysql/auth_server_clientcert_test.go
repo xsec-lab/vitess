@@ -25,8 +25,8 @@ import (
 	"reflect"
 	"testing"
 
-	"vitess.io/vitess/go/vt/tlstest"
-	"vitess.io/vitess/go/vt/vttls"
+	"github.com/xsec-lab/go/vt/tlstest"
+	"github.com/xsec-lab/go/vt/vttls"
 )
 
 const clientCertUsername = "Client Cert"

@@ -62,20 +62,20 @@ import (
 	"path"
 	"testing"
 
-	"vitess.io/vitess/go/test/endtoend/encryption"
+	"github.com/xsec-lab/go/test/endtoend/encryption"
 
-	"vitess.io/vitess/go/vt/proto/vtrpc"
-	"vitess.io/vitess/go/vt/vterrors"
+	"github.com/xsec-lab/go/vt/proto/vtrpc"
+	"github.com/xsec-lab/go/vt/vterrors"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+	"github.com/xsec-lab/go/test/endtoend/cluster"
+	"github.com/xsec-lab/go/vt/grpcclient"
+	"github.com/xsec-lab/go/vt/log"
+	querypb "github.com/xsec-lab/go/vt/proto/query"
+	vtgatepb "github.com/xsec-lab/go/vt/proto/vtgate"
+	vtgateservicepb "github.com/xsec-lab/go/vt/proto/vtgateservice"
 	"golang.org/x/net/context"
-	"vitess.io/vitess/go/test/endtoend/cluster"
-	"vitess.io/vitess/go/vt/grpcclient"
-	"vitess.io/vitess/go/vt/log"
-	querypb "vitess.io/vitess/go/vt/proto/query"
-	vtgatepb "vitess.io/vitess/go/vt/proto/vtgate"
-	vtgateservicepb "vitess.io/vitess/go/vt/proto/vtgateservice"
 )
 
 var (

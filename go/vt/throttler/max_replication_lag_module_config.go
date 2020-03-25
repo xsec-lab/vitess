@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"time"
 
-	throttlerdatapb "vitess.io/vitess/go/vt/proto/throttlerdata"
+	throttlerdatapb "github.com/xsec-lab/go/vt/proto/throttlerdata"
 )
 
 // MaxReplicationLagModuleConfig stores all configuration parameters for

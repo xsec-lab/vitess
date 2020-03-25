@@ -20,10 +20,10 @@ import (
 
 	otgrpc "github.com/opentracing-contrib/go-grpc"
 	"github.com/opentracing/opentracing-go"
+	"github.com/xsec-lab/go/vt/proto/vtrpc"
+	"github.com/xsec-lab/go/vt/vterrors"
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"
-	"vitess.io/vitess/go/vt/proto/vtrpc"
-	"vitess.io/vitess/go/vt/vterrors"
 )
 
 var _ Span = (*openTracingSpan)(nil)

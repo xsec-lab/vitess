@@ -23,9 +23,9 @@ import (
 
 	"golang.org/x/net/context"
 
-	"vitess.io/vitess/go/vt/log"
-	"vitess.io/vitess/go/vt/topo"
-	vtv1beta1 "vitess.io/vitess/go/vt/topo/k8stopo/apis/topo/v1beta1"
+	"github.com/xsec-lab/go/vt/log"
+	"github.com/xsec-lab/go/vt/topo"
+	vtv1beta1 "github.com/xsec-lab/go/vt/topo/k8stopo/apis/topo/v1beta1"
 )
 
 // ListDir is part of the topo.Conn interface.

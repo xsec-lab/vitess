@@ -20,15 +20,15 @@ import (
 	"errors"
 	"fmt"
 
+	"github.com/xsec-lab/go/sqltypes"
+	"github.com/xsec-lab/go/tb"
+	"github.com/xsec-lab/go/vt/log"
 	"golang.org/x/net/context"
-	"vitess.io/vitess/go/sqltypes"
-	"vitess.io/vitess/go/tb"
-	"vitess.io/vitess/go/vt/log"
 
-	binlogdatapb "vitess.io/vitess/go/vt/proto/binlogdata"
-	querypb "vitess.io/vitess/go/vt/proto/query"
-	topodatapb "vitess.io/vitess/go/vt/proto/topodata"
-	vtgatepb "vitess.io/vitess/go/vt/proto/vtgate"
+	binlogdatapb "github.com/xsec-lab/go/vt/proto/binlogdata"
+	querypb "github.com/xsec-lab/go/vt/proto/query"
+	topodatapb "github.com/xsec-lab/go/vt/proto/topodata"
+	vtgatepb "github.com/xsec-lab/go/vt/proto/vtgate"
 )
 
 var errTerminal = errors.New("vtgate test client, errTerminal")

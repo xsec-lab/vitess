@@ -26,12 +26,12 @@ import (
 
 	"golang.org/x/net/context"
 
-	"vitess.io/vitess/go/mysql"
-	"vitess.io/vitess/go/mysql/fakesqldb"
-	"vitess.io/vitess/go/sqltypes"
+	"github.com/xsec-lab/go/mysql"
+	"github.com/xsec-lab/go/mysql/fakesqldb"
+	"github.com/xsec-lab/go/sqltypes"
 
-	querypb "vitess.io/vitess/go/vt/proto/query"
-	"vitess.io/vitess/go/vt/vttablet/tabletserver/tabletenv"
+	querypb "github.com/xsec-lab/go/vt/proto/query"
+	"github.com/xsec-lab/go/vt/vttablet/tabletserver/tabletenv"
 )
 
 func compareTimingCounts(t *testing.T, op string, delta int64, before, after map[string]int64) {

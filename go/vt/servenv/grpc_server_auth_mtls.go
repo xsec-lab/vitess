@@ -27,7 +27,7 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	"vitess.io/vitess/go/vt/log"
+	"github.com/xsec-lab/go/vt/log"
 )
 
 var (

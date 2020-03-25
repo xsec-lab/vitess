@@ -20,12 +20,12 @@ import (
 	"bytes"
 	"fmt"
 
+	"github.com/xsec-lab/go/vt/log"
+	"github.com/xsec-lab/go/vt/logutil"
+	"github.com/xsec-lab/go/vt/vtctl/vtctlclient"
 	"golang.org/x/net/context"
-	"vitess.io/vitess/go/vt/log"
-	"vitess.io/vitess/go/vt/logutil"
-	"vitess.io/vitess/go/vt/vtctl/vtctlclient"
 
-	logutilpb "vitess.io/vitess/go/vt/proto/logutil"
+	logutilpb "github.com/xsec-lab/go/vt/proto/logutil"
 )
 
 // ExecuteVtctl runs vtctl using vtctlclient. The stream of Event

@@ -22,17 +22,17 @@ import (
 	"sort"
 	"time"
 
-	"vitess.io/vitess/go/jsonutil"
-	"vitess.io/vitess/go/mysql"
-	"vitess.io/vitess/go/sqltypes"
-	"vitess.io/vitess/go/stats"
-	"vitess.io/vitess/go/vt/key"
-	"vitess.io/vitess/go/vt/srvtopo"
-	"vitess.io/vitess/go/vt/vterrors"
-	"vitess.io/vitess/go/vt/vtgate/vindexes"
+	"github.com/xsec-lab/go/jsonutil"
+	"github.com/xsec-lab/go/mysql"
+	"github.com/xsec-lab/go/sqltypes"
+	"github.com/xsec-lab/go/stats"
+	"github.com/xsec-lab/go/vt/key"
+	"github.com/xsec-lab/go/vt/srvtopo"
+	"github.com/xsec-lab/go/vt/vterrors"
+	"github.com/xsec-lab/go/vt/vtgate/vindexes"
 
-	querypb "vitess.io/vitess/go/vt/proto/query"
-	topodatapb "vitess.io/vitess/go/vt/proto/topodata"
+	querypb "github.com/xsec-lab/go/vt/proto/query"
+	topodatapb "github.com/xsec-lab/go/vt/proto/topodata"
 )
 
 var _ Primitive = (*Route)(nil)

@@ -22,10 +22,10 @@ import (
 	"io"
 	"sync"
 
-	"vitess.io/vitess/go/vt/log"
-	"vitess.io/vitess/go/vt/vterrors"
+	"github.com/xsec-lab/go/vt/log"
+	"github.com/xsec-lab/go/vt/vterrors"
 
-	vtrpcpb "vitess.io/vitess/go/vt/proto/vtrpc"
+	vtrpcpb "github.com/xsec-lab/go/vt/proto/vtrpc"
 )
 
 // parserPool is a pool for parser objects.

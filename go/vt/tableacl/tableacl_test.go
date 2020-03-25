@@ -27,12 +27,12 @@ import (
 
 	"github.com/golang/protobuf/proto"
 
-	"vitess.io/vitess/go/vt/health"
-	"vitess.io/vitess/go/vt/tableacl/acl"
-	"vitess.io/vitess/go/vt/tableacl/simpleacl"
+	"github.com/xsec-lab/go/vt/health"
+	"github.com/xsec-lab/go/vt/tableacl/acl"
+	"github.com/xsec-lab/go/vt/tableacl/simpleacl"
 
-	querypb "vitess.io/vitess/go/vt/proto/query"
-	tableaclpb "vitess.io/vitess/go/vt/proto/tableacl"
+	querypb "github.com/xsec-lab/go/vt/proto/query"
+	tableaclpb "github.com/xsec-lab/go/vt/proto/tableacl"
 )
 
 type fakeACLFactory struct{}

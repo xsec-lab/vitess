@@ -20,11 +20,11 @@ package vtworkerclient
 import (
 	"flag"
 
+	"github.com/xsec-lab/go/vt/log"
+	"github.com/xsec-lab/go/vt/logutil"
+	"github.com/xsec-lab/go/vt/proto/vtrpc"
+	"github.com/xsec-lab/go/vt/vterrors"
 	"golang.org/x/net/context"
-	"vitess.io/vitess/go/vt/log"
-	"vitess.io/vitess/go/vt/logutil"
-	"vitess.io/vitess/go/vt/proto/vtrpc"
-	"vitess.io/vitess/go/vt/vterrors"
 )
 
 // protocol specifics which RPC client implementation should be used.

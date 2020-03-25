@@ -23,10 +23,10 @@ import (
 
 	"golang.org/x/net/context"
 
-	"vitess.io/vitess/go/sqltypes"
+	"github.com/xsec-lab/go/sqltypes"
 
-	binlogdatapb "vitess.io/vitess/go/vt/proto/binlogdata"
-	querypb "vitess.io/vitess/go/vt/proto/query"
+	binlogdatapb "github.com/xsec-lab/go/vt/proto/binlogdata"
+	querypb "github.com/xsec-lab/go/vt/proto/query"
 )
 
 // QueryService is the interface implemented by the tablet's query service.

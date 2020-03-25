@@ -19,8 +19,8 @@ package binlog
 import (
 	"testing"
 
-	binlogdatapb "vitess.io/vitess/go/vt/proto/binlogdata"
-	querypb "vitess.io/vitess/go/vt/proto/query"
+	binlogdatapb "github.com/xsec-lab/go/vt/proto/binlogdata"
+	querypb "github.com/xsec-lab/go/vt/proto/query"
 )
 
 var testTables = []string{

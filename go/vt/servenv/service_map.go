@@ -19,8 +19,8 @@ package servenv
 import (
 	"flag"
 
-	"vitess.io/vitess/go/flagutil"
-	"vitess.io/vitess/go/vt/log"
+	"github.com/xsec-lab/go/flagutil"
+	"github.com/xsec-lab/go/vt/log"
 )
 
 var (

@@ -19,8 +19,8 @@ package memorytopo
 import (
 	"testing"
 
-	"vitess.io/vitess/go/vt/topo"
-	"vitess.io/vitess/go/vt/topo/test"
+	"github.com/xsec-lab/go/vt/topo"
+	"github.com/xsec-lab/go/vt/topo/test"
 )
 
 func TestMemoryTopo(t *testing.T) {

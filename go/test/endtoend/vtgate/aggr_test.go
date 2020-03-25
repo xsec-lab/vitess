@@ -23,8 +23,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"vitess.io/vitess/go/mysql"
-	"vitess.io/vitess/go/test/endtoend/cluster"
+	"github.com/xsec-lab/go/mysql"
+	"github.com/xsec-lab/go/test/endtoend/cluster"
 )
 
 func TestAggregateTypes(t *testing.T) {

@@ -20,7 +20,7 @@ import (
 	"log/syslog"
 	"testing"
 
-	topodatapb "vitess.io/vitess/go/vt/proto/topodata"
+	topodatapb "github.com/xsec-lab/go/vt/proto/topodata"
 )
 
 func TestTabletChangeSyslog(t *testing.T) {

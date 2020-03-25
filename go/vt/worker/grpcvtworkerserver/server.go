@@ -25,14 +25,14 @@ import (
 
 	"google.golang.org/grpc"
 
-	"vitess.io/vitess/go/vt/logutil"
-	"vitess.io/vitess/go/vt/servenv"
-	"vitess.io/vitess/go/vt/vterrors"
-	"vitess.io/vitess/go/vt/worker"
+	"github.com/xsec-lab/go/vt/logutil"
+	"github.com/xsec-lab/go/vt/servenv"
+	"github.com/xsec-lab/go/vt/vterrors"
+	"github.com/xsec-lab/go/vt/worker"
 
-	logutilpb "vitess.io/vitess/go/vt/proto/logutil"
-	vtworkerdatapb "vitess.io/vitess/go/vt/proto/vtworkerdata"
-	vtworkerservicepb "vitess.io/vitess/go/vt/proto/vtworkerservice"
+	logutilpb "github.com/xsec-lab/go/vt/proto/logutil"
+	vtworkerdatapb "github.com/xsec-lab/go/vt/proto/vtworkerdata"
+	vtworkerservicepb "github.com/xsec-lab/go/vt/proto/vtworkerservice"
 )
 
 // VtworkerServer is our RPC server

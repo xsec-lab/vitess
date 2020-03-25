@@ -21,13 +21,13 @@ import (
 	"testing"
 	"time"
 
+	"github.com/xsec-lab/go/mysql"
+	"github.com/xsec-lab/go/sqltypes"
+	"github.com/xsec-lab/go/vt/throttler"
 	"golang.org/x/net/context"
-	"vitess.io/vitess/go/mysql"
-	"vitess.io/vitess/go/sqltypes"
-	"vitess.io/vitess/go/vt/throttler"
 
-	binlogdatapb "vitess.io/vitess/go/vt/proto/binlogdata"
-	topodatapb "vitess.io/vitess/go/vt/proto/topodata"
+	binlogdatapb "github.com/xsec-lab/go/vt/proto/binlogdata"
+	topodatapb "github.com/xsec-lab/go/vt/proto/topodata"
 )
 
 var (

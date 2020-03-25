@@ -25,12 +25,12 @@ import (
 	"sync"
 	"time"
 
+	"github.com/xsec-lab/go/vt/proto/vtrpc"
+	"github.com/xsec-lab/go/vt/vterrors"
 	"golang.org/x/net/context"
-	"vitess.io/vitess/go/vt/proto/vtrpc"
-	"vitess.io/vitess/go/vt/vterrors"
 
-	"vitess.io/vitess/go/trace"
-	"vitess.io/vitess/go/vt/log"
+	"github.com/xsec-lab/go/trace"
+	"github.com/xsec-lab/go/vt/log"
 )
 
 // This file contains utility methods and definitions to lock

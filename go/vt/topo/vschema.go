@@ -19,13 +19,13 @@ package topo
 import (
 	"path"
 
+	"github.com/xsec-lab/go/vt/log"
+	"github.com/xsec-lab/go/vt/vterrors"
 	"golang.org/x/net/context"
-	"vitess.io/vitess/go/vt/log"
-	"vitess.io/vitess/go/vt/vterrors"
 
 	"github.com/golang/protobuf/proto"
-	vschemapb "vitess.io/vitess/go/vt/proto/vschema"
-	"vitess.io/vitess/go/vt/vtgate/vindexes"
+	vschemapb "github.com/xsec-lab/go/vt/proto/vschema"
+	"github.com/xsec-lab/go/vt/vtgate/vindexes"
 )
 
 // SaveVSchema first validates the VSchema, then saves it.

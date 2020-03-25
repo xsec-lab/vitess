@@ -22,20 +22,20 @@ import (
 	"fmt"
 	"os"
 
-	"vitess.io/vitess/go/json2"
-	"vitess.io/vitess/go/vt/dbconfigs"
-	"vitess.io/vitess/go/vt/mysqlctl"
-	"vitess.io/vitess/go/vt/srvtopo"
-	"vitess.io/vitess/go/vt/topo"
-	"vitess.io/vitess/go/vt/topo/memorytopo"
-	"vitess.io/vitess/go/vt/vttablet/tabletserver/connpool"
-	"vitess.io/vitess/go/vt/vttablet/tabletserver/schema"
-	"vitess.io/vitess/go/vt/vttablet/tabletserver/tabletenv"
-	"vitess.io/vitess/go/vt/vttest"
+	"github.com/xsec-lab/go/json2"
+	"github.com/xsec-lab/go/vt/dbconfigs"
+	"github.com/xsec-lab/go/vt/mysqlctl"
+	"github.com/xsec-lab/go/vt/srvtopo"
+	"github.com/xsec-lab/go/vt/topo"
+	"github.com/xsec-lab/go/vt/topo/memorytopo"
+	"github.com/xsec-lab/go/vt/vttablet/tabletserver/connpool"
+	"github.com/xsec-lab/go/vt/vttablet/tabletserver/schema"
+	"github.com/xsec-lab/go/vt/vttablet/tabletserver/tabletenv"
+	"github.com/xsec-lab/go/vt/vttest"
 
-	topodatapb "vitess.io/vitess/go/vt/proto/topodata"
-	vschemapb "vitess.io/vitess/go/vt/proto/vschema"
-	vttestpb "vitess.io/vitess/go/vt/proto/vttest"
+	topodatapb "github.com/xsec-lab/go/vt/proto/topodata"
+	vschemapb "github.com/xsec-lab/go/vt/proto/vschema"
+	vttestpb "github.com/xsec-lab/go/vt/proto/vttest"
 )
 
 // Env contains all the env vars for a test against a mysql instance.

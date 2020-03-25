@@ -31,9 +31,9 @@ import (
 	"syscall"
 	"time"
 
-	"vitess.io/vitess/go/mysql"
-	"vitess.io/vitess/go/sqltypes"
-	"vitess.io/vitess/go/vt/log"
+	"github.com/xsec-lab/go/mysql"
+	"github.com/xsec-lab/go/sqltypes"
+	"github.com/xsec-lab/go/vt/log"
 )
 
 // VttabletProcess is a generic handle for a running vttablet .

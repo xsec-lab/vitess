@@ -20,9 +20,9 @@ package fakevtworkerclient
 import (
 	"golang.org/x/net/context"
 
-	"vitess.io/vitess/go/vt/logutil"
-	"vitess.io/vitess/go/vt/vtctl/fakevtctlclient"
-	"vitess.io/vitess/go/vt/worker/vtworkerclient"
+	"github.com/xsec-lab/go/vt/logutil"
+	"github.com/xsec-lab/go/vt/vtctl/fakevtctlclient"
+	"github.com/xsec-lab/go/vt/worker/vtworkerclient"
 )
 
 // FakeVtworkerClient is a fake which implements the vtworkerclient interface.

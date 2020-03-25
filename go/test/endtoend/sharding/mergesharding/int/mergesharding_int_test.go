@@ -19,7 +19,7 @@ package v3
 import (
 	"testing"
 
-	sharding "vitess.io/vitess/go/test/endtoend/sharding/mergesharding"
+	sharding "github.com/xsec-lab/go/test/endtoend/sharding/mergesharding"
 )
 
 // TestMergeShardingIntShardingKey - tests merge sharding using a INT column

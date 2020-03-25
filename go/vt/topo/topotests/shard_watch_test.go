@@ -22,10 +22,10 @@ import (
 	"time"
 
 	"github.com/golang/protobuf/proto"
+	topodatapb "github.com/xsec-lab/go/vt/proto/topodata"
+	"github.com/xsec-lab/go/vt/topo"
+	"github.com/xsec-lab/go/vt/topo/memorytopo"
 	"golang.org/x/net/context"
-	topodatapb "vitess.io/vitess/go/vt/proto/topodata"
-	"vitess.io/vitess/go/vt/topo"
-	"vitess.io/vitess/go/vt/topo/memorytopo"
 )
 
 // waitForInitialShard waits for the initial Shard to appear.

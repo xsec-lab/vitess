@@ -26,8 +26,8 @@ import (
 	"github.com/stretchr/testify/require"
 
 	"github.com/stretchr/testify/assert"
-	"vitess.io/vitess/go/mysql"
-	"vitess.io/vitess/go/test/endtoend/cluster"
+	"github.com/xsec-lab/go/mysql"
+	"github.com/xsec-lab/go/test/endtoend/cluster"
 )
 
 // TestLockAndUnlock tests the lock ability by locking a replica and asserting it does not see changes

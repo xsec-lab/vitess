@@ -19,8 +19,8 @@ package planbuilder
 import (
 	"testing"
 
-	"vitess.io/vitess/go/vt/vtgate/engine"
-	"vitess.io/vitess/go/vt/vtgate/vindexes"
+	"github.com/xsec-lab/go/vt/vtgate/engine"
+	"github.com/xsec-lab/go/vt/vtgate/vindexes"
 )
 
 func TestIsBetterThan(t *testing.T) {

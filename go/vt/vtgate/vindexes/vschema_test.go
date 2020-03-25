@@ -27,15 +27,15 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"vitess.io/vitess/go/json2"
-	"vitess.io/vitess/go/sqltypes"
-	"vitess.io/vitess/go/vt/key"
-	"vitess.io/vitess/go/vt/sqlparser"
+	"github.com/xsec-lab/go/json2"
+	"github.com/xsec-lab/go/sqltypes"
+	"github.com/xsec-lab/go/vt/key"
+	"github.com/xsec-lab/go/vt/sqlparser"
 
-	querypb "vitess.io/vitess/go/vt/proto/query"
-	topodatapb "vitess.io/vitess/go/vt/proto/topodata"
-	"vitess.io/vitess/go/vt/proto/vschema"
-	vschemapb "vitess.io/vitess/go/vt/proto/vschema"
+	querypb "github.com/xsec-lab/go/vt/proto/query"
+	topodatapb "github.com/xsec-lab/go/vt/proto/topodata"
+	"github.com/xsec-lab/go/vt/proto/vschema"
+	vschemapb "github.com/xsec-lab/go/vt/proto/vschema"
 )
 
 // cheapVindex is a Functional, Unique Vindex.

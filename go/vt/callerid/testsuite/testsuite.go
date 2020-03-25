@@ -22,10 +22,10 @@ import (
 	"github.com/golang/protobuf/proto"
 	"golang.org/x/net/context"
 
-	"vitess.io/vitess/go/vt/callerid"
+	"github.com/xsec-lab/go/vt/callerid"
 
-	querypb "vitess.io/vitess/go/vt/proto/query"
-	vtrpcpb "vitess.io/vitess/go/vt/proto/vtrpc"
+	querypb "github.com/xsec-lab/go/vt/proto/query"
+	vtrpcpb "github.com/xsec-lab/go/vt/proto/vtrpc"
 )
 
 const (

@@ -21,10 +21,10 @@ import (
 	"fmt"
 	"time"
 
-	"vitess.io/vitess/go/mysql"
-	"vitess.io/vitess/go/sqltypes"
-	"vitess.io/vitess/go/stats"
-	"vitess.io/vitess/go/vt/dbconfigs"
+	"github.com/xsec-lab/go/mysql"
+	"github.com/xsec-lab/go/sqltypes"
+	"github.com/xsec-lab/go/stats"
+	"github.com/xsec-lab/go/vt/dbconfigs"
 )
 
 // DBConnection re-exposes mysql.Conn with some wrapping to implement

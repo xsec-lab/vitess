@@ -21,9 +21,9 @@ import (
 
 	"golang.org/x/net/context"
 
-	"vitess.io/vitess/go/vt/log"
-	binlogdatapb "vitess.io/vitess/go/vt/proto/binlogdata"
-	topodatapb "vitess.io/vitess/go/vt/proto/topodata"
+	"github.com/xsec-lab/go/vt/log"
+	binlogdatapb "github.com/xsec-lab/go/vt/proto/binlogdata"
+	topodatapb "github.com/xsec-lab/go/vt/proto/topodata"
 )
 
 /*

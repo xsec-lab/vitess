@@ -25,9 +25,9 @@ import (
 	"path"
 	"testing"
 
-	"vitess.io/vitess/go/test/endtoend/cluster"
-	"vitess.io/vitess/go/test/endtoend/sharding/initialsharding"
-	"vitess.io/vitess/go/vt/log"
+	"github.com/xsec-lab/go/test/endtoend/cluster"
+	"github.com/xsec-lab/go/test/endtoend/sharding/initialsharding"
+	"github.com/xsec-lab/go/vt/log"
 )
 
 var (

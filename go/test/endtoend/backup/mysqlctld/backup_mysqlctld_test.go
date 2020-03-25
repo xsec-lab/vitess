@@ -19,7 +19,7 @@ package mysqlctld
 import (
 	"testing"
 
-	backup "vitess.io/vitess/go/test/endtoend/backup/vtctlbackup"
+	backup "github.com/xsec-lab/go/test/endtoend/backup/vtctlbackup"
 )
 
 // TestBackupMysqlctld - tests the backup using mysqlctld.

@@ -20,13 +20,13 @@ import (
 	"fmt"
 	"sync"
 
+	"github.com/xsec-lab/go/vt/concurrency"
+	"github.com/xsec-lab/go/vt/logutil"
+	"github.com/xsec-lab/go/vt/topo"
+	"github.com/xsec-lab/go/vt/topo/topoproto"
 	"golang.org/x/net/context"
-	"vitess.io/vitess/go/vt/concurrency"
-	"vitess.io/vitess/go/vt/logutil"
-	"vitess.io/vitess/go/vt/topo"
-	"vitess.io/vitess/go/vt/topo/topoproto"
 
-	topodatapb "vitess.io/vitess/go/vt/proto/topodata"
+	topodatapb "github.com/xsec-lab/go/vt/proto/topodata"
 )
 
 // RebuildKeyspace rebuilds the serving graph data while locking out other changes.

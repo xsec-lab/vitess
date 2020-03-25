@@ -17,8 +17,8 @@ limitations under the License.
 package main
 
 import (
-	"vitess.io/vitess/go/trace"
-	"vitess.io/vitess/go/vt/servenv"
+	"github.com/xsec-lab/go/trace"
+	"github.com/xsec-lab/go/vt/servenv"
 )
 
 func init() {

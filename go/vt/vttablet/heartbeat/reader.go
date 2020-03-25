@@ -21,21 +21,21 @@ import (
 	"sync"
 	"time"
 
-	"vitess.io/vitess/go/vt/vterrors"
+	"github.com/xsec-lab/go/vt/vterrors"
 
 	"golang.org/x/net/context"
 
-	"vitess.io/vitess/go/sqlescape"
-	"vitess.io/vitess/go/sqltypes"
-	"vitess.io/vitess/go/timer"
-	"vitess.io/vitess/go/vt/dbconfigs"
-	"vitess.io/vitess/go/vt/log"
-	"vitess.io/vitess/go/vt/logutil"
-	"vitess.io/vitess/go/vt/sqlparser"
-	"vitess.io/vitess/go/vt/vttablet/tabletserver/connpool"
-	"vitess.io/vitess/go/vt/vttablet/tabletserver/tabletenv"
+	"github.com/xsec-lab/go/sqlescape"
+	"github.com/xsec-lab/go/sqltypes"
+	"github.com/xsec-lab/go/timer"
+	"github.com/xsec-lab/go/vt/dbconfigs"
+	"github.com/xsec-lab/go/vt/log"
+	"github.com/xsec-lab/go/vt/logutil"
+	"github.com/xsec-lab/go/vt/sqlparser"
+	"github.com/xsec-lab/go/vt/vttablet/tabletserver/connpool"
+	"github.com/xsec-lab/go/vt/vttablet/tabletserver/tabletenv"
 
-	querypb "vitess.io/vitess/go/vt/proto/query"
+	querypb "github.com/xsec-lab/go/vt/proto/query"
 )
 
 const (

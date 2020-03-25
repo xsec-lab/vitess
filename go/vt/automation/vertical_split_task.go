@@ -19,8 +19,8 @@ package automation
 import (
 	"strings"
 
-	automationpb "vitess.io/vitess/go/vt/proto/automation"
-	"vitess.io/vitess/go/vt/topo/topoproto"
+	automationpb "github.com/xsec-lab/go/vt/proto/automation"
+	"github.com/xsec-lab/go/vt/topo/topoproto"
 )
 
 // VerticalSplitTask is a cluster operation to split out specific tables of one

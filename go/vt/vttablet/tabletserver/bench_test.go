@@ -23,11 +23,11 @@ import (
 
 	"golang.org/x/net/context"
 
-	"vitess.io/vitess/go/sqltypes"
+	"github.com/xsec-lab/go/sqltypes"
 
-	querypb "vitess.io/vitess/go/vt/proto/query"
-	topodatapb "vitess.io/vitess/go/vt/proto/topodata"
-	"vitess.io/vitess/go/vt/topo/memorytopo"
+	querypb "github.com/xsec-lab/go/vt/proto/query"
+	topodatapb "github.com/xsec-lab/go/vt/proto/topodata"
+	"github.com/xsec-lab/go/vt/topo/memorytopo"
 )
 
 // Benchmark run on 6/27/17, with optimized byte-level operations

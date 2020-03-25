@@ -34,8 +34,8 @@ import (
 
 	zookeeper "github.com/z-division/go-zookeeper/zk"
 
-	"vitess.io/vitess/go/vt/env"
-	"vitess.io/vitess/go/vt/log"
+	"github.com/xsec-lab/go/vt/env"
+	"github.com/xsec-lab/go/vt/log"
 )
 
 const (

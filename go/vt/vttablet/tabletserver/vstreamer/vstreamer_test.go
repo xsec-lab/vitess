@@ -27,9 +27,9 @@ import (
 	"github.com/stretchr/testify/require"
 	"golang.org/x/net/context"
 
-	"vitess.io/vitess/go/mysql"
+	"github.com/xsec-lab/go/mysql"
 
-	binlogdatapb "vitess.io/vitess/go/vt/proto/binlogdata"
+	binlogdatapb "github.com/xsec-lab/go/vt/proto/binlogdata"
 )
 
 type testcase struct {

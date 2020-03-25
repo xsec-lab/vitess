@@ -23,13 +23,13 @@ import (
 
 	"golang.org/x/net/context"
 
-	"vitess.io/vitess/go/sqlescape"
-	"vitess.io/vitess/go/sqltypes"
-	"vitess.io/vitess/go/vt/log"
-	"vitess.io/vitess/go/vt/mysqlctl/tmutils"
+	"github.com/xsec-lab/go/sqlescape"
+	"github.com/xsec-lab/go/sqltypes"
+	"github.com/xsec-lab/go/vt/log"
+	"github.com/xsec-lab/go/vt/mysqlctl/tmutils"
 
-	querypb "vitess.io/vitess/go/vt/proto/query"
-	tabletmanagerdatapb "vitess.io/vitess/go/vt/proto/tabletmanagerdata"
+	querypb "github.com/xsec-lab/go/vt/proto/query"
+	tabletmanagerdatapb "github.com/xsec-lab/go/vt/proto/tabletmanagerdata"
 )
 
 var autoIncr = regexp.MustCompile(` AUTO_INCREMENT=\d+`)

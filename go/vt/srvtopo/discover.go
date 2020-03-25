@@ -21,12 +21,12 @@ import (
 
 	"golang.org/x/net/context"
 
-	"vitess.io/vitess/go/vt/concurrency"
-	"vitess.io/vitess/go/vt/log"
-	"vitess.io/vitess/go/vt/topo"
+	"github.com/xsec-lab/go/vt/concurrency"
+	"github.com/xsec-lab/go/vt/log"
+	"github.com/xsec-lab/go/vt/topo"
 
-	querypb "vitess.io/vitess/go/vt/proto/query"
-	topodatapb "vitess.io/vitess/go/vt/proto/topodata"
+	querypb "github.com/xsec-lab/go/vt/proto/query"
+	topodatapb "github.com/xsec-lab/go/vt/proto/topodata"
 )
 
 // FindAllTargets goes through all serving shards in the topology

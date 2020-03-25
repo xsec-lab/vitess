@@ -31,9 +31,9 @@ package v3
 import (
 	"testing"
 
-	"vitess.io/vitess/go/test/endtoend/cluster"
-	sharding "vitess.io/vitess/go/test/endtoend/sharding/initialsharding"
-	querypb "vitess.io/vitess/go/vt/proto/query"
+	"github.com/xsec-lab/go/test/endtoend/cluster"
+	sharding "github.com/xsec-lab/go/test/endtoend/sharding/initialsharding"
+	querypb "github.com/xsec-lab/go/vt/proto/query"
 )
 
 func TestInitialSharding(t *testing.T) {

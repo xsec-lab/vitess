@@ -25,8 +25,8 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/require"
-	"vitess.io/vitess/go/sqltypes"
-	querypb "vitess.io/vitess/go/vt/proto/query"
+	"github.com/xsec-lab/go/sqltypes"
+	querypb "github.com/xsec-lab/go/vt/proto/query"
 )
 
 var packet1 = sqltypes.Result{

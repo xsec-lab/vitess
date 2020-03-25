@@ -23,7 +23,7 @@ import (
 
 	"golang.org/x/net/context"
 
-	binlogdatapb "vitess.io/vitess/go/vt/proto/binlogdata"
+	binlogdatapb "github.com/xsec-lab/go/vt/proto/binlogdata"
 )
 
 var (

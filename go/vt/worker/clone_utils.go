@@ -20,10 +20,10 @@ import (
 	"bytes"
 	"regexp"
 
-	"vitess.io/vitess/go/sqlescape"
-	"vitess.io/vitess/go/sqltypes"
+	"github.com/xsec-lab/go/sqlescape"
+	"github.com/xsec-lab/go/sqltypes"
 
-	querypb "vitess.io/vitess/go/vt/proto/query"
+	querypb "github.com/xsec-lab/go/vt/proto/query"
 )
 
 //

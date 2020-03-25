@@ -27,10 +27,10 @@ import (
 	"github.com/stretchr/testify/assert"
 
 	"github.com/stretchr/testify/require"
-	"vitess.io/vitess/go/mysql"
-	tabletpb "vitess.io/vitess/go/vt/proto/topodata"
-	"vitess.io/vitess/go/vt/vtgate/vtgateconn"
-	tmc "vitess.io/vitess/go/vt/vttablet/grpctmclient"
+	"github.com/xsec-lab/go/mysql"
+	tabletpb "github.com/xsec-lab/go/vt/proto/topodata"
+	"github.com/xsec-lab/go/vt/vtgate/vtgateconn"
+	tmc "github.com/xsec-lab/go/vt/vttablet/grpctmclient"
 )
 
 var (

@@ -26,22 +26,22 @@ import (
 	"sync"
 	"time"
 
+	"github.com/xsec-lab/go/vt/logutil"
+	"github.com/xsec-lab/go/vt/proto/vtrpc"
+	"github.com/xsec-lab/go/vt/vterrors"
 	"golang.org/x/net/context"
-	"vitess.io/vitess/go/vt/logutil"
-	"vitess.io/vitess/go/vt/proto/vtrpc"
-	"vitess.io/vitess/go/vt/vterrors"
 
 	"github.com/golang/protobuf/proto"
 
-	"vitess.io/vitess/go/event"
-	"vitess.io/vitess/go/trace"
-	"vitess.io/vitess/go/vt/concurrency"
-	"vitess.io/vitess/go/vt/key"
-	"vitess.io/vitess/go/vt/log"
-	"vitess.io/vitess/go/vt/topo/events"
-	"vitess.io/vitess/go/vt/topo/topoproto"
+	"github.com/xsec-lab/go/event"
+	"github.com/xsec-lab/go/trace"
+	"github.com/xsec-lab/go/vt/concurrency"
+	"github.com/xsec-lab/go/vt/key"
+	"github.com/xsec-lab/go/vt/log"
+	"github.com/xsec-lab/go/vt/topo/events"
+	"github.com/xsec-lab/go/vt/topo/topoproto"
 
-	topodatapb "vitess.io/vitess/go/vt/proto/topodata"
+	topodatapb "github.com/xsec-lab/go/vt/proto/topodata"
 )
 
 // Functions for dealing with shard representations in topology.

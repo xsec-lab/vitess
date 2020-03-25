@@ -29,12 +29,12 @@ import (
 
 	"golang.org/x/net/context"
 
-	"vitess.io/vitess/go/sqltypes"
-	"vitess.io/vitess/go/vt/key"
-	"vitess.io/vitess/go/vt/srvtopo"
+	"github.com/xsec-lab/go/sqltypes"
+	"github.com/xsec-lab/go/vt/key"
+	"github.com/xsec-lab/go/vt/srvtopo"
 
-	querypb "vitess.io/vitess/go/vt/proto/query"
-	vtgatepb "vitess.io/vitess/go/vt/proto/vtgate"
+	querypb "github.com/xsec-lab/go/vt/proto/query"
+	vtgatepb "github.com/xsec-lab/go/vt/proto/vtgate"
 )
 
 var testMaxMemoryRows = 100

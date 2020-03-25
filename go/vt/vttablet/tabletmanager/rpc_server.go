@@ -19,13 +19,13 @@ package tabletmanager
 import (
 	"fmt"
 
-	"vitess.io/vitess/go/vt/vterrors"
+	"github.com/xsec-lab/go/vt/vterrors"
 
+	"github.com/xsec-lab/go/tb"
+	"github.com/xsec-lab/go/vt/callinfo"
+	"github.com/xsec-lab/go/vt/log"
+	"github.com/xsec-lab/go/vt/topo/topoproto"
 	"golang.org/x/net/context"
-	"vitess.io/vitess/go/tb"
-	"vitess.io/vitess/go/vt/callinfo"
-	"vitess.io/vitess/go/vt/log"
-	"vitess.io/vitess/go/vt/topo/topoproto"
 )
 
 // This file contains the RPC method helpers for the tablet manager.

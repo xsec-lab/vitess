@@ -29,14 +29,14 @@ import (
 	"sync"
 	"time"
 
-	"vitess.io/vitess/go/bucketpool"
-	"vitess.io/vitess/go/sqltypes"
-	"vitess.io/vitess/go/sync2"
-	"vitess.io/vitess/go/vt/log"
-	querypb "vitess.io/vitess/go/vt/proto/query"
-	"vitess.io/vitess/go/vt/proto/vtrpc"
-	"vitess.io/vitess/go/vt/sqlparser"
-	"vitess.io/vitess/go/vt/vterrors"
+	"github.com/xsec-lab/go/bucketpool"
+	"github.com/xsec-lab/go/sqltypes"
+	"github.com/xsec-lab/go/sync2"
+	"github.com/xsec-lab/go/vt/log"
+	querypb "github.com/xsec-lab/go/vt/proto/query"
+	"github.com/xsec-lab/go/vt/proto/vtrpc"
+	"github.com/xsec-lab/go/vt/sqlparser"
+	"github.com/xsec-lab/go/vt/vterrors"
 )
 
 var mysqlServerFlushDelay = flag.Duration("mysql_server_flush_delay", 100*time.Millisecond, "Delay after which buffered response will flushed to client.")

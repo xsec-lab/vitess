@@ -21,11 +21,11 @@ import (
 	"math/rand"
 	"time"
 
+	topodatapb "github.com/xsec-lab/go/vt/proto/topodata"
+	"github.com/xsec-lab/go/vt/topo"
+	"github.com/xsec-lab/go/vt/topo/topoproto"
+	"github.com/xsec-lab/go/vt/vterrors"
 	"golang.org/x/net/context"
-	topodatapb "vitess.io/vitess/go/vt/proto/topodata"
-	"vitess.io/vitess/go/vt/topo"
-	"vitess.io/vitess/go/vt/topo/topoproto"
-	"vitess.io/vitess/go/vt/vterrors"
 )
 
 // TabletPicker gives a simplified API for picking tablets.

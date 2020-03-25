@@ -26,10 +26,10 @@ import (
 	"fmt"
 	"sync"
 
+	"github.com/xsec-lab/go/vt/log"
+	automationpb "github.com/xsec-lab/go/vt/proto/automation"
+	"github.com/xsec-lab/go/vt/vterrors"
 	"golang.org/x/net/context"
-	"vitess.io/vitess/go/vt/log"
-	automationpb "vitess.io/vitess/go/vt/proto/automation"
-	"vitess.io/vitess/go/vt/vterrors"
 )
 
 type schedulerState int32

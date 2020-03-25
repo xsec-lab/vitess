@@ -22,9 +22,9 @@ import (
 	"encoding/json"
 	"io/ioutil"
 
-	"vitess.io/vitess/go/sqltypes"
-	"vitess.io/vitess/go/vt/key"
-	"vitess.io/vitess/go/vt/log"
+	"github.com/xsec-lab/go/sqltypes"
+	"github.com/xsec-lab/go/vt/key"
+	"github.com/xsec-lab/go/vt/log"
 )
 
 var (

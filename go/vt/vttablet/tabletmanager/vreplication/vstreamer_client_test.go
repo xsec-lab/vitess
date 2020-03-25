@@ -25,12 +25,12 @@ import (
 
 	"golang.org/x/net/context"
 
-	"vitess.io/vitess/go/mysql"
+	"github.com/xsec-lab/go/mysql"
 
-	"vitess.io/vitess/go/vt/dbconfigs"
-	binlogdatapb "vitess.io/vitess/go/vt/proto/binlogdata"
-	querypb "vitess.io/vitess/go/vt/proto/query"
-	topodatapb "vitess.io/vitess/go/vt/proto/topodata"
+	"github.com/xsec-lab/go/vt/dbconfigs"
+	binlogdatapb "github.com/xsec-lab/go/vt/proto/binlogdata"
+	querypb "github.com/xsec-lab/go/vt/proto/query"
+	topodatapb "github.com/xsec-lab/go/vt/proto/topodata"
 )
 
 func TestTabletVStreamerClientOpen(t *testing.T) {

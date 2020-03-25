@@ -26,8 +26,8 @@ import (
 	"text/template"
 	"time"
 
-	"vitess.io/vitess/go/streamlog"
-	"vitess.io/vitess/go/vt/log"
+	"github.com/xsec-lab/go/streamlog"
+	"github.com/xsec-lab/go/vt/log"
 )
 
 var (

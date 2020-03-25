@@ -19,11 +19,11 @@ limitations under the License.
 package helpers
 
 import (
+	"github.com/xsec-lab/go/vt/log"
+	"github.com/xsec-lab/go/vt/topo"
 	"golang.org/x/net/context"
-	"vitess.io/vitess/go/vt/log"
-	"vitess.io/vitess/go/vt/topo"
 
-	topodatapb "vitess.io/vitess/go/vt/proto/topodata"
+	topodatapb "github.com/xsec-lab/go/vt/proto/topodata"
 )
 
 // CopyKeyspaces will create the keyspaces in the destination topo.

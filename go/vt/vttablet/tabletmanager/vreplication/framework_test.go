@@ -30,20 +30,20 @@ import (
 	"github.com/golang/protobuf/proto"
 	"golang.org/x/net/context"
 
-	"vitess.io/vitess/go/mysql"
-	"vitess.io/vitess/go/sqltypes"
-	"vitess.io/vitess/go/vt/binlog/binlogplayer"
-	"vitess.io/vitess/go/vt/grpcclient"
-	"vitess.io/vitess/go/vt/topo"
-	"vitess.io/vitess/go/vt/vttablet/queryservice"
-	"vitess.io/vitess/go/vt/vttablet/queryservice/fakes"
-	"vitess.io/vitess/go/vt/vttablet/tabletconn"
-	"vitess.io/vitess/go/vt/vttablet/tabletserver/vstreamer"
-	"vitess.io/vitess/go/vt/vttablet/tabletserver/vstreamer/testenv"
+	"github.com/xsec-lab/go/mysql"
+	"github.com/xsec-lab/go/sqltypes"
+	"github.com/xsec-lab/go/vt/binlog/binlogplayer"
+	"github.com/xsec-lab/go/vt/grpcclient"
+	"github.com/xsec-lab/go/vt/topo"
+	"github.com/xsec-lab/go/vt/vttablet/queryservice"
+	"github.com/xsec-lab/go/vt/vttablet/queryservice/fakes"
+	"github.com/xsec-lab/go/vt/vttablet/tabletconn"
+	"github.com/xsec-lab/go/vt/vttablet/tabletserver/vstreamer"
+	"github.com/xsec-lab/go/vt/vttablet/tabletserver/vstreamer/testenv"
 
-	binlogdatapb "vitess.io/vitess/go/vt/proto/binlogdata"
-	querypb "vitess.io/vitess/go/vt/proto/query"
-	topodatapb "vitess.io/vitess/go/vt/proto/topodata"
+	binlogdatapb "github.com/xsec-lab/go/vt/proto/binlogdata"
+	querypb "github.com/xsec-lab/go/vt/proto/query"
+	topodatapb "github.com/xsec-lab/go/vt/proto/topodata"
 )
 
 var (

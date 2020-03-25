@@ -22,13 +22,13 @@ import (
 
 	"golang.org/x/net/context"
 
-	"vitess.io/vitess/go/vt/log"
-	"vitess.io/vitess/go/vt/logutil"
-	"vitess.io/vitess/go/vt/mysqlctl"
-	topodatapb "vitess.io/vitess/go/vt/proto/topodata"
-	"vitess.io/vitess/go/vt/topo"
-	"vitess.io/vitess/go/vt/topo/topoproto"
-	"vitess.io/vitess/go/vt/vterrors"
+	"github.com/xsec-lab/go/vt/log"
+	"github.com/xsec-lab/go/vt/logutil"
+	"github.com/xsec-lab/go/vt/mysqlctl"
+	topodatapb "github.com/xsec-lab/go/vt/proto/topodata"
+	"github.com/xsec-lab/go/vt/topo"
+	"github.com/xsec-lab/go/vt/topo/topoproto"
+	"github.com/xsec-lab/go/vt/vterrors"
 )
 
 var (

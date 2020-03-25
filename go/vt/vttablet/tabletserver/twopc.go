@@ -22,19 +22,19 @@ import (
 
 	"golang.org/x/net/context"
 
-	"vitess.io/vitess/go/sqlescape"
-	"vitess.io/vitess/go/sqltypes"
-	"vitess.io/vitess/go/stats"
-	"vitess.io/vitess/go/vt/dbconfigs"
-	"vitess.io/vitess/go/vt/dbconnpool"
-	"vitess.io/vitess/go/vt/log"
-	"vitess.io/vitess/go/vt/sqlparser"
-	"vitess.io/vitess/go/vt/vterrors"
-	"vitess.io/vitess/go/vt/vttablet/tabletserver/connpool"
+	"github.com/xsec-lab/go/sqlescape"
+	"github.com/xsec-lab/go/sqltypes"
+	"github.com/xsec-lab/go/stats"
+	"github.com/xsec-lab/go/vt/dbconfigs"
+	"github.com/xsec-lab/go/vt/dbconnpool"
+	"github.com/xsec-lab/go/vt/log"
+	"github.com/xsec-lab/go/vt/sqlparser"
+	"github.com/xsec-lab/go/vt/vterrors"
+	"github.com/xsec-lab/go/vt/vttablet/tabletserver/connpool"
 
-	querypb "vitess.io/vitess/go/vt/proto/query"
-	topodatapb "vitess.io/vitess/go/vt/proto/topodata"
-	vtrpcpb "vitess.io/vitess/go/vt/proto/vtrpc"
+	querypb "github.com/xsec-lab/go/vt/proto/query"
+	topodatapb "github.com/xsec-lab/go/vt/proto/topodata"
+	vtrpcpb "github.com/xsec-lab/go/vt/proto/vtrpc"
 )
 
 const (

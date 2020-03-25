@@ -31,9 +31,9 @@ import (
 	"time"
 
 	"github.com/Azure/azure-storage-blob-go/azblob"
-	"vitess.io/vitess/go/vt/concurrency"
-	"vitess.io/vitess/go/vt/log"
-	"vitess.io/vitess/go/vt/mysqlctl/backupstorage"
+	"github.com/xsec-lab/go/vt/concurrency"
+	"github.com/xsec-lab/go/vt/log"
+	"github.com/xsec-lab/go/vt/mysqlctl/backupstorage"
 )
 
 var (

@@ -22,11 +22,11 @@ import (
 	"strconv"
 	"strings"
 
-	"vitess.io/vitess/go/sqltypes"
-	"vitess.io/vitess/go/vt/proto/vtrpc"
-	"vitess.io/vitess/go/vt/vterrors"
+	"github.com/xsec-lab/go/sqltypes"
+	"github.com/xsec-lab/go/vt/proto/vtrpc"
+	"github.com/xsec-lab/go/vt/vterrors"
 
-	querypb "vitess.io/vitess/go/vt/proto/query"
+	querypb "github.com/xsec-lab/go/vt/proto/query"
 )
 
 // This file contains the methods related to queries.

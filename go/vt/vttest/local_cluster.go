@@ -30,18 +30,18 @@ import (
 	"strings"
 	"unicode"
 
-	"vitess.io/vitess/go/vt/proto/logutil"
+	"github.com/xsec-lab/go/vt/proto/logutil"
 	// we need to import the grpcvtctlclient library so the gRPC
 	// vtctl client is registered and can be used.
-	_ "vitess.io/vitess/go/vt/vtctl/grpcvtctlclient"
-	"vitess.io/vitess/go/vt/vtctl/vtctlclient"
+	_ "github.com/xsec-lab/go/vt/vtctl/grpcvtctlclient"
+	"github.com/xsec-lab/go/vt/vtctl/vtctlclient"
 
-	"vitess.io/vitess/go/mysql"
-	"vitess.io/vitess/go/sqltypes"
-	"vitess.io/vitess/go/vt/log"
+	"github.com/xsec-lab/go/mysql"
+	"github.com/xsec-lab/go/sqltypes"
+	"github.com/xsec-lab/go/vt/log"
 
-	vschemapb "vitess.io/vitess/go/vt/proto/vschema"
-	vttestpb "vitess.io/vitess/go/vt/proto/vttest"
+	vschemapb "github.com/xsec-lab/go/vt/proto/vschema"
+	vttestpb "github.com/xsec-lab/go/vt/proto/vttest"
 )
 
 // Config are the settings used to configure the self-contained Vitess cluster.

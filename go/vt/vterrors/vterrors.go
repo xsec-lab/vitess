@@ -90,8 +90,8 @@ import (
 	"fmt"
 	"io"
 
+	vtrpcpb "github.com/xsec-lab/go/vt/proto/vtrpc"
 	"golang.org/x/net/context"
-	vtrpcpb "vitess.io/vitess/go/vt/proto/vtrpc"
 )
 
 // LogErrStacks controls whether or not printing errors includes the

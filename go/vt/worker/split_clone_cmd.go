@@ -27,13 +27,13 @@ import (
 
 	"golang.org/x/net/context"
 
-	"vitess.io/vitess/go/vt/concurrency"
-	"vitess.io/vitess/go/vt/proto/topodata"
-	"vitess.io/vitess/go/vt/proto/vtrpc"
-	"vitess.io/vitess/go/vt/topo/topoproto"
-	"vitess.io/vitess/go/vt/topotools"
-	"vitess.io/vitess/go/vt/vterrors"
-	"vitess.io/vitess/go/vt/wrangler"
+	"github.com/xsec-lab/go/vt/concurrency"
+	"github.com/xsec-lab/go/vt/proto/topodata"
+	"github.com/xsec-lab/go/vt/proto/vtrpc"
+	"github.com/xsec-lab/go/vt/topo/topoproto"
+	"github.com/xsec-lab/go/vt/topotools"
+	"github.com/xsec-lab/go/vt/vterrors"
+	"github.com/xsec-lab/go/vt/wrangler"
 )
 
 const splitCloneHTML = `

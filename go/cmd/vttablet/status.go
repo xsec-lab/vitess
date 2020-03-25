@@ -19,13 +19,13 @@ package main
 import (
 	"html/template"
 
-	"vitess.io/vitess/go/vt/health"
-	"vitess.io/vitess/go/vt/servenv"
-	_ "vitess.io/vitess/go/vt/status"
-	"vitess.io/vitess/go/vt/topo"
-	"vitess.io/vitess/go/vt/vttablet/tabletmanager"
-	"vitess.io/vitess/go/vt/vttablet/tabletmanager/vreplication"
-	"vitess.io/vitess/go/vt/vttablet/tabletserver"
+	"github.com/xsec-lab/go/vt/health"
+	"github.com/xsec-lab/go/vt/servenv"
+	_ "github.com/xsec-lab/go/vt/status"
+	"github.com/xsec-lab/go/vt/topo"
+	"github.com/xsec-lab/go/vt/vttablet/tabletmanager"
+	"github.com/xsec-lab/go/vt/vttablet/tabletmanager/vreplication"
+	"github.com/xsec-lab/go/vt/vttablet/tabletserver"
 )
 
 var (

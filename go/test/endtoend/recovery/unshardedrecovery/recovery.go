@@ -26,15 +26,15 @@ import (
 	"path"
 	"testing"
 
-	"vitess.io/vitess/go/test/endtoend/recovery"
-	"vitess.io/vitess/go/test/endtoend/sharding/initialsharding"
+	"github.com/xsec-lab/go/test/endtoend/recovery"
+	"github.com/xsec-lab/go/test/endtoend/sharding/initialsharding"
 
-	"vitess.io/vitess/go/vt/log"
-	"vitess.io/vitess/go/vt/vtgate/vtgateconn"
+	"github.com/xsec-lab/go/vt/log"
+	"github.com/xsec-lab/go/vt/vtgate/vtgateconn"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"vitess.io/vitess/go/test/endtoend/cluster"
+	"github.com/xsec-lab/go/test/endtoend/cluster"
 )
 
 var (

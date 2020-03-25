@@ -20,8 +20,8 @@ import (
 	"errors"
 	"fmt"
 
-	"vitess.io/vitess/go/vt/sqlparser"
-	"vitess.io/vitess/go/vt/vtgate/engine"
+	"github.com/xsec-lab/go/vt/sqlparser"
+	"github.com/xsec-lab/go/vt/vtgate/engine"
 )
 
 func buildUnionPlan(union *sqlparser.Union, vschema ContextVSchema) (engine.Primitive, error) {

@@ -25,7 +25,7 @@ import (
 	"testing"
 	"time"
 
-	"vitess.io/vitess/go/test/endtoend/cluster"
+	"github.com/xsec-lab/go/test/endtoend/cluster"
 
 	"github.com/go-sql-driver/mysql"
 	"github.com/stretchr/testify/require"

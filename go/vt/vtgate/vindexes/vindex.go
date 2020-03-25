@@ -19,14 +19,14 @@ package vindexes
 import (
 	"fmt"
 
-	"vitess.io/vitess/go/sqltypes"
-	"vitess.io/vitess/go/vt/key"
-	"vitess.io/vitess/go/vt/sqlparser"
-	"vitess.io/vitess/go/vt/vterrors"
+	"github.com/xsec-lab/go/sqltypes"
+	"github.com/xsec-lab/go/vt/key"
+	"github.com/xsec-lab/go/vt/sqlparser"
+	"github.com/xsec-lab/go/vt/vterrors"
 
-	querypb "vitess.io/vitess/go/vt/proto/query"
-	vtgatepb "vitess.io/vitess/go/vt/proto/vtgate"
-	vtrpcpb "vitess.io/vitess/go/vt/proto/vtrpc"
+	querypb "github.com/xsec-lab/go/vt/proto/query"
+	vtgatepb "github.com/xsec-lab/go/vt/proto/vtgate"
+	vtrpcpb "github.com/xsec-lab/go/vt/proto/vtrpc"
 )
 
 // This file defines interfaces and registration for vindexes.

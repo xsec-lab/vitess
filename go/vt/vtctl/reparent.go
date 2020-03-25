@@ -21,13 +21,13 @@ import (
 	"fmt"
 	"time"
 
+	"github.com/xsec-lab/go/vt/topo"
+	"github.com/xsec-lab/go/vt/topo/topoproto"
+	"github.com/xsec-lab/go/vt/wrangler"
 	"golang.org/x/net/context"
-	"vitess.io/vitess/go/vt/topo"
-	"vitess.io/vitess/go/vt/topo/topoproto"
-	"vitess.io/vitess/go/vt/wrangler"
 
-	"vitess.io/vitess/go/vt/mysqlctl"
-	topodatapb "vitess.io/vitess/go/vt/proto/topodata"
+	"github.com/xsec-lab/go/vt/mysqlctl"
+	topodatapb "github.com/xsec-lab/go/vt/proto/topodata"
 )
 
 func init() {

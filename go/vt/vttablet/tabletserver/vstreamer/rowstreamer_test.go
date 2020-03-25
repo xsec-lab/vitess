@@ -23,9 +23,9 @@ import (
 	"time"
 
 	"github.com/stretchr/testify/require"
-	"vitess.io/vitess/go/sqltypes"
+	"github.com/xsec-lab/go/sqltypes"
 
-	binlogdatapb "vitess.io/vitess/go/vt/proto/binlogdata"
+	binlogdatapb "github.com/xsec-lab/go/vt/proto/binlogdata"
 )
 
 func TestStreamRowsScan(t *testing.T) {

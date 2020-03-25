@@ -28,11 +28,11 @@ import (
 	"golang.org/x/net/context"
 
 	"github.com/golang/protobuf/proto"
-	"vitess.io/vitess/go/mysql"
-	"vitess.io/vitess/go/vt/vttablet/sandboxconn"
+	"github.com/xsec-lab/go/mysql"
+	"github.com/xsec-lab/go/vt/vttablet/sandboxconn"
 
-	querypb "vitess.io/vitess/go/vt/proto/query"
-	topodatapb "vitess.io/vitess/go/vt/proto/topodata"
+	querypb "github.com/xsec-lab/go/vt/proto/query"
+	topodatapb "github.com/xsec-lab/go/vt/proto/topodata"
 )
 
 func TestMySQLProtocolExecute(t *testing.T) {

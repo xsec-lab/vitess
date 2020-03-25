@@ -24,9 +24,9 @@ import (
 	"net"
 	"strings"
 
-	"vitess.io/vitess/go/vt/log"
-	"vitess.io/vitess/go/vt/proto/vtrpc"
-	"vitess.io/vitess/go/vt/vterrors"
+	"github.com/xsec-lab/go/vt/log"
+	"github.com/xsec-lab/go/vt/proto/vtrpc"
+	"github.com/xsec-lab/go/vt/vterrors"
 )
 
 // AuthServer is the interface that servers must implement to validate

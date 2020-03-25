@@ -22,10 +22,10 @@ import (
 	"reflect"
 
 	"github.com/golang/protobuf/proto"
+	"github.com/xsec-lab/go/vt/proto/vtrpc"
+	"github.com/xsec-lab/go/vt/topo"
+	"github.com/xsec-lab/go/vt/vterrors"
 	"golang.org/x/net/context"
-	"vitess.io/vitess/go/vt/proto/vtrpc"
-	"vitess.io/vitess/go/vt/topo"
-	"vitess.io/vitess/go/vt/vterrors"
 )
 
 // CompareKeyspaces will compare the keyspaces in the destination topo.

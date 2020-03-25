@@ -26,10 +26,10 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/require"
-	"vitess.io/vitess/go/mysql"
-	"vitess.io/vitess/go/sqltypes"
-	"vitess.io/vitess/go/test/endtoend/cluster"
-	tmc "vitess.io/vitess/go/vt/vttablet/grpctmclient"
+	"github.com/xsec-lab/go/mysql"
+	"github.com/xsec-lab/go/sqltypes"
+	"github.com/xsec-lab/go/test/endtoend/cluster"
+	tmc "github.com/xsec-lab/go/vt/vttablet/grpctmclient"
 )
 
 var (

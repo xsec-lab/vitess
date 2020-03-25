@@ -23,17 +23,17 @@ import (
 	"syscall"
 	"time"
 
+	"github.com/xsec-lab/go/trace"
 	"golang.org/x/net/context"
-	"vitess.io/vitess/go/trace"
 
-	"vitess.io/vitess/go/tb"
-	"vitess.io/vitess/go/vt/log"
-	"vitess.io/vitess/go/vt/logutil"
-	vtrpcpb "vitess.io/vitess/go/vt/proto/vtrpc"
-	"vitess.io/vitess/go/vt/topo"
-	"vitess.io/vitess/go/vt/vterrors"
-	"vitess.io/vitess/go/vt/vttablet/tmclient"
-	"vitess.io/vitess/go/vt/wrangler"
+	"github.com/xsec-lab/go/tb"
+	"github.com/xsec-lab/go/vt/log"
+	"github.com/xsec-lab/go/vt/logutil"
+	vtrpcpb "github.com/xsec-lab/go/vt/proto/vtrpc"
+	"github.com/xsec-lab/go/vt/topo"
+	"github.com/xsec-lab/go/vt/vterrors"
+	"github.com/xsec-lab/go/vt/vttablet/tmclient"
+	"github.com/xsec-lab/go/vt/wrangler"
 )
 
 // Instance encapsulate the execution state of vtworker.

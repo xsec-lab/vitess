@@ -19,7 +19,7 @@ package mysqlctld
 import (
 	"testing"
 
-	"vitess.io/vitess/go/test/endtoend/backup/transform"
+	"github.com/xsec-lab/go/test/endtoend/backup/transform"
 )
 
 func TestMain(m *testing.M) {

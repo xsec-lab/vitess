@@ -19,9 +19,9 @@ limitations under the License.
 package wrangler
 
 import (
-	"vitess.io/vitess/go/vt/logutil"
-	"vitess.io/vitess/go/vt/topo"
-	"vitess.io/vitess/go/vt/vttablet/tmclient"
+	"github.com/xsec-lab/go/vt/logutil"
+	"github.com/xsec-lab/go/vt/topo"
+	"github.com/xsec-lab/go/vt/vttablet/tmclient"
 )
 
 var (

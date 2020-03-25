@@ -21,11 +21,11 @@ import (
 	"fmt"
 	"strconv"
 
-	"vitess.io/vitess/go/sqltypes"
-	"vitess.io/vitess/go/vt/sqlparser"
-	"vitess.io/vitess/go/vt/vterrors"
-	"vitess.io/vitess/go/vt/vtgate/engine"
-	"vitess.io/vitess/go/vt/vtgate/vindexes"
+	"github.com/xsec-lab/go/sqltypes"
+	"github.com/xsec-lab/go/vt/sqlparser"
+	"github.com/xsec-lab/go/vt/vterrors"
+	"github.com/xsec-lab/go/vt/vtgate/engine"
+	"github.com/xsec-lab/go/vt/vtgate/vindexes"
 )
 
 // buildInsertPlan builds the route for an INSERT statement.

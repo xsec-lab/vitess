@@ -20,8 +20,8 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
-	"vitess.io/vitess/go/sqltypes"
-	"vitess.io/vitess/go/vt/key"
+	"github.com/xsec-lab/go/sqltypes"
+	"github.com/xsec-lab/go/vt/key"
 )
 
 func TestVindexMap(t *testing.T) {

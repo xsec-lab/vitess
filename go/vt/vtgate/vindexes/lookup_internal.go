@@ -23,10 +23,10 @@ import (
 	"strconv"
 	"strings"
 
-	"vitess.io/vitess/go/sqltypes"
+	"github.com/xsec-lab/go/sqltypes"
 
-	querypb "vitess.io/vitess/go/vt/proto/query"
-	vtgatepb "vitess.io/vitess/go/vt/proto/vtgate"
+	querypb "github.com/xsec-lab/go/vt/proto/query"
+	vtgatepb "github.com/xsec-lab/go/vt/proto/vtgate"
 )
 
 // lookupInternal implements the functions for the Lookup vindexes.

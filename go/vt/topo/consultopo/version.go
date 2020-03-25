@@ -19,7 +19,7 @@ package consultopo
 import (
 	"fmt"
 
-	"vitess.io/vitess/go/vt/topo"
+	"github.com/xsec-lab/go/vt/topo"
 )
 
 // ConsulVersion is consul's idea of a version.

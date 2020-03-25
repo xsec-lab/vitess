@@ -19,8 +19,8 @@ package mysql
 import (
 	"encoding/binary"
 
-	"vitess.io/vitess/go/vt/proto/vtrpc"
-	"vitess.io/vitess/go/vt/vterrors"
+	"github.com/xsec-lab/go/vt/proto/vtrpc"
+	"github.com/xsec-lab/go/vt/vterrors"
 )
 
 // mariadbBinlogEvent wraps a raw packet buffer and provides methods to examine

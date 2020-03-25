@@ -25,12 +25,12 @@ import (
 	"github.com/stretchr/testify/assert"
 	"golang.org/x/net/context"
 
-	"vitess.io/vitess/go/mysql/fakesqldb"
-	"vitess.io/vitess/go/sqltypes"
-	"vitess.io/vitess/go/vt/sqlparser"
-	"vitess.io/vitess/go/vt/vttablet/tabletserver/connpool"
+	"github.com/xsec-lab/go/mysql/fakesqldb"
+	"github.com/xsec-lab/go/sqltypes"
+	"github.com/xsec-lab/go/vt/sqlparser"
+	"github.com/xsec-lab/go/vt/vttablet/tabletserver/connpool"
 
-	querypb "vitess.io/vitess/go/vt/proto/query"
+	querypb "github.com/xsec-lab/go/vt/proto/query"
 )
 
 func TestLoadTable(t *testing.T) {

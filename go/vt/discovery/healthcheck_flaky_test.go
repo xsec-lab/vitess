@@ -28,17 +28,17 @@ import (
 	"testing"
 	"time"
 
+	"github.com/xsec-lab/go/vt/grpcclient"
+	"github.com/xsec-lab/go/vt/status"
+	"github.com/xsec-lab/go/vt/topo"
+	"github.com/xsec-lab/go/vt/topo/topoproto"
+	"github.com/xsec-lab/go/vt/vttablet/queryservice"
+	"github.com/xsec-lab/go/vt/vttablet/queryservice/fakes"
+	"github.com/xsec-lab/go/vt/vttablet/tabletconn"
 	"golang.org/x/net/context"
-	"vitess.io/vitess/go/vt/grpcclient"
-	"vitess.io/vitess/go/vt/status"
-	"vitess.io/vitess/go/vt/topo"
-	"vitess.io/vitess/go/vt/topo/topoproto"
-	"vitess.io/vitess/go/vt/vttablet/queryservice"
-	"vitess.io/vitess/go/vt/vttablet/queryservice/fakes"
-	"vitess.io/vitess/go/vt/vttablet/tabletconn"
 
-	querypb "vitess.io/vitess/go/vt/proto/query"
-	topodatapb "vitess.io/vitess/go/vt/proto/topodata"
+	querypb "github.com/xsec-lab/go/vt/proto/query"
+	topodatapb "github.com/xsec-lab/go/vt/proto/topodata"
 )
 
 var connMap map[string]*fakeConn

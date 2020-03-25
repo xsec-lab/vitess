@@ -23,13 +23,13 @@ import (
 	sync "sync"
 	time "time"
 
+	versioned "github.com/xsec-lab/go/vt/topo/k8stopo/client/clientset/versioned"
+	internalinterfaces "github.com/xsec-lab/go/vt/topo/k8stopo/client/informers/externalversions/internalinterfaces"
+	topo "github.com/xsec-lab/go/vt/topo/k8stopo/client/informers/externalversions/topo"
 	v1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	runtime "k8s.io/apimachinery/pkg/runtime"
 	schema "k8s.io/apimachinery/pkg/runtime/schema"
 	cache "k8s.io/client-go/tools/cache"
-	versioned "vitess.io/vitess/go/vt/topo/k8stopo/client/clientset/versioned"
-	internalinterfaces "vitess.io/vitess/go/vt/topo/k8stopo/client/informers/externalversions/internalinterfaces"
-	topo "vitess.io/vitess/go/vt/topo/k8stopo/client/informers/externalversions/topo"
 )
 
 // SharedInformerOption defines the functional option type for SharedInformerFactory.

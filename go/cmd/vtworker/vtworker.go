@@ -29,14 +29,14 @@ import (
 	"os"
 	"time"
 
+	"github.com/xsec-lab/go/exit"
+	"github.com/xsec-lab/go/vt/callerid"
+	"github.com/xsec-lab/go/vt/log"
+	"github.com/xsec-lab/go/vt/logutil"
+	"github.com/xsec-lab/go/vt/servenv"
+	"github.com/xsec-lab/go/vt/topo"
+	"github.com/xsec-lab/go/vt/worker"
 	"golang.org/x/net/context"
-	"vitess.io/vitess/go/exit"
-	"vitess.io/vitess/go/vt/callerid"
-	"vitess.io/vitess/go/vt/log"
-	"vitess.io/vitess/go/vt/logutil"
-	"vitess.io/vitess/go/vt/servenv"
-	"vitess.io/vitess/go/vt/topo"
-	"vitess.io/vitess/go/vt/worker"
 )
 
 var (

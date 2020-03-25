@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"testing"
 
-	"vitess.io/vitess/go/mysql"
+	"github.com/xsec-lab/go/mysql"
 )
 
 func TestDatabaseFunc(t *testing.T) {

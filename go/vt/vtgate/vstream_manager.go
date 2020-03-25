@@ -22,14 +22,14 @@ import (
 	"sync"
 
 	"github.com/golang/protobuf/proto"
+	"github.com/xsec-lab/go/vt/key"
+	"github.com/xsec-lab/go/vt/log"
+	binlogdatapb "github.com/xsec-lab/go/vt/proto/binlogdata"
+	topodatapb "github.com/xsec-lab/go/vt/proto/topodata"
+	vtrpcpb "github.com/xsec-lab/go/vt/proto/vtrpc"
+	"github.com/xsec-lab/go/vt/srvtopo"
+	"github.com/xsec-lab/go/vt/vterrors"
 	"golang.org/x/net/context"
-	"vitess.io/vitess/go/vt/key"
-	"vitess.io/vitess/go/vt/log"
-	binlogdatapb "vitess.io/vitess/go/vt/proto/binlogdata"
-	topodatapb "vitess.io/vitess/go/vt/proto/topodata"
-	vtrpcpb "vitess.io/vitess/go/vt/proto/vtrpc"
-	"vitess.io/vitess/go/vt/srvtopo"
-	"vitess.io/vitess/go/vt/vterrors"
 )
 
 // vstreamManager manages vstream requests.

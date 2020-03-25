@@ -24,16 +24,16 @@ import (
 
 	"golang.org/x/net/context"
 
-	"vitess.io/vitess/go/exit"
-	"vitess.io/vitess/go/vt/discovery"
-	"vitess.io/vitess/go/vt/log"
-	"vitess.io/vitess/go/vt/servenv"
-	"vitess.io/vitess/go/vt/srvtopo"
-	"vitess.io/vitess/go/vt/topo"
-	"vitess.io/vitess/go/vt/topo/topoproto"
-	"vitess.io/vitess/go/vt/vtgate"
+	"github.com/xsec-lab/go/exit"
+	"github.com/xsec-lab/go/vt/discovery"
+	"github.com/xsec-lab/go/vt/log"
+	"github.com/xsec-lab/go/vt/servenv"
+	"github.com/xsec-lab/go/vt/srvtopo"
+	"github.com/xsec-lab/go/vt/topo"
+	"github.com/xsec-lab/go/vt/topo/topoproto"
+	"github.com/xsec-lab/go/vt/vtgate"
 
-	topodatapb "vitess.io/vitess/go/vt/proto/topodata"
+	topodatapb "github.com/xsec-lab/go/vt/proto/topodata"
 )
 
 var (

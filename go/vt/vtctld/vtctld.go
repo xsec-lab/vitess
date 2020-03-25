@@ -26,14 +26,14 @@ import (
 
 	rice "github.com/GeertJohan/go.rice"
 
+	"github.com/xsec-lab/go/vt/log"
 	"golang.org/x/net/context"
-	"vitess.io/vitess/go/vt/log"
 
-	"vitess.io/vitess/go/acl"
-	"vitess.io/vitess/go/vt/topo"
-	"vitess.io/vitess/go/vt/wrangler"
+	"github.com/xsec-lab/go/acl"
+	"github.com/xsec-lab/go/vt/topo"
+	"github.com/xsec-lab/go/vt/wrangler"
 
-	topodatapb "vitess.io/vitess/go/vt/proto/topodata"
+	topodatapb "github.com/xsec-lab/go/vt/proto/topodata"
 )
 
 var (

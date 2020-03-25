@@ -21,9 +21,9 @@ import (
 	"net/http"
 	"sort"
 
-	"vitess.io/vitess/go/acl"
-	"vitess.io/vitess/go/vt/log"
-	"vitess.io/vitess/go/vt/logz"
+	"github.com/xsec-lab/go/acl"
+	"github.com/xsec-lab/go/vt/log"
+	"github.com/xsec-lab/go/vt/logz"
 )
 
 var (

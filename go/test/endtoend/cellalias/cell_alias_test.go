@@ -31,10 +31,10 @@ import (
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"vitess.io/vitess/go/sqltypes"
-	"vitess.io/vitess/go/test/endtoend/cluster"
-	"vitess.io/vitess/go/test/endtoend/sharding"
-	"vitess.io/vitess/go/vt/proto/topodata"
+	"github.com/xsec-lab/go/sqltypes"
+	"github.com/xsec-lab/go/test/endtoend/cluster"
+	"github.com/xsec-lab/go/test/endtoend/sharding"
+	"github.com/xsec-lab/go/vt/proto/topodata"
 )
 
 var (

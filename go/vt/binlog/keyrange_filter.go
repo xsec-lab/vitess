@@ -17,18 +17,18 @@ limitations under the License.
 package binlog
 
 import (
-	"vitess.io/vitess/go/vt/key"
-	"vitess.io/vitess/go/vt/log"
-	"vitess.io/vitess/go/vt/sqlannotation"
+	"github.com/xsec-lab/go/vt/key"
+	"github.com/xsec-lab/go/vt/log"
+	"github.com/xsec-lab/go/vt/sqlannotation"
 
 	"errors"
 	"fmt"
 
-	"vitess.io/vitess/go/vt/sqlparser"
+	"github.com/xsec-lab/go/vt/sqlparser"
 
-	binlogdatapb "vitess.io/vitess/go/vt/proto/binlogdata"
-	querypb "vitess.io/vitess/go/vt/proto/query"
-	topodatapb "vitess.io/vitess/go/vt/proto/topodata"
+	binlogdatapb "github.com/xsec-lab/go/vt/proto/binlogdata"
+	querypb "github.com/xsec-lab/go/vt/proto/query"
+	topodatapb "github.com/xsec-lab/go/vt/proto/topodata"
 )
 
 // KeyRangeFilterFunc returns a function that calls callback only if statements

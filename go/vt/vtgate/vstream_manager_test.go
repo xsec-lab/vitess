@@ -24,15 +24,15 @@ import (
 	"github.com/golang/protobuf/proto"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
+	"github.com/xsec-lab/go/vt/discovery"
+	"github.com/xsec-lab/go/vt/proto/binlogdata"
+	binlogdatapb "github.com/xsec-lab/go/vt/proto/binlogdata"
+	topodatapb "github.com/xsec-lab/go/vt/proto/topodata"
+	vtrpcpb "github.com/xsec-lab/go/vt/proto/vtrpc"
+	"github.com/xsec-lab/go/vt/srvtopo"
+	"github.com/xsec-lab/go/vt/vterrors"
+	"github.com/xsec-lab/go/vt/vtgate/gateway"
 	"golang.org/x/net/context"
-	"vitess.io/vitess/go/vt/discovery"
-	"vitess.io/vitess/go/vt/proto/binlogdata"
-	binlogdatapb "vitess.io/vitess/go/vt/proto/binlogdata"
-	topodatapb "vitess.io/vitess/go/vt/proto/topodata"
-	vtrpcpb "vitess.io/vitess/go/vt/proto/vtrpc"
-	"vitess.io/vitess/go/vt/srvtopo"
-	"vitess.io/vitess/go/vt/vterrors"
-	"vitess.io/vitess/go/vt/vtgate/gateway"
 )
 
 func TestVStreamEvents(t *testing.T) {

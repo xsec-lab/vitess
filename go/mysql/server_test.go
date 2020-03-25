@@ -32,14 +32,14 @@ import (
 	"github.com/stretchr/testify/require"
 	"golang.org/x/net/context"
 
-	"vitess.io/vitess/go/sqltypes"
-	vtenv "vitess.io/vitess/go/vt/env"
-	"vitess.io/vitess/go/vt/tlstest"
-	"vitess.io/vitess/go/vt/vterrors"
-	"vitess.io/vitess/go/vt/vttls"
+	"github.com/xsec-lab/go/sqltypes"
+	vtenv "github.com/xsec-lab/go/vt/env"
+	"github.com/xsec-lab/go/vt/tlstest"
+	"github.com/xsec-lab/go/vt/vterrors"
+	"github.com/xsec-lab/go/vt/vttls"
 
-	querypb "vitess.io/vitess/go/vt/proto/query"
-	vtrpcpb "vitess.io/vitess/go/vt/proto/vtrpc"
+	querypb "github.com/xsec-lab/go/vt/proto/query"
+	vtrpcpb "github.com/xsec-lab/go/vt/proto/vtrpc"
 )
 
 var selectRowsResult = &sqltypes.Result{

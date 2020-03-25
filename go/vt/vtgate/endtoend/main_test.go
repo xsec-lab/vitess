@@ -23,12 +23,12 @@ import (
 	"os"
 	"testing"
 
-	"vitess.io/vitess/go/mysql"
-	"vitess.io/vitess/go/sqltypes"
-	"vitess.io/vitess/go/vt/vttest"
+	"github.com/xsec-lab/go/mysql"
+	"github.com/xsec-lab/go/sqltypes"
+	"github.com/xsec-lab/go/vt/vttest"
 
-	vschemapb "vitess.io/vitess/go/vt/proto/vschema"
-	vttestpb "vitess.io/vitess/go/vt/proto/vttest"
+	vschemapb "github.com/xsec-lab/go/vt/proto/vschema"
+	vttestpb "github.com/xsec-lab/go/vt/proto/vttest"
 )
 
 var (

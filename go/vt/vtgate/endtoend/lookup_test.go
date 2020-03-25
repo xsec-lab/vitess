@@ -22,8 +22,8 @@ import (
 	"strings"
 	"testing"
 
-	"vitess.io/vitess/go/mysql"
-	"vitess.io/vitess/go/sqltypes"
+	"github.com/xsec-lab/go/mysql"
+	"github.com/xsec-lab/go/sqltypes"
 )
 
 func TestConsistentLookup(t *testing.T) {

@@ -24,13 +24,13 @@ import (
 	"os"
 	"time"
 
+	"github.com/xsec-lab/go/exit"
+	"github.com/xsec-lab/go/vt/dbconfigs"
+	"github.com/xsec-lab/go/vt/log"
+	"github.com/xsec-lab/go/vt/logutil"
+	"github.com/xsec-lab/go/vt/mysqlctl"
+	"github.com/xsec-lab/go/vt/servenv"
 	"golang.org/x/net/context"
-	"vitess.io/vitess/go/exit"
-	"vitess.io/vitess/go/vt/dbconfigs"
-	"vitess.io/vitess/go/vt/log"
-	"vitess.io/vitess/go/vt/logutil"
-	"vitess.io/vitess/go/vt/mysqlctl"
-	"vitess.io/vitess/go/vt/servenv"
 )
 
 var (

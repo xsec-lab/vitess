@@ -25,7 +25,7 @@ import (
 	"syscall"
 	"time"
 
-	"vitess.io/vitess/go/vt/log"
+	"github.com/xsec-lab/go/vt/log"
 )
 
 // VtbackupProcess is a generic handle for a running Vtbackup.

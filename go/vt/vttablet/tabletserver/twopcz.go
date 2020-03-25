@@ -22,8 +22,8 @@ import (
 	"html/template"
 	"net/http"
 
-	"vitess.io/vitess/go/acl"
-	"vitess.io/vitess/go/vt/log"
+	"github.com/xsec-lab/go/acl"
+	"github.com/xsec-lab/go/vt/log"
 )
 
 var (

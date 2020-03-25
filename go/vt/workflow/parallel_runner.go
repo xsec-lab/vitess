@@ -26,11 +26,11 @@ import (
 
 	"github.com/golang/protobuf/proto"
 
-	"vitess.io/vitess/go/vt/log"
-	"vitess.io/vitess/go/vt/logutil"
-	"vitess.io/vitess/go/vt/topo"
+	"github.com/xsec-lab/go/vt/log"
+	"github.com/xsec-lab/go/vt/logutil"
+	"github.com/xsec-lab/go/vt/topo"
 
-	workflowpb "vitess.io/vitess/go/vt/proto/workflow"
+	workflowpb "github.com/xsec-lab/go/vt/proto/workflow"
 )
 
 type level int

@@ -23,13 +23,13 @@ import (
 
 	"golang.org/x/net/context"
 
-	"vitess.io/vitess/go/mysql"
-	"vitess.io/vitess/go/sqltypes"
-	"vitess.io/vitess/go/vt/binlog/binlogplayer"
-	"vitess.io/vitess/go/vt/log"
-	"vitess.io/vitess/go/vt/mysqlctl"
+	"github.com/xsec-lab/go/mysql"
+	"github.com/xsec-lab/go/sqltypes"
+	"github.com/xsec-lab/go/vt/binlog/binlogplayer"
+	"github.com/xsec-lab/go/vt/log"
+	"github.com/xsec-lab/go/vt/mysqlctl"
 
-	binlogdatapb "vitess.io/vitess/go/vt/proto/binlogdata"
+	binlogdatapb "github.com/xsec-lab/go/vt/proto/binlogdata"
 )
 
 var (

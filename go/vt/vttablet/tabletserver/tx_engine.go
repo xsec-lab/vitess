@@ -23,20 +23,20 @@ import (
 
 	"golang.org/x/net/context"
 
-	"vitess.io/vitess/go/timer"
-	"vitess.io/vitess/go/trace"
-	"vitess.io/vitess/go/vt/concurrency"
-	"vitess.io/vitess/go/vt/dbconfigs"
-	"vitess.io/vitess/go/vt/dtids"
-	"vitess.io/vitess/go/vt/log"
-	"vitess.io/vitess/go/vt/proto/vtrpc"
-	"vitess.io/vitess/go/vt/vterrors"
-	"vitess.io/vitess/go/vt/vtgate/vtgateconn"
-	"vitess.io/vitess/go/vt/vttablet/tabletserver/connpool"
-	"vitess.io/vitess/go/vt/vttablet/tabletserver/tabletenv"
-	"vitess.io/vitess/go/vt/vttablet/tabletserver/txlimiter"
+	"github.com/xsec-lab/go/timer"
+	"github.com/xsec-lab/go/trace"
+	"github.com/xsec-lab/go/vt/concurrency"
+	"github.com/xsec-lab/go/vt/dbconfigs"
+	"github.com/xsec-lab/go/vt/dtids"
+	"github.com/xsec-lab/go/vt/log"
+	"github.com/xsec-lab/go/vt/proto/vtrpc"
+	"github.com/xsec-lab/go/vt/vterrors"
+	"github.com/xsec-lab/go/vt/vtgate/vtgateconn"
+	"github.com/xsec-lab/go/vt/vttablet/tabletserver/connpool"
+	"github.com/xsec-lab/go/vt/vttablet/tabletserver/tabletenv"
+	"github.com/xsec-lab/go/vt/vttablet/tabletserver/txlimiter"
 
-	querypb "vitess.io/vitess/go/vt/proto/query"
+	querypb "github.com/xsec-lab/go/vt/proto/query"
 )
 
 type txEngineState int

@@ -21,8 +21,8 @@ import (
 
 	"golang.org/x/net/context"
 
-	"vitess.io/vitess/go/vt/log"
-	"vitess.io/vitess/go/vt/topo"
+	"github.com/xsec-lab/go/vt/log"
+	"github.com/xsec-lab/go/vt/topo"
 )
 
 const electionsPath = "elections"

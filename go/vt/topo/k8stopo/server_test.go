@@ -34,9 +34,9 @@ import (
 	kubeyaml "k8s.io/apimachinery/pkg/util/yaml"
 	"k8s.io/client-go/tools/clientcmd"
 
-	topodatapb "vitess.io/vitess/go/vt/proto/topodata"
-	"vitess.io/vitess/go/vt/topo"
-	"vitess.io/vitess/go/vt/topo/test"
+	topodatapb "github.com/xsec-lab/go/vt/proto/topodata"
+	"github.com/xsec-lab/go/vt/topo"
+	"github.com/xsec-lab/go/vt/topo/test"
 )
 
 func TestKubernetesTopo(t *testing.T) {

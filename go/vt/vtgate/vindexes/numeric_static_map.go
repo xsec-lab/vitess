@@ -24,9 +24,9 @@ import (
 	"io/ioutil"
 	"strconv"
 
-	"vitess.io/vitess/go/sqltypes"
-	"vitess.io/vitess/go/vt/key"
-	"vitess.io/vitess/go/vt/vterrors"
+	"github.com/xsec-lab/go/sqltypes"
+	"github.com/xsec-lab/go/vt/key"
+	"github.com/xsec-lab/go/vt/vterrors"
 )
 
 var (

@@ -24,18 +24,18 @@ import (
 	"net/http"
 	"sync"
 
-	"vitess.io/vitess/go/acl"
-	"vitess.io/vitess/go/sqltypes"
-	"vitess.io/vitess/go/stats"
-	"vitess.io/vitess/go/vt/dbconfigs"
-	"vitess.io/vitess/go/vt/log"
-	"vitess.io/vitess/go/vt/srvtopo"
-	"vitess.io/vitess/go/vt/topo"
-	"vitess.io/vitess/go/vt/vtgate/vindexes"
-	"vitess.io/vitess/go/vt/vttablet/tabletserver/schema"
+	"github.com/xsec-lab/go/acl"
+	"github.com/xsec-lab/go/sqltypes"
+	"github.com/xsec-lab/go/stats"
+	"github.com/xsec-lab/go/vt/dbconfigs"
+	"github.com/xsec-lab/go/vt/log"
+	"github.com/xsec-lab/go/vt/srvtopo"
+	"github.com/xsec-lab/go/vt/topo"
+	"github.com/xsec-lab/go/vt/vtgate/vindexes"
+	"github.com/xsec-lab/go/vt/vttablet/tabletserver/schema"
 
-	binlogdatapb "vitess.io/vitess/go/vt/proto/binlogdata"
-	vschemapb "vitess.io/vitess/go/vt/proto/vschema"
+	binlogdatapb "github.com/xsec-lab/go/vt/proto/binlogdata"
+	vschemapb "github.com/xsec-lab/go/vt/proto/vschema"
 )
 
 var (

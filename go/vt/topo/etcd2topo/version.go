@@ -19,7 +19,7 @@ package etcd2topo
 import (
 	"fmt"
 
-	"vitess.io/vitess/go/vt/topo"
+	"github.com/xsec-lab/go/vt/topo"
 )
 
 // EtcdVersion is etcd's idea of a version.

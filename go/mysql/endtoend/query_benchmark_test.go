@@ -24,9 +24,9 @@ import (
 
 	"golang.org/x/net/context"
 
-	"vitess.io/vitess/go/mysql"
-	vttestpb "vitess.io/vitess/go/vt/proto/vttest"
-	"vitess.io/vitess/go/vt/vttest"
+	"github.com/xsec-lab/go/mysql"
+	vttestpb "github.com/xsec-lab/go/vt/proto/vttest"
+	"github.com/xsec-lab/go/vt/vttest"
 )
 
 // This file contains various long-running tests for mysql.

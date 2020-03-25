@@ -43,15 +43,15 @@ import (
 
 	rice "github.com/GeertJohan/go.rice"
 
+	"github.com/xsec-lab/go/mysql"
+	"github.com/xsec-lab/go/stats"
+	"github.com/xsec-lab/go/vt/dbconfigs"
+	"github.com/xsec-lab/go/vt/dbconnpool"
+	vtenv "github.com/xsec-lab/go/vt/env"
+	"github.com/xsec-lab/go/vt/hook"
+	"github.com/xsec-lab/go/vt/log"
+	"github.com/xsec-lab/go/vt/mysqlctl/mysqlctlclient"
 	"golang.org/x/net/context"
-	"vitess.io/vitess/go/mysql"
-	"vitess.io/vitess/go/stats"
-	"vitess.io/vitess/go/vt/dbconfigs"
-	"vitess.io/vitess/go/vt/dbconnpool"
-	vtenv "vitess.io/vitess/go/vt/env"
-	"vitess.io/vitess/go/vt/hook"
-	"vitess.io/vitess/go/vt/log"
-	"vitess.io/vitess/go/vt/mysqlctl/mysqlctlclient"
 )
 
 var (

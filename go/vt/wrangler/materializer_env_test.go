@@ -22,17 +22,17 @@ import (
 	"sync"
 	"testing"
 
+	"github.com/xsec-lab/go/sqltypes"
+	"github.com/xsec-lab/go/vt/logutil"
+	querypb "github.com/xsec-lab/go/vt/proto/query"
+	tabletmanagerdatapb "github.com/xsec-lab/go/vt/proto/tabletmanagerdata"
+	topodatapb "github.com/xsec-lab/go/vt/proto/topodata"
+	vtctldatapb "github.com/xsec-lab/go/vt/proto/vtctldata"
+	"github.com/xsec-lab/go/vt/sqlparser"
+	"github.com/xsec-lab/go/vt/topo"
+	"github.com/xsec-lab/go/vt/topo/memorytopo"
+	"github.com/xsec-lab/go/vt/vttablet/tmclient"
 	"golang.org/x/net/context"
-	"vitess.io/vitess/go/sqltypes"
-	"vitess.io/vitess/go/vt/logutil"
-	querypb "vitess.io/vitess/go/vt/proto/query"
-	tabletmanagerdatapb "vitess.io/vitess/go/vt/proto/tabletmanagerdata"
-	topodatapb "vitess.io/vitess/go/vt/proto/topodata"
-	vtctldatapb "vitess.io/vitess/go/vt/proto/vtctldata"
-	"vitess.io/vitess/go/vt/sqlparser"
-	"vitess.io/vitess/go/vt/topo"
-	"vitess.io/vitess/go/vt/topo/memorytopo"
-	"vitess.io/vitess/go/vt/vttablet/tmclient"
 )
 
 type testMaterializerEnv struct {

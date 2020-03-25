@@ -22,11 +22,11 @@ import (
 	"time"
 
 	"github.com/golang/protobuf/proto"
+	"github.com/xsec-lab/go/vt/logutil"
+	topodatapb "github.com/xsec-lab/go/vt/proto/topodata"
+	"github.com/xsec-lab/go/vt/topo"
+	"github.com/xsec-lab/go/vt/topo/memorytopo"
 	"golang.org/x/net/context"
-	"vitess.io/vitess/go/vt/logutil"
-	topodatapb "vitess.io/vitess/go/vt/proto/topodata"
-	"vitess.io/vitess/go/vt/topo"
-	"vitess.io/vitess/go/vt/topo/memorytopo"
 )
 
 func checkOpCounts(t *testing.T, tw *TopologyWatcher, prevCounts, deltas map[string]int64) map[string]int64 {

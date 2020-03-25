@@ -23,10 +23,10 @@ import (
 	"sync"
 	"time"
 
-	"vitess.io/vitess/go/stats"
-	"vitess.io/vitess/go/vt/log"
+	"github.com/xsec-lab/go/stats"
+	"github.com/xsec-lab/go/vt/log"
 
-	querypb "vitess.io/vitess/go/vt/proto/query"
+	querypb "github.com/xsec-lab/go/vt/proto/query"
 )
 
 // ClientProtocol indicates how to connect

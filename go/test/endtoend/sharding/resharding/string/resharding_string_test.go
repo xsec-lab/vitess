@@ -19,7 +19,7 @@ package v3
 import (
 	"testing"
 
-	sharding "vitess.io/vitess/go/test/endtoend/sharding/resharding"
+	sharding "github.com/xsec-lab/go/test/endtoend/sharding/resharding"
 )
 
 // TestReshardingString - using a VARBINARY column for resharding.

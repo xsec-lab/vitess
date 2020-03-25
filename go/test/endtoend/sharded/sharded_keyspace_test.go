@@ -26,9 +26,9 @@ import (
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"vitess.io/vitess/go/vt/log"
+	"github.com/xsec-lab/go/vt/log"
 
-	"vitess.io/vitess/go/test/endtoend/cluster"
+	"github.com/xsec-lab/go/test/endtoend/cluster"
 )
 
 var (

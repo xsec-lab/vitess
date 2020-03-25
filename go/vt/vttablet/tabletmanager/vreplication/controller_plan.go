@@ -19,7 +19,7 @@ package vreplication
 import (
 	"fmt"
 
-	"vitess.io/vitess/go/vt/sqlparser"
+	"github.com/xsec-lab/go/vt/sqlparser"
 )
 
 // controllerPlan is the plan for vreplication control statements.

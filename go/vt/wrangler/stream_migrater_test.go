@@ -24,14 +24,14 @@ import (
 	"testing"
 	"time"
 
+	"github.com/xsec-lab/go/sqltypes"
+	binlogdatapb "github.com/xsec-lab/go/vt/proto/binlogdata"
+	topodatapb "github.com/xsec-lab/go/vt/proto/topodata"
+	"github.com/xsec-lab/go/vt/proto/vschema"
+	vschemapb "github.com/xsec-lab/go/vt/proto/vschema"
+	"github.com/xsec-lab/go/vt/vtgate/vindexes"
+	"github.com/xsec-lab/go/vt/vttablet/tabletmanager/vreplication"
 	"golang.org/x/net/context"
-	"vitess.io/vitess/go/sqltypes"
-	binlogdatapb "vitess.io/vitess/go/vt/proto/binlogdata"
-	topodatapb "vitess.io/vitess/go/vt/proto/topodata"
-	"vitess.io/vitess/go/vt/proto/vschema"
-	vschemapb "vitess.io/vitess/go/vt/proto/vschema"
-	"vitess.io/vitess/go/vt/vtgate/vindexes"
-	"vitess.io/vitess/go/vt/vttablet/tabletmanager/vreplication"
 )
 
 func TestStreamMigrateMainflow(t *testing.T) {

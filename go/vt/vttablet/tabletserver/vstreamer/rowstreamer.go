@@ -20,15 +20,15 @@ import (
 	"context"
 	"fmt"
 
-	"vitess.io/vitess/go/sqltypes"
-	"vitess.io/vitess/go/vt/dbconfigs"
-	"vitess.io/vitess/go/vt/log"
-	"vitess.io/vitess/go/vt/sqlparser"
-	"vitess.io/vitess/go/vt/vtgate/vindexes"
-	"vitess.io/vitess/go/vt/vttablet/tabletserver/schema"
+	"github.com/xsec-lab/go/sqltypes"
+	"github.com/xsec-lab/go/vt/dbconfigs"
+	"github.com/xsec-lab/go/vt/log"
+	"github.com/xsec-lab/go/vt/sqlparser"
+	"github.com/xsec-lab/go/vt/vtgate/vindexes"
+	"github.com/xsec-lab/go/vt/vttablet/tabletserver/schema"
 
-	binlogdatapb "vitess.io/vitess/go/vt/proto/binlogdata"
-	querypb "vitess.io/vitess/go/vt/proto/query"
+	binlogdatapb "github.com/xsec-lab/go/vt/proto/binlogdata"
+	querypb "github.com/xsec-lab/go/vt/proto/query"
 )
 
 // RowStreamer exposes an externally usable interface to rowStreamer.

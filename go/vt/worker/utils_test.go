@@ -22,16 +22,16 @@ import (
 
 	"golang.org/x/net/context"
 
-	"vitess.io/vitess/go/mysql/fakesqldb"
-	"vitess.io/vitess/go/sqltypes"
-	"vitess.io/vitess/go/vt/topo"
-	"vitess.io/vitess/go/vt/vterrors"
-	"vitess.io/vitess/go/vt/vttablet/faketmclient"
-	"vitess.io/vitess/go/vt/vttablet/tmclient"
-	"vitess.io/vitess/go/vt/wrangler"
+	"github.com/xsec-lab/go/mysql/fakesqldb"
+	"github.com/xsec-lab/go/sqltypes"
+	"github.com/xsec-lab/go/vt/topo"
+	"github.com/xsec-lab/go/vt/vterrors"
+	"github.com/xsec-lab/go/vt/vttablet/faketmclient"
+	"github.com/xsec-lab/go/vt/vttablet/tmclient"
+	"github.com/xsec-lab/go/vt/wrangler"
 
-	querypb "vitess.io/vitess/go/vt/proto/query"
-	topodatapb "vitess.io/vitess/go/vt/proto/topodata"
+	querypb "github.com/xsec-lab/go/vt/proto/query"
+	topodatapb "github.com/xsec-lab/go/vt/proto/topodata"
 )
 
 // This file contains common test helper.

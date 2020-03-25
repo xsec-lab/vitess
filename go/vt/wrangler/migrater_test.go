@@ -24,11 +24,11 @@ import (
 	"testing"
 	"time"
 
+	"github.com/xsec-lab/go/sqltypes"
+	binlogdatapb "github.com/xsec-lab/go/vt/proto/binlogdata"
+	topodatapb "github.com/xsec-lab/go/vt/proto/topodata"
+	"github.com/xsec-lab/go/vt/topo"
 	"golang.org/x/net/context"
-	"vitess.io/vitess/go/sqltypes"
-	binlogdatapb "vitess.io/vitess/go/vt/proto/binlogdata"
-	topodatapb "vitess.io/vitess/go/vt/proto/topodata"
-	"vitess.io/vitess/go/vt/topo"
 )
 
 var (

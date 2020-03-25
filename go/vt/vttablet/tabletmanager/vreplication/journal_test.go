@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"testing"
 
+	binlogdatapb "github.com/xsec-lab/go/vt/proto/binlogdata"
 	"golang.org/x/net/context"
-	binlogdatapb "vitess.io/vitess/go/vt/proto/binlogdata"
 )
 
 func TestJournalOneToOne(t *testing.T) {

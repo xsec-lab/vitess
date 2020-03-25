@@ -21,7 +21,7 @@ import (
 
 	"golang.org/x/net/context"
 
-	"vitess.io/vitess/go/vt/wrangler"
+	"github.com/xsec-lab/go/vt/wrangler"
 )
 
 // PanicWorker will run panic() when executed. For internal tests only.

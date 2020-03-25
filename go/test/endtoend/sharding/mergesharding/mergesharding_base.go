@@ -26,16 +26,16 @@ import (
 	"testing"
 	"time"
 
-	"vitess.io/vitess/go/sqltypes"
+	"github.com/xsec-lab/go/sqltypes"
 
-	"vitess.io/vitess/go/mysql"
+	"github.com/xsec-lab/go/mysql"
 
 	"github.com/prometheus/common/log"
 
-	"vitess.io/vitess/go/test/endtoend/cluster"
-	"vitess.io/vitess/go/test/endtoend/sharding"
-	querypb "vitess.io/vitess/go/vt/proto/query"
-	"vitess.io/vitess/go/vt/proto/topodata"
+	"github.com/xsec-lab/go/test/endtoend/cluster"
+	"github.com/xsec-lab/go/test/endtoend/sharding"
+	querypb "github.com/xsec-lab/go/vt/proto/query"
+	"github.com/xsec-lab/go/vt/proto/topodata"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

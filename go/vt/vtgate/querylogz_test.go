@@ -25,9 +25,9 @@ import (
 	"testing"
 	"time"
 
+	"github.com/xsec-lab/go/streamlog"
+	"github.com/xsec-lab/go/vt/callerid"
 	"golang.org/x/net/context"
-	"vitess.io/vitess/go/streamlog"
-	"vitess.io/vitess/go/vt/callerid"
 )
 
 func TestQuerylogzHandlerInvalidLogStats(t *testing.T) {

@@ -26,9 +26,9 @@ import (
 
 	"golang.org/x/net/context"
 
-	"vitess.io/vitess/go/vt/topo"
-	"vitess.io/vitess/go/vt/topo/topoproto"
-	"vitess.io/vitess/go/vt/vtctl"
+	"github.com/xsec-lab/go/vt/topo"
+	"github.com/xsec-lab/go/vt/topo/topoproto"
+	"github.com/xsec-lab/go/vt/vtctl"
 )
 
 // backendExplorer is a class that uses the Backend interface of a

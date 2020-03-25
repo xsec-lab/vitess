@@ -20,8 +20,8 @@ import (
 	"encoding/json"
 	"testing"
 
-	"vitess.io/vitess/go/vt/sqlparser"
-	"vitess.io/vitess/go/vt/vtgate/vindexes"
+	"github.com/xsec-lab/go/vt/sqlparser"
+	"github.com/xsec-lab/go/vt/vtgate/vindexes"
 )
 
 func TestSymtabAddVSchemaTable(t *testing.T) {

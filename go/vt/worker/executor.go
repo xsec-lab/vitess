@@ -20,17 +20,17 @@ import (
 	"fmt"
 	"time"
 
-	"vitess.io/vitess/go/vt/vterrors"
+	"github.com/xsec-lab/go/vt/vterrors"
 
+	"github.com/xsec-lab/go/sqltypes"
+	"github.com/xsec-lab/go/vt/discovery"
+	"github.com/xsec-lab/go/vt/throttler"
+	"github.com/xsec-lab/go/vt/topo/topoproto"
+	"github.com/xsec-lab/go/vt/wrangler"
 	"golang.org/x/net/context"
-	"vitess.io/vitess/go/sqltypes"
-	"vitess.io/vitess/go/vt/discovery"
-	"vitess.io/vitess/go/vt/throttler"
-	"vitess.io/vitess/go/vt/topo/topoproto"
-	"vitess.io/vitess/go/vt/wrangler"
 
-	querypb "vitess.io/vitess/go/vt/proto/query"
-	topodatapb "vitess.io/vitess/go/vt/proto/topodata"
+	querypb "github.com/xsec-lab/go/vt/proto/query"
+	topodatapb "github.com/xsec-lab/go/vt/proto/topodata"
 )
 
 // executor takes care of the write-side of the copy.

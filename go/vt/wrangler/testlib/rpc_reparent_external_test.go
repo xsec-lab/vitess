@@ -24,17 +24,17 @@ import (
 
 	"golang.org/x/net/context"
 
-	"vitess.io/vitess/go/event"
-	"vitess.io/vitess/go/vt/logutil"
-	"vitess.io/vitess/go/vt/topo/memorytopo"
-	"vitess.io/vitess/go/vt/topo/topoproto"
-	"vitess.io/vitess/go/vt/topotools"
-	"vitess.io/vitess/go/vt/topotools/events"
-	"vitess.io/vitess/go/vt/vttablet/tabletmanager"
-	"vitess.io/vitess/go/vt/vttablet/tmclient"
-	"vitess.io/vitess/go/vt/wrangler"
+	"github.com/xsec-lab/go/event"
+	"github.com/xsec-lab/go/vt/logutil"
+	"github.com/xsec-lab/go/vt/topo/memorytopo"
+	"github.com/xsec-lab/go/vt/topo/topoproto"
+	"github.com/xsec-lab/go/vt/topotools"
+	"github.com/xsec-lab/go/vt/topotools/events"
+	"github.com/xsec-lab/go/vt/vttablet/tabletmanager"
+	"github.com/xsec-lab/go/vt/vttablet/tmclient"
+	"github.com/xsec-lab/go/vt/wrangler"
 
-	topodatapb "vitess.io/vitess/go/vt/proto/topodata"
+	topodatapb "github.com/xsec-lab/go/vt/proto/topodata"
 )
 
 func TestRPCTabletExternallyReparented(t *testing.T) {

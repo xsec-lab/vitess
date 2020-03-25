@@ -22,10 +22,10 @@ import (
 
 	"golang.org/x/net/context"
 
-	"vitess.io/vitess/go/mysql"
-	"vitess.io/vitess/go/pools"
-	"vitess.io/vitess/go/vt/dbconfigs"
-	"vitess.io/vitess/go/vt/log"
+	"github.com/xsec-lab/go/mysql"
+	"github.com/xsec-lab/go/pools"
+	"github.com/xsec-lab/go/vt/dbconfigs"
+	"github.com/xsec-lab/go/vt/log"
 )
 
 var (

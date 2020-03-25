@@ -23,9 +23,9 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 	"github.com/stretchr/testify/require"
-	"vitess.io/vitess/go/sqltypes"
+	"github.com/xsec-lab/go/sqltypes"
 
-	"vitess.io/vitess/go/mysql"
+	"github.com/xsec-lab/go/mysql"
 )
 
 func TestLastInsertId(t *testing.T) {

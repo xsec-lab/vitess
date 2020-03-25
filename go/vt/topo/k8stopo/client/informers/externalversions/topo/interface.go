@@ -19,8 +19,8 @@ limitations under the License.
 package topo
 
 import (
-	internalinterfaces "vitess.io/vitess/go/vt/topo/k8stopo/client/informers/externalversions/internalinterfaces"
-	v1beta1 "vitess.io/vitess/go/vt/topo/k8stopo/client/informers/externalversions/topo/v1beta1"
+	internalinterfaces "github.com/xsec-lab/go/vt/topo/k8stopo/client/informers/externalversions/internalinterfaces"
+	v1beta1 "github.com/xsec-lab/go/vt/topo/k8stopo/client/informers/externalversions/topo/v1beta1"
 )
 
 // Interface provides access to each of this group's versions.

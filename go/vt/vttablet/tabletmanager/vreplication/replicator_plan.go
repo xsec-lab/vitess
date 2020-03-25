@@ -22,11 +22,11 @@ import (
 	"sort"
 	"strings"
 
-	"vitess.io/vitess/go/sqltypes"
-	"vitess.io/vitess/go/vt/sqlparser"
+	"github.com/xsec-lab/go/sqltypes"
+	"github.com/xsec-lab/go/vt/sqlparser"
 
-	binlogdatapb "vitess.io/vitess/go/vt/proto/binlogdata"
-	querypb "vitess.io/vitess/go/vt/proto/query"
+	binlogdatapb "github.com/xsec-lab/go/vt/proto/binlogdata"
+	querypb "github.com/xsec-lab/go/vt/proto/query"
 )
 
 // ReplicatorPlan is the execution plan for the replicator. It contains

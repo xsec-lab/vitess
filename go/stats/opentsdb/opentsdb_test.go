@@ -24,7 +24,7 @@ import (
 	"testing"
 	"time"
 
-	"vitess.io/vitess/go/stats"
+	"github.com/xsec-lab/go/stats"
 )
 
 func TestOpenTsdbCounter(t *testing.T) {

@@ -21,10 +21,10 @@ package versioned
 import (
 	"fmt"
 
+	topov1beta1 "github.com/xsec-lab/go/vt/topo/k8stopo/client/clientset/versioned/typed/topo/v1beta1"
 	discovery "k8s.io/client-go/discovery"
 	rest "k8s.io/client-go/rest"
 	flowcontrol "k8s.io/client-go/util/flowcontrol"
-	topov1beta1 "vitess.io/vitess/go/vt/topo/k8stopo/client/clientset/versioned/typed/topo/v1beta1"
 )
 
 type Interface interface {

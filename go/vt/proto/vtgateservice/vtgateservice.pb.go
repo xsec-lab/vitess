@@ -9,11 +9,11 @@ import (
 	math "math"
 
 	proto "github.com/golang/protobuf/proto"
+	query "github.com/xsec-lab/go/vt/proto/query"
+	vtgate "github.com/xsec-lab/go/vt/proto/vtgate"
 	grpc "google.golang.org/grpc"
 	codes "google.golang.org/grpc/codes"
 	status "google.golang.org/grpc/status"
-	query "vitess.io/vitess/go/vt/proto/query"
-	vtgate "vitess.io/vitess/go/vt/proto/vtgate"
 )
 
 // Reference imports to suppress errors if they are not otherwise used.

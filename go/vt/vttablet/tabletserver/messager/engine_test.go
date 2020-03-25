@@ -24,12 +24,12 @@ import (
 
 	"golang.org/x/net/context"
 
-	"vitess.io/vitess/go/mysql/fakesqldb"
-	"vitess.io/vitess/go/sqltypes"
-	vtrpcpb "vitess.io/vitess/go/vt/proto/vtrpc"
-	"vitess.io/vitess/go/vt/vterrors"
-	"vitess.io/vitess/go/vt/vttablet/tabletserver/schema"
-	"vitess.io/vitess/go/vt/vttablet/tabletserver/tabletenv"
+	"github.com/xsec-lab/go/mysql/fakesqldb"
+	"github.com/xsec-lab/go/sqltypes"
+	vtrpcpb "github.com/xsec-lab/go/vt/proto/vtrpc"
+	"github.com/xsec-lab/go/vt/vterrors"
+	"github.com/xsec-lab/go/vt/vttablet/tabletserver/schema"
+	"github.com/xsec-lab/go/vt/vttablet/tabletserver/tabletenv"
 )
 
 var meTable = &schema.Table{

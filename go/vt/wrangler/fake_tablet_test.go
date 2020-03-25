@@ -23,24 +23,24 @@ import (
 	"testing"
 	"time"
 
+	"github.com/xsec-lab/go/mysql/fakesqldb"
+	"github.com/xsec-lab/go/vt/mysqlctl/fakemysqldaemon"
+	querypb "github.com/xsec-lab/go/vt/proto/query"
+	topodatapb "github.com/xsec-lab/go/vt/proto/topodata"
+	"github.com/xsec-lab/go/vt/topo"
+	"github.com/xsec-lab/go/vt/topo/topoproto"
+	"github.com/xsec-lab/go/vt/vttablet/grpctmserver"
+	"github.com/xsec-lab/go/vt/vttablet/tabletconn"
+	"github.com/xsec-lab/go/vt/vttablet/tabletmanager"
+	"github.com/xsec-lab/go/vt/vttablet/tmclient"
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"
-	"vitess.io/vitess/go/mysql/fakesqldb"
-	"vitess.io/vitess/go/vt/mysqlctl/fakemysqldaemon"
-	querypb "vitess.io/vitess/go/vt/proto/query"
-	topodatapb "vitess.io/vitess/go/vt/proto/topodata"
-	"vitess.io/vitess/go/vt/topo"
-	"vitess.io/vitess/go/vt/topo/topoproto"
-	"vitess.io/vitess/go/vt/vttablet/grpctmserver"
-	"vitess.io/vitess/go/vt/vttablet/tabletconn"
-	"vitess.io/vitess/go/vt/vttablet/tabletmanager"
-	"vitess.io/vitess/go/vt/vttablet/tmclient"
 
 	// import the gRPC client implementation for tablet manager
-	_ "vitess.io/vitess/go/vt/vttablet/grpctmclient"
+	_ "github.com/xsec-lab/go/vt/vttablet/grpctmclient"
 
 	// import the gRPC client implementation for query service
-	_ "vitess.io/vitess/go/vt/vttablet/grpctabletconn"
+	_ "github.com/xsec-lab/go/vt/vttablet/grpctabletconn"
 )
 
 // This file was copied from testlib. All tests from testlib should be moved

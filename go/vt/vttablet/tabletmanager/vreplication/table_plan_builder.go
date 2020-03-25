@@ -22,10 +22,10 @@ import (
 	"sort"
 	"strings"
 
-	"vitess.io/vitess/go/sqltypes"
-	"vitess.io/vitess/go/vt/key"
-	binlogdatapb "vitess.io/vitess/go/vt/proto/binlogdata"
-	"vitess.io/vitess/go/vt/sqlparser"
+	"github.com/xsec-lab/go/sqltypes"
+	"github.com/xsec-lab/go/vt/key"
+	binlogdatapb "github.com/xsec-lab/go/vt/proto/binlogdata"
+	"github.com/xsec-lab/go/vt/sqlparser"
 )
 
 // This file contains just the builders for ReplicatorPlan and TablePlan.

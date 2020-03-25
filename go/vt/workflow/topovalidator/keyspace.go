@@ -21,9 +21,9 @@ import (
 
 	"golang.org/x/net/context"
 
-	"vitess.io/vitess/go/vt/topo"
+	"github.com/xsec-lab/go/vt/topo"
 
-	topodatapb "vitess.io/vitess/go/vt/proto/topodata"
+	topodatapb "github.com/xsec-lab/go/vt/proto/topodata"
 )
 
 // This file contains the Keyspace validator. It uses GetKeyspaces to

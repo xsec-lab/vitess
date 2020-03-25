@@ -29,16 +29,16 @@ import (
 	"github.com/golang/protobuf/proto"
 	"golang.org/x/net/context"
 
-	"vitess.io/vitess/go/vt/log"
-	"vitess.io/vitess/go/vt/logutil"
-	"vitess.io/vitess/go/vt/topo"
-	"vitess.io/vitess/go/vt/topotools"
-	"vitess.io/vitess/go/vt/vttablet/tmclient"
-	"vitess.io/vitess/go/vt/workflow"
-	"vitess.io/vitess/go/vt/wrangler"
+	"github.com/xsec-lab/go/vt/log"
+	"github.com/xsec-lab/go/vt/logutil"
+	"github.com/xsec-lab/go/vt/topo"
+	"github.com/xsec-lab/go/vt/topotools"
+	"github.com/xsec-lab/go/vt/vttablet/tmclient"
+	"github.com/xsec-lab/go/vt/workflow"
+	"github.com/xsec-lab/go/vt/wrangler"
 
-	topodatapb "vitess.io/vitess/go/vt/proto/topodata"
-	workflowpb "vitess.io/vitess/go/vt/proto/workflow"
+	topodatapb "github.com/xsec-lab/go/vt/proto/topodata"
+	workflowpb "github.com/xsec-lab/go/vt/proto/workflow"
 )
 
 const (

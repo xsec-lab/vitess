@@ -23,10 +23,10 @@ import (
 	"fmt"
 	"strconv"
 
-	"vitess.io/vitess/go/bytes2"
-	"vitess.io/vitess/go/hack"
+	"github.com/xsec-lab/go/bytes2"
+	"github.com/xsec-lab/go/hack"
 
-	querypb "vitess.io/vitess/go/vt/proto/query"
+	querypb "github.com/xsec-lab/go/vt/proto/query"
 )
 
 var (

@@ -33,10 +33,10 @@ import (
 	"sync"
 	"time"
 
-	"vitess.io/vitess/go/vt/discovery"
-	"vitess.io/vitess/go/vt/log"
+	"github.com/xsec-lab/go/vt/discovery"
+	"github.com/xsec-lab/go/vt/log"
 
-	throttlerdatapb "vitess.io/vitess/go/vt/proto/throttlerdata"
+	throttlerdatapb "github.com/xsec-lab/go/vt/proto/throttlerdata"
 )
 
 const (

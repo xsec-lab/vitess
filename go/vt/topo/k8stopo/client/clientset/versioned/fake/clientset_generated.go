@@ -19,14 +19,14 @@ limitations under the License.
 package fake
 
 import (
+	clientset "github.com/xsec-lab/go/vt/topo/k8stopo/client/clientset/versioned"
+	topov1beta1 "github.com/xsec-lab/go/vt/topo/k8stopo/client/clientset/versioned/typed/topo/v1beta1"
+	faketopov1beta1 "github.com/xsec-lab/go/vt/topo/k8stopo/client/clientset/versioned/typed/topo/v1beta1/fake"
 	"k8s.io/apimachinery/pkg/runtime"
 	"k8s.io/apimachinery/pkg/watch"
 	"k8s.io/client-go/discovery"
 	fakediscovery "k8s.io/client-go/discovery/fake"
 	"k8s.io/client-go/testing"
-	clientset "vitess.io/vitess/go/vt/topo/k8stopo/client/clientset/versioned"
-	topov1beta1 "vitess.io/vitess/go/vt/topo/k8stopo/client/clientset/versioned/typed/topo/v1beta1"
-	faketopov1beta1 "vitess.io/vitess/go/vt/topo/k8stopo/client/clientset/versioned/typed/topo/v1beta1/fake"
 )
 
 // NewSimpleClientset returns a clientset that will respond with the provided objects.

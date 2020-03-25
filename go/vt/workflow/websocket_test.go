@@ -25,7 +25,7 @@ import (
 	"time"
 
 	"github.com/gorilla/websocket"
-	"vitess.io/vitess/go/vt/topo/memorytopo"
+	"github.com/xsec-lab/go/vt/topo/memorytopo"
 )
 
 func TestWebSocket(t *testing.T) {

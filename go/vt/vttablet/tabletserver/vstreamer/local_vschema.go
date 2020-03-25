@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"strings"
 
-	"vitess.io/vitess/go/vt/vtgate/vindexes"
+	"github.com/xsec-lab/go/vt/vtgate/vindexes"
 )
 
 // localVSchema provides vschema behavior specific to vstreamer.

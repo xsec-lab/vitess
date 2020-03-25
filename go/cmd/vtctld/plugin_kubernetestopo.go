@@ -19,5 +19,5 @@ package main
 // Imports and register the 'kubernetes' topo.Server.
 
 import (
-	_ "vitess.io/vitess/go/vt/topo/k8stopo"
+	_ "github.com/xsec-lab/go/vt/topo/k8stopo"
 )

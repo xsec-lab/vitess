@@ -21,20 +21,20 @@ import (
 	"fmt"
 	"sync"
 
+	"github.com/xsec-lab/go/json2"
+	"github.com/xsec-lab/go/vt/grpcclient"
+	"github.com/xsec-lab/go/vt/key"
+	"github.com/xsec-lab/go/vt/topo"
+	"github.com/xsec-lab/go/vt/topo/memorytopo"
+	"github.com/xsec-lab/go/vt/vterrors"
+	"github.com/xsec-lab/go/vt/vttablet/queryservice"
+	"github.com/xsec-lab/go/vt/vttablet/sandboxconn"
+	"github.com/xsec-lab/go/vt/vttablet/tabletconn"
 	"golang.org/x/net/context"
-	"vitess.io/vitess/go/json2"
-	"vitess.io/vitess/go/vt/grpcclient"
-	"vitess.io/vitess/go/vt/key"
-	"vitess.io/vitess/go/vt/topo"
-	"vitess.io/vitess/go/vt/topo/memorytopo"
-	"vitess.io/vitess/go/vt/vterrors"
-	"vitess.io/vitess/go/vt/vttablet/queryservice"
-	"vitess.io/vitess/go/vt/vttablet/sandboxconn"
-	"vitess.io/vitess/go/vt/vttablet/tabletconn"
 
-	topodatapb "vitess.io/vitess/go/vt/proto/topodata"
-	vschemapb "vitess.io/vitess/go/vt/proto/vschema"
-	vtrpcpb "vitess.io/vitess/go/vt/proto/vtrpc"
+	topodatapb "github.com/xsec-lab/go/vt/proto/topodata"
+	vschemapb "github.com/xsec-lab/go/vt/proto/vschema"
+	vtrpcpb "github.com/xsec-lab/go/vt/proto/vtrpc"
 )
 
 // sandbox_test.go provides a sandbox for unit testing VTGate.

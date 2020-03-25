@@ -20,19 +20,19 @@ import (
 	"fmt"
 	"time"
 
-	"vitess.io/vitess/go/vt/proto/vtrpc"
-	"vitess.io/vitess/go/vt/vterrors"
+	"github.com/xsec-lab/go/vt/proto/vtrpc"
+	"github.com/xsec-lab/go/vt/vterrors"
 
 	"golang.org/x/net/context"
 
-	"vitess.io/vitess/go/sqltypes"
-	"vitess.io/vitess/go/stats"
-	"vitess.io/vitess/go/vt/key"
-	"vitess.io/vitess/go/vt/topo"
+	"github.com/xsec-lab/go/sqltypes"
+	"github.com/xsec-lab/go/stats"
+	"github.com/xsec-lab/go/vt/key"
+	"github.com/xsec-lab/go/vt/topo"
 
-	querypb "vitess.io/vitess/go/vt/proto/query"
-	tabletmanagerdatapb "vitess.io/vitess/go/vt/proto/tabletmanagerdata"
-	topodatapb "vitess.io/vitess/go/vt/proto/topodata"
+	querypb "github.com/xsec-lab/go/vt/proto/query"
+	tabletmanagerdatapb "github.com/xsec-lab/go/vt/proto/tabletmanagerdata"
+	topodatapb "github.com/xsec-lab/go/vt/proto/topodata"
 )
 
 // DiffType specifies why a specific row was found as different when comparing

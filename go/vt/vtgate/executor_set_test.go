@@ -19,17 +19,17 @@ package vtgate
 import (
 	"testing"
 
-	"vitess.io/vitess/go/vt/vterrors"
+	"github.com/xsec-lab/go/vt/vterrors"
 
 	"context"
 
 	"github.com/golang/protobuf/proto"
-	"vitess.io/vitess/go/sqltypes"
-	"vitess.io/vitess/go/vt/vtgate/vschemaacl"
+	"github.com/xsec-lab/go/sqltypes"
+	"github.com/xsec-lab/go/vt/vtgate/vschemaacl"
 
-	querypb "vitess.io/vitess/go/vt/proto/query"
-	vtgatepb "vitess.io/vitess/go/vt/proto/vtgate"
-	vtrpcpb "vitess.io/vitess/go/vt/proto/vtrpc"
+	querypb "github.com/xsec-lab/go/vt/proto/query"
+	vtgatepb "github.com/xsec-lab/go/vt/proto/vtgate"
+	vtrpcpb "github.com/xsec-lab/go/vt/proto/vtrpc"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

@@ -31,9 +31,9 @@ import (
 	"github.com/stretchr/testify/require"
 	"google.golang.org/grpc"
 
-	"vitess.io/vitess/go/sqltypes"
-	querypb "vitess.io/vitess/go/vt/proto/query"
-	"vitess.io/vitess/go/vt/vtgate/grpcvtgateservice"
+	"github.com/xsec-lab/go/sqltypes"
+	querypb "github.com/xsec-lab/go/vt/proto/query"
+	"github.com/xsec-lab/go/vt/vtgate/grpcvtgateservice"
 )
 
 var (

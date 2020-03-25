@@ -26,8 +26,8 @@ import (
 	"strings"
 	"syscall"
 
-	vtenv "vitess.io/vitess/go/vt/env"
-	"vitess.io/vitess/go/vt/log"
+	vtenv "github.com/xsec-lab/go/vt/env"
+	"github.com/xsec-lab/go/vt/log"
 )
 
 // Hook is the input structure for this library.

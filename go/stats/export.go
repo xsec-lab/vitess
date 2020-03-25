@@ -37,7 +37,7 @@ import (
 	"sync"
 	"time"
 
-	"vitess.io/vitess/go/vt/log"
+	"github.com/xsec-lab/go/vt/log"
 )
 
 var emitStats = flag.Bool("emit_stats", false, "true iff we should emit stats to push-based monitoring/stats backends")

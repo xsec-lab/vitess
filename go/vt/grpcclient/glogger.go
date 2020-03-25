@@ -19,8 +19,8 @@ package grpcclient
 import (
 	"fmt"
 
+	"github.com/xsec-lab/go/vt/log"
 	"google.golang.org/grpc/grpclog"
-	"vitess.io/vitess/go/vt/log"
 )
 
 // grpc doesn't return underlying errors. So, we have

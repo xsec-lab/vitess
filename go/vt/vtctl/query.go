@@ -28,18 +28,18 @@ import (
 
 	"github.com/golang/protobuf/proto"
 	"github.com/olekukonko/tablewriter"
+	"github.com/xsec-lab/go/sqltypes"
+	"github.com/xsec-lab/go/vt/callerid"
+	"github.com/xsec-lab/go/vt/grpcclient"
+	"github.com/xsec-lab/go/vt/logutil"
+	"github.com/xsec-lab/go/vt/topo/topoproto"
+	"github.com/xsec-lab/go/vt/vtgate/vtgateconn"
+	"github.com/xsec-lab/go/vt/vttablet/tabletconn"
+	"github.com/xsec-lab/go/vt/wrangler"
 	"golang.org/x/net/context"
-	"vitess.io/vitess/go/sqltypes"
-	"vitess.io/vitess/go/vt/callerid"
-	"vitess.io/vitess/go/vt/grpcclient"
-	"vitess.io/vitess/go/vt/logutil"
-	"vitess.io/vitess/go/vt/topo/topoproto"
-	"vitess.io/vitess/go/vt/vtgate/vtgateconn"
-	"vitess.io/vitess/go/vt/vttablet/tabletconn"
-	"vitess.io/vitess/go/vt/wrangler"
 
-	querypb "vitess.io/vitess/go/vt/proto/query"
-	topodatapb "vitess.io/vitess/go/vt/proto/topodata"
+	querypb "github.com/xsec-lab/go/vt/proto/query"
+	topodatapb "github.com/xsec-lab/go/vt/proto/topodata"
 )
 
 // This file contains the query command group for vtctl.

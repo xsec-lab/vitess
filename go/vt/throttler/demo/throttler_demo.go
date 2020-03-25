@@ -24,21 +24,21 @@ import (
 	"testing"
 	"time"
 
-	"vitess.io/vitess/go/vt/discovery"
-	"vitess.io/vitess/go/vt/logutil"
-	"vitess.io/vitess/go/vt/servenv"
-	"vitess.io/vitess/go/vt/throttler"
-	"vitess.io/vitess/go/vt/topo/memorytopo"
-	"vitess.io/vitess/go/vt/vttablet/grpcqueryservice"
-	"vitess.io/vitess/go/vt/vttablet/queryservice/fakes"
-	"vitess.io/vitess/go/vt/vttablet/tmclient"
-	"vitess.io/vitess/go/vt/wrangler"
-	"vitess.io/vitess/go/vt/wrangler/testlib"
+	"github.com/xsec-lab/go/vt/discovery"
+	"github.com/xsec-lab/go/vt/logutil"
+	"github.com/xsec-lab/go/vt/servenv"
+	"github.com/xsec-lab/go/vt/throttler"
+	"github.com/xsec-lab/go/vt/topo/memorytopo"
+	"github.com/xsec-lab/go/vt/vttablet/grpcqueryservice"
+	"github.com/xsec-lab/go/vt/vttablet/queryservice/fakes"
+	"github.com/xsec-lab/go/vt/vttablet/tmclient"
+	"github.com/xsec-lab/go/vt/wrangler"
+	"github.com/xsec-lab/go/vt/wrangler/testlib"
 
-	querypb "vitess.io/vitess/go/vt/proto/query"
-	topodatapb "vitess.io/vitess/go/vt/proto/topodata"
+	querypb "github.com/xsec-lab/go/vt/proto/query"
+	topodatapb "github.com/xsec-lab/go/vt/proto/topodata"
 
-	"vitess.io/vitess/go/vt/log"
+	"github.com/xsec-lab/go/vt/log"
 )
 
 // This file contains a demo binary that demonstrates how the resharding

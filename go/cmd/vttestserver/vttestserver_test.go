@@ -24,18 +24,18 @@ import (
 	"path"
 	"testing"
 
-	"vitess.io/vitess/go/vt/tlstest"
+	"github.com/xsec-lab/go/vt/tlstest"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"vitess.io/vitess/go/mysql"
+	"github.com/xsec-lab/go/mysql"
 
-	"vitess.io/vitess/go/vt/vttest"
+	"github.com/xsec-lab/go/vt/vttest"
 
 	"github.com/golang/protobuf/jsonpb"
-	"vitess.io/vitess/go/vt/proto/logutil"
-	"vitess.io/vitess/go/vt/proto/vschema"
-	"vitess.io/vitess/go/vt/vtctl/vtctlclient"
+	"github.com/xsec-lab/go/vt/proto/logutil"
+	"github.com/xsec-lab/go/vt/proto/vschema"
+	"github.com/xsec-lab/go/vt/vtctl/vtctlclient"
 )
 
 type columnVindex struct {

@@ -25,14 +25,14 @@ import (
 
 	"golang.org/x/net/context"
 
-	"vitess.io/vitess/go/sqltypes"
-	"vitess.io/vitess/go/streamlog"
-	"vitess.io/vitess/go/tb"
-	"vitess.io/vitess/go/vt/callerid"
-	"vitess.io/vitess/go/vt/callinfo"
-	"vitess.io/vitess/go/vt/log"
+	"github.com/xsec-lab/go/sqltypes"
+	"github.com/xsec-lab/go/streamlog"
+	"github.com/xsec-lab/go/tb"
+	"github.com/xsec-lab/go/vt/callerid"
+	"github.com/xsec-lab/go/vt/callinfo"
+	"github.com/xsec-lab/go/vt/log"
 
-	querypb "vitess.io/vitess/go/vt/proto/query"
+	querypb "github.com/xsec-lab/go/vt/proto/query"
 )
 
 // LogStats records the stats for a single vtgate query

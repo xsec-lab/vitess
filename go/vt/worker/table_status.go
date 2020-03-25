@@ -21,11 +21,11 @@ import (
 	"sync"
 	"time"
 
-	"vitess.io/vitess/go/vt/mysqlctl/tmutils"
-	"vitess.io/vitess/go/vt/proto/vtrpc"
-	"vitess.io/vitess/go/vt/vterrors"
+	"github.com/xsec-lab/go/vt/mysqlctl/tmutils"
+	"github.com/xsec-lab/go/vt/proto/vtrpc"
+	"github.com/xsec-lab/go/vt/vterrors"
 
-	tabletmanagerdatapb "vitess.io/vitess/go/vt/proto/tabletmanagerdata"
+	tabletmanagerdatapb "github.com/xsec-lab/go/vt/proto/tabletmanagerdata"
 )
 
 // tableStatusList contains the status for each table of a schema.

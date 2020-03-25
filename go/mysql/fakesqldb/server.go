@@ -29,11 +29,11 @@ import (
 	"testing"
 	"time"
 
-	"vitess.io/vitess/go/mysql"
-	"vitess.io/vitess/go/sqltypes"
+	"github.com/xsec-lab/go/mysql"
+	"github.com/xsec-lab/go/sqltypes"
 
-	"vitess.io/vitess/go/vt/dbconfigs"
-	querypb "vitess.io/vitess/go/vt/proto/query"
+	"github.com/xsec-lab/go/vt/dbconfigs"
+	querypb "github.com/xsec-lab/go/vt/proto/query"
 )
 
 const appendEntry = -1

@@ -22,11 +22,11 @@ import (
 	"testing"
 	"time"
 
+	"github.com/xsec-lab/go/sqltypes"
+	"github.com/xsec-lab/go/vt/binlog/binlogplayer"
+	binlogdatapb "github.com/xsec-lab/go/vt/proto/binlogdata"
+	"github.com/xsec-lab/go/vt/vttablet/tabletserver/vstreamer"
 	"golang.org/x/net/context"
-	"vitess.io/vitess/go/sqltypes"
-	"vitess.io/vitess/go/vt/binlog/binlogplayer"
-	binlogdatapb "vitess.io/vitess/go/vt/proto/binlogdata"
-	"vitess.io/vitess/go/vt/vttablet/tabletserver/vstreamer"
 )
 
 func TestPlayerCopyTables(t *testing.T) {

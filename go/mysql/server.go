@@ -24,15 +24,15 @@ import (
 	"time"
 
 	proxyproto "github.com/pires/go-proxyproto"
-	"vitess.io/vitess/go/netutil"
-	"vitess.io/vitess/go/sqltypes"
-	"vitess.io/vitess/go/stats"
-	"vitess.io/vitess/go/sync2"
-	"vitess.io/vitess/go/tb"
-	"vitess.io/vitess/go/vt/log"
-	querypb "vitess.io/vitess/go/vt/proto/query"
-	"vitess.io/vitess/go/vt/proto/vtrpc"
-	"vitess.io/vitess/go/vt/vterrors"
+	"github.com/xsec-lab/go/netutil"
+	"github.com/xsec-lab/go/sqltypes"
+	"github.com/xsec-lab/go/stats"
+	"github.com/xsec-lab/go/sync2"
+	"github.com/xsec-lab/go/tb"
+	"github.com/xsec-lab/go/vt/log"
+	querypb "github.com/xsec-lab/go/vt/proto/query"
+	"github.com/xsec-lab/go/vt/proto/vtrpc"
+	"github.com/xsec-lab/go/vt/vterrors"
 )
 
 const (

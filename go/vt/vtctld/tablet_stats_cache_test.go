@@ -20,10 +20,10 @@ import (
 	"reflect"
 	"testing"
 
-	"vitess.io/vitess/go/vt/discovery"
+	"github.com/xsec-lab/go/vt/discovery"
 
-	querypb "vitess.io/vitess/go/vt/proto/query"
-	topodatapb "vitess.io/vitess/go/vt/proto/topodata"
+	querypb "github.com/xsec-lab/go/vt/proto/query"
+	topodatapb "github.com/xsec-lab/go/vt/proto/topodata"
 )
 
 func TestStatsUpdate(t *testing.T) {

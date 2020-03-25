@@ -27,8 +27,8 @@ import (
 	"syscall"
 	"time"
 
-	"vitess.io/vitess/go/vt/log"
-	"vitess.io/vitess/go/vt/servenv"
+	"github.com/xsec-lab/go/vt/log"
+	"github.com/xsec-lab/go/vt/servenv"
 
 	"github.com/golang/protobuf/proto"
 )

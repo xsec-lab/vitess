@@ -22,8 +22,8 @@ import (
 	"fmt"
 	"html/template"
 
+	"github.com/xsec-lab/go/mysql"
 	"golang.org/x/net/context"
-	"vitess.io/vitess/go/mysql"
 )
 
 // MysqlCallInfo returns an augmented context with a CallInfo structure,

@@ -17,9 +17,9 @@ limitations under the License.
 package helpers
 
 import (
+	"github.com/xsec-lab/go/vt/log"
+	"github.com/xsec-lab/go/vt/topo"
 	"golang.org/x/net/context"
-	"vitess.io/vitess/go/vt/log"
-	"vitess.io/vitess/go/vt/topo"
 )
 
 // TeeFactory is an implementation of topo.Factory that uses a primary

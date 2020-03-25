@@ -22,7 +22,7 @@ import (
 
 	"golang.org/x/net/context"
 
-	"vitess.io/vitess/go/vt/topo"
+	"github.com/xsec-lab/go/vt/topo"
 )
 
 // checkDirectory tests the directory part of the topo.Conn API.

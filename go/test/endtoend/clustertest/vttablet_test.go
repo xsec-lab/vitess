@@ -24,7 +24,7 @@ import (
 	"net/http"
 	"testing"
 
-	"vitess.io/vitess/go/test/endtoend/cluster"
+	"github.com/xsec-lab/go/test/endtoend/cluster"
 )
 
 func TestVttabletProcess(t *testing.T) {

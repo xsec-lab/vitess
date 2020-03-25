@@ -20,15 +20,15 @@ import (
 	"path"
 
 	"github.com/golang/protobuf/proto"
+	"github.com/xsec-lab/go/vt/vterrors"
 	"golang.org/x/net/context"
-	"vitess.io/vitess/go/vt/vterrors"
 
-	"vitess.io/vitess/go/event"
-	"vitess.io/vitess/go/vt/log"
-	"vitess.io/vitess/go/vt/topo/events"
+	"github.com/xsec-lab/go/event"
+	"github.com/xsec-lab/go/vt/log"
+	"github.com/xsec-lab/go/vt/topo/events"
 
-	topodatapb "vitess.io/vitess/go/vt/proto/topodata"
-	vtrpcpb "vitess.io/vitess/go/vt/proto/vtrpc"
+	topodatapb "github.com/xsec-lab/go/vt/proto/topodata"
+	vtrpcpb "github.com/xsec-lab/go/vt/proto/vtrpc"
 )
 
 // This file contains keyspace utility functions

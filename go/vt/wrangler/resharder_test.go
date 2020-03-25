@@ -22,12 +22,12 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/assert"
+	"github.com/xsec-lab/go/sqltypes"
+	binlogdatapb "github.com/xsec-lab/go/vt/proto/binlogdata"
+	tabletmanagerdatapb "github.com/xsec-lab/go/vt/proto/tabletmanagerdata"
+	vschemapb "github.com/xsec-lab/go/vt/proto/vschema"
+	"github.com/xsec-lab/go/vt/vtgate/vindexes"
 	"golang.org/x/net/context"
-	"vitess.io/vitess/go/sqltypes"
-	binlogdatapb "vitess.io/vitess/go/vt/proto/binlogdata"
-	tabletmanagerdatapb "vitess.io/vitess/go/vt/proto/tabletmanagerdata"
-	vschemapb "vitess.io/vitess/go/vt/proto/vschema"
-	"vitess.io/vitess/go/vt/vtgate/vindexes"
 )
 
 const insertPrefix = `/insert into _vt.vreplication\(workflow, source, pos, max_tps, max_replication_lag, cell, tablet_types, time_updated, transaction_timestamp, state, db_name\) values `

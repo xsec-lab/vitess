@@ -22,8 +22,8 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"vitess.io/vitess/go/sqltypes"
-	"vitess.io/vitess/go/vt/log"
+	"github.com/xsec-lab/go/sqltypes"
+	"github.com/xsec-lab/go/vt/log"
 )
 
 func prettyPrint(qr sqltypes.Result) string {

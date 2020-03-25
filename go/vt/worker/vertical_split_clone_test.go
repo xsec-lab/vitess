@@ -22,17 +22,17 @@ import (
 
 	"golang.org/x/net/context"
 
-	"vitess.io/vitess/go/mysql"
-	"vitess.io/vitess/go/mysql/fakesqldb"
-	"vitess.io/vitess/go/vt/mysqlctl/tmutils"
-	"vitess.io/vitess/go/vt/topo/memorytopo"
-	"vitess.io/vitess/go/vt/topo/topoproto"
-	"vitess.io/vitess/go/vt/vttablet/grpcqueryservice"
-	"vitess.io/vitess/go/vt/vttablet/queryservice/fakes"
-	"vitess.io/vitess/go/vt/wrangler/testlib"
+	"github.com/xsec-lab/go/mysql"
+	"github.com/xsec-lab/go/mysql/fakesqldb"
+	"github.com/xsec-lab/go/vt/mysqlctl/tmutils"
+	"github.com/xsec-lab/go/vt/topo/memorytopo"
+	"github.com/xsec-lab/go/vt/topo/topoproto"
+	"github.com/xsec-lab/go/vt/vttablet/grpcqueryservice"
+	"github.com/xsec-lab/go/vt/vttablet/queryservice/fakes"
+	"github.com/xsec-lab/go/vt/wrangler/testlib"
 
-	tabletmanagerdatapb "vitess.io/vitess/go/vt/proto/tabletmanagerdata"
-	topodatapb "vitess.io/vitess/go/vt/proto/topodata"
+	tabletmanagerdatapb "github.com/xsec-lab/go/vt/proto/tabletmanagerdata"
+	topodatapb "github.com/xsec-lab/go/vt/proto/topodata"
 )
 
 const (

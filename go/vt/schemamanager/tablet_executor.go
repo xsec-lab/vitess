@@ -23,11 +23,11 @@ import (
 
 	"golang.org/x/net/context"
 
-	"vitess.io/vitess/go/sync2"
-	"vitess.io/vitess/go/vt/sqlparser"
-	"vitess.io/vitess/go/vt/wrangler"
+	"github.com/xsec-lab/go/sync2"
+	"github.com/xsec-lab/go/vt/sqlparser"
+	"github.com/xsec-lab/go/vt/wrangler"
 
-	topodatapb "vitess.io/vitess/go/vt/proto/topodata"
+	topodatapb "github.com/xsec-lab/go/vt/proto/topodata"
 )
 
 // TabletExecutor applies schema changes to all tablets.

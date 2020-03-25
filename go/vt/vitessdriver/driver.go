@@ -23,9 +23,9 @@ import (
 	"encoding/json"
 	"errors"
 
+	"github.com/xsec-lab/go/vt/vtgate/grpcvtgateconn"
+	"github.com/xsec-lab/go/vt/vtgate/vtgateconn"
 	"google.golang.org/grpc"
-	"vitess.io/vitess/go/vt/vtgate/grpcvtgateconn"
-	"vitess.io/vitess/go/vt/vtgate/vtgateconn"
 )
 
 var (

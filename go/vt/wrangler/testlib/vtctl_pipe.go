@@ -28,16 +28,16 @@ import (
 
 	"google.golang.org/grpc"
 
+	"github.com/xsec-lab/go/vt/logutil"
+	"github.com/xsec-lab/go/vt/servenv"
+	"github.com/xsec-lab/go/vt/topo"
+	"github.com/xsec-lab/go/vt/vtctl/grpcvtctlserver"
+	"github.com/xsec-lab/go/vt/vtctl/vtctlclient"
 	"golang.org/x/net/context"
-	"vitess.io/vitess/go/vt/logutil"
-	"vitess.io/vitess/go/vt/servenv"
-	"vitess.io/vitess/go/vt/topo"
-	"vitess.io/vitess/go/vt/vtctl/grpcvtctlserver"
-	"vitess.io/vitess/go/vt/vtctl/vtctlclient"
 
 	// we need to import the grpcvtctlclient library so the gRPC
 	// vtctl client is registered and can be used.
-	_ "vitess.io/vitess/go/vt/vtctl/grpcvtctlclient"
+	_ "github.com/xsec-lab/go/vt/vtctl/grpcvtctlclient"
 )
 
 var servenvInitialized sync.Once

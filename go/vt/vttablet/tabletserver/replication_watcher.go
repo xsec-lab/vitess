@@ -21,10 +21,10 @@ import (
 
 	"golang.org/x/net/context"
 
-	"vitess.io/vitess/go/vt/log"
-	"vitess.io/vitess/go/vt/vttablet/tabletserver/tabletenv"
+	"github.com/xsec-lab/go/vt/log"
+	"github.com/xsec-lab/go/vt/vttablet/tabletserver/tabletenv"
 
-	binlogdatapb "vitess.io/vitess/go/vt/proto/binlogdata"
+	binlogdatapb "github.com/xsec-lab/go/vt/proto/binlogdata"
 )
 
 // VStreamer defines  the functions of VStreamer

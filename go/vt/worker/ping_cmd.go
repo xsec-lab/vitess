@@ -21,11 +21,11 @@ import (
 	"html/template"
 	"net/http"
 
-	"vitess.io/vitess/go/vt/proto/vtrpc"
-	"vitess.io/vitess/go/vt/vterrors"
+	"github.com/xsec-lab/go/vt/proto/vtrpc"
+	"github.com/xsec-lab/go/vt/vterrors"
 
+	"github.com/xsec-lab/go/vt/wrangler"
 	"golang.org/x/net/context"
-	"vitess.io/vitess/go/vt/wrangler"
 )
 
 const pingHTML = `

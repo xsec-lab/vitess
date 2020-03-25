@@ -16,5 +16,5 @@ limitations under the License.
 package main
 
 import (
-	_ "vitess.io/vitess/go/vt/mysqlctl/gcsbackupstorage"
+	_ "github.com/xsec-lab/go/vt/mysqlctl/gcsbackupstorage"
 )

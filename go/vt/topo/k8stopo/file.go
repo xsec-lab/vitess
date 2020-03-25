@@ -33,9 +33,9 @@ import (
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/client-go/util/retry"
 
-	"vitess.io/vitess/go/vt/log"
-	"vitess.io/vitess/go/vt/topo"
-	vtv1beta1 "vitess.io/vitess/go/vt/topo/k8stopo/apis/topo/v1beta1"
+	"github.com/xsec-lab/go/vt/log"
+	"github.com/xsec-lab/go/vt/topo"
+	vtv1beta1 "github.com/xsec-lab/go/vt/topo/k8stopo/apis/topo/v1beta1"
 )
 
 // NodeReference contains the data relating to a node

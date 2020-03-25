@@ -30,13 +30,13 @@ import (
 	"testing"
 	"time"
 
-	"vitess.io/vitess/go/test/endtoend/sharding"
+	"github.com/xsec-lab/go/test/endtoend/sharding"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"vitess.io/vitess/go/json2"
-	"vitess.io/vitess/go/test/endtoend/cluster"
-	topodatapb "vitess.io/vitess/go/vt/proto/topodata"
+	"github.com/xsec-lab/go/json2"
+	"github.com/xsec-lab/go/test/endtoend/cluster"
+	topodatapb "github.com/xsec-lab/go/vt/proto/topodata"
 )
 
 var (

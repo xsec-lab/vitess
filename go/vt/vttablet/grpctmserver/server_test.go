@@ -20,12 +20,12 @@ import (
 	"net"
 	"testing"
 
+	"github.com/xsec-lab/go/vt/vttablet/agentrpctest"
+	"github.com/xsec-lab/go/vt/vttablet/grpctmclient"
 	"google.golang.org/grpc"
-	"vitess.io/vitess/go/vt/vttablet/agentrpctest"
-	"vitess.io/vitess/go/vt/vttablet/grpctmclient"
 
-	tabletmanagerservicepb "vitess.io/vitess/go/vt/proto/tabletmanagerservice"
-	topodatapb "vitess.io/vitess/go/vt/proto/topodata"
+	tabletmanagerservicepb "github.com/xsec-lab/go/vt/proto/tabletmanagerservice"
+	topodatapb "github.com/xsec-lab/go/vt/proto/topodata"
 )
 
 // TestGRPCTMServer creates a fake server implementation, a fake client

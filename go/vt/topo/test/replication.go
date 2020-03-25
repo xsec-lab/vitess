@@ -19,10 +19,10 @@ package test
 import (
 	"testing"
 
+	"github.com/xsec-lab/go/vt/topo"
 	"golang.org/x/net/context"
-	"vitess.io/vitess/go/vt/topo"
 
-	topodatapb "vitess.io/vitess/go/vt/proto/topodata"
+	topodatapb "github.com/xsec-lab/go/vt/proto/topodata"
 )
 
 // checkShardReplication tests ShardReplication objects

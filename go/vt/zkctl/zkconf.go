@@ -29,9 +29,9 @@ import (
 	"strings"
 	"text/template"
 
-	"vitess.io/vitess/go/netutil"
-	"vitess.io/vitess/go/vt/env"
-	"vitess.io/vitess/go/vt/log"
+	"github.com/xsec-lab/go/netutil"
+	"github.com/xsec-lab/go/vt/env"
+	"github.com/xsec-lab/go/vt/log"
 )
 
 type zkServerAddr struct {

@@ -24,9 +24,9 @@ import (
 	"github.com/stretchr/testify/require"
 
 	"github.com/stretchr/testify/assert"
-	"vitess.io/vitess/go/mysql"
-	"vitess.io/vitess/go/test/endtoend/cluster"
-	querypb "vitess.io/vitess/go/vt/proto/query"
+	"github.com/xsec-lab/go/mysql"
+	"github.com/xsec-lab/go/test/endtoend/cluster"
+	querypb "github.com/xsec-lab/go/vt/proto/query"
 )
 
 func TestQPS(t *testing.T) {

@@ -22,9 +22,9 @@ import (
 	"flag"
 	"log/syslog"
 
-	"vitess.io/vitess/go/vt/log"
-	"vitess.io/vitess/go/vt/servenv"
-	"vitess.io/vitess/go/vt/vttablet/tabletserver/tabletenv"
+	"github.com/xsec-lab/go/vt/log"
+	"github.com/xsec-lab/go/vt/servenv"
+	"github.com/xsec-lab/go/vt/vttablet/tabletserver/tabletenv"
 )
 
 // syslogWriter is an interface that wraps syslog.Writer, so it can be mocked in unit tests.

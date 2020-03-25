@@ -22,11 +22,11 @@ import (
 
 	"golang.org/x/net/context"
 
-	automationpb "vitess.io/vitess/go/vt/proto/automation"
-	"vitess.io/vitess/go/vt/vtctl/fakevtctlclient"
-	"vitess.io/vitess/go/vt/vtctl/vtctlclient"
-	"vitess.io/vitess/go/vt/worker/fakevtworkerclient"
-	"vitess.io/vitess/go/vt/worker/vtworkerclient"
+	automationpb "github.com/xsec-lab/go/vt/proto/automation"
+	"github.com/xsec-lab/go/vt/vtctl/fakevtctlclient"
+	"github.com/xsec-lab/go/vt/vtctl/vtctlclient"
+	"github.com/xsec-lab/go/vt/worker/fakevtworkerclient"
+	"github.com/xsec-lab/go/vt/worker/vtworkerclient"
 )
 
 // TestVerticalSplitTask tests the vertical split cluster operation

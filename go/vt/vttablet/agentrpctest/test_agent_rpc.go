@@ -28,17 +28,17 @@ import (
 	"golang.org/x/net/context"
 
 	"github.com/golang/protobuf/proto"
-	"vitess.io/vitess/go/sqltypes"
-	"vitess.io/vitess/go/vt/hook"
-	"vitess.io/vitess/go/vt/logutil"
-	"vitess.io/vitess/go/vt/mysqlctl/tmutils"
-	"vitess.io/vitess/go/vt/vttablet/tabletmanager"
-	"vitess.io/vitess/go/vt/vttablet/tmclient"
+	"github.com/xsec-lab/go/sqltypes"
+	"github.com/xsec-lab/go/vt/hook"
+	"github.com/xsec-lab/go/vt/logutil"
+	"github.com/xsec-lab/go/vt/mysqlctl/tmutils"
+	"github.com/xsec-lab/go/vt/vttablet/tabletmanager"
+	"github.com/xsec-lab/go/vt/vttablet/tmclient"
 
-	querypb "vitess.io/vitess/go/vt/proto/query"
-	replicationdatapb "vitess.io/vitess/go/vt/proto/replicationdata"
-	tabletmanagerdatapb "vitess.io/vitess/go/vt/proto/tabletmanagerdata"
-	topodatapb "vitess.io/vitess/go/vt/proto/topodata"
+	querypb "github.com/xsec-lab/go/vt/proto/query"
+	replicationdatapb "github.com/xsec-lab/go/vt/proto/replicationdata"
+	tabletmanagerdatapb "github.com/xsec-lab/go/vt/proto/tabletmanagerdata"
+	topodatapb "github.com/xsec-lab/go/vt/proto/topodata"
 )
 
 // fakeRPCAgent implements tabletmanager.RPCAgent and fills in all

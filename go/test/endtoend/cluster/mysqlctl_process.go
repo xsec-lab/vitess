@@ -24,8 +24,8 @@ import (
 	"path"
 	"strings"
 
-	"vitess.io/vitess/go/mysql"
-	"vitess.io/vitess/go/vt/log"
+	"github.com/xsec-lab/go/mysql"
+	"github.com/xsec-lab/go/vt/log"
 )
 
 // MysqlctlProcess is a generic handle for a running mysqlctl command .
