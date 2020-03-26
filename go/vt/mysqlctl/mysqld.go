@@ -40,14 +40,14 @@ import (
 
 	"bytes"
 
-	"github.com/xsec-lab/go/mysql"
-	"github.com/xsec-lab/go/stats"
-	"github.com/xsec-lab/go/vt/dbconfigs"
-	"github.com/xsec-lab/go/vt/dbconnpool"
-	vtenv "github.com/xsec-lab/go/vt/env"
-	"github.com/xsec-lab/go/vt/hook"
-	"github.com/xsec-lab/go/vt/log"
-	"github.com/xsec-lab/go/vt/mysqlctl/mysqlctlclient"
+	"github.com/xsec-lab/vitess/go/mysql"
+	"github.com/xsec-lab/vitess/go/stats"
+	"github.com/xsec-lab/vitess/go/vt/dbconfigs"
+	"github.com/xsec-lab/vitess/go/vt/dbconnpool"
+	vtenv "github.com/xsec-lab/vitess/go/vt/env"
+	"github.com/xsec-lab/vitess/go/vt/hook"
+	"github.com/xsec-lab/vitess/go/vt/log"
+	"github.com/xsec-lab/vitess/go/vt/mysqlctl/mysqlctlclient"
 	"golang.org/x/net/context"
 )
 

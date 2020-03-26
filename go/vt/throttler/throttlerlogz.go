@@ -24,7 +24,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/xsec-lab/go/vt/logz"
+	"github.com/xsec-lab/vitess/go/vt/logz"
 )
 
 const logHeaderHTML = `

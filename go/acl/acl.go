@@ -26,7 +26,7 @@ import (
 	"net/http"
 	"sync"
 
-	"github.com/xsec-lab/go/vt/log"
+	"github.com/xsec-lab/vitess/go/vt/log"
 )
 
 // This is a list of predefined roles. Applications are free

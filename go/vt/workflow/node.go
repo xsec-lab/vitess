@@ -27,8 +27,8 @@ import (
 
 	"golang.org/x/net/context"
 
-	"github.com/xsec-lab/go/vt/log"
-	workflowpb "github.com/xsec-lab/go/vt/proto/workflow"
+	"github.com/xsec-lab/vitess/go/vt/log"
+	workflowpb "github.com/xsec-lab/vitess/go/vt/proto/workflow"
 )
 
 // This file contains the necessary object definitions and interfaces

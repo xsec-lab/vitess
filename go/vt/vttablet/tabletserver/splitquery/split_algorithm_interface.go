@@ -17,8 +17,8 @@ limitations under the License.
 package splitquery
 
 import (
-	"github.com/xsec-lab/go/sqltypes"
-	"github.com/xsec-lab/go/vt/vttablet/tabletserver/schema"
+	"github.com/xsec-lab/vitess/go/sqltypes"
+	"github.com/xsec-lab/vitess/go/vt/vttablet/tabletserver/schema"
 )
 
 type tuple []sqltypes.Value

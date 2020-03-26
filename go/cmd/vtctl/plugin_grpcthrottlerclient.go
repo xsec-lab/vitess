@@ -19,5 +19,5 @@ package main
 // Imports and register the gRPC throttler client.
 
 import (
-	_ "github.com/xsec-lab/go/vt/throttler/grpcthrottlerclient"
+	_ "github.com/xsec-lab/vitess/go/vt/throttler/grpcthrottlerclient"
 )

@@ -32,7 +32,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/xsec-lab/go/vt/vitessdriver"
+	"github.com/xsec-lab/vitess/go/vt/vitessdriver"
 )
 
 var (

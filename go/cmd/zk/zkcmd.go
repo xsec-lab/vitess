@@ -36,11 +36,11 @@ import (
 	"golang.org/x/crypto/ssh/terminal"
 	"golang.org/x/net/context"
 
-	"github.com/xsec-lab/go/exit"
-	"github.com/xsec-lab/go/vt/log"
-	"github.com/xsec-lab/go/vt/logutil"
-	"github.com/xsec-lab/go/vt/topo/zk2topo"
-	"github.com/xsec-lab/go/vt/vtctl"
+	"github.com/xsec-lab/vitess/go/exit"
+	"github.com/xsec-lab/vitess/go/vt/log"
+	"github.com/xsec-lab/vitess/go/vt/logutil"
+	"github.com/xsec-lab/vitess/go/vt/topo/zk2topo"
+	"github.com/xsec-lab/vitess/go/vt/vtctl"
 )
 
 var doc = `

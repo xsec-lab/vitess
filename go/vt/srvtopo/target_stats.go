@@ -19,8 +19,8 @@ package srvtopo
 import (
 	"fmt"
 
-	querypb "github.com/xsec-lab/go/vt/proto/query"
-	"github.com/xsec-lab/go/vt/vttablet/queryservice"
+	querypb "github.com/xsec-lab/vitess/go/vt/proto/query"
+	"github.com/xsec-lab/vitess/go/vt/vttablet/queryservice"
 )
 
 // TargetStats is an interface that the srvtopo module uses to handle

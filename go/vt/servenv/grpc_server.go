@@ -29,9 +29,9 @@ import (
 
 	"github.com/grpc-ecosystem/go-grpc-prometheus"
 
-	"github.com/xsec-lab/go/vt/grpccommon"
-	"github.com/xsec-lab/go/vt/log"
-	"github.com/xsec-lab/go/vt/vttls"
+	"github.com/xsec-lab/vitess/go/vt/grpccommon"
+	"github.com/xsec-lab/vitess/go/vt/log"
+	"github.com/xsec-lab/vitess/go/vt/vttls"
 	"golang.org/x/net/context"
 	"google.golang.org/grpc/keepalive"
 )

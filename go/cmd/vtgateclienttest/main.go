@@ -20,10 +20,10 @@ limitations under the License.
 package main
 
 import (
-	"github.com/xsec-lab/go/cmd/vtgateclienttest/services"
-	"github.com/xsec-lab/go/exit"
-	"github.com/xsec-lab/go/vt/servenv"
-	"github.com/xsec-lab/go/vt/vtgate"
+	"github.com/xsec-lab/vitess/go/cmd/vtgateclienttest/services"
+	"github.com/xsec-lab/vitess/go/exit"
+	"github.com/xsec-lab/vitess/go/vt/servenv"
+	"github.com/xsec-lab/vitess/go/vt/vtgate"
 )
 
 func init() {

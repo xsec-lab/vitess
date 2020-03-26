@@ -19,7 +19,7 @@ limitations under the License.
 syntax = "proto3";
 
 package queryservice;
-option go_package = "github.com/xsec-lab/go/vt/proto/queryservice";
+option go_package = "github.com/xsec-lab/vitess/go/vt/proto/queryservice";
 
 import "query.proto";
 

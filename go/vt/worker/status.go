@@ -22,8 +22,8 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/xsec-lab/go/acl"
-	"github.com/xsec-lab/go/vt/servenv"
+	"github.com/xsec-lab/vitess/go/acl"
+	"github.com/xsec-lab/vitess/go/vt/servenv"
 )
 
 const workerStatusPartHTML = servenv.JQueryIncludes + `

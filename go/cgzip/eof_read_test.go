@@ -21,7 +21,7 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"github.com/xsec-lab/go/testfiles"
+	"github.com/xsec-lab/vitess/go/testfiles"
 )
 
 // specialReader is a test class that will return bytes it reads from a file,

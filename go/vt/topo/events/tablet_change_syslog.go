@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"log/syslog"
 
-	"github.com/xsec-lab/go/event/syslogger"
-	"github.com/xsec-lab/go/vt/topo/topoproto"
+	"github.com/xsec-lab/vitess/go/event/syslogger"
+	"github.com/xsec-lab/vitess/go/vt/topo/topoproto"
 )
 
 // Syslog writes the event to syslog.

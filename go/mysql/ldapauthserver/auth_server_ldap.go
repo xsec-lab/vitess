@@ -25,11 +25,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/xsec-lab/go/mysql"
-	"github.com/xsec-lab/go/netutil"
-	"github.com/xsec-lab/go/vt/log"
-	querypb "github.com/xsec-lab/go/vt/proto/query"
-	"github.com/xsec-lab/go/vt/vttls"
+	"github.com/xsec-lab/vitess/go/mysql"
+	"github.com/xsec-lab/vitess/go/netutil"
+	"github.com/xsec-lab/vitess/go/vt/log"
+	querypb "github.com/xsec-lab/vitess/go/vt/proto/query"
+	"github.com/xsec-lab/vitess/go/vt/vttls"
 	ldap "gopkg.in/ldap.v2"
 )
 

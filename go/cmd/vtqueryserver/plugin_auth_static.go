@@ -19,8 +19,8 @@ package main
 // This plugin imports staticauthserver to register the flat-file implementation of AuthServer.
 
 import (
-	"github.com/xsec-lab/go/mysql"
-	"github.com/xsec-lab/go/vt/vtqueryserver"
+	"github.com/xsec-lab/vitess/go/mysql"
+	"github.com/xsec-lab/vitess/go/vt/vtqueryserver"
 )
 
 func init() {

@@ -24,11 +24,11 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/xsec-lab/go/json2"
-	"github.com/xsec-lab/go/vt/sqlparser"
+	"github.com/xsec-lab/vitess/go/json2"
+	"github.com/xsec-lab/vitess/go/vt/sqlparser"
 
-	querypb "github.com/xsec-lab/go/vt/proto/query"
-	vschemapb "github.com/xsec-lab/go/vt/proto/vschema"
+	querypb "github.com/xsec-lab/vitess/go/vt/proto/query"
+	vschemapb "github.com/xsec-lab/vitess/go/vt/proto/vschema"
 )
 
 // VSchema represents the denormalized version of SrvVSchema,

@@ -17,7 +17,7 @@ limitations under the License.
 // Table ACL proto definitions.
 
 syntax = "proto3";
-option go_package = "github.com/xsec-lab/go/vt/proto/tableacl";
+option go_package = "github.com/xsec-lab/vitess/go/vt/proto/tableacl";
 
 package tableacl;
 

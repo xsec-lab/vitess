@@ -20,7 +20,7 @@ import (
 	"log/syslog"
 	"testing"
 
-	base "github.com/xsec-lab/go/vt/events"
+	base "github.com/xsec-lab/vitess/go/vt/events"
 )
 
 func TestSplitCloneSyslog(t *testing.T) {

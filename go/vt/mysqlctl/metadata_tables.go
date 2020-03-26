@@ -19,8 +19,8 @@ package mysqlctl
 import (
 	"bytes"
 
-	"github.com/xsec-lab/go/sqltypes"
-	"github.com/xsec-lab/go/vt/log"
+	"github.com/xsec-lab/vitess/go/sqltypes"
+	"github.com/xsec-lab/vitess/go/vt/log"
 )
 
 // Note that definitions of local_metadata and shard_metadata should be the same

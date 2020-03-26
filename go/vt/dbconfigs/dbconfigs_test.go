@@ -20,7 +20,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/xsec-lab/go/mysql"
+	"github.com/xsec-lab/vitess/go/mysql"
 )
 
 func TestRegisterFlagsWithSomeFlags(t *testing.T) {

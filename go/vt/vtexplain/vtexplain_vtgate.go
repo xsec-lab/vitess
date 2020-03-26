@@ -24,20 +24,20 @@ import (
 
 	"golang.org/x/net/context"
 
-	"github.com/xsec-lab/go/json2"
-	"github.com/xsec-lab/go/vt/discovery"
-	"github.com/xsec-lab/go/vt/key"
-	"github.com/xsec-lab/go/vt/log"
-	"github.com/xsec-lab/go/vt/srvtopo"
-	"github.com/xsec-lab/go/vt/vtgate"
-	"github.com/xsec-lab/go/vt/vtgate/engine"
-	"github.com/xsec-lab/go/vt/vtgate/gateway"
+	"github.com/xsec-lab/vitess/go/json2"
+	"github.com/xsec-lab/vitess/go/vt/discovery"
+	"github.com/xsec-lab/vitess/go/vt/key"
+	"github.com/xsec-lab/vitess/go/vt/log"
+	"github.com/xsec-lab/vitess/go/vt/srvtopo"
+	"github.com/xsec-lab/vitess/go/vt/vtgate"
+	"github.com/xsec-lab/vitess/go/vt/vtgate/engine"
+	"github.com/xsec-lab/vitess/go/vt/vtgate/gateway"
 
-	"github.com/xsec-lab/go/vt/vttablet/queryservice"
+	"github.com/xsec-lab/vitess/go/vt/vttablet/queryservice"
 
-	topodatapb "github.com/xsec-lab/go/vt/proto/topodata"
-	vschemapb "github.com/xsec-lab/go/vt/proto/vschema"
-	vtgatepb "github.com/xsec-lab/go/vt/proto/vtgate"
+	topodatapb "github.com/xsec-lab/vitess/go/vt/proto/topodata"
+	vschemapb "github.com/xsec-lab/vitess/go/vt/proto/vschema"
+	vtgatepb "github.com/xsec-lab/vitess/go/vt/proto/vtgate"
 )
 
 var (

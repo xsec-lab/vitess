@@ -20,8 +20,8 @@ import (
 	"flag"
 	"testing"
 
-	"github.com/xsec-lab/go/vt/vtctl/fakevtctlclient"
-	"github.com/xsec-lab/go/vt/vtctl/vtctlclient"
+	"github.com/xsec-lab/vitess/go/vt/vtctl/fakevtctlclient"
+	"github.com/xsec-lab/vitess/go/vt/vtctl/vtctlclient"
 )
 
 func TestCopySchemaShardTask(t *testing.T) {

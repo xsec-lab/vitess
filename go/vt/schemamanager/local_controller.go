@@ -24,7 +24,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/xsec-lab/go/vt/log"
+	"github.com/xsec-lab/vitess/go/vt/log"
 	"golang.org/x/net/context"
 )
 

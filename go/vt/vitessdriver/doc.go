@@ -29,7 +29,7 @@ Using this SQL driver is as simple as:
 
   import (
     "time"
-    "github.com/xsec-lab/go/vt/vitessdriver"
+    "github.com/xsec-lab/vitess/go/vt/vitessdriver"
   )
 
   func main() {

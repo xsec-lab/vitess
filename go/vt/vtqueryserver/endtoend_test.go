@@ -25,14 +25,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/xsec-lab/go/mysql"
-	"github.com/xsec-lab/go/sqltypes"
-	"github.com/xsec-lab/go/vt/dbconfigs"
-	"github.com/xsec-lab/go/vt/vttablet/tabletserver"
-	"github.com/xsec-lab/go/vt/vttablet/tabletserver/tabletenv"
-	"github.com/xsec-lab/go/vt/vttest"
+	"github.com/xsec-lab/vitess/go/mysql"
+	"github.com/xsec-lab/vitess/go/sqltypes"
+	"github.com/xsec-lab/vitess/go/vt/dbconfigs"
+	"github.com/xsec-lab/vitess/go/vt/vttablet/tabletserver"
+	"github.com/xsec-lab/vitess/go/vt/vttablet/tabletserver/tabletenv"
+	"github.com/xsec-lab/vitess/go/vt/vttest"
 
-	vttestpb "github.com/xsec-lab/go/vt/proto/vttest"
+	vttestpb "github.com/xsec-lab/vitess/go/vt/proto/vttest"
 )
 
 var (

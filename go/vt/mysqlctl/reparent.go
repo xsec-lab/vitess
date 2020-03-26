@@ -26,7 +26,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/xsec-lab/go/mysql"
+	"github.com/xsec-lab/vitess/go/mysql"
 
 	"golang.org/x/net/context"
 )

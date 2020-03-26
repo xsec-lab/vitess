@@ -19,7 +19,7 @@ package planbuilder
 import (
 	"strconv"
 
-	"github.com/xsec-lab/go/vt/sqlparser"
+	"github.com/xsec-lab/vitess/go/vt/sqlparser"
 )
 
 // jointab manages procurement and naming of join

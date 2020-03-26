@@ -21,7 +21,7 @@ import (
 	"log/syslog"
 	"testing"
 
-	"github.com/xsec-lab/go/event"
+	"github.com/xsec-lab/vitess/go/event"
 )
 
 type TestEvent struct {

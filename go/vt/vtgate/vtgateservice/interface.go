@@ -19,12 +19,12 @@ limitations under the License.
 package vtgateservice
 
 import (
-	"github.com/xsec-lab/go/sqltypes"
+	"github.com/xsec-lab/vitess/go/sqltypes"
 	"golang.org/x/net/context"
 
-	querypb "github.com/xsec-lab/go/vt/proto/query"
-	topodatapb "github.com/xsec-lab/go/vt/proto/topodata"
-	vtgatepb "github.com/xsec-lab/go/vt/proto/vtgate"
+	querypb "github.com/xsec-lab/vitess/go/vt/proto/query"
+	topodatapb "github.com/xsec-lab/vitess/go/vt/proto/topodata"
+	vtgatepb "github.com/xsec-lab/vitess/go/vt/proto/vtgate"
 )
 
 // VTGateService is the interface implemented by the VTGate service,

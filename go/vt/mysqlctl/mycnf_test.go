@@ -23,9 +23,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/xsec-lab/go/vt/dbconfigs"
-	"github.com/xsec-lab/go/vt/env"
-	"github.com/xsec-lab/go/vt/servenv"
+	"github.com/xsec-lab/vitess/go/vt/dbconfigs"
+	"github.com/xsec-lab/vitess/go/vt/env"
+	"github.com/xsec-lab/vitess/go/vt/servenv"
 )
 
 var MycnfPath = "/tmp/my.cnf"

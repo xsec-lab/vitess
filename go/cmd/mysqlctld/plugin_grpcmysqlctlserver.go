@@ -19,8 +19,8 @@ package main
 // Import and register the gRPC mysqlctl server
 
 import (
-	"github.com/xsec-lab/go/vt/mysqlctl/grpcmysqlctlserver"
-	"github.com/xsec-lab/go/vt/servenv"
+	"github.com/xsec-lab/vitess/go/vt/mysqlctl/grpcmysqlctlserver"
+	"github.com/xsec-lab/vitess/go/vt/servenv"
 )
 
 func init() {

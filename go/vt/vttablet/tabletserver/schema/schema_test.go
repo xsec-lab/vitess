@@ -20,8 +20,8 @@ import (
 	"fmt"
 	"testing"
 
-	querypb "github.com/xsec-lab/go/vt/proto/query"
-	"github.com/xsec-lab/go/vt/sqlparser"
+	querypb "github.com/xsec-lab/vitess/go/vt/proto/query"
+	"github.com/xsec-lab/vitess/go/vt/sqlparser"
 )
 
 func TestTableColumnString(t *testing.T) {

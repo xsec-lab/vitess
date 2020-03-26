@@ -25,7 +25,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/xsec-lab/go/testfiles"
+	"github.com/xsec-lab/vitess/go/testfiles"
 )
 
 var testOutputTempDir string

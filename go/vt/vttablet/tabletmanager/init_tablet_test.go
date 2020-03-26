@@ -24,14 +24,14 @@ import (
 
 	"github.com/golang/protobuf/proto"
 
-	"github.com/xsec-lab/go/history"
-	"github.com/xsec-lab/go/vt/dbconfigs"
-	"github.com/xsec-lab/go/vt/mysqlctl/fakemysqldaemon"
-	"github.com/xsec-lab/go/vt/topo"
-	"github.com/xsec-lab/go/vt/topo/memorytopo"
-	"github.com/xsec-lab/go/vt/vttablet/tabletmanager/vreplication"
+	"github.com/xsec-lab/vitess/go/history"
+	"github.com/xsec-lab/vitess/go/vt/dbconfigs"
+	"github.com/xsec-lab/vitess/go/vt/mysqlctl/fakemysqldaemon"
+	"github.com/xsec-lab/vitess/go/vt/topo"
+	"github.com/xsec-lab/vitess/go/vt/topo/memorytopo"
+	"github.com/xsec-lab/vitess/go/vt/vttablet/tabletmanager/vreplication"
 
-	topodatapb "github.com/xsec-lab/go/vt/proto/topodata"
+	topodatapb "github.com/xsec-lab/vitess/go/vt/proto/topodata"
 )
 
 // Init tablet fixes replication data when safe

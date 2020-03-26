@@ -25,12 +25,12 @@ import (
 	"os"
 	"testing"
 
-	"github.com/xsec-lab/go/vt/servenv"
-	"github.com/xsec-lab/go/vt/worker/grpcvtworkerserver"
-	"github.com/xsec-lab/go/vt/worker/vtworkerclienttest"
+	"github.com/xsec-lab/vitess/go/vt/servenv"
+	"github.com/xsec-lab/vitess/go/vt/worker/grpcvtworkerserver"
+	"github.com/xsec-lab/vitess/go/vt/worker/vtworkerclienttest"
 	"google.golang.org/grpc"
 
-	vtworkerservicepb "github.com/xsec-lab/go/vt/proto/vtworkerservice"
+	vtworkerservicepb "github.com/xsec-lab/vitess/go/vt/proto/vtworkerservice"
 )
 
 // Test gRPC interface using a vtworker and vtworkerclient.

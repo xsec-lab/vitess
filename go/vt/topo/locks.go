@@ -28,8 +28,8 @@ import (
 
 	"golang.org/x/net/context"
 
-	"github.com/xsec-lab/go/trace"
-	"github.com/xsec-lab/go/vt/log"
+	"github.com/xsec-lab/vitess/go/trace"
+	"github.com/xsec-lab/vitess/go/vt/log"
 )
 
 // This file contains utility methods and definitions to lock

@@ -26,10 +26,10 @@ import (
 
 	"google.golang.org/grpc"
 
-	"github.com/xsec-lab/go/vt/servenv"
-	"github.com/xsec-lab/go/vt/vtgate/grpcvtgateservice"
-	"github.com/xsec-lab/go/vt/vtgate/vtgateconn"
-	"github.com/xsec-lab/go/vt/vtgate/vtgateconntest"
+	"github.com/xsec-lab/vitess/go/vt/servenv"
+	"github.com/xsec-lab/vitess/go/vt/vtgate/grpcvtgateservice"
+	"github.com/xsec-lab/vitess/go/vt/vtgate/vtgateconn"
+	"github.com/xsec-lab/vitess/go/vt/vtgate/vtgateconntest"
 	"golang.org/x/net/context"
 )
 

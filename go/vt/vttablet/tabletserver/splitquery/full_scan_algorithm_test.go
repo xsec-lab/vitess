@@ -22,11 +22,11 @@ import (
 	"testing"
 
 	"github.com/golang/mock/gomock"
-	"github.com/xsec-lab/go/sqltypes"
-	"github.com/xsec-lab/go/vt/sqlparser"
-	"github.com/xsec-lab/go/vt/vttablet/tabletserver/splitquery/splitquery_testing"
+	"github.com/xsec-lab/vitess/go/sqltypes"
+	"github.com/xsec-lab/vitess/go/vt/sqlparser"
+	"github.com/xsec-lab/vitess/go/vt/vttablet/tabletserver/splitquery/splitquery_testing"
 
-	querypb "github.com/xsec-lab/go/vt/proto/query"
+	querypb "github.com/xsec-lab/vitess/go/vt/proto/query"
 )
 
 func TestMultipleBoundaries(t *testing.T) {

@@ -23,7 +23,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/xsec-lab/go/vt/callinfo"
+	"github.com/xsec-lab/vitess/go/vt/callinfo"
 	"golang.org/x/net/context"
 )
 

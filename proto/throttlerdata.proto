@@ -17,7 +17,7 @@ limitations under the License.
 // Data structures for the throttler RPC interface.
 
 syntax = "proto3";
-option go_package = "github.com/xsec-lab/go/vt/proto/throttlerdata";
+option go_package = "github.com/xsec-lab/vitess/go/vt/proto/throttlerdata";
 
 package throttlerdata;
 

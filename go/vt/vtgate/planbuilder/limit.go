@@ -19,8 +19,8 @@ package planbuilder
 import (
 	"fmt"
 
-	"github.com/xsec-lab/go/vt/sqlparser"
-	"github.com/xsec-lab/go/vt/vtgate/engine"
+	"github.com/xsec-lab/vitess/go/vt/sqlparser"
+	"github.com/xsec-lab/vitess/go/vt/vtgate/engine"
 )
 
 // limit is the builder for engine.Limit.

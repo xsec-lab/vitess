@@ -19,7 +19,7 @@ package throttler
 import (
 	"time"
 
-	"github.com/xsec-lab/go/vt/discovery"
+	"github.com/xsec-lab/vitess/go/vt/discovery"
 )
 
 // replicationLagRecord stores the tablet health data for a given point in time.

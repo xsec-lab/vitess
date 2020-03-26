@@ -1,6 +1,6 @@
 package sqlparser
 
-import querypb "github.com/xsec-lab/go/vt/proto/query"
+import querypb "github.com/xsec-lab/vitess/go/vt/proto/query"
 
 // RedactSQLQuery returns a sql string with the params stripped out for display
 func RedactSQLQuery(sql string) (string, error) {

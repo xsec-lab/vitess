@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/xsec-lab/go/stats"
+	"github.com/xsec-lab/vitess/go/stats"
 )
 
 func TestOpenTsdbCounter(t *testing.T) {

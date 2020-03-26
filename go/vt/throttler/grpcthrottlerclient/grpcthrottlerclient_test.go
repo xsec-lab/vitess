@@ -21,9 +21,9 @@ import (
 	"net"
 	"testing"
 
-	"github.com/xsec-lab/go/vt/throttler"
-	"github.com/xsec-lab/go/vt/throttler/grpcthrottlerserver"
-	"github.com/xsec-lab/go/vt/throttler/throttlerclienttest"
+	"github.com/xsec-lab/vitess/go/vt/throttler"
+	"github.com/xsec-lab/vitess/go/vt/throttler/grpcthrottlerserver"
+	"github.com/xsec-lab/vitess/go/vt/throttler/throttlerclienttest"
 	"google.golang.org/grpc"
 )
 

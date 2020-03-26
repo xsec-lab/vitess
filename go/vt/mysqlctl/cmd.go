@@ -23,7 +23,7 @@ package mysqlctl
 import (
 	"fmt"
 
-	"github.com/xsec-lab/go/vt/dbconfigs"
+	"github.com/xsec-lab/vitess/go/vt/dbconfigs"
 )
 
 // CreateMysqldAndMycnf returns a Mysqld and a Mycnf object to use for working with a MySQL

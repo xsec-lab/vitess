@@ -8,8 +8,8 @@ import (
 	reflect "reflect"
 
 	gomock "github.com/golang/mock/gomock"
-	sqltypes "github.com/xsec-lab/go/sqltypes"
-	query "github.com/xsec-lab/go/vt/proto/query"
+	sqltypes "github.com/xsec-lab/vitess/go/sqltypes"
+	query "github.com/xsec-lab/vitess/go/vt/proto/query"
 )
 
 // MockSQLExecuter is a mock of SQLExecuter interface

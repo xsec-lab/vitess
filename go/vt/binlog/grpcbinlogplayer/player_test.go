@@ -22,11 +22,11 @@ import (
 
 	"google.golang.org/grpc"
 
-	"github.com/xsec-lab/go/vt/binlog/binlogplayertest"
-	"github.com/xsec-lab/go/vt/binlog/grpcbinlogstreamer"
+	"github.com/xsec-lab/vitess/go/vt/binlog/binlogplayertest"
+	"github.com/xsec-lab/vitess/go/vt/binlog/grpcbinlogstreamer"
 
-	binlogservicepb "github.com/xsec-lab/go/vt/proto/binlogservice"
-	topodatapb "github.com/xsec-lab/go/vt/proto/topodata"
+	binlogservicepb "github.com/xsec-lab/vitess/go/vt/proto/binlogservice"
+	topodatapb "github.com/xsec-lab/vitess/go/vt/proto/topodata"
 )
 
 // the test here creates a fake server implementation, a fake client

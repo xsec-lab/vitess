@@ -25,11 +25,11 @@ import (
 
 	"google.golang.org/grpc"
 
-	"github.com/xsec-lab/go/vt/servenv"
-	"github.com/xsec-lab/go/vt/vttablet/grpcqueryservice"
-	"github.com/xsec-lab/go/vt/vttablet/tabletconntest"
+	"github.com/xsec-lab/vitess/go/vt/servenv"
+	"github.com/xsec-lab/vitess/go/vt/vttablet/grpcqueryservice"
+	"github.com/xsec-lab/vitess/go/vt/vttablet/tabletconntest"
 
-	topodatapb "github.com/xsec-lab/go/vt/proto/topodata"
+	topodatapb "github.com/xsec-lab/vitess/go/vt/proto/topodata"
 )
 
 // This test makes sure the go rpc service works

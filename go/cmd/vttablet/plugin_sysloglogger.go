@@ -19,5 +19,5 @@ package main
 // Imports and register the syslog-based query logger
 
 import (
-	_ "github.com/xsec-lab/go/vt/vttablet/sysloglogger"
+	_ "github.com/xsec-lab/vitess/go/vt/vttablet/sysloglogger"
 )

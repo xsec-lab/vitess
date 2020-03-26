@@ -28,11 +28,11 @@ import (
 	"sync"
 	"time"
 
-	"github.com/xsec-lab/go/vt/log"
-	"github.com/xsec-lab/go/vt/servenv"
-	"github.com/xsec-lab/go/vt/topo"
-	"github.com/xsec-lab/go/vt/vttablet/tabletserver"
-	"github.com/xsec-lab/go/vt/vttablet/tabletserver/rules"
+	"github.com/xsec-lab/vitess/go/vt/log"
+	"github.com/xsec-lab/vitess/go/vt/servenv"
+	"github.com/xsec-lab/vitess/go/vt/topo"
+	"github.com/xsec-lab/vitess/go/vt/vttablet/tabletserver"
+	"github.com/xsec-lab/vitess/go/vt/vttablet/tabletserver/rules"
 )
 
 var (

@@ -25,18 +25,18 @@ import (
 	"sync"
 	"time"
 
-	"github.com/xsec-lab/go/event"
-	"github.com/xsec-lab/go/mysql"
-	"github.com/xsec-lab/go/sqlescape"
-	"github.com/xsec-lab/go/vt/concurrency"
-	"github.com/xsec-lab/go/vt/topo"
-	"github.com/xsec-lab/go/vt/topo/topoproto"
-	"github.com/xsec-lab/go/vt/topotools"
-	"github.com/xsec-lab/go/vt/topotools/events"
+	"github.com/xsec-lab/vitess/go/event"
+	"github.com/xsec-lab/vitess/go/mysql"
+	"github.com/xsec-lab/vitess/go/sqlescape"
+	"github.com/xsec-lab/vitess/go/vt/concurrency"
+	"github.com/xsec-lab/vitess/go/vt/topo"
+	"github.com/xsec-lab/vitess/go/vt/topo/topoproto"
+	"github.com/xsec-lab/vitess/go/vt/topotools"
+	"github.com/xsec-lab/vitess/go/vt/topotools/events"
 	"golang.org/x/net/context"
 
-	replicationdatapb "github.com/xsec-lab/go/vt/proto/replicationdata"
-	topodatapb "github.com/xsec-lab/go/vt/proto/topodata"
+	replicationdatapb "github.com/xsec-lab/vitess/go/vt/proto/replicationdata"
+	topodatapb "github.com/xsec-lab/vitess/go/vt/proto/topodata"
 )
 
 const (

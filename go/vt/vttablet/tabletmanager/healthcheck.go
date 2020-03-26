@@ -34,13 +34,13 @@ import (
 	"time"
 
 	"github.com/golang/protobuf/proto"
-	"github.com/xsec-lab/go/timer"
-	"github.com/xsec-lab/go/vt/health"
-	"github.com/xsec-lab/go/vt/log"
-	"github.com/xsec-lab/go/vt/servenv"
-	"github.com/xsec-lab/go/vt/topo"
+	"github.com/xsec-lab/vitess/go/timer"
+	"github.com/xsec-lab/vitess/go/vt/health"
+	"github.com/xsec-lab/vitess/go/vt/log"
+	"github.com/xsec-lab/vitess/go/vt/servenv"
+	"github.com/xsec-lab/vitess/go/vt/topo"
 
-	topodatapb "github.com/xsec-lab/go/vt/proto/topodata"
+	topodatapb "github.com/xsec-lab/vitess/go/vt/proto/topodata"
 )
 
 const (

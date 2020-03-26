@@ -23,12 +23,12 @@ import (
 
 	"golang.org/x/net/context"
 
-	"github.com/xsec-lab/go/testfiles"
-	"github.com/xsec-lab/go/vt/topo"
-	"github.com/xsec-lab/go/vt/topo/test"
-	"github.com/xsec-lab/go/vt/zkctl"
+	"github.com/xsec-lab/vitess/go/testfiles"
+	"github.com/xsec-lab/vitess/go/vt/topo"
+	"github.com/xsec-lab/vitess/go/vt/topo/test"
+	"github.com/xsec-lab/vitess/go/vt/zkctl"
 
-	topodatapb "github.com/xsec-lab/go/vt/proto/topodata"
+	topodatapb "github.com/xsec-lab/vitess/go/vt/proto/topodata"
 )
 
 func TestZk2Topo(t *testing.T) {

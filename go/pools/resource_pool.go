@@ -23,8 +23,8 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/xsec-lab/go/sync2"
-	"github.com/xsec-lab/go/timer"
+	"github.com/xsec-lab/vitess/go/sync2"
+	"github.com/xsec-lab/vitess/go/timer"
 	"golang.org/x/net/context"
 )
 

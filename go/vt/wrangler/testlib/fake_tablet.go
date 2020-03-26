@@ -30,24 +30,24 @@ import (
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"
 
-	"github.com/xsec-lab/go/mysql/fakesqldb"
-	"github.com/xsec-lab/go/vt/mysqlctl/fakemysqldaemon"
-	"github.com/xsec-lab/go/vt/topo"
-	"github.com/xsec-lab/go/vt/topo/topoproto"
-	"github.com/xsec-lab/go/vt/vttablet/grpctmserver"
-	"github.com/xsec-lab/go/vt/vttablet/tabletconn"
-	"github.com/xsec-lab/go/vt/vttablet/tabletmanager"
-	"github.com/xsec-lab/go/vt/vttablet/tmclient"
-	"github.com/xsec-lab/go/vt/wrangler"
+	"github.com/xsec-lab/vitess/go/mysql/fakesqldb"
+	"github.com/xsec-lab/vitess/go/vt/mysqlctl/fakemysqldaemon"
+	"github.com/xsec-lab/vitess/go/vt/topo"
+	"github.com/xsec-lab/vitess/go/vt/topo/topoproto"
+	"github.com/xsec-lab/vitess/go/vt/vttablet/grpctmserver"
+	"github.com/xsec-lab/vitess/go/vt/vttablet/tabletconn"
+	"github.com/xsec-lab/vitess/go/vt/vttablet/tabletmanager"
+	"github.com/xsec-lab/vitess/go/vt/vttablet/tmclient"
+	"github.com/xsec-lab/vitess/go/vt/wrangler"
 
-	querypb "github.com/xsec-lab/go/vt/proto/query"
-	topodatapb "github.com/xsec-lab/go/vt/proto/topodata"
+	querypb "github.com/xsec-lab/vitess/go/vt/proto/query"
+	topodatapb "github.com/xsec-lab/vitess/go/vt/proto/topodata"
 
 	// import the gRPC client implementation for tablet manager
-	_ "github.com/xsec-lab/go/vt/vttablet/grpctmclient"
+	_ "github.com/xsec-lab/vitess/go/vt/vttablet/grpctmclient"
 
 	// import the gRPC client implementation for query service
-	_ "github.com/xsec-lab/go/vt/vttablet/grpctabletconn"
+	_ "github.com/xsec-lab/vitess/go/vt/vttablet/grpctabletconn"
 )
 
 // This file contains utility methods for unit tests.

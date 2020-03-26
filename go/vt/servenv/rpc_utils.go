@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/xsec-lab/go/tb"
+	"github.com/xsec-lab/vitess/go/tb"
 )
 
 // HandlePanic should be called using 'defer' in the RPC code that executes the command.

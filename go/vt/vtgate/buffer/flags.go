@@ -23,7 +23,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/xsec-lab/go/vt/topo/topoproto"
+	"github.com/xsec-lab/vitess/go/vt/topo/topoproto"
 )
 
 var (

@@ -19,9 +19,9 @@ package testsuite
 import (
 	"testing"
 
-	"github.com/xsec-lab/go/vt/callerid"
-	querypb "github.com/xsec-lab/go/vt/proto/query"
-	vtrpcpb "github.com/xsec-lab/go/vt/proto/vtrpc"
+	"github.com/xsec-lab/vitess/go/vt/callerid"
+	querypb "github.com/xsec-lab/vitess/go/vt/proto/query"
+	vtrpcpb "github.com/xsec-lab/vitess/go/vt/proto/vtrpc"
 )
 
 func TestFakeCallerID(t *testing.T) {

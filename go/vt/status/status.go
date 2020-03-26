@@ -25,7 +25,7 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/xsec-lab/go/vt/servenv"
+	"github.com/xsec-lab/vitess/go/vt/servenv"
 )
 
 var (

@@ -18,7 +18,7 @@ limitations under the License.
 // RPC calls to VtTablet for the management API.
 
 syntax = "proto3";
-option go_package = "github.com/xsec-lab/go/vt/proto/tabletmanagerdata";
+option go_package = "github.com/xsec-lab/vitess/go/vt/proto/tabletmanagerdata";
 
 package tabletmanagerdata;
 

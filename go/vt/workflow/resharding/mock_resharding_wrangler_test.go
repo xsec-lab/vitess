@@ -9,7 +9,7 @@ import (
 	time "time"
 
 	gomock "github.com/golang/mock/gomock"
-	topodata "github.com/xsec-lab/go/vt/proto/topodata"
+	topodata "github.com/xsec-lab/vitess/go/vt/proto/topodata"
 	context "golang.org/x/net/context"
 )
 

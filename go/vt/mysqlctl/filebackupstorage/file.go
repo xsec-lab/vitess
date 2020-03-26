@@ -28,7 +28,7 @@ import (
 
 	"golang.org/x/net/context"
 
-	"github.com/xsec-lab/go/vt/mysqlctl/backupstorage"
+	"github.com/xsec-lab/vitess/go/vt/mysqlctl/backupstorage"
 )
 
 var (

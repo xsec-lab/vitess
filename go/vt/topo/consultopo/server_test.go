@@ -27,12 +27,12 @@ import (
 	"time"
 
 	"github.com/hashicorp/consul/api"
-	"github.com/xsec-lab/go/testfiles"
-	"github.com/xsec-lab/go/vt/topo"
-	"github.com/xsec-lab/go/vt/topo/test"
+	"github.com/xsec-lab/vitess/go/testfiles"
+	"github.com/xsec-lab/vitess/go/vt/topo"
+	"github.com/xsec-lab/vitess/go/vt/topo/test"
 	"golang.org/x/net/context"
 
-	topodatapb "github.com/xsec-lab/go/vt/proto/topodata"
+	topodatapb "github.com/xsec-lab/vitess/go/vt/proto/topodata"
 )
 
 // startConsul starts a consul subprocess, and waits for it to be ready.

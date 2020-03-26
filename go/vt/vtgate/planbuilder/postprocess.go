@@ -20,7 +20,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/xsec-lab/go/vt/sqlparser"
+	"github.com/xsec-lab/vitess/go/vt/sqlparser"
 )
 
 // This file has functions to analyze postprocessing

@@ -30,12 +30,12 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/xsec-lab/go/mysql"
-	"github.com/xsec-lab/go/sqltypes"
-	"github.com/xsec-lab/go/vt/log"
+	"github.com/xsec-lab/vitess/go/mysql"
+	"github.com/xsec-lab/vitess/go/sqltypes"
+	"github.com/xsec-lab/vitess/go/vt/log"
 
-	vschemapb "github.com/xsec-lab/go/vt/proto/vschema"
-	vttestpb "github.com/xsec-lab/go/vt/proto/vttest"
+	vschemapb "github.com/xsec-lab/vitess/go/vt/proto/vschema"
+	vttestpb "github.com/xsec-lab/vitess/go/vt/proto/vttest"
 )
 
 // Config are the settings used to configure the self-contained Vitess cluster.

@@ -19,8 +19,8 @@ limitations under the License.
 package eventtoken
 
 import (
-	"github.com/xsec-lab/go/mysql"
-	querypb "github.com/xsec-lab/go/vt/proto/query"
+	"github.com/xsec-lab/vitess/go/mysql"
+	querypb "github.com/xsec-lab/vitess/go/vt/proto/query"
 )
 
 // Fresher compares two event tokens.  It returns a negative number if

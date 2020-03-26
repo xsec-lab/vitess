@@ -23,7 +23,7 @@ import (
 	"strings"
 	"testing"
 
-	logutilpb "github.com/xsec-lab/go/vt/proto/logutil"
+	logutilpb "github.com/xsec-lab/vitess/go/vt/proto/logutil"
 )
 
 func TestStreamOutputAndError(t *testing.T) {

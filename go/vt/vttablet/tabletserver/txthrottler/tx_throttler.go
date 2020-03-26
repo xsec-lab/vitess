@@ -23,14 +23,14 @@ import (
 
 	"github.com/golang/protobuf/proto"
 
-	"github.com/xsec-lab/go/vt/discovery"
-	"github.com/xsec-lab/go/vt/log"
-	"github.com/xsec-lab/go/vt/throttler"
-	"github.com/xsec-lab/go/vt/topo"
-	"github.com/xsec-lab/go/vt/vttablet/tabletserver/tabletenv"
+	"github.com/xsec-lab/vitess/go/vt/discovery"
+	"github.com/xsec-lab/vitess/go/vt/log"
+	"github.com/xsec-lab/vitess/go/vt/throttler"
+	"github.com/xsec-lab/vitess/go/vt/topo"
+	"github.com/xsec-lab/vitess/go/vt/vttablet/tabletserver/tabletenv"
 
-	throttlerdatapb "github.com/xsec-lab/go/vt/proto/throttlerdata"
-	topodatapb "github.com/xsec-lab/go/vt/proto/topodata"
+	throttlerdatapb "github.com/xsec-lab/vitess/go/vt/proto/throttlerdata"
+	topodatapb "github.com/xsec-lab/vitess/go/vt/proto/topodata"
 )
 
 // TxThrottler throttles transactions based on replication lag.

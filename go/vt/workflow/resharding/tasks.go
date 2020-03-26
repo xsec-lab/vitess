@@ -23,13 +23,13 @@ import (
 
 	"golang.org/x/net/context"
 
-	"github.com/xsec-lab/go/vt/automation"
-	"github.com/xsec-lab/go/vt/topo/topoproto"
-	"github.com/xsec-lab/go/vt/workflow"
-	"github.com/xsec-lab/go/vt/wrangler"
+	"github.com/xsec-lab/vitess/go/vt/automation"
+	"github.com/xsec-lab/vitess/go/vt/topo/topoproto"
+	"github.com/xsec-lab/vitess/go/vt/workflow"
+	"github.com/xsec-lab/vitess/go/vt/wrangler"
 
-	topodatapb "github.com/xsec-lab/go/vt/proto/topodata"
-	workflowpb "github.com/xsec-lab/go/vt/proto/workflow"
+	topodatapb "github.com/xsec-lab/vitess/go/vt/proto/topodata"
+	workflowpb "github.com/xsec-lab/vitess/go/vt/proto/workflow"
 )
 
 func createTaskID(phase workflow.PhaseType, shardName string) string {

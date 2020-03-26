@@ -30,9 +30,9 @@ import (
 
 	"google.golang.org/grpc"
 
-	"github.com/xsec-lab/go/sqltypes"
-	querypb "github.com/xsec-lab/go/vt/proto/query"
-	"github.com/xsec-lab/go/vt/vtgate/grpcvtgateservice"
+	"github.com/xsec-lab/vitess/go/sqltypes"
+	querypb "github.com/xsec-lab/vitess/go/vt/proto/query"
+	"github.com/xsec-lab/vitess/go/vt/vtgate/grpcvtgateservice"
 )
 
 var (

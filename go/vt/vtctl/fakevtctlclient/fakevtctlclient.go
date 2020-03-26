@@ -20,8 +20,8 @@ package fakevtctlclient
 import (
 	"time"
 
-	"github.com/xsec-lab/go/vt/logutil"
-	"github.com/xsec-lab/go/vt/vtctl/vtctlclient"
+	"github.com/xsec-lab/vitess/go/vt/logutil"
+	"github.com/xsec-lab/vitess/go/vt/vtctl/vtctlclient"
 	"golang.org/x/net/context"
 )
 

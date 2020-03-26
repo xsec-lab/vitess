@@ -21,18 +21,18 @@ import (
 	"io"
 	"sync"
 
-	"github.com/xsec-lab/go/netutil"
-	"github.com/xsec-lab/go/sqltypes"
-	"github.com/xsec-lab/go/vt/callerid"
-	"github.com/xsec-lab/go/vt/grpcclient"
-	"github.com/xsec-lab/go/vt/vttablet/queryservice"
-	"github.com/xsec-lab/go/vt/vttablet/tabletconn"
+	"github.com/xsec-lab/vitess/go/netutil"
+	"github.com/xsec-lab/vitess/go/sqltypes"
+	"github.com/xsec-lab/vitess/go/vt/callerid"
+	"github.com/xsec-lab/vitess/go/vt/grpcclient"
+	"github.com/xsec-lab/vitess/go/vt/vttablet/queryservice"
+	"github.com/xsec-lab/vitess/go/vt/vttablet/tabletconn"
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"
 
-	querypb "github.com/xsec-lab/go/vt/proto/query"
-	queryservicepb "github.com/xsec-lab/go/vt/proto/queryservice"
-	topodatapb "github.com/xsec-lab/go/vt/proto/topodata"
+	querypb "github.com/xsec-lab/vitess/go/vt/proto/query"
+	queryservicepb "github.com/xsec-lab/vitess/go/vt/proto/queryservice"
+	topodatapb "github.com/xsec-lab/vitess/go/vt/proto/topodata"
 )
 
 const protocolName = "grpc"

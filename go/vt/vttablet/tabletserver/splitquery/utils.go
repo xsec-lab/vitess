@@ -21,9 +21,9 @@ package splitquery
 import (
 	"fmt"
 
-	"github.com/xsec-lab/go/vt/sqlparser"
+	"github.com/xsec-lab/vitess/go/vt/sqlparser"
 
-	querypb "github.com/xsec-lab/go/vt/proto/query"
+	querypb "github.com/xsec-lab/vitess/go/vt/proto/query"
 )
 
 // populateNewBindVariable inserts 'bindVariableName' with 'bindVariableValue' to the

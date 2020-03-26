@@ -21,15 +21,15 @@ import (
 	"flag"
 	"time"
 
-	"github.com/xsec-lab/go/vt/grpcclient"
-	"github.com/xsec-lab/go/vt/logutil"
-	"github.com/xsec-lab/go/vt/vtctl/vtctlclient"
+	"github.com/xsec-lab/vitess/go/vt/grpcclient"
+	"github.com/xsec-lab/vitess/go/vt/logutil"
+	"github.com/xsec-lab/vitess/go/vt/vtctl/vtctlclient"
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"
 
-	logutilpb "github.com/xsec-lab/go/vt/proto/logutil"
-	vtctldatapb "github.com/xsec-lab/go/vt/proto/vtctldata"
-	vtctlservicepb "github.com/xsec-lab/go/vt/proto/vtctlservice"
+	logutilpb "github.com/xsec-lab/vitess/go/vt/proto/logutil"
+	vtctldatapb "github.com/xsec-lab/vitess/go/vt/proto/vtctldata"
+	vtctlservicepb "github.com/xsec-lab/vitess/go/vt/proto/vtctlservice"
 )
 
 var (

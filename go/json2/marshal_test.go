@@ -19,8 +19,8 @@ package json2
 import (
 	"testing"
 
-	querypb "github.com/xsec-lab/go/vt/proto/query"
-	vschemapb "github.com/xsec-lab/go/vt/proto/vschema"
+	querypb "github.com/xsec-lab/vitess/go/vt/proto/query"
+	vschemapb "github.com/xsec-lab/vitess/go/vt/proto/vschema"
 )
 
 func TestMarshalPB(t *testing.T) {

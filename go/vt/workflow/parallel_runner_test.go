@@ -26,10 +26,10 @@ import (
 
 	"golang.org/x/net/context"
 
-	"github.com/xsec-lab/go/vt/topo"
-	"github.com/xsec-lab/go/vt/topo/memorytopo"
+	"github.com/xsec-lab/vitess/go/vt/topo"
+	"github.com/xsec-lab/vitess/go/vt/topo/memorytopo"
 
-	workflowpb "github.com/xsec-lab/go/vt/proto/workflow"
+	workflowpb "github.com/xsec-lab/vitess/go/vt/proto/workflow"
 )
 
 func TestParallelRunner(t *testing.T) {

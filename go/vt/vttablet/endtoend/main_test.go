@@ -24,14 +24,14 @@ import (
 	"os"
 	"testing"
 
-	"github.com/xsec-lab/go/mysql"
-	"github.com/xsec-lab/go/vt/tableacl"
-	"github.com/xsec-lab/go/vt/tableacl/simpleacl"
-	"github.com/xsec-lab/go/vt/vttablet/endtoend/framework"
-	"github.com/xsec-lab/go/vt/vttablet/tabletserver/tabletenv"
-	"github.com/xsec-lab/go/vt/vttest"
+	"github.com/xsec-lab/vitess/go/mysql"
+	"github.com/xsec-lab/vitess/go/vt/tableacl"
+	"github.com/xsec-lab/vitess/go/vt/tableacl/simpleacl"
+	"github.com/xsec-lab/vitess/go/vt/vttablet/endtoend/framework"
+	"github.com/xsec-lab/vitess/go/vt/vttablet/tabletserver/tabletenv"
+	"github.com/xsec-lab/vitess/go/vt/vttest"
 
-	vttestpb "github.com/xsec-lab/go/vt/proto/vttest"
+	vttestpb "github.com/xsec-lab/vitess/go/vt/proto/vttest"
 )
 
 var (

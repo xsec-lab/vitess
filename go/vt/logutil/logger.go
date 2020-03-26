@@ -25,7 +25,7 @@ import (
 	"sync"
 	"time"
 
-	logutilpb "github.com/xsec-lab/go/vt/proto/logutil"
+	logutilpb "github.com/xsec-lab/vitess/go/vt/proto/logutil"
 )
 
 // Logger defines the interface to use for our logging interface.

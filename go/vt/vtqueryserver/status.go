@@ -17,8 +17,8 @@ limitations under the License.
 package vtqueryserver
 
 import (
-	"github.com/xsec-lab/go/vt/servenv"
-	"github.com/xsec-lab/go/vt/vttablet/tabletserver"
+	"github.com/xsec-lab/vitess/go/vt/servenv"
+	"github.com/xsec-lab/vitess/go/vt/vttablet/tabletserver"
 )
 
 var (

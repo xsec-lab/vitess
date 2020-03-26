@@ -24,7 +24,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/xsec-lab/go/vt/vttls"
+	"github.com/xsec-lab/vitess/go/vt/vttls"
 	"golang.org/x/net/context"
 )
 

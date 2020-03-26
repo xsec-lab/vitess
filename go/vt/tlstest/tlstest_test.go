@@ -27,7 +27,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/xsec-lab/go/vt/vttls"
+	"github.com/xsec-lab/vitess/go/vt/vttls"
 )
 
 // TestClientServer generates:

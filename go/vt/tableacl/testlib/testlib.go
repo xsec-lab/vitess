@@ -23,10 +23,10 @@ import (
 	"testing"
 	"time"
 
-	querypb "github.com/xsec-lab/go/vt/proto/query"
-	tableaclpb "github.com/xsec-lab/go/vt/proto/tableacl"
-	"github.com/xsec-lab/go/vt/tableacl"
-	"github.com/xsec-lab/go/vt/tableacl/acl"
+	querypb "github.com/xsec-lab/vitess/go/vt/proto/query"
+	tableaclpb "github.com/xsec-lab/vitess/go/vt/proto/tableacl"
+	"github.com/xsec-lab/vitess/go/vt/tableacl"
+	"github.com/xsec-lab/vitess/go/vt/tableacl/acl"
 )
 
 // TestSuite tests a concrete acl.Factory implementation.

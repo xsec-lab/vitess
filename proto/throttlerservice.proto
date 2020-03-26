@@ -19,7 +19,7 @@ limitations under the License.
 // replication (vttablet).
 
 syntax = "proto3";
-option go_package = "github.com/xsec-lab/go/vt/proto/throttlerservice";
+option go_package = "github.com/xsec-lab/vitess/go/vt/proto/throttlerservice";
 
 package throttlerservice;
 

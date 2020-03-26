@@ -17,7 +17,7 @@ limitations under the License.
 package logutil
 
 import (
-	"github.com/xsec-lab/go/event"
+	"github.com/xsec-lab/vitess/go/event"
 )
 
 var (

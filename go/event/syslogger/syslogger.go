@@ -53,8 +53,8 @@ import (
 	"log/syslog"
 	"os"
 
-	"github.com/xsec-lab/go/event"
-	"github.com/xsec-lab/go/vt/log"
+	"github.com/xsec-lab/vitess/go/event"
+	"github.com/xsec-lab/vitess/go/vt/log"
 )
 
 // Syslogger is the interface that events should implement if they want to be

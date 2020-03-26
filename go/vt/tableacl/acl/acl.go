@@ -17,7 +17,7 @@ limitations under the License.
 package acl
 
 import (
-	querypb "github.com/xsec-lab/go/vt/proto/query"
+	querypb "github.com/xsec-lab/vitess/go/vt/proto/query"
 )
 
 // ACL is an interface for Access Control List.

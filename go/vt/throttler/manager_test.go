@@ -24,7 +24,7 @@ import (
 	"testing"
 	"time"
 
-	throttlerdatapb "github.com/xsec-lab/go/vt/proto/throttlerdata"
+	throttlerdatapb "github.com/xsec-lab/vitess/go/vt/proto/throttlerdata"
 )
 
 // We base our test data on these defaults.

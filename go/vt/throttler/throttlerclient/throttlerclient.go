@@ -26,7 +26,7 @@ import (
 
 	"golang.org/x/net/context"
 
-	throttlerdatapb "github.com/xsec-lab/go/vt/proto/throttlerdata"
+	throttlerdatapb "github.com/xsec-lab/vitess/go/vt/proto/throttlerdata"
 )
 
 // protocol specifices which RPC client implementation should be used.

@@ -20,7 +20,7 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   name='vtworkerservice.proto',
   package='vtworkerservice',
   syntax='proto3',
-  serialized_pb=_b('\n\x15vtworkerservice.proto\x12\x0fvtworkerservice\x1a\x12vtworkerdata.proto2\x83\x01\n\x08Vtworker\x12w\n\x16\x45xecuteVtworkerCommand\x12+.vtworkerdata.ExecuteVtworkerCommandRequest\x1a,.vtworkerdata.ExecuteVtworkerCommandResponse\"\x00\x30\x01\x42.Z,github.com/xsec-lab/go/vt/proto/vtworkerserviceb\x06proto3')
+  serialized_pb=_b('\n\x15vtworkerservice.proto\x12\x0fvtworkerservice\x1a\x12vtworkerdata.proto2\x83\x01\n\x08Vtworker\x12w\n\x16\x45xecuteVtworkerCommand\x12+.vtworkerdata.ExecuteVtworkerCommandRequest\x1a,.vtworkerdata.ExecuteVtworkerCommandResponse\"\x00\x30\x01\x42.Z,github.com/xsec-lab/vitess/go/vt/proto/vtworkerserviceb\x06proto3')
   ,
   dependencies=[vtworkerdata__pb2.DESCRIPTOR,])
 
@@ -30,7 +30,7 @@ _sym_db.RegisterFileDescriptor(DESCRIPTOR)
 
 
 DESCRIPTOR.has_options = True
-DESCRIPTOR._options = _descriptor._ParseOptions(descriptor_pb2.FileOptions(), _b('Z,github.com/xsec-lab/go/vt/proto/vtworkerservice'))
+DESCRIPTOR._options = _descriptor._ParseOptions(descriptor_pb2.FileOptions(), _b('Z,github.com/xsec-lab/vitess/go/vt/proto/vtworkerservice'))
 
 _VTWORKER = _descriptor.ServiceDescriptor(
   name='Vtworker',

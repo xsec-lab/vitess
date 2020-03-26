@@ -19,5 +19,5 @@ package main
 // Imports and register the gRPC tabletmanager server
 
 import (
-	_ "github.com/xsec-lab/go/vt/vttablet/grpctmserver"
+	_ "github.com/xsec-lab/vitess/go/vt/vttablet/grpctmserver"
 )
