@@ -24,10 +24,10 @@ import (
 
 	"github.com/golang/protobuf/proto"
 
-	"vitess.io/vitess/go/flagutil"
-	"vitess.io/vitess/go/streamlog"
-	"vitess.io/vitess/go/vt/log"
-	"vitess.io/vitess/go/vt/throttler"
+	"github.com/xsec-lab/go/flagutil"
+	"github.com/xsec-lab/go/streamlog"
+	"github.com/xsec-lab/go/vt/log"
+	"github.com/xsec-lab/go/vt/throttler"
 )
 
 var (

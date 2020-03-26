@@ -21,9 +21,9 @@ package splitquery
 import (
 	"fmt"
 
-	"vitess.io/vitess/go/sqltypes"
-	"vitess.io/vitess/go/vt/sqlparser"
-	"vitess.io/vitess/go/vt/vttablet/tabletserver/schema"
+	"github.com/xsec-lab/go/sqltypes"
+	"github.com/xsec-lab/go/vt/sqlparser"
+	"github.com/xsec-lab/go/vt/vttablet/tabletserver/schema"
 )
 
 // getSchema returns a fake schema object that can be given to SplitParams

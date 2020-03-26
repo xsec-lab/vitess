@@ -20,13 +20,13 @@ import (
 	"testing"
 	"time"
 
+	"github.com/xsec-lab/go/sqltypes"
+	"github.com/xsec-lab/go/vt/discovery"
+	querypb "github.com/xsec-lab/go/vt/proto/query"
+	topodatapb "github.com/xsec-lab/go/vt/proto/topodata"
+	_ "github.com/xsec-lab/go/vt/vtgate/vindexes"
+	"github.com/xsec-lab/go/vt/vttablet/sandboxconn"
 	"golang.org/x/net/context"
-	"vitess.io/vitess/go/sqltypes"
-	"vitess.io/vitess/go/vt/discovery"
-	querypb "vitess.io/vitess/go/vt/proto/query"
-	topodatapb "vitess.io/vitess/go/vt/proto/topodata"
-	_ "vitess.io/vitess/go/vt/vtgate/vindexes"
-	"vitess.io/vitess/go/vt/vttablet/sandboxconn"
 )
 
 func TestStreamSQLUnsharded(t *testing.T) {

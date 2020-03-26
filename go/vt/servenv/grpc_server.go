@@ -29,11 +29,11 @@ import (
 
 	"github.com/grpc-ecosystem/go-grpc-prometheus"
 
+	"github.com/xsec-lab/go/vt/grpccommon"
+	"github.com/xsec-lab/go/vt/log"
+	"github.com/xsec-lab/go/vt/vttls"
 	"golang.org/x/net/context"
 	"google.golang.org/grpc/keepalive"
-	"vitess.io/vitess/go/vt/grpccommon"
-	"vitess.io/vitess/go/vt/log"
-	"vitess.io/vitess/go/vt/vttls"
 )
 
 // This file handles gRPC server, on its own port.

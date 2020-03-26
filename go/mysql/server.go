@@ -23,12 +23,12 @@ import (
 	"net"
 	"time"
 
-	"vitess.io/vitess/go/netutil"
-	"vitess.io/vitess/go/sqltypes"
-	"vitess.io/vitess/go/stats"
-	"vitess.io/vitess/go/sync2"
-	"vitess.io/vitess/go/tb"
-	"vitess.io/vitess/go/vt/log"
+	"github.com/xsec-lab/go/netutil"
+	"github.com/xsec-lab/go/sqltypes"
+	"github.com/xsec-lab/go/stats"
+	"github.com/xsec-lab/go/sync2"
+	"github.com/xsec-lab/go/tb"
+	"github.com/xsec-lab/go/vt/log"
 )
 
 const (

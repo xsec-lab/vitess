@@ -17,9 +17,9 @@ limitations under the License.
 package main
 
 import (
-	"vitess.io/vitess/go/vt/servenv"
-	"vitess.io/vitess/go/vt/vttablet/grpcqueryservice"
-	"vitess.io/vitess/go/vt/vttablet/tabletserver"
+	"github.com/xsec-lab/go/vt/servenv"
+	"github.com/xsec-lab/go/vt/vttablet/grpcqueryservice"
+	"github.com/xsec-lab/go/vt/vttablet/tabletserver"
 )
 
 // Imports and register the gRPC queryservice server

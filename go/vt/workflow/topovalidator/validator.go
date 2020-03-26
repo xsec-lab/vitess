@@ -28,14 +28,14 @@ import (
 	"fmt"
 	"sync"
 
+	"github.com/xsec-lab/go/vt/log"
 	"golang.org/x/net/context"
-	"vitess.io/vitess/go/vt/log"
 
-	"vitess.io/vitess/go/vt/logutil"
-	"vitess.io/vitess/go/vt/topo"
-	"vitess.io/vitess/go/vt/workflow"
+	"github.com/xsec-lab/go/vt/logutil"
+	"github.com/xsec-lab/go/vt/topo"
+	"github.com/xsec-lab/go/vt/workflow"
 
-	workflowpb "vitess.io/vitess/go/vt/proto/workflow"
+	workflowpb "github.com/xsec-lab/go/vt/proto/workflow"
 )
 
 const (

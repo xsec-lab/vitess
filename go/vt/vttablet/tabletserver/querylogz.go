@@ -25,11 +25,11 @@ import (
 	"text/template"
 	"time"
 
-	"vitess.io/vitess/go/acl"
-	"vitess.io/vitess/go/vt/log"
-	"vitess.io/vitess/go/vt/logz"
-	"vitess.io/vitess/go/vt/sqlparser"
-	"vitess.io/vitess/go/vt/vttablet/tabletserver/tabletenv"
+	"github.com/xsec-lab/go/acl"
+	"github.com/xsec-lab/go/vt/log"
+	"github.com/xsec-lab/go/vt/logz"
+	"github.com/xsec-lab/go/vt/sqlparser"
+	"github.com/xsec-lab/go/vt/vttablet/tabletserver/tabletenv"
 )
 
 var (

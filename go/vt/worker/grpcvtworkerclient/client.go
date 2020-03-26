@@ -23,15 +23,15 @@ import (
 	"golang.org/x/net/context"
 	"google.golang.org/grpc"
 
-	"vitess.io/vitess/go/vt/grpcclient"
-	"vitess.io/vitess/go/vt/logutil"
-	"vitess.io/vitess/go/vt/vterrors"
-	"vitess.io/vitess/go/vt/worker/vtworkerclient"
+	"github.com/xsec-lab/go/vt/grpcclient"
+	"github.com/xsec-lab/go/vt/logutil"
+	"github.com/xsec-lab/go/vt/vterrors"
+	"github.com/xsec-lab/go/vt/worker/vtworkerclient"
 
-	logutilpb "vitess.io/vitess/go/vt/proto/logutil"
-	vtrpcpb "vitess.io/vitess/go/vt/proto/vtrpc"
-	vtworkerdatapb "vitess.io/vitess/go/vt/proto/vtworkerdata"
-	vtworkerservicepb "vitess.io/vitess/go/vt/proto/vtworkerservice"
+	logutilpb "github.com/xsec-lab/go/vt/proto/logutil"
+	vtrpcpb "github.com/xsec-lab/go/vt/proto/vtrpc"
+	vtworkerdatapb "github.com/xsec-lab/go/vt/proto/vtworkerdata"
+	vtworkerservicepb "github.com/xsec-lab/go/vt/proto/vtworkerservice"
 )
 
 var (

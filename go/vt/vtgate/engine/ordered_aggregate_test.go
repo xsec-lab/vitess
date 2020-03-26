@@ -21,7 +21,7 @@ import (
 	"reflect"
 	"testing"
 
-	"vitess.io/vitess/go/sqltypes"
+	"github.com/xsec-lab/go/sqltypes"
 )
 
 func TestOrderedAggregateExecute(t *testing.T) {

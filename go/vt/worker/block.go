@@ -22,7 +22,7 @@ import (
 
 	"golang.org/x/net/context"
 
-	"vitess.io/vitess/go/vt/wrangler"
+	"github.com/xsec-lab/go/vt/wrangler"
 )
 
 // BlockWorker will block infinitely until its context is canceled.

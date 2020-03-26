@@ -3,10 +3,10 @@ package wrangler
 import (
 	"testing"
 
+	"github.com/xsec-lab/go/vt/logutil"
+	topodatapb "github.com/xsec-lab/go/vt/proto/topodata"
+	"github.com/xsec-lab/go/vt/topo/memorytopo"
 	"golang.org/x/net/context"
-	"vitess.io/vitess/go/vt/logutil"
-	topodatapb "vitess.io/vitess/go/vt/proto/topodata"
-	"vitess.io/vitess/go/vt/topo/memorytopo"
 )
 
 // TestInitTabletShardConversion makes sure InitTablet converts the

@@ -22,8 +22,8 @@ package vtaclcheck
 import (
 	"fmt"
 
-	"vitess.io/vitess/go/vt/tableacl"
-	"vitess.io/vitess/go/vt/tableacl/simpleacl"
+	"github.com/xsec-lab/go/vt/tableacl"
+	"github.com/xsec-lab/go/vt/tableacl/simpleacl"
 )
 
 // Options to control the explain process

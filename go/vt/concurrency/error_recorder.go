@@ -21,7 +21,7 @@ import (
 	"strings"
 	"sync"
 
-	"vitess.io/vitess/go/vt/log"
+	"github.com/xsec-lab/go/vt/log"
 )
 
 // ErrorRecorder offers a way to record errors during complex

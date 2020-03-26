@@ -23,15 +23,15 @@ import (
 	"net/http"
 	"time"
 
-	"vitess.io/vitess/go/acl"
-	"vitess.io/vitess/go/streamlog"
-	"vitess.io/vitess/go/vt/callerid"
-	"vitess.io/vitess/go/vt/log"
-	"vitess.io/vitess/go/vt/logz"
-	"vitess.io/vitess/go/vt/vttablet/tabletserver/tabletenv"
+	"github.com/xsec-lab/go/acl"
+	"github.com/xsec-lab/go/streamlog"
+	"github.com/xsec-lab/go/vt/callerid"
+	"github.com/xsec-lab/go/vt/log"
+	"github.com/xsec-lab/go/vt/logz"
+	"github.com/xsec-lab/go/vt/vttablet/tabletserver/tabletenv"
 
-	querypb "vitess.io/vitess/go/vt/proto/query"
-	vtrpcpb "vitess.io/vitess/go/vt/proto/vtrpc"
+	querypb "github.com/xsec-lab/go/vt/proto/query"
+	vtrpcpb "github.com/xsec-lab/go/vt/proto/vtrpc"
 )
 
 var (

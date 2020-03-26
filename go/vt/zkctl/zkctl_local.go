@@ -19,8 +19,8 @@ package zkctl
 import (
 	"fmt"
 
-	"vitess.io/vitess/go/netutil"
-	"vitess.io/vitess/go/vt/log"
+	"github.com/xsec-lab/go/netutil"
+	"github.com/xsec-lab/go/vt/log"
 )
 
 // StartLocalZk is a helper method to create a local ZK process.  Used

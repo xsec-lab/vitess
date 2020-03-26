@@ -19,7 +19,7 @@ package mysql
 import (
 	"fmt"
 
-	replicationdatapb "vitess.io/vitess/go/vt/proto/replicationdata"
+	replicationdatapb "github.com/xsec-lab/go/vt/proto/replicationdata"
 )
 
 // SlaveStatus holds replication information from SHOW SLAVE STATUS.

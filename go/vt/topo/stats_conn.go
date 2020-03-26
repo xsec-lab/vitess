@@ -18,7 +18,7 @@ import (
 
 	"golang.org/x/net/context"
 
-	"vitess.io/vitess/go/stats"
+	"github.com/xsec-lab/go/stats"
 )
 
 var _ Conn = (*StatsConn)(nil)

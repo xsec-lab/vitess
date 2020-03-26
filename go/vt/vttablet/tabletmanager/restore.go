@@ -20,17 +20,17 @@ import (
 	"flag"
 	"fmt"
 
-	"vitess.io/vitess/go/vt/vterrors"
+	"github.com/xsec-lab/go/vt/vterrors"
 
+	"github.com/xsec-lab/go/vt/log"
 	"golang.org/x/net/context"
-	"vitess.io/vitess/go/vt/log"
 
-	"vitess.io/vitess/go/mysql"
-	"vitess.io/vitess/go/vt/logutil"
-	"vitess.io/vitess/go/vt/mysqlctl"
-	"vitess.io/vitess/go/vt/topo/topoproto"
+	"github.com/xsec-lab/go/mysql"
+	"github.com/xsec-lab/go/vt/logutil"
+	"github.com/xsec-lab/go/vt/mysqlctl"
+	"github.com/xsec-lab/go/vt/topo/topoproto"
 
-	topodatapb "vitess.io/vitess/go/vt/proto/topodata"
+	topodatapb "github.com/xsec-lab/go/vt/proto/topodata"
 )
 
 // This file handles the initial backup restore upon startup.

@@ -19,7 +19,7 @@ import (
 	"fmt"
 	"net/http"
 
-	"vitess.io/vitess/go/vt/servenv"
+	"github.com/xsec-lab/go/vt/servenv"
 )
 
 // This file registers a /healthz URL that reports the health of the agent.

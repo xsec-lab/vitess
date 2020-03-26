@@ -19,9 +19,9 @@ package mysql
 import (
 	"fmt"
 
-	"vitess.io/vitess/go/sqltypes"
+	"github.com/xsec-lab/go/sqltypes"
 
-	querypb "vitess.io/vitess/go/vt/proto/query"
+	querypb "github.com/xsec-lab/go/vt/proto/query"
 )
 
 // This file provides a few utility variables and methods, mostly for tests.
@@ -308,8 +308,8 @@ func ShowIndexFromTableRow(table string, unique bool, keyName string, seqInIndex
 		sqltypes.MakeTrusted(sqltypes.VarChar, []byte(columnName)),
 		sqltypes.MakeTrusted(sqltypes.VarChar, []byte("A")), // Collation
 		sqltypes.MakeTrusted(sqltypes.Int64, []byte("0")),   // Cardinality
-		sqltypes.NULL,                                       // Sub_part
-		sqltypes.NULL,                                       // Packed
+		sqltypes.NULL, // Sub_part
+		sqltypes.NULL, // Packed
 		sqltypes.MakeTrusted(sqltypes.VarChar, []byte(nullableStr)),
 		sqltypes.MakeTrusted(sqltypes.VarChar, []byte("BTREE")), // Index_type
 		sqltypes.MakeTrusted(sqltypes.VarChar, []byte("")),      // Comment

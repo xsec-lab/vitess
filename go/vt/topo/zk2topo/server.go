@@ -19,7 +19,7 @@ package zk2topo
 import (
 	"strings"
 
-	"vitess.io/vitess/go/vt/topo"
+	"github.com/xsec-lab/go/vt/topo"
 )
 
 const (

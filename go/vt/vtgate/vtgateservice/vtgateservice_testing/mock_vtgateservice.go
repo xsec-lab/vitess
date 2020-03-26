@@ -8,11 +8,11 @@ import (
 	reflect "reflect"
 
 	gomock "github.com/golang/mock/gomock"
+	sqltypes "github.com/xsec-lab/go/sqltypes"
+	query "github.com/xsec-lab/go/vt/proto/query"
+	topodata "github.com/xsec-lab/go/vt/proto/topodata"
+	vtgate "github.com/xsec-lab/go/vt/proto/vtgate"
 	context "golang.org/x/net/context"
-	sqltypes "vitess.io/vitess/go/sqltypes"
-	query "vitess.io/vitess/go/vt/proto/query"
-	topodata "vitess.io/vitess/go/vt/proto/topodata"
-	vtgate "vitess.io/vitess/go/vt/proto/vtgate"
 )
 
 // MockVTGateService is a mock of VTGateService interface

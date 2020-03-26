@@ -20,9 +20,9 @@ import (
 	"reflect"
 	"testing"
 
-	"vitess.io/vitess/go/sqltypes"
-	"vitess.io/vitess/go/vt/key"
-	topodatapb "vitess.io/vitess/go/vt/proto/topodata"
+	"github.com/xsec-lab/go/sqltypes"
+	"github.com/xsec-lab/go/vt/key"
+	topodatapb "github.com/xsec-lab/go/vt/proto/topodata"
 )
 
 func TestLookupHashUniqueNew(t *testing.T) {

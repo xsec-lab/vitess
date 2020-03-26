@@ -25,7 +25,7 @@ import (
 	"strings"
 	"time"
 
-	"vitess.io/vitess/go/mysql"
+	"github.com/xsec-lab/go/mysql"
 )
 
 // MySQLManager is an interface to a mysqld process manager, capable

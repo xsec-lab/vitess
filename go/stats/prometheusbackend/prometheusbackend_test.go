@@ -9,7 +9,7 @@ import (
 	"testing"
 	"time"
 
-	"vitess.io/vitess/go/stats"
+	"github.com/xsec-lab/go/stats"
 
 	"github.com/prometheus/client_golang/prometheus/promhttp"
 )

@@ -22,18 +22,18 @@ import (
 	"time"
 
 	"github.com/golang/protobuf/proto"
+	"github.com/xsec-lab/go/event"
+	"github.com/xsec-lab/go/stats"
+	"github.com/xsec-lab/go/trace"
+	"github.com/xsec-lab/go/vt/concurrency"
+	"github.com/xsec-lab/go/vt/log"
+	"github.com/xsec-lab/go/vt/topo"
+	"github.com/xsec-lab/go/vt/topo/topoproto"
+	"github.com/xsec-lab/go/vt/topotools/events"
+	"github.com/xsec-lab/go/vt/vttablet/tmclient"
 	"golang.org/x/net/context"
-	"vitess.io/vitess/go/event"
-	"vitess.io/vitess/go/stats"
-	"vitess.io/vitess/go/trace"
-	"vitess.io/vitess/go/vt/concurrency"
-	"vitess.io/vitess/go/vt/log"
-	"vitess.io/vitess/go/vt/topo"
-	"vitess.io/vitess/go/vt/topo/topoproto"
-	"vitess.io/vitess/go/vt/topotools/events"
-	"vitess.io/vitess/go/vt/vttablet/tmclient"
 
-	topodatapb "vitess.io/vitess/go/vt/proto/topodata"
+	topodatapb "github.com/xsec-lab/go/vt/proto/topodata"
 )
 
 var (

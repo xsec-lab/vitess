@@ -31,9 +31,9 @@ import (
 	"github.com/samuel/go-zookeeper/zk"
 	"golang.org/x/net/context"
 
-	"vitess.io/vitess/go/netutil"
-	"vitess.io/vitess/go/sync2"
-	"vitess.io/vitess/go/vt/log"
+	"github.com/xsec-lab/go/netutil"
+	"github.com/xsec-lab/go/sync2"
+	"github.com/xsec-lab/go/vt/log"
 )
 
 const (

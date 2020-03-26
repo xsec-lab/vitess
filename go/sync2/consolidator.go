@@ -20,7 +20,7 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"vitess.io/vitess/go/cache"
+	"github.com/xsec-lab/go/cache"
 )
 
 // Consolidator consolidates duplicate queries from executing simulaneously

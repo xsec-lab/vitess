@@ -22,16 +22,16 @@ import (
 
 	"golang.org/x/net/context"
 
-	"vitess.io/vitess/go/flagutil"
-	"vitess.io/vitess/go/vt/log"
-	"vitess.io/vitess/go/vt/schemamanager/schemaswap"
-	"vitess.io/vitess/go/vt/servenv"
-	"vitess.io/vitess/go/vt/topo"
-	"vitess.io/vitess/go/vt/vtctl"
-	"vitess.io/vitess/go/vt/workflow"
-	"vitess.io/vitess/go/vt/workflow/resharding"
-	"vitess.io/vitess/go/vt/workflow/reshardingworkflowgen"
-	"vitess.io/vitess/go/vt/workflow/topovalidator"
+	"github.com/xsec-lab/go/flagutil"
+	"github.com/xsec-lab/go/vt/log"
+	"github.com/xsec-lab/go/vt/schemamanager/schemaswap"
+	"github.com/xsec-lab/go/vt/servenv"
+	"github.com/xsec-lab/go/vt/topo"
+	"github.com/xsec-lab/go/vt/vtctl"
+	"github.com/xsec-lab/go/vt/workflow"
+	"github.com/xsec-lab/go/vt/workflow/resharding"
+	"github.com/xsec-lab/go/vt/workflow/reshardingworkflowgen"
+	"github.com/xsec-lab/go/vt/workflow/topovalidator"
 )
 
 var (

@@ -22,7 +22,7 @@ import (
 
 	"golang.org/x/net/context"
 
-	vtrpcpb "vitess.io/vitess/go/vt/proto/vtrpc"
+	vtrpcpb "github.com/xsec-lab/go/vt/proto/vtrpc"
 )
 
 func TestCreation(t *testing.T) {

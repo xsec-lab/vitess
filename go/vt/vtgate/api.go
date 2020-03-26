@@ -22,9 +22,9 @@ import (
 	"net/http"
 	"strings"
 
+	"github.com/xsec-lab/go/vt/discovery"
+	"github.com/xsec-lab/go/vt/log"
 	"golang.org/x/net/context"
-	"vitess.io/vitess/go/vt/discovery"
-	"vitess.io/vitess/go/vt/log"
 )
 
 // This file implements a REST-style API for the vtgate web interface.

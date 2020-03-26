@@ -25,7 +25,7 @@ import (
 	"os/exec"
 	"path"
 
-	"vitess.io/vitess/go/vt/log"
+	"github.com/xsec-lab/go/vt/log"
 )
 
 const (

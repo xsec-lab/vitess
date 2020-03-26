@@ -29,9 +29,9 @@ import (
 	"flag"
 
 	influxClient "github.com/influxdb/influxdb/client"
-	"vitess.io/vitess/go/stats"
-	"vitess.io/vitess/go/vt/log"
-	"vitess.io/vitess/go/vt/servenv"
+	"github.com/xsec-lab/go/stats"
+	"github.com/xsec-lab/go/vt/log"
+	"github.com/xsec-lab/go/vt/servenv"
 )
 
 var influxDBHost = flag.String("influxdb_host", "localhost:8086", "the influxdb host (with port)")

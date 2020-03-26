@@ -23,9 +23,9 @@ import (
 	"fmt"
 	"time"
 
+	"github.com/xsec-lab/go/sync2"
+	"github.com/xsec-lab/go/timer"
 	"golang.org/x/net/context"
-	"vitess.io/vitess/go/sync2"
-	"vitess.io/vitess/go/timer"
 )
 
 var (

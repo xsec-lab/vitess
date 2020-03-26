@@ -21,9 +21,9 @@ import (
 	"flag"
 	"fmt"
 
+	"github.com/xsec-lab/go/vt/log"
+	"github.com/xsec-lab/go/vt/logutil"
 	"golang.org/x/net/context"
-	"vitess.io/vitess/go/vt/log"
-	"vitess.io/vitess/go/vt/logutil"
 )
 
 // protocol specifices which RPC client implementation should be used.

@@ -50,8 +50,8 @@ package exit
 import (
 	"os"
 
-	"vitess.io/vitess/go/tb"
-	"vitess.io/vitess/go/vt/log"
+	"github.com/xsec-lab/go/tb"
+	"github.com/xsec-lab/go/vt/log"
 )
 
 type exitCode int

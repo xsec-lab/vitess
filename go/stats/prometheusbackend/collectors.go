@@ -4,7 +4,7 @@ import (
 	"strings"
 
 	"github.com/prometheus/client_golang/prometheus"
-	"vitess.io/vitess/go/stats"
+	"github.com/xsec-lab/go/stats"
 )
 
 type metricFuncCollector struct {

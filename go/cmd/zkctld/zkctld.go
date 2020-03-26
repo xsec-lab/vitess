@@ -25,10 +25,10 @@ import (
 	"os/signal"
 	"syscall"
 
-	"vitess.io/vitess/go/exit"
-	"vitess.io/vitess/go/vt/log"
-	"vitess.io/vitess/go/vt/logutil"
-	"vitess.io/vitess/go/vt/zkctl"
+	"github.com/xsec-lab/go/exit"
+	"github.com/xsec-lab/go/vt/log"
+	"github.com/xsec-lab/go/vt/logutil"
+	"github.com/xsec-lab/go/vt/zkctl"
 )
 
 var (

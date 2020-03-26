@@ -18,7 +18,7 @@ set -e
 
 tmpdir=`mktemp -d`
 
-script="go get vitess.io/vitess/go/cmd/vtctlclient && \
+script="go get github.com/xsec-lab/go/cmd/vtctlclient && \
   git clone https://github.com/github/orchestrator.git src/github.com/github/orchestrator && \
   go install github.com/github/orchestrator/go/cmd/orchestrator"
 

@@ -18,5 +18,5 @@ package grpcclienttest
 
 import (
 	// import the grpc client, it will register itself
-	_ "vitess.io/vitess/go/vt/vtgate/grpcvtgateconn"
+	_ "github.com/xsec-lab/go/vt/vtgate/grpcvtgateconn"
 )

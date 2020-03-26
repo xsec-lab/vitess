@@ -22,9 +22,9 @@ import (
 	"golang.org/x/net/context"
 
 	"github.com/golang/protobuf/proto"
-	"vitess.io/vitess/go/vt/vtgate/vtgateconn"
+	"github.com/xsec-lab/go/vt/vtgate/vtgateconn"
 
-	topodatapb "vitess.io/vitess/go/vt/proto/topodata"
+	topodatapb "github.com/xsec-lab/go/vt/proto/topodata"
 )
 
 // testSuccess exercises the test cases provided by the "success" service.

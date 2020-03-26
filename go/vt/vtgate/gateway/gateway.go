@@ -23,15 +23,15 @@ import (
 	"fmt"
 	"time"
 
+	"github.com/xsec-lab/go/vt/log"
 	"golang.org/x/net/context"
-	"vitess.io/vitess/go/vt/log"
 
-	"vitess.io/vitess/go/vt/discovery"
-	"vitess.io/vitess/go/vt/srvtopo"
-	"vitess.io/vitess/go/vt/vttablet/queryservice"
+	"github.com/xsec-lab/go/vt/discovery"
+	"github.com/xsec-lab/go/vt/srvtopo"
+	"github.com/xsec-lab/go/vt/vttablet/queryservice"
 
-	querypb "vitess.io/vitess/go/vt/proto/query"
-	topodatapb "vitess.io/vitess/go/vt/proto/topodata"
+	querypb "github.com/xsec-lab/go/vt/proto/query"
+	topodatapb "github.com/xsec-lab/go/vt/proto/topodata"
 )
 
 // This file contains the Gateway interface definition, and the
@@ -138,7 +138,7 @@ func StreamHealthFromTargetStatsListener(ctx context.Context, l srvtopo.TargetSt
 	// Send all current entries.
 	for _, e := range entries {
 		shr := &querypb.StreamHealthResponse{
-			Target: e.Target,
+			Target:                              e.Target,
 			TabletExternallyReparentedTimestamp: e.TabletExternallyReparentedTimestamp,
 			AggregateStats:                      e.Stats,
 		}
@@ -158,7 +158,7 @@ func StreamHealthFromTargetStatsListener(ctx context.Context, l srvtopo.TargetSt
 				return fmt.Errorf("channel closed")
 			}
 			shr := &querypb.StreamHealthResponse{
-				Target: e.Target,
+				Target:                              e.Target,
 				TabletExternallyReparentedTimestamp: e.TabletExternallyReparentedTimestamp,
 				AggregateStats:                      e.Stats,
 			}

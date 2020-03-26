@@ -24,13 +24,13 @@ import (
 
 	"github.com/golang/protobuf/proto"
 
-	"vitess.io/vitess/go/json2"
-	"vitess.io/vitess/go/sqltypes"
-	"vitess.io/vitess/go/vt/key"
-	"vitess.io/vitess/go/vt/sqlparser"
+	"github.com/xsec-lab/go/json2"
+	"github.com/xsec-lab/go/sqltypes"
+	"github.com/xsec-lab/go/vt/key"
+	"github.com/xsec-lab/go/vt/sqlparser"
 
-	querypb "vitess.io/vitess/go/vt/proto/query"
-	vschemapb "vitess.io/vitess/go/vt/proto/vschema"
+	querypb "github.com/xsec-lab/go/vt/proto/query"
+	vschemapb "github.com/xsec-lab/go/vt/proto/vschema"
 )
 
 // stFU is a Functional, Unique Vindex.

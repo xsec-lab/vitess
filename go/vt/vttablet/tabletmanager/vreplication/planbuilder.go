@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"strconv"
 
-	"vitess.io/vitess/go/vt/sqlparser"
+	"github.com/xsec-lab/go/vt/sqlparser"
 )
 
 // plan is the plan for vreplication control statements.

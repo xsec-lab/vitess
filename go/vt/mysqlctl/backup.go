@@ -33,14 +33,14 @@ import (
 	"github.com/klauspost/pgzip"
 	"golang.org/x/net/context"
 
-	"vitess.io/vitess/go/mysql"
-	"vitess.io/vitess/go/sqlescape"
-	"vitess.io/vitess/go/sync2"
-	"vitess.io/vitess/go/vt/concurrency"
-	"vitess.io/vitess/go/vt/hook"
-	"vitess.io/vitess/go/vt/log"
-	"vitess.io/vitess/go/vt/logutil"
-	"vitess.io/vitess/go/vt/mysqlctl/backupstorage"
+	"github.com/xsec-lab/go/mysql"
+	"github.com/xsec-lab/go/sqlescape"
+	"github.com/xsec-lab/go/sync2"
+	"github.com/xsec-lab/go/vt/concurrency"
+	"github.com/xsec-lab/go/vt/hook"
+	"github.com/xsec-lab/go/vt/log"
+	"github.com/xsec-lab/go/vt/logutil"
+	"github.com/xsec-lab/go/vt/mysqlctl/backupstorage"
 )
 
 // This file handles the backup and restore related code

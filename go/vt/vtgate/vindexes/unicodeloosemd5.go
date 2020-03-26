@@ -22,8 +22,8 @@ import (
 	"sync"
 	"unicode/utf8"
 
-	"vitess.io/vitess/go/sqltypes"
-	"vitess.io/vitess/go/vt/key"
+	"github.com/xsec-lab/go/sqltypes"
+	"github.com/xsec-lab/go/vt/key"
 
 	"golang.org/x/text/collate"
 	"golang.org/x/text/language"

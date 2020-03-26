@@ -22,9 +22,9 @@ import (
 	"net/url"
 	"time"
 
-	"vitess.io/vitess/go/event"
-	"vitess.io/vitess/go/proc"
-	"vitess.io/vitess/go/vt/log"
+	"github.com/xsec-lab/go/event"
+	"github.com/xsec-lab/go/proc"
+	"github.com/xsec-lab/go/vt/log"
 )
 
 var (

@@ -28,9 +28,9 @@ import (
 
 	"golang.org/x/net/context"
 
-	"vitess.io/vitess/go/mysql"
-	"vitess.io/vitess/go/pools"
-	"vitess.io/vitess/go/stats"
+	"github.com/xsec-lab/go/mysql"
+	"github.com/xsec-lab/go/pools"
+	"github.com/xsec-lab/go/stats"
 )
 
 var (

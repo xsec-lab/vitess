@@ -28,8 +28,8 @@ import (
 	"io/ioutil"
 	"sync"
 
-	"vitess.io/vitess/go/mysql"
-	"vitess.io/vitess/go/vt/log"
+	"github.com/xsec-lab/go/mysql"
+	"github.com/xsec-lab/go/vt/log"
 )
 
 var (

@@ -37,7 +37,7 @@ workspace can be found at
 The `vtctlclient` tool issues commands to Vitess.
 
 ``` sh
-$ go get vitess.io/vitess/go/cmd/vtctlclient
+$ go get github.com/xsec-lab/go/cmd/vtctlclient
 ```
 
 This command downloads and builds the Vitess source code at:

@@ -26,9 +26,9 @@ import (
 	"fmt"
 	"sync"
 
+	"github.com/xsec-lab/go/vt/log"
+	automationpb "github.com/xsec-lab/go/vt/proto/automation"
 	"golang.org/x/net/context"
-	"vitess.io/vitess/go/vt/log"
-	automationpb "vitess.io/vitess/go/vt/proto/automation"
 )
 
 type schedulerState int32
@@ -82,11 +82,11 @@ func NewScheduler() (*Scheduler, error) {
 		registeredClusterOperations:    defaultClusterOperations,
 		idGenerator:                    IDGenerator{},
 		toBeScheduledClusterOperations: make(chan ClusterOperationInstance, 10),
-		state:                     stateNotRunning,
-		taskCreator:               defaultTaskCreator,
-		pendingOpsWg:              &sync.WaitGroup{},
-		activeClusterOperations:   make(map[string]ClusterOperationInstance),
-		finishedClusterOperations: make(map[string]ClusterOperationInstance),
+		state:                          stateNotRunning,
+		taskCreator:                    defaultTaskCreator,
+		pendingOpsWg:                   &sync.WaitGroup{},
+		activeClusterOperations:        make(map[string]ClusterOperationInstance),
+		finishedClusterOperations:      make(map[string]ClusterOperationInstance),
 	}
 
 	return s, nil

@@ -29,16 +29,16 @@ import (
 
 	"golang.org/x/net/context"
 
-	"vitess.io/vitess/go/vt/grpcclient"
-	"vitess.io/vitess/go/vt/topo"
-	"vitess.io/vitess/go/vt/topo/memorytopo"
-	"vitess.io/vitess/go/vt/vtgate/gateway"
-	"vitess.io/vitess/go/vt/vttablet/queryservice"
-	"vitess.io/vitess/go/vt/vttablet/tabletconn"
-	"vitess.io/vitess/go/vt/vttablet/tabletconntest"
+	"github.com/xsec-lab/go/vt/grpcclient"
+	"github.com/xsec-lab/go/vt/topo"
+	"github.com/xsec-lab/go/vt/topo/memorytopo"
+	"github.com/xsec-lab/go/vt/vtgate/gateway"
+	"github.com/xsec-lab/go/vt/vttablet/queryservice"
+	"github.com/xsec-lab/go/vt/vttablet/tabletconn"
+	"github.com/xsec-lab/go/vt/vttablet/tabletconntest"
 
-	querypb "vitess.io/vitess/go/vt/proto/query"
-	topodatapb "vitess.io/vitess/go/vt/proto/topodata"
+	querypb "github.com/xsec-lab/go/vt/proto/query"
+	topodatapb "github.com/xsec-lab/go/vt/proto/topodata"
 )
 
 // CreateFakeServers returns the servers to use for these tests
@@ -49,8 +49,8 @@ func CreateFakeServers(t *testing.T) (*tabletconntest.FakeQueryService, *topo.Se
 	f := tabletconntest.CreateFakeServer(t)
 	f.TestingGateway = true
 	f.StreamHealthResponse = &querypb.StreamHealthResponse{
-		Target:  tabletconntest.TestTarget,
-		Serving: true,
+		Target:                              tabletconntest.TestTarget,
+		Serving:                             true,
 		TabletExternallyReparentedTimestamp: 1234589,
 		RealtimeStats: &querypb.RealtimeStats{
 			SecondsBehindMaster: 1,

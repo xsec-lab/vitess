@@ -21,7 +21,7 @@ import (
 	"os"
 	"runtime/pprof"
 
-	"vitess.io/vitess/go/vt/log"
+	"github.com/xsec-lab/go/vt/log"
 )
 
 var (

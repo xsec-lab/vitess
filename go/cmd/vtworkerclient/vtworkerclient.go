@@ -22,12 +22,12 @@ import (
 	"os/signal"
 	"syscall"
 
+	"github.com/xsec-lab/go/vt/log"
+	"github.com/xsec-lab/go/vt/logutil"
+	"github.com/xsec-lab/go/vt/worker/vtworkerclient"
 	"golang.org/x/net/context"
-	"vitess.io/vitess/go/vt/log"
-	"vitess.io/vitess/go/vt/logutil"
-	"vitess.io/vitess/go/vt/worker/vtworkerclient"
 
-	logutilpb "vitess.io/vitess/go/vt/proto/logutil"
+	logutilpb "github.com/xsec-lab/go/vt/proto/logutil"
 )
 
 var (

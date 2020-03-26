@@ -41,13 +41,13 @@ import (
 	// register the HTTP handlers for profiling
 	_ "net/http/pprof"
 
-	"vitess.io/vitess/go/event"
-	"vitess.io/vitess/go/netutil"
-	"vitess.io/vitess/go/stats"
-	"vitess.io/vitess/go/vt/log"
+	"github.com/xsec-lab/go/event"
+	"github.com/xsec-lab/go/netutil"
+	"github.com/xsec-lab/go/stats"
+	"github.com/xsec-lab/go/vt/log"
 
 	// register the proper init and shutdown hooks for logging
-	_ "vitess.io/vitess/go/vt/logutil"
+	_ "github.com/xsec-lab/go/vt/logutil"
 )
 
 var (

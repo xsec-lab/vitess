@@ -23,7 +23,7 @@ import (
 	//	"hash/crc64"
 	"os"
 
-	"vitess.io/vitess/go/cgzip"
+	"github.com/xsec-lab/go/cgzip"
 )
 
 // Use this to simulate failures in tests

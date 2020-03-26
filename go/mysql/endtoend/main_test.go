@@ -26,12 +26,12 @@ import (
 	"strings"
 	"testing"
 
-	"vitess.io/vitess/go/mysql"
-	vtenv "vitess.io/vitess/go/vt/env"
-	"vitess.io/vitess/go/vt/tlstest"
-	"vitess.io/vitess/go/vt/vttest"
+	"github.com/xsec-lab/go/mysql"
+	vtenv "github.com/xsec-lab/go/vt/env"
+	"github.com/xsec-lab/go/vt/tlstest"
+	"github.com/xsec-lab/go/vt/vttest"
 
-	vttestpb "vitess.io/vitess/go/vt/proto/vttest"
+	vttestpb "github.com/xsec-lab/go/vt/proto/vttest"
 )
 
 var (

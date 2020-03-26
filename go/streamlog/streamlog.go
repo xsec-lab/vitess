@@ -28,9 +28,9 @@ import (
 	"sync"
 	"syscall"
 
-	"vitess.io/vitess/go/acl"
-	"vitess.io/vitess/go/stats"
-	"vitess.io/vitess/go/vt/log"
+	"github.com/xsec-lab/go/acl"
+	"github.com/xsec-lab/go/stats"
+	"github.com/xsec-lab/go/vt/log"
 )
 
 var (

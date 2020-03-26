@@ -26,14 +26,14 @@ import (
 
 	"golang.org/x/net/context"
 
-	"vitess.io/vitess/go/acl"
-	"vitess.io/vitess/go/stats"
-	"vitess.io/vitess/go/streamlog"
-	"vitess.io/vitess/go/sync2"
-	"vitess.io/vitess/go/vt/logutil"
-	"vitess.io/vitess/go/vt/vterrors"
+	"github.com/xsec-lab/go/acl"
+	"github.com/xsec-lab/go/stats"
+	"github.com/xsec-lab/go/streamlog"
+	"github.com/xsec-lab/go/sync2"
+	"github.com/xsec-lab/go/vt/logutil"
+	"github.com/xsec-lab/go/vt/vterrors"
 
-	vtrpcpb "vitess.io/vitess/go/vt/proto/vtrpc"
+	vtrpcpb "github.com/xsec-lab/go/vt/proto/vtrpc"
 )
 
 var (
@@ -112,17 +112,17 @@ type TxSerializer struct {
 // New returns a TxSerializer object.
 func New(dryRun bool, maxQueueSize, maxGlobalQueueSize, concurrentTransactions int) *TxSerializer {
 	return &TxSerializer{
-		ConsolidatorCache:      sync2.NewConsolidatorCache(1000),
-		dryRun:                 dryRun,
-		maxQueueSize:           maxQueueSize,
-		maxGlobalQueueSize:     maxGlobalQueueSize,
-		concurrentTransactions: concurrentTransactions,
+		ConsolidatorCache:            sync2.NewConsolidatorCache(1000),
+		dryRun:                       dryRun,
+		maxQueueSize:                 maxQueueSize,
+		maxGlobalQueueSize:           maxGlobalQueueSize,
+		concurrentTransactions:       concurrentTransactions,
 		log:                          logutil.NewThrottledLogger("HotRowProtection", 5*time.Second),
 		logDryRun:                    logutil.NewThrottledLogger("HotRowProtection DryRun", 5*time.Second),
 		logWaitsDryRun:               logutil.NewThrottledLogger("HotRowProtection Waits DryRun", 5*time.Second),
 		logQueueExceededDryRun:       logutil.NewThrottledLogger("HotRowProtection QueueExceeded DryRun", 5*time.Second),
 		logGlobalQueueExceededDryRun: logutil.NewThrottledLogger("HotRowProtection GlobalQueueExceeded DryRun", 5*time.Second),
-		queues: make(map[string]*queue),
+		queues:                       make(map[string]*queue),
 	}
 }
 

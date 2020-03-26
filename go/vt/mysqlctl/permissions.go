@@ -17,9 +17,9 @@ limitations under the License.
 package mysqlctl
 
 import (
+	"github.com/xsec-lab/go/vt/mysqlctl/tmutils"
+	tabletmanagerdatapb "github.com/xsec-lab/go/vt/proto/tabletmanagerdata"
 	"golang.org/x/net/context"
-	"vitess.io/vitess/go/vt/mysqlctl/tmutils"
-	tabletmanagerdatapb "vitess.io/vitess/go/vt/proto/tabletmanagerdata"
 )
 
 // GetPermissions lists the permissions on the mysqld

@@ -20,14 +20,14 @@ import (
 	"math"
 	"sync"
 
+	"github.com/xsec-lab/go/vt/log"
+	querypb "github.com/xsec-lab/go/vt/proto/query"
+	topodatapb "github.com/xsec-lab/go/vt/proto/topodata"
+	"github.com/xsec-lab/go/vt/srvtopo"
+	"github.com/xsec-lab/go/vt/topo"
+	"github.com/xsec-lab/go/vt/topo/topoproto"
+	"github.com/xsec-lab/go/vt/topotools"
 	"golang.org/x/net/context"
-	"vitess.io/vitess/go/vt/log"
-	querypb "vitess.io/vitess/go/vt/proto/query"
-	topodatapb "vitess.io/vitess/go/vt/proto/topodata"
-	"vitess.io/vitess/go/vt/srvtopo"
-	"vitess.io/vitess/go/vt/topo"
-	"vitess.io/vitess/go/vt/topo/topoproto"
-	"vitess.io/vitess/go/vt/topotools"
 )
 
 // TabletStatsCache is a HealthCheckStatsListener that keeps both the
@@ -318,7 +318,7 @@ func MakeAggregateMapDiff(keyspace, shard string, tabletType topodatapb.TabletTy
 					TabletType: tabletType,
 					Cell:       cell,
 				},
-				Stats: newValue,
+				Stats:                               newValue,
 				TabletExternallyReparentedTimestamp: ter,
 			})
 		} else {
@@ -347,7 +347,7 @@ func MakeAggregateMapDiff(keyspace, shard string, tabletType topodatapb.TabletTy
 				TabletType: tabletType,
 				Cell:       cell,
 			},
-			Stats: newValue,
+			Stats:                               newValue,
 			TabletExternallyReparentedTimestamp: ter,
 		})
 	}
@@ -460,7 +460,7 @@ func (tc *TabletStatsCache) Subscribe() (int, []srvtopo.TargetStatsEntry, <-chan
 							TabletType: tabletType,
 							Cell:       cell,
 						},
-						Stats: agg,
+						Stats:                               agg,
 						TabletExternallyReparentedTimestamp: ter,
 					})
 				}

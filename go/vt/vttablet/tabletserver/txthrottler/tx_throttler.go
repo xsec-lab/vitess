@@ -23,14 +23,14 @@ import (
 
 	"github.com/golang/protobuf/proto"
 
-	"vitess.io/vitess/go/vt/discovery"
-	"vitess.io/vitess/go/vt/log"
-	"vitess.io/vitess/go/vt/throttler"
-	"vitess.io/vitess/go/vt/topo"
-	"vitess.io/vitess/go/vt/vttablet/tabletserver/tabletenv"
+	"github.com/xsec-lab/go/vt/discovery"
+	"github.com/xsec-lab/go/vt/log"
+	"github.com/xsec-lab/go/vt/throttler"
+	"github.com/xsec-lab/go/vt/topo"
+	"github.com/xsec-lab/go/vt/vttablet/tabletserver/tabletenv"
 
-	throttlerdatapb "vitess.io/vitess/go/vt/proto/throttlerdata"
-	topodatapb "vitess.io/vitess/go/vt/proto/topodata"
+	throttlerdatapb "github.com/xsec-lab/go/vt/proto/throttlerdata"
+	topodatapb "github.com/xsec-lab/go/vt/proto/topodata"
 )
 
 // TxThrottler throttles transactions based on replication lag.
@@ -255,8 +255,8 @@ func newTxThrottlerState(config *txThrottlerConfig, keyspace, shard string,
 ) (*txThrottlerState, error) {
 	t, err := throttlerFactory(
 		TxThrottlerName,
-		"TPS", /* unit */
-		1,     /* threadCount */
+		"TPS",                           /* unit */
+		1,                               /* threadCount */
 		throttler.MaxRateModuleDisabled, /* maxRate */
 		config.throttlerConfig.MaxReplicationLagSec /* maxReplicationLag */)
 	if err != nil {

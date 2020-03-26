@@ -19,10 +19,10 @@ limitations under the License.
 package events
 
 import (
-	base "vitess.io/vitess/go/vt/events"
-	"vitess.io/vitess/go/vt/topo"
+	base "github.com/xsec-lab/go/vt/events"
+	"github.com/xsec-lab/go/vt/topo"
 
-	topodatapb "vitess.io/vitess/go/vt/proto/topodata"
+	topodatapb "github.com/xsec-lab/go/vt/proto/topodata"
 )
 
 // Reparent is an event that describes a single step in the reparent process.

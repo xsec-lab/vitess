@@ -17,8 +17,8 @@ limitations under the License.
 package simpleacl
 
 import (
-	querypb "vitess.io/vitess/go/vt/proto/query"
-	"vitess.io/vitess/go/vt/tableacl/acl"
+	querypb "github.com/xsec-lab/go/vt/proto/query"
+	"github.com/xsec-lab/go/vt/tableacl/acl"
 )
 
 // SimpleACL keeps all entries in a unique in-memory list

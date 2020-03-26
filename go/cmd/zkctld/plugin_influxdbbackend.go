@@ -19,5 +19,5 @@ package main
 // This plugin imports influxdbbackend to register the influxdbbackend stats backend.
 
 import (
-	_ "vitess.io/vitess/go/stats/influxdbbackend"
+	_ "github.com/xsec-lab/go/stats/influxdbbackend"
 )

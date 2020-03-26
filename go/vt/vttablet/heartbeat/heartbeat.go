@@ -29,7 +29,7 @@ limitations under the License.
 package heartbeat
 
 import (
-	"vitess.io/vitess/go/stats"
+	"github.com/xsec-lab/go/stats"
 )
 
 var (

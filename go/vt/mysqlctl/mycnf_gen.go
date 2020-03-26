@@ -29,7 +29,7 @@ import (
 
 	"flag"
 
-	"vitess.io/vitess/go/vt/env"
+	"github.com/xsec-lab/go/vt/env"
 )
 
 // This files handles the creation of Mycnf objects for the default 'vt'

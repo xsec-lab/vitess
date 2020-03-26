@@ -23,14 +23,14 @@ import (
 	"strings"
 	"time"
 
-	"vitess.io/vitess/go/exit"
-	"vitess.io/vitess/go/vt/dbconfigs"
-	"vitess.io/vitess/go/vt/log"
-	"vitess.io/vitess/go/vt/logutil"
-	"vitess.io/vitess/go/vtbench"
+	"github.com/xsec-lab/go/exit"
+	"github.com/xsec-lab/go/vt/dbconfigs"
+	"github.com/xsec-lab/go/vt/log"
+	"github.com/xsec-lab/go/vt/logutil"
+	"github.com/xsec-lab/go/vtbench"
 
-	_ "vitess.io/vitess/go/vt/vtgate/grpcvtgateconn"
-	_ "vitess.io/vitess/go/vt/vttablet/grpctabletconn"
+	_ "github.com/xsec-lab/go/vt/vtgate/grpcvtgateconn"
+	_ "github.com/xsec-lab/go/vt/vttablet/grpctabletconn"
 )
 
 /*

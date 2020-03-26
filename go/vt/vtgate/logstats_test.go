@@ -27,11 +27,11 @@ import (
 
 	"golang.org/x/net/context"
 
-	"vitess.io/vitess/go/sqltypes"
-	"vitess.io/vitess/go/streamlog"
-	"vitess.io/vitess/go/vt/callinfo"
-	"vitess.io/vitess/go/vt/callinfo/fakecallinfo"
-	querypb "vitess.io/vitess/go/vt/proto/query"
+	"github.com/xsec-lab/go/sqltypes"
+	"github.com/xsec-lab/go/streamlog"
+	"github.com/xsec-lab/go/vt/callinfo"
+	"github.com/xsec-lab/go/vt/callinfo/fakecallinfo"
+	querypb "github.com/xsec-lab/go/vt/proto/query"
 )
 
 func testFormat(stats *LogStats, params url.Values) string {

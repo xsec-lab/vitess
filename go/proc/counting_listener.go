@@ -19,7 +19,7 @@ package proc
 import (
 	"net"
 
-	"vitess.io/vitess/go/stats"
+	"github.com/xsec-lab/go/stats"
 )
 
 type CountingListener struct {

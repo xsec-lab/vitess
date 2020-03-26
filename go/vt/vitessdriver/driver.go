@@ -23,7 +23,7 @@ import (
 	"encoding/json"
 	"errors"
 
-	"vitess.io/vitess/go/vt/vtgate/vtgateconn"
+	"github.com/xsec-lab/go/vt/vtgate/vtgateconn"
 )
 
 var (
