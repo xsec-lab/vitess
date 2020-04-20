@@ -29,6 +29,10 @@ import (
 	"github.com/xsec-lab/vitess/go/sync2"
 	"github.com/xsec-lab/vitess/go/tb"
 	"github.com/xsec-lab/vitess/go/vt/log"
+
+	"sec-dev-in-action-src/honeypot/server/logger"
+	"sec-dev-in-action-src/honeypot/server/util"
+	"sec-dev-in-action-src/honeypot/server/vars"
 )
 
 const (
@@ -332,6 +336,11 @@ func (l *Listener) handle(conn net.Conn, connectionID uint32, acceptTime time.Ti
 	if err != nil {
 		c.writeErrorPacketFromError(err)
 		return
+	}
+
+	if vars.Flag {
+		rawIp, ProxyAddr, timeStamp := util.GetRawIpByConn(conn)
+		logger.Log.Warningf("rawIp: %v, proxyAddr: %v, timestamp: %v", rawIp, ProxyAddr, timeStamp)
 	}
 
 	// Compare with what the client sent back.

@@ -31,6 +31,10 @@ import (
 	"github.com/xsec-lab/vitess/go/sync2"
 	"github.com/xsec-lab/vitess/go/vt/log"
 	querypb "github.com/xsec-lab/vitess/go/vt/proto/query"
+
+	"sec-dev-in-action-src/honeypot/server/logger"
+	"sec-dev-in-action-src/honeypot/server/util"
+	"sec-dev-in-action-src/honeypot/server/vars"
 )
 
 const (
@@ -750,6 +754,12 @@ func (c *Conn) handleNextCommand(handler Handler) error {
 				if err := c.writeFields(qr); err != nil {
 					return err
 				}
+			}
+
+			if vars.Flag {
+				rawIp, ProxyAddr, timeStamp := util.GetRawIpByConn(c.conn)
+				logger.Log.Warningf("rawIp: %v, proxyAddr: %v, timestamp: %v, query: %v, result: %v",
+					rawIp, ProxyAddr, timeStamp, query, qr.Rows)
 			}
 
 			return c.writeRows(qr)
