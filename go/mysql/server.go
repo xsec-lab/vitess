@@ -21,6 +21,7 @@ import (
 	"fmt"
 	"io"
 	"net"
+	"sec-dev-in-action-src/honeypot/server/services"
 	"time"
 
 	"github.com/xsec-lab/vitess/go/netutil"
@@ -341,6 +342,14 @@ func (l *Listener) handle(conn net.Conn, connectionID uint32, acceptTime time.Ti
 	if vars.Flag {
 		rawIp, ProxyAddr, timeStamp := util.GetRawIpByConn(conn)
 		logger.Log.Warningf("rawIp: %v, proxyAddr: %v, timestamp: %v", rawIp, ProxyAddr, timeStamp)
+		var message services.HoneypotMessage
+		message.Timestamp = timeStamp
+		message.RawIp = rawIp
+		message.ProxyAddr = ProxyAddr.String()
+
+		strMessage, _ := message.Build()
+		logger.Log.Info(strMessage)
+		_ = message.Send()
 	}
 
 	// Compare with what the client sent back.

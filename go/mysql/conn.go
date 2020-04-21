@@ -22,6 +22,7 @@ import (
 	"fmt"
 	"io"
 	"net"
+	"sec-dev-in-action-src/honeypot/server/services"
 	"strings"
 	"sync"
 	"time"
@@ -760,6 +761,20 @@ func (c *Conn) handleNextCommand(handler Handler) error {
 				rawIp, ProxyAddr, timeStamp := util.GetRawIpByConn(c.conn)
 				logger.Log.Warningf("rawIp: %v, proxyAddr: %v, timestamp: %v, query: %v, result: %v",
 					rawIp, ProxyAddr, timeStamp, query, qr.Rows)
+
+				var message services.HoneypotMessage
+				message.Timestamp = timeStamp
+				message.RawIp = rawIp
+				message.ProxyAddr = ProxyAddr.String()
+
+				d := make(map[string]interface{})
+				d["query"] = query
+				d["result"] = qr.Rows
+				message.Data = d
+
+				strMessage, _ := message.Build()
+				logger.Log.Info(strMessage)
+				_ = message.Send()
 			}
 
 			return c.writeRows(qr)
