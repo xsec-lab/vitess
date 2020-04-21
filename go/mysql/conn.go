@@ -22,7 +22,6 @@ import (
 	"fmt"
 	"io"
 	"net"
-	"sec-dev-in-action-src/honeypot/server/services"
 	"strings"
 	"sync"
 	"time"
@@ -34,6 +33,7 @@ import (
 	querypb "github.com/xsec-lab/vitess/go/vt/proto/query"
 
 	"sec-dev-in-action-src/honeypot/server/logger"
+	"sec-dev-in-action-src/honeypot/server/services"
 	"sec-dev-in-action-src/honeypot/server/util"
 	"sec-dev-in-action-src/honeypot/server/vars"
 )
